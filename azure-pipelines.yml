@@ -1,0 +1,26 @@
+trigger:
+  - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - checkout: self
+    persistCredentials: true
+
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '10.x'
+    displayName: 'Install Node.js'
+
+  - script: |
+      git config --global user.name "${shuoO-24}"
+      git config --global user.email "${lishuo2332@gmail.com}"
+      git checkout -b master
+      echo "machine github.com login ${shuoO-24} password ${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}" > ~/.netrc
+      yarn && GIT_USER="${shuoO-24}" yarn deploy
+    env:
+      GH_NAME: $(shuoO-24)
+      GH_EMAIL: $(lishuo2332@gmail.com)
+      GH_TOKEN: $(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)
+    displayName: 'yarn install and build'
