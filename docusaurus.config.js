@@ -11,6 +11,18 @@ module.exports = {
   organizationName: "shuoO-24", // Usually your GitHub org/user name.
   projectName: "docusaurus-site", // Usually your repo name.
   themeConfig: {
+    prism: {
+      additionalLanguages: ["cpp"],
+      additionalLanguages: ["java"],
+      additionalLanguages: ["javadoc"],
+      additionalLanguages: ["json"],
+      additionalLanguages: ["css"],
+      additionalLanguages: ["html"],
+      additionalLanguages: ["r"],
+      additionalLanguages: ["latex"],
+      additionalLanguages: ["sql"],
+      additionalLanguages: ["matlab"],
+    },
     navbar: {
       title: "Lavender",
       logo: {
