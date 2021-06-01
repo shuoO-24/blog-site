@@ -20,7 +20,7 @@ export default {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Notes",
+          "label": "Algo",
           "activeSidebarClassName": "navbar__link--active"
         },
         {
@@ -43,7 +43,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "LeetCode",
               "to": "/docs/intro"
             }
           ]
