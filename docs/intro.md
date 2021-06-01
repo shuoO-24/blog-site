@@ -1,158 +1,198 @@
 ---
 sidebar_position: 1
-
 ---
-
 
 # SQL
 
 export const Highlight = ({children, color}) => (
-  <span
-    style={{
+<span
+style={{
       backgroundColor: color,
       borderRadius: '20px',
       color: '#fff',
       padding: '10px',
       cursor: 'pointer',
     }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`)
-    }}>
-    {children}
-  </span>
+onClick={() => {
+alert(`You clicked the color ${color} with label ${children}`)
+}}>
+{children}
+</span>
 );
 
 This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
 
 This is <Highlight color="#1877F2">Facebook blue</Highlight> !
 
+# 91. Decode Ways — Medium
 
-SQL，指**结构化查询语言**，全称是 Structured Query Language。
+A message containing letters from `A-Z` can be **encoded** into numbers using the following mapping:
 
-SQL 是用于访问和处理数据库的标准的计算机语言。
+```
+'A' -> "1"
+'B' -> "2"
+...
+'Z' -> "26"
+```
 
-MySQL是一个关系型数据库管理系统，MySQL可以使用SQL语言来访问数据库。
+To **decode** an encoded message, all the digits must be **grouped** then **mapped** back into letters using the **reverse** of the mapping above (there may be **multiple** ways). For example, `"11106"` can be mapped into:
 
-SQL 可以：
+- `"AAJF"` with the grouping `(1 1 10 6)`
+- `"KJF"` with the grouping `(11 10 6)`
 
-- 创建新的数据库、表、存储过程和视图。
-- 在数据库中插入、更新、删除记录。
-- 从数据库中检索数据等。
+Note that the grouping `(1 11 06)` is invalid because `"06"` cannot be mapped into `'F'` since `"6"` is different from `"06"`.
 
-虽然 SQL 是一门 ANSI（美国国家标准化组织）标准的计算机语言，但是仍然存在着多种不同版本的 SQL 语言。
+Given a string `s` containing only digits, return _the **number** of ways to **decode** it_.
 
-除了SQL标准之外，大多数SQL数据库程序都有自己的专有扩展，但它们都支持主要命令。
+The answer is guaranteed to fit in a **32-bit** integer.
 
+**Example 1:**
 
+```
+Input: s = "12"
+Output: 2
+```
 
+Explanation: "12" could be decoded as "AB" (1 2) or "L" (12).
 
-### SQL约束
+**Example 2:**
 
-　约束是在表上的数据列上强制执行的规则。它们用于限制可以进入表中的数据类型。这确保了数据库中数据的准确性和可靠性。约束可以是列级别，也可以是表级别。列级约束仅应用于一列，而表级约束则应用于整个表。
+```
+Input: s = "226"
+Output: 3
+```
 
-　以下是sql−中可用的一些最常用的约束
+**Explanation**: "226" could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
 
-- [NOT NULL 约束](https://www.w3cschool.cn/sql/6tlpzfpb.html)：保证列中数据不能有 NULL 值
-- [DEFAULT 约束](https://www.w3cschool.cn/sql/jm8e9fpj.html)：提供该列数据未指定时所采用的默认值
-- [UNIQUE 约束](https://www.w3cschool.cn/sql/wxzqsfpc.html)：保证列中的所有数据各不相同
-- [主键约束](https://www.w3cschool.cn/sql/vle8zfpd.html)：唯一标识数据表中的行/记录
-- [外键约束](https://www.w3cschool.cn/sql/5dycsfpf.html)：唯一标识其他表中的一条行/记录
-- [CHECK 约束](https://www.w3cschool.cn/sql/fsq7hfph.html)：此约束保证列中的所有值满足某一条件
-- [索引](https://www.w3cschool.cn/sql/cuj91oz2.html)：用于在数据库中快速创建或检索数据
+**Example 3:**
 
-　约束可以在创建表时规定（通过 CREATE TABLE 语句），或者在表创建之后规定（通过 ALTER TABLE 语句）。
+```
+Input: s = "0"
+Output: 0
+```
 
----
+**Explanation**: There is no character that is mapped to a number starting with 0.
+The only valid mappings with 0 are 'J' -> "10" and 'T' -> "20", neither of which start with 0.
+Hence, there are no valid ways to decode this since all digits need to be mapped.
 
-## Concepts: Database
+**Example 4:**
 
-A collection of data that is logically coherent.
+```
+Input: s = "06"
+Output: 0
+```
 
-An organised, machine-readable collection of symbols, to be interpreted as a true account of some enterprise.
+**Explanation**: "06" cannot be mapped to "F" because of the leading zero ("6" is different from "06").
 
-**Machine-updatable**, so a database is also a collection of variable.
+**Constraints:**
 
-They are very important, we use them all the time.
-
-**Example:** (look at your e-grades, sign up for courses) Web indexes, library, catalogues, medical records, bank accounts, stock control, personnel systems, product catalogues, telephone directories, train timetables, airline bookings, credit card details, student records, customer, histories, stock market prices, discussion boards, and so on...
-
-## Database Management System(DBMS)
-
-A piece of software for managing databases and providing access to them.
-
-A DBMS responds to instructions given by application programs, executing on behalf of users.
-
-These instructions are written in the **database language** of the DBMS. For us , this will be **SQL**(most popular, with Python, R as top three languages in data science).
-
-Responses include results of queries and a lot of others(obtaining, deleting from the database, and so on)
-
-
-
-### Relational Database
-
-A relational database stores and manages structured data.
-
-A database of structured data organised into a collection of relations. — At this moment we only concern with **structured data**.
-
-*Relational databases provide an environment from which data can be accessed or reassembled in a variety of different ways without needing to reorganize the database tables. Each table has a **unique** **identifier**, or **primary** **key**, which identifies the information in the table, and each row contains a unique instance of data for the categories defined by the columns.*
-
-*The logical connection between different tables can then be established with the use of **foreign** **keys** - a field in a table that connects to the primary key data of another table.*
-
-### Relational Database Management System(RDBMS)
-
-**Structured data**, such as bank statements and electronic address books, is stored in a **relational database**.
-
-In order to manage all this structured data a **relational database management system (RDBMS)** is used to create, maintain, access and manipulate the data.
-
-- A collection of files that store the data
-- A big C program written by someone else that accesses and updates those files for you
-
-A DBMS needs not to be relational, and we only concern with RDBMS.
-
-- Database Management System = DBMS; Relational DBMS = RDBMS
-
-### SQLite
-
-SQLite is relational database management system itself which uses SQL.
-
-SQLite is portable database resource. It could get an extension in whatever programming language used to access that database.
-
-SQLite supports many features of SQL and has high performance but does not support stored procedures.
-
-SQLite is file-based. It is different from other SQL databases because unlike most other SQL databases, SQLite does not have separate server process.
+- `1 <= s.length <= 100`
+- `s` contains only digits and may contain leading zero(s).
 
 ---
 
-## Relational Model
+> #### 心得
+>
+> 1. 大晚上做题脑子非常不清醒，十分低效，不如直接睡觉
+> 2. 动规思路没有固定下来，没有形成第一时间思考状态转移方程的习惯
+> 3. 多动手 debug 确定如何处理所有边界情况 —— 有时可以对原始数据直接进行处理，比如整体后移或者 copy 到新数组上
+> 4. 三叶大佬 yyds。“算法只能不断地刷题，总结，没有捷径的。”
+> 5. 类似的题目（需要格外注意边界情况）要列清楚所有边界情况，分点处理；分析要做到下面 👇 这种程度[^1]：
+>    ![image.png](https://pic.leetcode-cn.com/c09dc70d3085792b2b8417843e297f6841fd12f921b0e4fe28a2c4a8dc86dd1e-image.png)
 
-- First published by E. F. Codd at IBM labs in San Jose, CA.
-- Series of research papers 1970 – 1974.
-- Still the leading model for databases
-- **The relational model is a theoretical model of relational databases.**
-- Based on **set theory, it is mathematically sound.** (PSTAT 132: theoretical foundations)
-- The relational model is the **most widely used data model for commercial data-processing**. The reason it’s used so much is because it’s simple and easy to maintain.
+---
 
-The relational model is data model.
+## 思路
 
-A **data model** is used to represent data and the relationships between data items. It specifies the ways in which the data can be used.
+**边界**情况：⚠️ 把数组长度设为`n+1`，才能从 `dp[i - 2] `得到记录
 
-### 3 Parts of Relational Model
+- 遍历范围是$[1, n]$
 
-1. **Structural:** the building blocks from which relational databases are constructed.
-2. **Integrity**: a collection of rules that all relational databases must obey in order to be consistent and complete.
-3. **Manipulative**: includes operations for retrieving data, for updating the relational database. <— SQL
+- 一些恼人的边界值：
+  - `1201`
+  - `12`
+  - `10`
 
-### Structural Part of Relational Model
+对于字符串 `s` 的任意位置 `i` 而言，存在三种情况：
 
-1. **Relation**
-2. **Attribute**
-3. **Domain**
-4. **Tuple**
-5. **Keys**:
-   1. **Super Key**
-   2. **Primary Key**
-   3. **Candidate Key**
-   4. **Foreign Key**
+- 只能由位置 `i` 的单独作为一个 `item`，设为 `a`，转移的前提是 `a` 的数值范围为 $[1,9]$，转移逻辑为`dp[i] = dp[i - 1]`。
+- 只能由位置 `i` 的与前一位置（`i-1`）共同作为一个 `item`，设为 `b`，转移的前提是 `b` 的数值范围为 $[10,26]$，转移逻辑为 `dp[i] = dp[i] + dp[i - 2]`。
+- 位置 `i` 既能作为独立 `item` 也能与上一位置形成 `item`，转移逻辑为 `dp[i] = dp[i - 1] + dp[i - 2]`。
 
+`dp[i] = dp[i - 1]`和`dp[i] += dp[i - 1]`相同，因为`dp`初始值为$0$.
 
+其他细节：由于题目存在前导零，而前导零属于无效 `item`。可以进行特判，但个人习惯往字符串头部追加空格作为哨兵，追加空格既可以避免讨论前导零，也能使下标从 1 开始，简化 `dp[i - 1]` 等负数下标的判断。[^2]
 
+所以转移方程如下：<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gr3friwtdoj30h603sdg4.jpg" alt="image-20210601134331411" style="zoom:50%;" />
+
+### 最终代码
+
+```C++
+    int numDecodings(string s) {
+        // 如果当前数字和前一个数字能够被解码，那么当前字符串能被解码的方式 >= 去除这两个数字后存在的解码方式数量 If the current number and previous number can be mapped, then res can incorporate the number of ways previous number can be mapped (dp[i - 2])
+        // 如果当前数字不为零，那么当前字符串能被解码的方式 = 去除这个数字后存在的解码方式数量
+        // 如果当前数字为零，如果前一个数字不是1或2，则结果为0，否则当前字符串能被解码的方式 = 去除这个数字后存在的解码方式数量
+        if (s.length() == 0 || s[0] == '0') return 0;
+        if (s.length() == 1) return 1;
+        int n = s.length();
+        s = " " + s;
+        vector<int> dp(n + 1,0);
+
+        dp[0] = 1;
+
+        for (int i = 1; i < n + 1; i++){
+            int a = s[i] - '0', b = (s[i - 1] -'0')* 10 + (s[i] -'0');
+            if (a){
+                dp[i] += dp[i - 1];
+            }
+            if (b >= 10 && b <= 26){
+                dp[i] = dp[i] + dp[i - 2];
+            }
+        }
+        return dp[n];
+    }
+```
+
+运行时间：0 ms, 100.00% 运行内存：6.3 MB, 29.25%
+
+### ❤️ 三木的答案
+
+### Java
+
+```Java
+public int numDecodings(String s) {
+        int n = s.length();
+        s = " " + s;
+        char[] cs = s.toCharArray();
+        int[] f = new int[n + 1];
+        f[0] = 1;
+        for (int i = 1; i <= n; i++) {
+            // a : 代表「当前位置」单独形成 item
+            // b : 代表「当前位置」与「前一位置」共同形成 item
+            int a = cs[i] - '0', b = (cs[i - 1] - '0') * 10 + (cs[i] - '0');
+            // 如果 a 属于有效值，那么 f[i] 可以由 f[i - 1] 转移过来
+            if (1 <= a && a <= 9) f[i] = f[i - 1];
+            // 如果 b 属于有效值，那么 f[i] 可以由 f[i - 2] 或者 f[i - 1] & f[i - 2] 转移过来
+            if (10 <= b && b <= 26) f[i] += f[i - 2];
+        }
+        return f[n];
+    }
+```
+
+### C++
+
+```C++
+        int n = s.size();
+        s = " " + s;
+        vector<int> f(n + 1,0);
+        f[0] = 1;
+        for(int i = 1; i < n + 1; i++) {
+            int a = s[i] - '0', b = (s[i - 1] - '0') * 10 + s[i] - '0';
+            if(1 <= a && a <= 9) f[i] = f[i - 1];
+            if(10 <= b && b <= 26) f[i] += f[i - 2];
+        }
+        return f[n];
+```
+
+[^1]: https://leetcode-cn.com/problems/decode-ways/solution/gong-shui-san-xie-gen-ju-shu-ju-fan-wei-ug3dd/
+[^2]: https://leetcode-cn.com/problems/decode-ways/solution/c-wo-ren-wei-hen-jian-dan-zhi-guan-de-jie-fa-by-pr/

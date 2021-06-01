@@ -1,26 +1,26 @@
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
-  "url": "https://your-docusaurus-test-site.com",
+  "title": "Lavender",
+  "tagline": "世界献我以歌",
+  "url": "https://blog-test-lavender.netlify.app/",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "shuoO-24",
+  "projectName": "docusaurus-site",
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "Lavender",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/my_comic.PNG"
       },
       "items": [
         {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Tutorial",
+          "label": "Notes",
           "activeSidebarClassName": "navbar__link--active"
         },
         {
@@ -29,7 +29,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/shuoO-24",
           "label": "GitHub",
           "position": "right"
         }
