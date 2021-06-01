@@ -1,8 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Lavender",
-  tagline: "I imagine code with the world",
-  url: "https://docusaurus-2.netlify.com",
+  tagline: "世界献我以歌",
+  url: "https://blog-test-lavender.netlify.app/",
   baseUrl: "/",
   // ...
   onBrokenLinks: "throw",
@@ -15,7 +15,7 @@ module.exports = {
       title: "Lavender",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/my_comic.PNG",
       },
       items: [
         {
