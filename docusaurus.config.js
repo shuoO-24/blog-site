@@ -7,7 +7,7 @@ module.exports = {
   // ...
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/logos/brain_1.png",
+  favicon: "img/logos/brain_2.svg",
   organizationName: "shuoO-24", // Usually your GitHub org/user name.
   projectName: "docusaurus-site", // Usually your repo name.
   themeConfig: {
