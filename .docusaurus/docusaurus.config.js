@@ -5,7 +5,7 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/logos/brain_1.png",
   "organizationName": "shuoO-24",
   "projectName": "docusaurus-site",
   "themeConfig": {
