@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/markdown-features",
+  "id": "Docusaurus_References/markdown-features",
+  "isDocsHomePage": false,
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/Docusaurus_References/markdown-features.mdx",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/markdown-features",
+  "permalink": "/docs/Docusaurus_References/markdown-features",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/markdown-features.mdx",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "A Super Cool Feature -- Tabs",
+    "permalink": "/docs/Docusaurus_References/Tabs"
+  },
+  "next": {
+    "title": "Use Admonitions",
+    "permalink": "/docs/Docusaurus_References/Admonitions"
+  }
+}

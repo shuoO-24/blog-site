@@ -13,55 +13,70 @@
           "sidebarFilePath": "/Users/shuoO/docusaurus-tutorial/sidebars.js",
           "contentPath": "/Users/shuoO/docusaurus-tutorial/docs",
           "contentPathLocalized": "/Users/shuoO/docusaurus-tutorial/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "intro",
+          "mainDocId": "SQL Notes/SQL Overview",
           "sidebars": {
             "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "SQL Notes",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "SQL Notes/SQL Overview"
+                  }
+                ],
+                "collapsed": true
+              },
               {
                 "type": "doc",
                 "id": "intro"
               },
               {
                 "type": "category",
-                "label": "Tutorial - Basics",
+                "label": "Dynamic Programming",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/congratulations"
+                    "id": "Dynamic Programming/最长子序列"
                   }
                 ],
                 "collapsed": true
               },
               {
                 "type": "category",
-                "label": "Tutorial - Extras",
+                "label": "Docusaurus References",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
+                    "id": "Docusaurus_References/Basics"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
+                    "id": "Docusaurus_References/Code Block"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/Front-matter"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/Tabs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/markdown-features"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/Admonitions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/Add Table of Content"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/translate-your-site"
                   }
                 ],
                 "collapsed": true
@@ -69,22 +84,254 @@
             ]
           },
           "permalinkToSidebar": {
+            "/docs/Docusaurus_References/Add Table of Content": "tutorialSidebar",
+            "/docs/Docusaurus_References/Admonitions": "tutorialSidebar",
+            "/docs/Docusaurus_References/Basics": "tutorialSidebar",
+            "/docs/Docusaurus_References/Code Block": "tutorialSidebar",
+            "/docs/Docusaurus_References/Front-matter": "tutorialSidebar",
+            "/docs/Docusaurus_References/markdown-features": "tutorialSidebar",
+            "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
+            "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
+            "/docs/Dynamic Programming/最长子序列": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
-            "/docs/tutorial-basics/congratulations": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
-            "/docs/tutorial-basics/deploy-your-site": "tutorialSidebar",
-            "/docs/tutorial-basics/markdown-features": "tutorialSidebar",
-            "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
-            "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
+            "/docs/SQL Notes/SQL Overview": "tutorialSidebar"
           },
           "docs": [
+            {
+              "unversionedId": "Docusaurus_References/Add Table of Content",
+              "id": "Docusaurus_References/Add Table of Content",
+              "isDocsHomePage": false,
+              "title": "Inline TOC | Docusaurus",
+              "description": "Each markdown document displays a tab of content on the top-right corner.",
+              "source": "@site/docs/Docusaurus_References/7. Add Table of Content.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/Add Table of Content",
+              "permalink": "/docs/Docusaurus_References/Add Table of Content",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/7. Add Table of Content.md",
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Use Admonitions",
+                "permalink": "/docs/Docusaurus_References/Admonitions"
+              },
+              "next": {
+                "title": "Translate your site",
+                "permalink": "/docs/Docusaurus_References/translate-your-site"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Admonitions",
+              "id": "Docusaurus_References/Admonitions",
+              "isDocsHomePage": false,
+              "title": "Use Admonitions",
+              "description": "In addition to the basic Markdown syntax, we use remark-admonitions alongside MDX to add support for admonitions. Admonitions are wrapped by a set of 3 colons.",
+              "source": "@site/docs/Docusaurus_References/6. Admonitions.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/Admonitions",
+              "permalink": "/docs/Docusaurus_References/Admonitions",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/6. Admonitions.md",
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Markdown Features",
+                "permalink": "/docs/Docusaurus_References/markdown-features"
+              },
+              "next": {
+                "title": "Inline TOC | Docusaurus",
+                "permalink": "/docs/Docusaurus_References/Add Table of Content"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Basics",
+              "id": "Docusaurus_References/Basics",
+              "isDocsHomePage": false,
+              "title": "Basic Syntax",
+              "description": "Please read this reference",
+              "source": "@site/docs/Docusaurus_References/1. Basics.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/Basics",
+              "permalink": "/docs/Docusaurus_References/Basics",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/1. Basics.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/最长子序列"
+              },
+              "next": {
+                "title": "Add Code blocks",
+                "permalink": "/docs/Docusaurus_References/Code Block"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Code Block",
+              "id": "Docusaurus_References/Code Block",
+              "isDocsHomePage": false,
+              "title": "Add Code blocks",
+              "description": "---",
+              "source": "@site/docs/Docusaurus_References/2. Code Block.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/Code Block",
+              "permalink": "/docs/Docusaurus_References/Code Block",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/2. Code Block.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Basic Syntax",
+                "permalink": "/docs/Docusaurus_References/Basics"
+              },
+              "next": {
+                "title": "Front-matter",
+                "permalink": "/docs/Docusaurus_References/Front-matter"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Front-matter",
+              "id": "Docusaurus_References/Front-matter",
+              "isDocsHomePage": false,
+              "title": "Front-matter",
+              "description": "Markdown documents can use the following markdown frontmatter metadata fields, enclosed by a line --- on either side:",
+              "source": "@site/docs/Docusaurus_References/3. Front-matter.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/Front-matter",
+              "permalink": "/docs/Docusaurus_References/Front-matter",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/3. Front-matter.md",
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Add Code blocks",
+                "permalink": "/docs/Docusaurus_References/Code Block"
+              },
+              "next": {
+                "title": "A Super Cool Feature -- Tabs",
+                "permalink": "/docs/Docusaurus_References/Tabs"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/markdown-features",
+              "id": "Docusaurus_References/markdown-features",
+              "isDocsHomePage": false,
+              "title": "Markdown Features",
+              "description": "Docusaurus supports Markdown and a few additional features.",
+              "source": "@site/docs/Docusaurus_References/markdown-features.mdx",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/markdown-features",
+              "permalink": "/docs/Docusaurus_References/markdown-features",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/markdown-features.mdx",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "A Super Cool Feature -- Tabs",
+                "permalink": "/docs/Docusaurus_References/Tabs"
+              },
+              "next": {
+                "title": "Use Admonitions",
+                "permalink": "/docs/Docusaurus_References/Admonitions"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Tabs",
+              "id": "Docusaurus_References/Tabs",
+              "isDocsHomePage": false,
+              "title": "A Super Cool Feature -- Tabs",
+              "description": "---",
+              "source": "@site/docs/Docusaurus_References/4. Tabs.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/Tabs",
+              "permalink": "/docs/Docusaurus_References/Tabs",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/4. Tabs.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Front-matter",
+                "permalink": "/docs/Docusaurus_References/Front-matter"
+              },
+              "next": {
+                "title": "Markdown Features",
+                "permalink": "/docs/Docusaurus_References/markdown-features"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/translate-your-site",
+              "id": "Docusaurus_References/translate-your-site",
+              "isDocsHomePage": false,
+              "title": "Translate your site",
+              "description": "Let's translate docs/intro.md to French.",
+              "source": "@site/docs/Docusaurus_References/9. translate-your-site.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/translate-your-site",
+              "permalink": "/docs/Docusaurus_References/translate-your-site",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/9. translate-your-site.md",
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Inline TOC | Docusaurus",
+                "permalink": "/docs/Docusaurus_References/Add Table of Content"
+              }
+            },
+            {
+              "unversionedId": "Dynamic Programming/最长子序列",
+              "id": "Dynamic Programming/最长子序列",
+              "isDocsHomePage": false,
+              "title": "最长递增子序列",
+              "description": "LeetCode 300. 最长递增子序列",
+              "source": "@site/docs/Dynamic Programming/最长子序列.md",
+              "sourceDirName": "Dynamic Programming",
+              "slug": "/Dynamic Programming/最长子序列",
+              "permalink": "/docs/Dynamic Programming/最长子序列",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/最长子序列.md",
+              "version": "current",
+              "frontMatter": {
+                "label": "Tutorial - Basics",
+                "position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "intro",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Basic Syntax",
+                "permalink": "/docs/Docusaurus_References/Basics"
+              }
+            },
             {
               "unversionedId": "intro",
               "id": "intro",
               "isDocsHomePage": false,
-              "title": "SQL",
+              "title": "intro",
               "description": "<span",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
@@ -97,213 +344,35 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
-              "isDocsHomePage": false,
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/congratulations.md",
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              },
-              "next": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
-              "isDocsHomePage": false,
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-blog-post.md",
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
-              "isDocsHomePage": false,
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-document.md",
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
-              "isDocsHomePage": false,
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-page.md",
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "SQL",
-                "permalink": "/docs/intro"
+                "permalink": "/docs/SQL Notes/SQL Overview"
               },
               "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "title": "最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/最长子序列"
               }
             },
             {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
+              "unversionedId": "SQL Notes/SQL Overview",
+              "id": "SQL Notes/SQL Overview",
               "isDocsHomePage": false,
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/deploy-your-site.md",
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
-              "isDocsHomePage": false,
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/markdown-features.mdx",
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
-              "isDocsHomePage": false,
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/manage-docs-versions.md",
+              "title": "SQL",
+              "description": "SQL，指结构化查询语言，全称是 Structured Query Language。",
+              "source": "@site/docs/SQL Notes/SQL Overview.md",
+              "sourceDirName": "SQL Notes",
+              "slug": "/SQL Notes/SQL Overview",
+              "permalink": "/docs/SQL Notes/SQL Overview",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/SQL Overview.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              },
               "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "isDocsHomePage": false,
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/translate-your-site.md",
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "title": "intro",
+                "permalink": "/docs/intro"
               }
             }
           ]
@@ -385,7 +454,7 @@
             "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
             "source": "@site/blog/2019-05-28-hola.md",
             "title": "Greetings!",
-            "description": "Congratulations, you have made your first post!",
+            "description": "LeetCode 300. 最长递增子序列",
             "date": "2019-05-28T00:00:00.000Z",
             "formattedDate": "May 27, 2019",
             "tags": [
@@ -394,7 +463,7 @@
                 "permalink": "/blog/tags/greetings"
               }
             ],
-            "readingTime": 0.1,
+            "readingTime": 3.455,
             "truncated": false,
             "prevItem": {
               "title": "Hello",

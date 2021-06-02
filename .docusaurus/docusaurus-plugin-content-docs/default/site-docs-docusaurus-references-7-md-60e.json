@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Docusaurus_References",
+  "id": "Docusaurus_References",
+  "isDocsHomePage": false,
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/Docusaurus_References/7. .md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/",
+  "permalink": "/docs/Docusaurus_References/",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/7. .md",
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Admonitions",
+    "permalink": "/docs/Docusaurus_References/Admonitions"
+  }
+}

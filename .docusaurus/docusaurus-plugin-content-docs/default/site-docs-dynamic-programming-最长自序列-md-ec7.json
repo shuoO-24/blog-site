@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Dynamic Programming/最长自序列",
+  "id": "Dynamic Programming/最长自序列",
+  "isDocsHomePage": false,
+  "title": "最长递增子序列",
+  "description": "LeetCode 300. 最长递增子序列",
+  "source": "@site/docs/Dynamic Programming/最长自序列.md",
+  "sourceDirName": "Dynamic Programming",
+  "slug": "/Dynamic Programming/最长自序列",
+  "permalink": "/docs/Dynamic Programming/最长自序列",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/最长自序列.md",
+  "version": "current",
+  "frontMatter": {
+    "label": "Tutorial - Basics",
+    "position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Basic Syntax",
+    "permalink": "/docs/Docusaurus_References/Basics"
+  }
+}

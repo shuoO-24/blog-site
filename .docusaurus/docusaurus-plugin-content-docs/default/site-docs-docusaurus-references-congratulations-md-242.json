@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/congratulations",
+  "id": "Docusaurus_References/congratulations",
+  "isDocsHomePage": false,
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Docusaurus_References/congratulations.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/congratulations",
+  "permalink": "/docs/Docusaurus_References/congratulations",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/congratulations.md",
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/Docusaurus_References/deploy-your-site"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  }
+}

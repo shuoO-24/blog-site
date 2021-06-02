@@ -5,15 +5,20 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/logos/brain_1.png",
+  "favicon": "img/logos/brain_2.svg",
   "organizationName": "shuoO-24",
   "projectName": "docusaurus-site",
   "themeConfig": {
+    "prism": {
+      "additionalLanguages": [
+        "matlab"
+      ]
+    },
     "navbar": {
-      "title": "Lavender",
+      "title": "Lavender Spacecraft",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/my_comic.PNG"
+        "src": "img/my_comic-removebg.PNG"
       },
       "items": [
         {
@@ -96,9 +101,6 @@ export default {
       "versionPersistence": "localStorage"
     },
     "metadatas": [],
-    "prism": {
-      "additionalLanguages": []
-    },
     "hideableSidebar": false
   },
   "presets": [

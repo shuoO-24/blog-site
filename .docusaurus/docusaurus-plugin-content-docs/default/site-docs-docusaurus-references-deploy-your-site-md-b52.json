@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/deploy-your-site",
+  "id": "Docusaurus_References/deploy-your-site",
+  "isDocsHomePage": false,
+  "title": "Deploy your site",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/Docusaurus_References/deploy-your-site.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/deploy-your-site",
+  "permalink": "/docs/Docusaurus_References/deploy-your-site",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/deploy-your-site.md",
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/docs/Docusaurus_References/markdown-features"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  }
+}

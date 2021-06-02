@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/Tabs",
+  "id": "Docusaurus_References/Tabs",
+  "isDocsHomePage": false,
+  "title": "A Super Cool Feature -- Tabs",
+  "description": "---",
+  "source": "@site/docs/Docusaurus_References/4. Tabs.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/Tabs",
+  "permalink": "/docs/Docusaurus_References/Tabs",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/4. Tabs.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Front-matter",
+    "permalink": "/docs/Docusaurus_References/Front-matter"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/docs/Docusaurus_References/markdown-features"
+  }
+}

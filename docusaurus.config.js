@@ -24,10 +24,10 @@ module.exports = {
       additionalLanguages: ["matlab"],
     },
     navbar: {
-      title: "Lavender",
+      title: "Lavender Spacecraft",
       logo: {
         alt: "My Site Logo",
-        src: "img/my_comic.PNG",
+        src: "img/my_comic-removebg.PNG",
       },
       items: [
         {

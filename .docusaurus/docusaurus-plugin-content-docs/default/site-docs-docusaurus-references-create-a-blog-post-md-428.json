@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/create-a-blog-post",
+  "id": "Docusaurus_References/create-a-blog-post",
+  "isDocsHomePage": false,
+  "title": "create-a-blog-post",
+  "description": "Markdown headings#",
+  "source": "@site/docs/Docusaurus_References/create-a-blog-post.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/create-a-blog-post",
+  "permalink": "/docs/Docusaurus_References/create-a-blog-post",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/create-a-blog-post.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Document",
+    "permalink": "/docs/Docusaurus_References/create-a-document"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/docs/Docusaurus_References/markdown-features"
+  }
+}

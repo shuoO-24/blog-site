@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/Admonitions",
+  "id": "Docusaurus_References/Admonitions",
+  "isDocsHomePage": false,
+  "title": "Use Admonitions",
+  "description": "In addition to the basic Markdown syntax, we use remark-admonitions alongside MDX to add support for admonitions. Admonitions are wrapped by a set of 3 colons.",
+  "source": "@site/docs/Docusaurus_References/6. Admonitions.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/Admonitions",
+  "permalink": "/docs/Docusaurus_References/Admonitions",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/6. Admonitions.md",
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/docs/Docusaurus_References/markdown-features"
+  },
+  "next": {
+    "title": "Inline TOC | Docusaurus",
+    "permalink": "/docs/Docusaurus_References/Add Table of Content"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/Add Table of Content",
+  "id": "Docusaurus_References/Add Table of Content",
+  "isDocsHomePage": false,
+  "title": "Inline TOC | Docusaurus",
+  "description": "Each markdown document displays a tab of content on the top-right corner.",
+  "source": "@site/docs/Docusaurus_References/7. Add Table of Content.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/Add Table of Content",
+  "permalink": "/docs/Docusaurus_References/Add Table of Content",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/7. Add Table of Content.md",
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Admonitions",
+    "permalink": "/docs/Docusaurus_References/Admonitions"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/Docusaurus_References/translate-your-site"
+  }
+}

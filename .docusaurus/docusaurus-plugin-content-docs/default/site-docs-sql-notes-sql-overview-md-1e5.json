@@ -1,0 +1,22 @@
+{
+  "unversionedId": "SQL Notes/SQL Overview",
+  "id": "SQL Notes/SQL Overview",
+  "isDocsHomePage": false,
+  "title": "SQL",
+  "description": "SQL，指结构化查询语言，全称是 Structured Query Language。",
+  "source": "@site/docs/SQL Notes/SQL Overview.md",
+  "sourceDirName": "SQL Notes",
+  "slug": "/SQL Notes/SQL Overview",
+  "permalink": "/docs/SQL Notes/SQL Overview",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/SQL Overview.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "intro",
+    "permalink": "/docs/intro"
+  }
+}

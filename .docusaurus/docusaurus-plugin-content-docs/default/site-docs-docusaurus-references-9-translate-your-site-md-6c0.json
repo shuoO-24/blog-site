@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Docusaurus_References/translate-your-site",
+  "id": "Docusaurus_References/translate-your-site",
+  "isDocsHomePage": false,
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/Docusaurus_References/9. translate-your-site.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/translate-your-site",
+  "permalink": "/docs/Docusaurus_References/translate-your-site",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/9. translate-your-site.md",
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Inline TOC | Docusaurus",
+    "permalink": "/docs/Docusaurus_References/Add Table of Content"
+  }
+}

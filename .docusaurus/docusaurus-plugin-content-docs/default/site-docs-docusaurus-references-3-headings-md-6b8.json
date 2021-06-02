@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/Headings",
+  "id": "Docusaurus_References/Headings",
+  "isDocsHomePage": false,
+  "title": "Headings",
+  "description": "Markdown headings#",
+  "source": "@site/docs/Docusaurus_References/3. Headings.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/Headings",
+  "permalink": "/docs/Docusaurus_References/Headings",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/3. Headings.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add Code blocks",
+    "permalink": "/docs/Docusaurus_References/Code Block"
+  },
+  "next": {
+    "title": "A Super Cool Feature -- Tabs",
+    "permalink": "/docs/Docusaurus_References/Tabs"
+  }
+}

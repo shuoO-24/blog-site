@@ -1,0 +1,23 @@
+{
+  "unversionedId": "tutorial-basics/最大递增自序列",
+  "id": "tutorial-basics/最大递增自序列",
+  "isDocsHomePage": false,
+  "title": "最大递增自序列",
+  "description": "",
+  "source": "@site/docs/tutorial-basics/最大递增自序列.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/最大递增自序列",
+  "permalink": "/docs/tutorial-basics/最大递增自序列",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/最大递增自序列.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  }
+}

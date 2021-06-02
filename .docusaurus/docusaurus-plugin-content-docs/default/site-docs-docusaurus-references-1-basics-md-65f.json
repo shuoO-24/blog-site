@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/Basics",
+  "id": "Docusaurus_References/Basics",
+  "isDocsHomePage": false,
+  "title": "Basic Syntax",
+  "description": "Please read this reference",
+  "source": "@site/docs/Docusaurus_References/1. Basics.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/Basics",
+  "permalink": "/docs/Docusaurus_References/Basics",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/1. Basics.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/最长子序列"
+  },
+  "next": {
+    "title": "Add Code blocks",
+    "permalink": "/docs/Docusaurus_References/Code Block"
+  }
+}

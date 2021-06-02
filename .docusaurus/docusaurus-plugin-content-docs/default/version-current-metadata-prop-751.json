@@ -6,60 +6,77 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "category",
+        "label": "SQL Notes",
+        "items": [
+          {
+            "type": "link",
+            "label": "SQL",
+            "href": "/docs/SQL Notes/SQL Overview"
+          }
+        ],
+        "collapsed": true
+      },
+      {
         "type": "link",
-        "label": "91. Decode Ways — Medium",
+        "label": "intro",
         "href": "/docs/intro"
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "Dynamic Programming",
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page"
-          },
-          {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations"
+            "label": "最长递增子序列",
+            "href": "/docs/Dynamic Programming/最长子序列"
           }
         ],
         "collapsed": true
       },
       {
         "type": "category",
-        "label": "Tutorial - Extras",
+        "label": "Docusaurus References",
         "items": [
           {
             "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions"
+            "label": "Basic Syntax",
+            "href": "/docs/Docusaurus_References/Basics"
+          },
+          {
+            "type": "link",
+            "label": "Add Code blocks",
+            "href": "/docs/Docusaurus_References/Code Block"
+          },
+          {
+            "type": "link",
+            "label": "Front-matter",
+            "href": "/docs/Docusaurus_References/Front-matter"
+          },
+          {
+            "type": "link",
+            "label": "A Super Cool Feature -- Tabs",
+            "href": "/docs/Docusaurus_References/Tabs"
+          },
+          {
+            "type": "link",
+            "label": "Markdown Features",
+            "href": "/docs/Docusaurus_References/markdown-features"
+          },
+          {
+            "type": "link",
+            "label": "Use Admonitions",
+            "href": "/docs/Docusaurus_References/Admonitions"
+          },
+          {
+            "type": "link",
+            "label": "Inline TOC | Docusaurus",
+            "href": "/docs/Docusaurus_References/Add Table of Content"
           },
           {
             "type": "link",
             "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site"
+            "href": "/docs/Docusaurus_References/translate-your-site"
           }
         ],
         "collapsed": true
@@ -67,14 +84,16 @@
     ]
   },
   "permalinkToSidebar": {
+    "/docs/Docusaurus_References/Add Table of Content": "tutorialSidebar",
+    "/docs/Docusaurus_References/Admonitions": "tutorialSidebar",
+    "/docs/Docusaurus_References/Basics": "tutorialSidebar",
+    "/docs/Docusaurus_References/Code Block": "tutorialSidebar",
+    "/docs/Docusaurus_References/Front-matter": "tutorialSidebar",
+    "/docs/Docusaurus_References/markdown-features": "tutorialSidebar",
+    "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
+    "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
+    "/docs/Dynamic Programming/最长子序列": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
-    "/docs/tutorial-basics/congratulations": "tutorialSidebar",
-    "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
-    "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
-    "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
-    "/docs/tutorial-basics/deploy-your-site": "tutorialSidebar",
-    "/docs/tutorial-basics/markdown-features": "tutorialSidebar",
-    "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
-    "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
+    "/docs/SQL Notes/SQL Overview": "tutorialSidebar"
   }
 }

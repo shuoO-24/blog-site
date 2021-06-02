@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/create-a-page",
+  "id": "Docusaurus_References/create-a-page",
+  "isDocsHomePage": false,
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/Docusaurus_References/create-a-page.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/create-a-page",
+  "permalink": "/docs/Docusaurus_References/create-a-page",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/create-a-page.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/最长自序列"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/docs/Docusaurus_References/Basics"
+  }
+}

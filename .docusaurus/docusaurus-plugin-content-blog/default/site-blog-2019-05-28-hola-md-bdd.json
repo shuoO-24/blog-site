@@ -3,7 +3,7 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
   "source": "@site/blog/2019-05-28-hola.md",
   "title": "Greetings!",
-  "description": "Congratulations, you have made your first post!",
+  "description": "LeetCode 300. 最长递增子序列",
   "date": "2019-05-28T00:00:00.000Z",
   "formattedDate": "May 27, 2019",
   "tags": [
@@ -12,7 +12,7 @@
       "permalink": "/blog/tags/greetings"
     }
   ],
-  "readingTime": 0.1,
+  "readingTime": 3.455,
   "truncated": false,
   "prevItem": {
     "title": "Hello",

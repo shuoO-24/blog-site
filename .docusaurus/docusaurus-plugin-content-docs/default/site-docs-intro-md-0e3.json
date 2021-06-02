@@ -2,8 +2,8 @@
   "unversionedId": "intro",
   "id": "intro",
   "isDocsHomePage": false,
-  "title": "91. Decode Ways — Medium",
-  "description": "A message containing letters from A-Z can be encoded into numbers using the following mapping:",
+  "title": "intro",
+  "description": "<span",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -15,8 +15,12 @@
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL",
+    "permalink": "/docs/SQL Notes/SQL Overview"
+  },
   "next": {
-    "title": "Create a Page",
-    "permalink": "/docs/tutorial-basics/create-a-page"
+    "title": "最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/最长子序列"
   }
 }
