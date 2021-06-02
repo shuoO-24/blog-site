@@ -18,5 +18,9 @@
   "previous": {
     "title": "Inline TOC | Docusaurus",
     "permalink": "/docs/Docusaurus_References/Add Table of Content"
+  },
+  "next": {
+    "title": "Nav-bar",
+    "permalink": "/docs/Docusaurus_References/Nav-bar"
   }
 }

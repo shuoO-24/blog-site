@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+id: sqlintro
+title: SQL Overview
 ---
 
 # SQL
@@ -18,14 +20,6 @@ SQL 可以：
 
 虽然 SQL 是一门 ANSI（美国国家标准化组织）标准的计算机语言，但是仍然存在着多种不同版本的 SQL 语言。除了 SQL 标准之外，大多数 SQL 数据库程序都有自己的专有扩展，但它们都支持主要命令。
 
-## Execution of a SQL
-
-Execution of a SQL query is based on relational algebra<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gqwahatdxsj30f2074dgu.jpg" alt="image-20210526092153657" style="zoom:67%;" />
-
-## Using SQL
-
-Stand-alone (CLI or GUI): SQL\*Plus (see tutorial)  Embedded in a host language (C, C++, Java, etc.)![image-20210526092244984](https://tva1.sinaimg.cn/large/008i3skNgy1gqwai3tb8sj308y078jrt.jpg)
-
 ## Components of SQL
 
 1. Data definition language — _DDL_
@@ -34,6 +28,15 @@ Stand-alone (CLI or GUI): SQL\*Plus (see tutorial)  Embedded in a host language
    - **Query** one or more relations/tables
    - **Insert, delete, modify tuples** in relations
 3. Authorization Language — grant privileges to users
+
+## Execution of a SQL
+
+Execution of a SQL query is based on relational algebra
+![Example banner](https://tva1.sinaimg.cn/large/008i3skNgy1gqwai3tb8sj308y078jrt.jpg)
+
+## Using SQL
+
+Stand-alone (CLI or GUI): SQL Plus (see tutorial)  Embedded in a host language (C, C++, Java, etc.)
 
 ## Concepts: Database
 

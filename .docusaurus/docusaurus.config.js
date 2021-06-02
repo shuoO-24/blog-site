@@ -1,5 +1,5 @@
 export default {
-  "title": "Lavender",
+  "title": "Hi All",
   "tagline": "世界献我以歌",
   "url": "https://blog-test-lavender.netlify.app/",
   "baseUrl": "/",
@@ -15,7 +15,7 @@ export default {
       ]
     },
     "navbar": {
-      "title": "Lavender Spacecraft",
+      "title": "Lavender Spacecraft🪐✨",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/my_comic-removebg.PNG"
@@ -48,7 +48,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "LeetCode",
+              "label": "Study Notes",
               "to": "/docs/intro"
             }
           ]

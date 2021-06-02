@@ -13,23 +13,27 @@
           "sidebarFilePath": "/Users/shuoO/docusaurus-tutorial/sidebars.js",
           "contentPath": "/Users/shuoO/docusaurus-tutorial/docs",
           "contentPathLocalized": "/Users/shuoO/docusaurus-tutorial/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "SQL Notes/SQL Overview",
+          "mainDocId": "intro",
           "sidebars": {
             "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
               {
                 "type": "category",
                 "label": "SQL Notes",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "SQL Notes/SQL Overview"
+                    "id": "SQL Notes/sqlintro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "SQL Notes/sqlnorm"
                   }
                 ],
                 "collapsed": true
-              },
-              {
-                "type": "doc",
-                "id": "intro"
               },
               {
                 "type": "category",
@@ -48,7 +52,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Docusaurus_References/Basics"
+                    "id": "Docusaurus_References/Markdown Basics"
                   },
                   {
                     "type": "doc",
@@ -77,6 +81,10 @@
                   {
                     "type": "doc",
                     "id": "Docusaurus_References/translate-your-site"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/Nav-bar"
                   }
                 ],
                 "collapsed": true
@@ -86,15 +94,17 @@
           "permalinkToSidebar": {
             "/docs/Docusaurus_References/Add Table of Content": "tutorialSidebar",
             "/docs/Docusaurus_References/Admonitions": "tutorialSidebar",
-            "/docs/Docusaurus_References/Basics": "tutorialSidebar",
             "/docs/Docusaurus_References/Code Block": "tutorialSidebar",
             "/docs/Docusaurus_References/Front-matter": "tutorialSidebar",
+            "/docs/Docusaurus_References/Markdown Basics": "tutorialSidebar",
             "/docs/Docusaurus_References/markdown-features": "tutorialSidebar",
+            "/docs/Docusaurus_References/Nav-bar": "tutorialSidebar",
             "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
             "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
             "/docs/Dynamic Programming/最长子序列": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
-            "/docs/SQL Notes/SQL Overview": "tutorialSidebar"
+            "/docs/SQL Notes/sqlintro": "tutorialSidebar",
+            "/docs/SQL Notes/sqlnorm": "tutorialSidebar"
           },
           "docs": [
             {
@@ -141,38 +151,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Markdown Features",
+                "title": "markdown-features",
                 "permalink": "/docs/Docusaurus_References/markdown-features"
               },
               "next": {
                 "title": "Inline TOC | Docusaurus",
                 "permalink": "/docs/Docusaurus_References/Add Table of Content"
-              }
-            },
-            {
-              "unversionedId": "Docusaurus_References/Basics",
-              "id": "Docusaurus_References/Basics",
-              "isDocsHomePage": false,
-              "title": "Basic Syntax",
-              "description": "Please read this reference",
-              "source": "@site/docs/Docusaurus_References/1. Basics.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/Basics",
-              "permalink": "/docs/Docusaurus_References/Basics",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/1. Basics.md",
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "最长递增子序列",
-                "permalink": "/docs/Dynamic Programming/最长子序列"
-              },
-              "next": {
-                "title": "Add Code blocks",
-                "permalink": "/docs/Docusaurus_References/Code Block"
               }
             },
             {
@@ -194,7 +178,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Basic Syntax",
-                "permalink": "/docs/Docusaurus_References/Basics"
+                "permalink": "/docs/Docusaurus_References/Markdown Basics"
               },
               "next": {
                 "title": "Front-matter",
@@ -228,11 +212,37 @@
               }
             },
             {
+              "unversionedId": "Docusaurus_References/Markdown Basics",
+              "id": "Docusaurus_References/Markdown Basics",
+              "isDocsHomePage": false,
+              "title": "Basic Syntax",
+              "description": "Please read this reference",
+              "source": "@site/docs/Docusaurus_References/1. Markdown Basics.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/Markdown Basics",
+              "permalink": "/docs/Docusaurus_References/Markdown Basics",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/1. Markdown Basics.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/最长子序列"
+              },
+              "next": {
+                "title": "Add Code blocks",
+                "permalink": "/docs/Docusaurus_References/Code Block"
+              }
+            },
+            {
               "unversionedId": "Docusaurus_References/markdown-features",
               "id": "Docusaurus_References/markdown-features",
               "isDocsHomePage": false,
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
+              "title": "markdown-features",
+              "description": "",
               "source": "@site/docs/Docusaurus_References/markdown-features.mdx",
               "sourceDirName": "Docusaurus_References",
               "slug": "/Docusaurus_References/markdown-features",
@@ -251,6 +261,28 @@
               "next": {
                 "title": "Use Admonitions",
                 "permalink": "/docs/Docusaurus_References/Admonitions"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Nav-bar",
+              "id": "Docusaurus_References/Nav-bar",
+              "isDocsHomePage": false,
+              "title": "Nav-bar",
+              "description": "Navbar doc link#",
+              "source": "@site/docs/Docusaurus_References/10. Nav-bar.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/Nav-bar",
+              "permalink": "/docs/Docusaurus_References/Nav-bar",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/10. Nav-bar.md",
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Translate your site",
+                "permalink": "/docs/Docusaurus_References/translate-your-site"
               }
             },
             {
@@ -275,7 +307,7 @@
                 "permalink": "/docs/Docusaurus_References/Front-matter"
               },
               "next": {
-                "title": "Markdown Features",
+                "title": "markdown-features",
                 "permalink": "/docs/Docusaurus_References/markdown-features"
               }
             },
@@ -299,6 +331,10 @@
               "previous": {
                 "title": "Inline TOC | Docusaurus",
                 "permalink": "/docs/Docusaurus_References/Add Table of Content"
+              },
+              "next": {
+                "title": "Nav-bar",
+                "permalink": "/docs/Docusaurus_References/Nav-bar"
               }
             },
             {
@@ -319,12 +355,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "intro",
-                "permalink": "/docs/intro"
+                "title": "Normalization",
+                "permalink": "/docs/SQL Notes/sqlnorm"
               },
               "next": {
                 "title": "Basic Syntax",
-                "permalink": "/docs/Docusaurus_References/Basics"
+                "permalink": "/docs/Docusaurus_References/Markdown Basics"
               }
             },
             {
@@ -332,7 +368,7 @@
               "id": "intro",
               "isDocsHomePage": false,
               "title": "intro",
-              "description": "<span",
+              "description": "代码书写人生。",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -341,38 +377,69 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 1,
+                "id": "intro"
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "SQL",
-                "permalink": "/docs/SQL Notes/SQL Overview"
-              },
               "next": {
-                "title": "最长递增子序列",
-                "permalink": "/docs/Dynamic Programming/最长子序列"
+                "title": "SQL",
+                "permalink": "/docs/SQL Notes/sqlintro"
               }
             },
             {
-              "unversionedId": "SQL Notes/SQL Overview",
-              "id": "SQL Notes/SQL Overview",
+              "unversionedId": "SQL Notes/sqlintro",
+              "id": "SQL Notes/sqlintro",
               "isDocsHomePage": false,
               "title": "SQL",
               "description": "SQL，指结构化查询语言，全称是 Structured Query Language。",
               "source": "@site/docs/SQL Notes/SQL Overview.md",
               "sourceDirName": "SQL Notes",
-              "slug": "/SQL Notes/SQL Overview",
-              "permalink": "/docs/SQL Notes/SQL Overview",
+              "slug": "/SQL Notes/sqlintro",
+              "permalink": "/docs/SQL Notes/sqlintro",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/SQL Overview.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 1,
+                "id": "sqlintro",
+                "title": "SQL Overview"
               },
               "sidebar": "tutorialSidebar",
-              "next": {
+              "previous": {
                 "title": "intro",
                 "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Normalization",
+                "permalink": "/docs/SQL Notes/sqlnorm"
+              }
+            },
+            {
+              "unversionedId": "SQL Notes/sqlnorm",
+              "id": "SQL Notes/sqlnorm",
+              "isDocsHomePage": false,
+              "title": "Normalization",
+              "description": "Notion Notes",
+              "source": "@site/docs/SQL Notes/Normalization.md",
+              "sourceDirName": "SQL Notes",
+              "slug": "/SQL Notes/sqlnorm",
+              "permalink": "/docs/SQL Notes/sqlnorm",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Normalization.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "sqlnorm",
+                "title": "Normalization"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SQL",
+                "permalink": "/docs/SQL Notes/sqlintro"
+              },
+              "next": {
+                "title": "最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/最长子序列"
               }
             }
           ]
@@ -454,7 +521,7 @@
             "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
             "source": "@site/blog/2019-05-28-hola.md",
             "title": "Greetings!",
-            "description": "LeetCode 300. 最长递增子序列",
+            "description": "Congratulations, you have made your first post!",
             "date": "2019-05-28T00:00:00.000Z",
             "formattedDate": "May 27, 2019",
             "tags": [
@@ -463,7 +530,7 @@
                 "permalink": "/blog/tags/greetings"
               }
             ],
-            "readingTime": 3.455,
+            "readingTime": 0.1,
             "truncated": false,
             "prevItem": {
               "title": "Hello",

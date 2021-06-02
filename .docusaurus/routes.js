@@ -94,7 +94,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','739'),
+  component: ComponentCreator('/docs','bba'),
   
   routes: [
 {
@@ -108,11 +108,6 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/Basics',
-  component: ComponentCreator('/docs/Docusaurus_References/Basics','dc5'),
-  exact: true,
-},
-{
   path: '/docs/Docusaurus_References/Code Block',
   component: ComponentCreator('/docs/Docusaurus_References/Code Block','698'),
   exact: true,
@@ -123,8 +118,18 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/Docusaurus_References/Markdown Basics',
+  component: ComponentCreator('/docs/Docusaurus_References/Markdown Basics','a1b'),
+  exact: true,
+},
+{
   path: '/docs/Docusaurus_References/markdown-features',
   component: ComponentCreator('/docs/Docusaurus_References/markdown-features','bd3'),
+  exact: true,
+},
+{
+  path: '/docs/Docusaurus_References/Nav-bar',
+  component: ComponentCreator('/docs/Docusaurus_References/Nav-bar','2f9'),
   exact: true,
 },
 {
@@ -148,8 +153,13 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/SQL Notes/SQL Overview',
-  component: ComponentCreator('/docs/SQL Notes/SQL Overview','c87'),
+  path: '/docs/SQL Notes/sqlintro',
+  component: ComponentCreator('/docs/SQL Notes/sqlintro','a14'),
+  exact: true,
+},
+{
+  path: '/docs/SQL Notes/sqlnorm',
+  component: ComponentCreator('/docs/SQL Notes/sqlnorm','438'),
   exact: true,
 },
 ]

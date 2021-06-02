@@ -1,0 +1,26 @@
+{
+  "unversionedId": "你来啦",
+  "id": "你来啦",
+  "isDocsHomePage": false,
+  "title": "你来啦",
+  "description": "代码书写人生。",
+  "source": "@site/docs/你来啦.md",
+  "sourceDirName": ".",
+  "slug": "/你来啦",
+  "permalink": "/docs/你来啦",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/你来啦.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL",
+    "permalink": "/docs/SQL Notes/SQL Overview"
+  },
+  "next": {
+    "title": "最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/最长子序列"
+  }
+}

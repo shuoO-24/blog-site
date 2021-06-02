@@ -3,7 +3,7 @@
   "id": "intro",
   "isDocsHomePage": false,
   "title": "intro",
-  "description": "<span",
+  "description": "代码书写人生。",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -12,15 +12,12 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 1,
+    "id": "intro"
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "SQL",
-    "permalink": "/docs/SQL Notes/SQL Overview"
-  },
   "next": {
-    "title": "最长递增子序列",
-    "permalink": "/docs/Dynamic Programming/最长子序列"
+    "title": "SQL",
+    "permalink": "/docs/SQL Notes/sqlintro"
   }
 }

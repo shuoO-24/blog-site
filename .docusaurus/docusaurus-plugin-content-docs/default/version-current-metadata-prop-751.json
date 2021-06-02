@@ -6,21 +6,26 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "link",
+        "label": "intro",
+        "href": "/docs/intro"
+      },
+      {
         "type": "category",
         "label": "SQL Notes",
         "items": [
           {
             "type": "link",
             "label": "SQL",
-            "href": "/docs/SQL Notes/SQL Overview"
+            "href": "/docs/SQL Notes/sqlintro"
+          },
+          {
+            "type": "link",
+            "label": "Normalization",
+            "href": "/docs/SQL Notes/sqlnorm"
           }
         ],
         "collapsed": true
-      },
-      {
-        "type": "link",
-        "label": "intro",
-        "href": "/docs/intro"
       },
       {
         "type": "category",
@@ -41,7 +46,7 @@
           {
             "type": "link",
             "label": "Basic Syntax",
-            "href": "/docs/Docusaurus_References/Basics"
+            "href": "/docs/Docusaurus_References/Markdown Basics"
           },
           {
             "type": "link",
@@ -60,7 +65,7 @@
           },
           {
             "type": "link",
-            "label": "Markdown Features",
+            "label": "markdown-features",
             "href": "/docs/Docusaurus_References/markdown-features"
           },
           {
@@ -77,6 +82,11 @@
             "type": "link",
             "label": "Translate your site",
             "href": "/docs/Docusaurus_References/translate-your-site"
+          },
+          {
+            "type": "link",
+            "label": "Nav-bar",
+            "href": "/docs/Docusaurus_References/Nav-bar"
           }
         ],
         "collapsed": true
@@ -86,14 +96,16 @@
   "permalinkToSidebar": {
     "/docs/Docusaurus_References/Add Table of Content": "tutorialSidebar",
     "/docs/Docusaurus_References/Admonitions": "tutorialSidebar",
-    "/docs/Docusaurus_References/Basics": "tutorialSidebar",
     "/docs/Docusaurus_References/Code Block": "tutorialSidebar",
     "/docs/Docusaurus_References/Front-matter": "tutorialSidebar",
+    "/docs/Docusaurus_References/Markdown Basics": "tutorialSidebar",
     "/docs/Docusaurus_References/markdown-features": "tutorialSidebar",
+    "/docs/Docusaurus_References/Nav-bar": "tutorialSidebar",
     "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
     "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
     "/docs/Dynamic Programming/最长子序列": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
-    "/docs/SQL Notes/SQL Overview": "tutorialSidebar"
+    "/docs/SQL Notes/sqlintro": "tutorialSidebar",
+    "/docs/SQL Notes/sqlnorm": "tutorialSidebar"
   }
 }

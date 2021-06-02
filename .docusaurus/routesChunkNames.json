@@ -111,7 +111,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-739": {
+  "/docs-bba": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -123,10 +123,6 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-docusaurus-references-admonitionsed-3-327"
   },
-  "/docs/Docusaurus_References/Basics-dc5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-basics-65-f-c64"
-  },
   "/docs/Docusaurus_References/Code Block-698": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-docusaurus-references-code-block-021-1da"
@@ -135,9 +131,17 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-docusaurus-references-front-matterb-10-a68"
   },
+  "/docs/Docusaurus_References/Markdown Basics-a1b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-docusaurus-references-markdown-basics-3-ed-549"
+  },
   "/docs/Docusaurus_References/markdown-features-bd3": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-docusaurus-references-markdown-features-82-b-149"
+  },
+  "/docs/Docusaurus_References/Nav-bar-2f9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-docusaurus-references-nav-bar-105-ad8"
   },
   "/docs/Docusaurus_References/Tabs-b63": {
     "component": "component---theme-doc-item-178-a40",
@@ -155,8 +159,12 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/docs/SQL Notes/SQL Overview-c87": {
+  "/docs/SQL Notes/sqlintro-a14": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sql-overview-1-e-5-496"
+    "content": "content---docs-sql-notes-sqlintro-1-e-5-ae4"
+  },
+  "/docs/SQL Notes/sqlnorm-438": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sql-notes-sqlnorm-628-e58"
   }
 }

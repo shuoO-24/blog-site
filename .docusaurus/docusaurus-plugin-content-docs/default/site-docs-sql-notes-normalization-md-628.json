@@ -1,0 +1,28 @@
+{
+  "unversionedId": "SQL Notes/sqlnorm",
+  "id": "SQL Notes/sqlnorm",
+  "isDocsHomePage": false,
+  "title": "Normalization",
+  "description": "Notion Notes",
+  "source": "@site/docs/SQL Notes/Normalization.md",
+  "sourceDirName": "SQL Notes",
+  "slug": "/SQL Notes/sqlnorm",
+  "permalink": "/docs/SQL Notes/sqlnorm",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Normalization.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "sqlnorm",
+    "title": "Normalization"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL",
+    "permalink": "/docs/SQL Notes/sqlintro"
+  },
+  "next": {
+    "title": "最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/最长子序列"
+  }
+}

@@ -1,11 +1,14 @@
 ---
 sidebar_position: 1
+id: intro
 ---
+
+代码书写人生。
 
 export const Highlight = ({children, color}) => (
 <span
 style={{
-      backgroundColor: color,
+      backgroundColor: '#f0d8e7',
       borderRadius: '20px',
       color: '#fff',
       padding: '10px',
@@ -18,4 +21,4 @@ alert(`下周考试！`)
 </span>
 );
 
-<Highlight color="#25c2a0">Go to review SQL for PSTAT 10 Final!!!</Highlight>
+<Highlight color="#f0d8e7">Go to review SQL for PSTAT 10 Final!!!</Highlight>

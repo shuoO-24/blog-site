@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Docusaurus_References/Nav-bar",
+  "id": "Docusaurus_References/Nav-bar",
+  "isDocsHomePage": false,
+  "title": "Nav-bar",
+  "description": "Navbar doc link#",
+  "source": "@site/docs/Docusaurus_References/10. Nav-bar.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/Nav-bar",
+  "permalink": "/docs/Docusaurus_References/Nav-bar",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/10. Nav-bar.md",
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/Docusaurus_References/translate-your-site"
+  }
+}
