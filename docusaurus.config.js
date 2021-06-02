@@ -27,7 +27,7 @@ module.exports = {
       title: "Lavender",
       logo: {
         alt: "My Site Logo",
-        src: "img/my_comic.PNG",
+        src: "img/my_comic_rmbg.png",
       },
       items: [
         {
