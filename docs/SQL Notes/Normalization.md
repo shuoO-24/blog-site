@@ -6,7 +6,7 @@ title: Normalization
 
 [Notion Notes](https://www.notion.so/lavendershuo/Lecture-18-Normalization-03a84694d3a64e54a5c0622ae4332bac)
 
-## What is a good relation design?
+## What is a good relation design (Well-Structured Relation)?
 
 We have seen how to create a new relation from a given schema.
 
@@ -19,6 +19,17 @@ We know that the following **rules** must apply to relations:
 3. **Duplication** of tuples in a relation is **not** allowed.
 4. Next, we look at: - **Normalization**
 
+Basically, a well-structured relation is
+**a relation that contains minimal data redundancy and allows users to insert, delete, and update rows without causing data inconsistencies.**
+Its goal is to avoid (minimize) anomalies:
+
+- Insertion Anomaly: adding new rows forces user to create duplicate data
+- Deletion Anomaly: deleting a row may cause loss of other data representing completely different facts
+- Modification Anomaly: changing data in a row forces
+  changes to other rows because of duplication
+
+> General rule of thumb: a table should not pertain to more than one entity type
+
 ---
 
 ## Normalization
@@ -27,8 +38,10 @@ Normalization is **a technique used to organize the data** in a database.
 
 - Normalization consists of **a set of rules** that all relations must follow for a database(DB) to be well structured.
 - These **rules** are presented as sets of restrictions called **NORMAL FORMS**
-- **NORMALIZATION** is the **process** of creating a DB that complies with these **restrictions**. We do that by normalizing each of the relations.
-- Normal forms
+
+**Normalization** is the **process** of creating a DB that complies with these **restrictions**. We do that by normalizing each of the relations.
+
+- Normal forms:
   - 1NF (First Normal Form)
   - 2NF (Second Normal Form)
   - 3NF (Third Normal Form)
@@ -37,61 +50,57 @@ Normalization is **a technique used to organize the data** in a database.
 Applying these rules **removes undesirable properties** from a DB, including the **removal of data anomalies**:
 `UPDATE ANOMALY`, `INSERTION ANOMALY`, `DELETION ANOMAL`
 
-### Example: Relation TA
+## Anormalies | Example: Relation TA
 
 ![TA Relation](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/96b8f42d-7d39-4836-9f6c-1c9a2f7c9901/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T222836Z&X-Amz-Expires=86400&X-Amz-Signature=7a6411e633bb3651bd7d344d5412e98b28a8590e9b7010a0713b52b0655be82c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-The relation TA is not normalized. Why does this matter?
+_The relation TA is not normalized. Why does this matter?_
 
-What are the CANDIDATE KEYS of TA?
+1. What are the CANDIDATE KEYS of TA?
 
-- {TA_ID, TA_DEPT}
+   - {TA_ID, TA_DEPT}
 
-What is the PRIMARY KEY of TA?
-
-- {TA_ID, TA_DEPT}
-
-<div style={{ color: 'tomato' }}>
-  <h4>UPDATE ANOMALY</h4>
-</div>
+2. What is the PRIMARY KEY of TA?
+   - {TA_ID, TA_DEPT}
+3. <div style={{ color: 'tomato' }}>
+     <h4>UPDATE ANOMALY</h4>
+   </div>
 
 - Ann belongs to **two departments**
 - **If Ann's address changes, we will need to update two tuples, to avoid ambiguity**
 
-<div style={{ color: 'tomato' }}>
-  <h4>INSERTION ANOMALY</h4>
-</div>
+4.  <div style={{ color: 'tomato' }}>
+      <h4>INSERTION ANOMALY</h4>
+    </div>
 
 - **Suppose a new TA has been appointed but does not yet know which department they will work in.**
-  - **We cannot put a `NULL` to `TA_DEPT` because primary key value cannot be NULL.**
-- We would **not be able to INSERT** the data into the relation. — INSERTION ANOMALY
+- **We cannot put a `NULL` to `TA_DEPT` because primary key value cannot be NULL.**
+- We would **not be able to INSERT** the data into the relation. —> INSERTION ANOMALY
 
-<div style={{ color: 'tomato' }}>
-  <h4>DELETION ANOMALY</h4>
-</div>
+5.  <div style={{ color: 'tomato' }}>
+      <h4>DELETION ANOMALY</h4>
+    </div>
 
-- **Suppose the BIOLOGY department is closed down**
+- Suppose the BIOLOGY **department is closed down**
 - **Deleting tuples with attribute value BIOLOGY in TA_DEPT would delete the information about Bob** — we **do not want to remove Bob**'s TA_ID, TA_ADDRESS, and other information — thus a DELETION ANOMALY
 
-<div style={{ color: 'white' }}>
-  <h4>How do we resolve or avoid anomalies?</h4>
-</div>
+How do we resolve or avoid anomalies?
 
 - To resolve or avoid anomalies, we need to _normalize_ relations
 - We will continue the above example later in the lecture, after we have discussed 1NF and 2NF.
 
 ---
 
-- # Normal Forms
+## Normal Forms
 
 _Normalization consists of a set of rules that all relations must follow for a database(DB) to be well structured.
 These rules are presented as sets of restrictions called NORMAL FORMS._
 
-## First Normal Form（1NF）
+### First Normal Form（1NF）
 
-Each attribute **name** must consist of a **single** **item**.
+_Each attribute **name** must consist of a **single** **item**._
 
-Each attribute **value** must represent a **single** **fact**.
+_Each attribute **value** must represent a **single** **fact**._
 
 **Example:**
 
@@ -101,7 +110,7 @@ A single fact:
 
 Anne is a single fact regarding FirstName; PSTAT 10 is a single fact regarding Course#......
 
-### Example: Relation COURSE_CONTENT
+#### Example: Relation COURSE_CONTENT
 
 A DB design team has been working on the relationships between each COURSE and its SYLLABUS in the Statistics Department. They suggest the following relation.
 
@@ -113,7 +122,7 @@ SYLLABUS: R,SQL Regression, R —— **two** separate facts
 
 Thus COURSE_CONTENT Not in 1NE
 
-### Example: Decomposing A Relation Into First Normal Form(1NF)
+#### Example: Decomposing A Relation Into First Normal Form(1NF)
 
 ![https://tva1.sinaimg.cn/large/008i3skNgy1gqwy8n6mhpj30ju0eomzh.jpg](https://tva1.sinaimg.cn/large/008i3skNgy1gqwy8n6mhpj30ju0eomzh.jpg)
 
@@ -127,9 +136,9 @@ A new example:
 
 It violates both rules for 1NF
 
-## Decompose Into 1NF
+### Decompose Into 1NF
 
-### Example: COURSE_CONTENT_3
+#### Example: COURSE_CONTENT_3
 
 ![COURSE_CONTENT_3](https://tva1.sinaimg.cn/large/008i3skNgy1gqwyd8q7qrj30lc0aywgk.jpg)
 
@@ -143,33 +152,37 @@ We can decompose it:
 
 In 1NF
 
-## Second Normal Form (2NF)
+### Second Normal Form (2NF)
 
 A relation is in 2NF if both of the following conditions hold:
 
 - It is in **1NF** (first normal form).
 - No non-prime attribute is functionally dependent on a proper subset of any candidate key.
 
-### Non-prime attribute
+#### Non-prime attribute
 
 An attribute that is **not part of any candidate key** is a NON-PRIME ATTRIBUTE.
 
-### ✨ Functionally dependent
+#### ✨ Functionally dependent
 
 If a set of attributes A of a relation **uniquely identifies** a set of attributes B of the same relation, then **B is FUNCTIONALLY DEPENDENT on A**.
 Written: `A-->B` (just one long arrow)
+• Functional Dependency: The value of one attribute (the determinant) determines the value of another attribute. 
+– A-->B reads “Attribute B is functionally dependent on A” 
+– A-->B means **if two rows have same value of A they necessarily have same value of B**
+– FDs are determined by semantics: You can’t say that a FD exists just by looking at data. But can say whether it does not exist by looking at data.
 
-### Proper subset
+#### Proper subset
 
 A proper subset of a set A is a subset of A that is not equal to A.
 
-### Example: Functional Dependencies (FD's)
+#### Example: Functional Dependencies (FD's)
 
 _If a set of attributes A of are relation uniquely identifies a set of attributes B of the same relation, then B is FUNCTIONALLY DEPENDENT on A. Written:A--->B_
 
-**STUDENT (ID, NAME, ADDRESS)**
+Schema: **STUDENT (ID, NAME, ADDRESS)**
 
-{lD} uniquely identifies the following sets of attributes {NAME}, {ADDRESS}, {NAME, ADDRESS}
+{ID} uniquely identifies the following sets of attributes {NAME}, {ADDRESS}, {NAME, ADDRESS}
 
 - _If {ID} uniquely identifies {NAME, ADDRESS}, then it also uniquely identifies {NAME} and {ADDRESS}._
 
@@ -199,7 +212,7 @@ ID--->{NAME} can therefore also be read: **ID functionally determines NAME**
     - For any given NAME, **there can only be one ID** —— not the case
     - NAME functionally determines ID and ID is functionally determined by NAME
 
-### Example: 2NF Relation SCHOOL
+#### Example: 2NF Relation SCHOOL
 
 ![SCHOOL](https://tva1.sinaimg.cn/large/008i3skNly1gqwz1p38r2j30j60bmmz4.jpg)
 
@@ -213,8 +226,8 @@ ID--->{NAME} can therefore also be read: **ID functionally determines NAME**
 
    - Candidate key: **{FACULTY_ID, CLASS}**
    - Proper subsets of candidate keys: {FACULTY_ID},{CLASS}
-   - Non-Prime attributes: {FACULTY*AGE}
-     (\_An attribute that is not part of any candidate key is a non-prime attribute*)
+   - Non-Prime attributes: {FACULTY, AGE}
+     (_An attribute that is not part of any candidate key is a non-prime attribute_)
    - **Identify Functional Dependencies (FD's) associated with non-prime attributes.**
 
      Does **FACULTY_ID---> FACULTY_AGE** hold? YES.
@@ -223,15 +236,14 @@ ID--->{NAME} can therefore also be read: **ID functionally determines NAME**
 
 Therefore, the relation SCHOOL is **not** in 2NF.
 
-_(Pause to make sure you understand these steps)_
 
-Why does whether the relation is 2NF or not **matters**?
+#### Why does whether the relation is 2NF or not **matters**?
 
 Because there are possibility of **Update anomalies, Insertion anomalies and Deletion anomalies**.
 
 Try to think of some possible anomalies.
 
-### Summary of examples so far
+#### Summary of examples so far
 
 - Is the SCHOOL below in 1NF? —— YES
 - Candidate key: {FACULTY_ID, CLASS} and hence Primary Key Non-Prime attributes: FACULTY_AGE
@@ -242,13 +254,13 @@ Try to think of some possible anomalies.
 
   No non-prime attribute is **functionally dependent** on a proper subset of any candidate key.
 
-# Decompose A Relation
+---
 
-## Decomposing a relation to conform with 2NF rules
+### Decompose into 2NF
 
 **Steps**:
 
-1. When there is an FD, X-->Y on part of the candidate key(X is part of candidate key), **form a new relation** with **X as primary key** and with **all the attributes determined by X.**
+1. When there is an FD, X-->Y on part of the candidate key(X is part of candidate key), **form a new relation** with **X as primary key** and with **all the attributes determined by X.** 
 2. Form a new relation defined on the attributes of the **candidate keys** of the original relation and include **all attributes that are not functionally determined by only part of the key**.
 
 **Example(continued):**
@@ -257,7 +269,7 @@ Try to think of some possible anomalies.
 
 ![https://tva1.sinaimg.cn/large/008i3skNly1gqwz1p38r2j30j60bmmz4.jpg](https://tva1.sinaimg.cn/large/008i3skNly1gqwz1p38r2j30j60bmmz4.jpg)
 
-- Applying the steps to the SCHOOL relation
+Applying the steps to the SCHOOL relation
 
   1. **STEP 1**
 
@@ -268,7 +280,7 @@ Try to think of some possible anomalies.
 
   2. **STEP 2**
 
-     - Form a new relation defined on the attributes of the key of the original relation. New relation has FACULTY_ID, CLASS as attributes.
+     - Form a new relation defined on the attributes of the key of the original relation. New relation has FACULTY_ID, CLASS as attributes./>
      - FACULTY_AGE is determined by only part of the key, so is not included.
 
      ![SCHOOL_3](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e39d4264-9108-4a52-841d-2c51fbe55c26/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T230746Z&X-Amz-Expires=86400&X-Amz-Signature=11c855357f161933221632ba3fd464f00ace8d4569131baf816eb45dc8dae3c4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
@@ -280,19 +292,19 @@ Try to think of some possible anomalies.
 ### Normalize the TA relation to comply with 2NF
 
 1. TA is in 1NF
-2. Candidate key: {TA_ID, TA_DEPT}
-3. Non-prime attributes: {TA_NAME, TA_ADDRESS}
+2. Candidate key: `{TA_ID, TA_DEPT}`
+3. Non-prime attributes: `{TA_NAME, TA_ADDRESS}`
 4. Functional dependencies:
-   1. TA_ID--->{TA_NAME, TA_ADDRESS}
-   2. TA_ID--->{TA_NAME}
-   3. TA_ID--->{TA_ADDRESS}
+   1. `TA_ID--->{TA_NAME, TA_ADDRESS}`
+   2. `TA_ID--->{TA_NAME}`
+   3. `TA_ID--->{TA_ADDRESS}`
 5. Non-prime attributes functionally **dependent** on proper subset of candidate key, so TA **not** in 2NF
 6. So we need to **decompose** it into 2NF:
 
-   1. Step 1: When there is an FD, X-->Y on part of the candidate key, **form a new relation** with **X as primary key** and with **all the attributes determined by X.**
+   1. Step 1: _When there is an FD, X-->Y on part of the candidate key, **form a new relation** with **X as primary key** and with **all the attributes determined by X.**_
 
-      - FD: TA_ID--->{TA_NAME} and TA_ID--->{TA_ADDRESS}
-      - Candidate keys: {TA_ID, TA_DEPT}
+      - FD: `TA_ID--->{TA_NAME}` and `TA_ID--->{TA_ADDRESS}`
+      - Candidate keys: `{TA_ID, TA_DEPT}`
       - Form a new relation with TA_ID as primary key and TA_NAME and TA_ADDRESS as attributes
 
       ![TA2](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/002a62db-f55f-45ea-a8c9-e1c5b97ee3c3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T230931Z&X-Amz-Expires=86400&X-Amz-Signature=d305d70a157d19ec9b3f9672e0899749975fabed33bc3a2da5319e6118503471&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
@@ -341,113 +353,90 @@ Yes. We can delete biology department without deleting Bob's information.
 
 _3NF quickly beyonds the scope of PSTAT10. All we need to know is the content mentioned in the powerpoint slides._
 
-# Third Normal 3NF
+### <u>Third Normal 3NF</u>
 
 A relation is in 3NF if both of the following conditions hold:
 
 1. the relation is in **2NF**.
 2. there are no **TRANSITIVE FUNCTIONAL DEPENDENCIES** of NON-PRIME ATTRIBUTES on the primary key.
 
-## Transitive Functional Dependencies
+
+
+### Transitive Functional Dependencies
 
 If **A--->B** and **B--->C** are two Functional Dependencies, then **A--->C** is a TRANSITIVE FUNCTIONAL DEPENDENCY.
 
-_Recall:_
+*Recall:*
 
-- _If a set of attributes A of a relation uniquely identifies a set of attributes B of the same relation, then B is **FUNCTIONALLY DEPENDENT** on A. Written: A ---> B_
-- _An attribute that is not part of any candidate key is a **NON-PRIME ATTRIBUTE**._
+- *If a set of attributes A of a relation uniquely identifies a set of attributes B of the same relation, then B is **FUNCTIONALLY DEPENDENT** on A. Written: A ---> B*
+- *An attribute that is not part of any candidate key is a **NON-PRIME ATTRIBUTE**.*
+
+
 
 ### A simple example of 3NF
 
-Consider the following relation schema: Student_Address (STUDENT_ID, STUDENT_NAME, ZIP, STATE, CITY)
+Consider the following relation schema: `Student_Address (STUDENT_ID, STUDENT_NAME, ZIP, STATE, CITY)`
 
-_It's always important to state your assumptions_
+*It's always important to state your assumptions*
 
 Assumptions: Each student has a unique STUDENT_ID and only one address, denoted by ZIP, STATE, CITY
 
-_Review for these concepts:_
+*Review for these concepts:*
 
-Super-keys: {STUDENT_ID}, {STUDENT_ID, STUDENT_NAME} and so on…
+- Super-keys: {STUDENT_ID}, {STUDENT_ID, STUDENT_NAME} and so on…
 
-Candidate keys: {STUDENT_ID}
+- Candidate keys: {STUDENT_ID}
 
-Primary key: {STUDENT_ID}
+- Primary key: {STUDENT_ID}
 
-Non-prime attributes: {STUDENT_NAME, ZIP, STATE, CITY}
+- Non-prime attributes: {STUDENT_NAME, ZIP, STATE, CITY}
 
-→ ⚠️2NF holds. _Relation is in 1NF and no non-prime attribute is functionally dependent on a proper subset of any candidate key_.
+→ ⚠️ 2NF holds. 
 
-_Stop the lecture and go through this carefully to make sure understand what's going on._
+> *2NF will hold Relation is in 1NF and no non-prime attribute is functionally dependent on a proper subset of any candidate key*.
 
-> _3NF will hold if there are no TRANSITIVE FUNCTIONAL DEPENDENCIES of NON-PRIME ATTRIBUTES on the primary key._
+> *3NF will hold if there are no TRANSITIVE FUNCTIONAL DEPENDENCIES of NON-PRIME ATTRIBUTES on the primary key.*
 
-ZIP is functionally dependent on STUDENT_ID.
+`ZIP` is functionally dependent on `STUDENT_ID`.
 
-STATE and CITY is functionally dependent on ZIP.
+`STATE` and `CITY` is functionally dependent on `ZIP`.
 
 Thus,
 
-- STUDENT_ID —> ZIP
-- ZIP —> {STATE, CITY}
+- `STUDENT_ID —> ZIP`
+- `ZIP —> {STATE, CITY}`
 
-_If A —> B and B —> C are two FDs, then A —> C is a transitive functional dependency._
+> *If A —> B and B —> C are two FDs, then A —> C is a transitive functional dependency.*
 
-{STATE, CITY} is transitively functionally dependent on STUDENT_ID, STUDENT_ID —> {STATE, CITY}
+`{STATE, CITY}` is transitively functionally dependent on `STUDENT_ID`, `STUDENT_ID —> {STATE, CITY}`
 
-STATE and CITY are non-prime attributes. STUDENT_ID is the primary key.
+`STATE` and `CITY` are non-prime attributes. `STUDENT_ID` is the primary key.
 
-Thus, the relation STUDENT_ADDRESS violates third formal form requirements, not in 3NF.
+Thus, the relation `STUDENT_ADDRESS` violates third formal form requirements, not in 3NF.
 
-## Decompose A Relation To Conform With 3NF
+### Decompose into 3NF
 
-### Example continued
+#### Example continued
 
-- Student_Address (STUDENT_ID, STUDENT_NAME, ZIP, STATE, CITY)
+- `Student_Address (STUDENT_ID, STUDENT_NAME, ZIP, STATE, CITY)`
 
-- STUDENT_ID —> ZIP functional dependency
+- `STUDENT_ID —> ZIP` functional dependency
 
-- ZIP —> {STATE, CITY} functional dependency
+- `ZIP —> {STATE, CITY}` functional dependency
 
-- STUDENT_ID —> {STATE, CITY} transitive functional dependency
+- `STUDENT_ID —> {STATE, CITY}`  transitive functional dependency
 
-In order to conform with 3NF, we need to remove that transitive functional dependency.
+In order to conform with 3NF, we need to **remove that transitive functional dependency**.
 
-→ Form a new relation that includes all attributes in the schema **except those that were transitively determined**.
+Form a new relation that includes all attributes in the schema **except those that were transitively determined**.
 
-New relation schema: SA2 (STUDENT_ID, STUDENT_NAME, ZIP) (not include STATE, CITY)
+New relation schema: SA2 (<u>STUDENT_ID</u>, STUDENT_NAME, ZIP) (not include STATE, CITY)
 
-This leaves us with attributes STATE and CITY.
+This leaves us with attributes `STATE` and `CITY`.
 
-→ Form a new relation defined on these attributes with ZIP as primary key, since ZIP —> {STATE, CITY}
+→ Form a new relation defined on these attributes with `ZIP` as primary key, since ZIP —> {STATE, CITY}
 
-New relation schema: SA3 (ZIP, STATE, CITY)
+New relation schema: SA3 (<u>ZIP</u>, STATE, CITY)
 
-### Summary:
 
-- FDs:
-  - STUDENT_ID --->ZIP functionally dependency
-  - ZIP ---> STATE, CITY functionally dependency
-  - STUDENT_ID ---> STATE, CITY transitive functional dependency
-- Schema of original relation:
-  - Student_Address (STUDENT_ID, STUDENT_NAME, ZIP, STATE, CITY)
-- Schema of new relations:
-  - Student_Address2 <STUDENT_ID, STUDENT_NAME, ZIP>
-  - Student_Address3 <ZIP, STATE, CITY>
 
-### Why is this better?
-
-You should look at potential anomalies:
-`UPDATE ANOMALY`, `INSERTION ANOMALY`, `DELETION ANOMAL`
-
-Once you constructed the relation, ZIP, STATE, and CITY will not change.
-
-If the student changes its address, we only need to update ZIP.
-
-That's no problem, becuase the new ZIP is already a part of Student_Address3.
-
-## Boyce-Codd NF, 4NF, 5NF, Domain-key NF
-
-- There are other normal forms, each stricter than the one preceding it.
-- We do not test on them.
-
----

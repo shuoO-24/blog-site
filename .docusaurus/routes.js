@@ -59,7 +59,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','bba'),
+  component: ComponentCreator('/docs','747'),
   
   routes: [
 {
@@ -108,8 +108,13 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Dynamic Programming/最长子序列',
-  component: ComponentCreator('/docs/Dynamic Programming/最长子序列','fc9'),
+  path: '/docs/Dynamic Programming/LeetCode300',
+  component: ComponentCreator('/docs/Dynamic Programming/LeetCode300','7fe'),
+  exact: true,
+},
+{
+  path: '/docs/Dynamic Programming/LeetCode64',
+  component: ComponentCreator('/docs/Dynamic Programming/LeetCode64','2a5'),
   exact: true,
 },
 {

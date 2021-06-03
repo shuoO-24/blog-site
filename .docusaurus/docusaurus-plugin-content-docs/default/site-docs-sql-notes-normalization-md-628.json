@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "SQL",
+    "title": "SQL Overview",
     "permalink": "/docs/SQL Notes/sqlintro"
   },
   "next": {
     "title": "最长递增子序列",
-    "permalink": "/docs/Dynamic Programming/最长子序列"
+    "permalink": "/docs/Dynamic Programming/LeetCode300"
   }
 }

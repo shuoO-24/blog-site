@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Dynamic Programming/LeetCode300",
+  "id": "Dynamic Programming/LeetCode300",
+  "isDocsHomePage": false,
+  "title": "最长递增子序列",
+  "description": "LeetCode 300. 最长递增子序列",
+  "source": "@site/docs/Dynamic Programming/最长递增子序列.md",
+  "sourceDirName": "Dynamic Programming",
+  "slug": "/Dynamic Programming/LeetCode300",
+  "permalink": "/docs/Dynamic Programming/LeetCode300",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/最长递增子序列.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "LeetCode300",
+    "title": "LeetCode 300. 最长递增子序列"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Normalization",
+    "permalink": "/docs/SQL Notes/sqlnorm"
+  },
+  "next": {
+    "title": "64. Minimum Path Sum — Medium",
+    "permalink": "/docs/Dynamic Programming/LeetCode64"
+  }
+}

@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "最长递增子序列",
-    "permalink": "/docs/Dynamic Programming/最长子序列"
+    "title": "64. Minimum Path Sum — Medium",
+    "permalink": "/docs/Dynamic Programming/LeetCode64"
   },
   "next": {
     "title": "Add Code blocks",

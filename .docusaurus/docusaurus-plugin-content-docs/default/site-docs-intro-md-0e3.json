@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "SQL",
+    "title": "SQL Overview",
     "permalink": "/docs/SQL Notes/sqlintro"
   }
 }

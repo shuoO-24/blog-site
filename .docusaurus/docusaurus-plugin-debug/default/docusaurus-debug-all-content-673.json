@@ -41,7 +41,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/最长子序列"
+                    "id": "Dynamic Programming/LeetCode300"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/LeetCode64"
                   }
                 ],
                 "collapsed": true
@@ -101,7 +105,8 @@
             "/docs/Docusaurus_References/Nav-bar": "tutorialSidebar",
             "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
             "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
-            "/docs/Dynamic Programming/最长子序列": "tutorialSidebar",
+            "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
+            "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
             "/docs/SQL Notes/sqlintro": "tutorialSidebar",
             "/docs/SQL Notes/sqlnorm": "tutorialSidebar"
@@ -229,8 +234,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "最长递增子序列",
-                "permalink": "/docs/Dynamic Programming/最长子序列"
+                "title": "64. Minimum Path Sum — Medium",
+                "permalink": "/docs/Dynamic Programming/LeetCode64"
               },
               "next": {
                 "title": "Add Code blocks",
@@ -338,25 +343,55 @@
               }
             },
             {
-              "unversionedId": "Dynamic Programming/最长子序列",
-              "id": "Dynamic Programming/最长子序列",
+              "unversionedId": "Dynamic Programming/LeetCode300",
+              "id": "Dynamic Programming/LeetCode300",
               "isDocsHomePage": false,
               "title": "最长递增子序列",
               "description": "LeetCode 300. 最长递增子序列",
-              "source": "@site/docs/Dynamic Programming/最长子序列.md",
+              "source": "@site/docs/Dynamic Programming/最长递增子序列.md",
               "sourceDirName": "Dynamic Programming",
-              "slug": "/Dynamic Programming/最长子序列",
-              "permalink": "/docs/Dynamic Programming/最长子序列",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/最长子序列.md",
+              "slug": "/Dynamic Programming/LeetCode300",
+              "permalink": "/docs/Dynamic Programming/LeetCode300",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/最长递增子序列.md",
               "version": "current",
+              "sidebarPosition": 1,
               "frontMatter": {
-                "label": "Tutorial - Basics",
-                "position": 2
+                "sidebar_position": 1,
+                "id": "LeetCode300",
+                "title": "LeetCode 300. 最长递增子序列"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Normalization",
                 "permalink": "/docs/SQL Notes/sqlnorm"
+              },
+              "next": {
+                "title": "64. Minimum Path Sum — Medium",
+                "permalink": "/docs/Dynamic Programming/LeetCode64"
+              }
+            },
+            {
+              "unversionedId": "Dynamic Programming/LeetCode64",
+              "id": "Dynamic Programming/LeetCode64",
+              "isDocsHomePage": false,
+              "title": "64. Minimum Path Sum — Medium",
+              "description": "Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.",
+              "source": "@site/docs/Dynamic Programming/Minimum Path Sum.md",
+              "sourceDirName": "Dynamic Programming",
+              "slug": "/Dynamic Programming/LeetCode64",
+              "permalink": "/docs/Dynamic Programming/LeetCode64",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/Minimum Path Sum.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "LeetCode64",
+                "title": "64. Minimum Path Sum — Medium"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/LeetCode300"
               },
               "next": {
                 "title": "Basic Syntax",
@@ -382,7 +417,7 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "SQL",
+                "title": "SQL Overview",
                 "permalink": "/docs/SQL Notes/sqlintro"
               }
             },
@@ -390,7 +425,7 @@
               "unversionedId": "SQL Notes/sqlintro",
               "id": "SQL Notes/sqlintro",
               "isDocsHomePage": false,
-              "title": "SQL",
+              "title": "SQL Overview",
               "description": "SQL，指结构化查询语言，全称是 Structured Query Language。",
               "source": "@site/docs/SQL Notes/SQL Overview.md",
               "sourceDirName": "SQL Notes",
@@ -434,12 +469,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "SQL",
+                "title": "SQL Overview",
                 "permalink": "/docs/SQL Notes/sqlintro"
               },
               "next": {
                 "title": "最长递增子序列",
-                "permalink": "/docs/Dynamic Programming/最长子序列"
+                "permalink": "/docs/Dynamic Programming/LeetCode300"
               }
             }
           ]

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Dynamic Programming/LeetCode64",
+  "id": "Dynamic Programming/LeetCode64",
+  "isDocsHomePage": false,
+  "title": "64. Minimum Path Sum — Medium",
+  "description": "Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.",
+  "source": "@site/docs/Dynamic Programming/Minimum Path Sum.md",
+  "sourceDirName": "Dynamic Programming",
+  "slug": "/Dynamic Programming/LeetCode64",
+  "permalink": "/docs/Dynamic Programming/LeetCode64",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/Minimum Path Sum.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "LeetCode64",
+    "title": "64. Minimum Path Sum — Medium"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/LeetCode300"
+  },
+  "next": {
+    "title": "Basic Syntax",
+    "permalink": "/docs/Docusaurus_References/Markdown Basics"
+  }
+}

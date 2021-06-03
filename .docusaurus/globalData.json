@@ -56,8 +56,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Dynamic Programming/最长子序列",
-              "path": "/docs/Dynamic Programming/最长子序列",
+              "id": "Dynamic Programming/LeetCode300",
+              "path": "/docs/Dynamic Programming/LeetCode300",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Dynamic Programming/LeetCode64",
+              "path": "/docs/Dynamic Programming/LeetCode64",
               "sidebar": "tutorialSidebar"
             },
             {

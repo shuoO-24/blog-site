@@ -4,7 +4,7 @@ id: sqlintro
 title: SQL Overview
 ---
 
-# SQL
+# SQL Overview
 
 SQL，指**结构化查询语言**，全称是 Structured Query Language。
 

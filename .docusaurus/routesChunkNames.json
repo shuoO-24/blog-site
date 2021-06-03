@@ -89,7 +89,7 @@
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/docs-bba": {
+  "/docs-747": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -129,9 +129,13 @@
     "component": "17896441",
     "content": "6c0631f4"
   },
-  "/docs/Dynamic Programming/最长子序列-fc9": {
+  "/docs/Dynamic Programming/LeetCode300-7fe": {
     "component": "17896441",
-    "content": "766c6227"
+    "content": "886a4d5f"
+  },
+  "/docs/Dynamic Programming/LeetCode64-2a5": {
+    "component": "17896441",
+    "content": "97c8d4c5"
   },
   "/docs/intro-e84": {
     "component": "17896441",

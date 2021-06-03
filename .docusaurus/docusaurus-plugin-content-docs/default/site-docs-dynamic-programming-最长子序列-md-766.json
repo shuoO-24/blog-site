@@ -11,13 +11,12 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/最长子序列.md",
   "version": "current",
   "frontMatter": {
-    "label": "Tutorial - Basics",
     "position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Normalization",
-    "permalink": "/docs/SQL Notes/sqlnorm"
+    "title": "64. Minimum Path Sum — Medium",
+    "permalink": "/docs/Dynamic Programming/Minimum Path Sum"
   },
   "next": {
     "title": "Basic Syntax",

@@ -2,7 +2,7 @@
   "unversionedId": "SQL Notes/sqlintro",
   "id": "SQL Notes/sqlintro",
   "isDocsHomePage": false,
-  "title": "SQL",
+  "title": "SQL Overview",
   "description": "SQL，指结构化查询语言，全称是 Structured Query Language。",
   "source": "@site/docs/SQL Notes/SQL Overview.md",
   "sourceDirName": "SQL Notes",

@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Hi All",
+  title: "Lavender Spacecraft🪐✨",
   tagline: "世界献我以歌",
   url: "https://blog-test-lavender.netlify.app/",
   baseUrl: "/",
@@ -24,7 +24,7 @@ module.exports = {
       additionalLanguages: ["matlab"],
     },
     navbar: {
-      title: "Lavender Spacecraft🪐✨",
+      title: "Box🌟",
       logo: {
         alt: "My Site Logo",
         src: "img/my_comic-removebg.PNG",

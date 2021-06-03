@@ -16,7 +16,7 @@
         "items": [
           {
             "type": "link",
-            "label": "SQL",
+            "label": "SQL Overview",
             "href": "/docs/SQL Notes/sqlintro"
           },
           {
@@ -34,7 +34,12 @@
           {
             "type": "link",
             "label": "最长递增子序列",
-            "href": "/docs/Dynamic Programming/最长子序列"
+            "href": "/docs/Dynamic Programming/LeetCode300"
+          },
+          {
+            "type": "link",
+            "label": "64. Minimum Path Sum — Medium",
+            "href": "/docs/Dynamic Programming/LeetCode64"
           }
         ],
         "collapsed": true
@@ -103,7 +108,8 @@
     "/docs/Docusaurus_References/Nav-bar": "tutorialSidebar",
     "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
     "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
-    "/docs/Dynamic Programming/最长子序列": "tutorialSidebar",
+    "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
+    "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
     "/docs/SQL Notes/sqlintro": "tutorialSidebar",
     "/docs/SQL Notes/sqlnorm": "tutorialSidebar"
