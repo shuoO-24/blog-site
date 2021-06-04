@@ -1,0 +1,28 @@
+{
+  "unversionedId": "SQL Notes/sqlorder",
+  "id": "SQL Notes/sqlorder",
+  "isDocsHomePage": false,
+  "title": "Ordering",
+  "description": "ORDER BY",
+  "source": "@site/docs/SQL Notes/Ordering.md",
+  "sourceDirName": "SQL Notes",
+  "slug": "/SQL Notes/sqlorder",
+  "permalink": "/docs/SQL Notes/sqlorder",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Ordering.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "sqlorder",
+    "title": "SQL Ordering"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Normalization",
+    "permalink": "/docs/SQL Notes/sqlnorm"
+  },
+  "next": {
+    "title": "SQL Grouping",
+    "permalink": "/docs/SQL Notes/sqlgroup"
+  }
+}

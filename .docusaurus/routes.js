@@ -8,6 +8,41 @@ export default [
   exact: true,
 },
 {
+  path: '/__docusaurus/debug',
+  component: ComponentCreator('/__docusaurus/debug','3d6'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/config',
+  component: ComponentCreator('/__docusaurus/debug/config','914'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/content',
+  component: ComponentCreator('/__docusaurus/debug/content','c28'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/globalData',
+  component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/metadata',
+  component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/registry',
+  component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/routes',
+  component: ComponentCreator('/__docusaurus/debug/routes','244'),
+  exact: true,
+},
+{
   path: '/blog',
   component: ComponentCreator('/blog','364'),
   exact: true,
@@ -18,18 +53,13 @@ export default [
   exact: true,
 },
 {
-  path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world','c06'),
-  exact: true,
-},
-{
   path: '/blog/tags',
   component: ComponentCreator('/blog/tags','f28'),
   exact: true,
 },
 {
   path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','728'),
+  component: ComponentCreator('/blog/tags/docusaurus','ac0'),
   exact: true,
 },
 {
@@ -44,12 +74,27 @@ export default [
 },
 {
   path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello','a19'),
+  component: ComponentCreator('/blog/tags/hello','ea1'),
+  exact: true,
+},
+{
+  path: '/blog/tags/杂思',
+  component: ComponentCreator('/blog/tags/杂思','67c'),
+  exact: true,
+},
+{
+  path: '/blog/tags/生活',
+  component: ComponentCreator('/blog/tags/生活','cba'),
   exact: true,
 },
 {
   path: '/blog/welcome',
   component: ComponentCreator('/blog/welcome','156'),
+  exact: true,
+},
+{
+  path: '/blog/摘抄',
+  component: ComponentCreator('/blog/摘抄','191'),
   exact: true,
 },
 {
@@ -59,7 +104,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','747'),
+  component: ComponentCreator('/docs','100'),
   
   routes: [
 {
@@ -73,6 +118,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/Docusaurus_References/blogsetup',
+  component: ComponentCreator('/docs/Docusaurus_References/blogsetup','fbc'),
+  exact: true,
+},
+{
   path: '/docs/Docusaurus_References/Code Block',
   component: ComponentCreator('/docs/Docusaurus_References/Code Block','698'),
   exact: true,
@@ -80,6 +130,11 @@ export default [
 {
   path: '/docs/Docusaurus_References/Front-matter',
   component: ComponentCreator('/docs/Docusaurus_References/Front-matter','0ef'),
+  exact: true,
+},
+{
+  path: '/docs/Docusaurus_References/infima',
+  component: ComponentCreator('/docs/Docusaurus_References/infima','0a2'),
   exact: true,
 },
 {
@@ -93,8 +148,13 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/Nav-bar',
-  component: ComponentCreator('/docs/Docusaurus_References/Nav-bar','2f9'),
+  path: '/docs/Docusaurus_References/mdFooter',
+  component: ComponentCreator('/docs/Docusaurus_References/mdFooter','d70'),
+  exact: true,
+},
+{
+  path: '/docs/Docusaurus_References/navbar',
+  component: ComponentCreator('/docs/Docusaurus_References/navbar','17f'),
   exact: true,
 },
 {
@@ -105,6 +165,11 @@ export default [
 {
   path: '/docs/Docusaurus_References/translate-your-site',
   component: ComponentCreator('/docs/Docusaurus_References/translate-your-site','9a0'),
+  exact: true,
+},
+{
+  path: '/docs/Dynamic Programming/algointro',
+  component: ComponentCreator('/docs/Dynamic Programming/algointro','57c'),
   exact: true,
 },
 {
@@ -123,13 +188,28 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/SQL Notes/sqlgroup',
+  component: ComponentCreator('/docs/SQL Notes/sqlgroup','9c5'),
+  exact: true,
+},
+{
   path: '/docs/SQL Notes/sqlintro',
   component: ComponentCreator('/docs/SQL Notes/sqlintro','a14'),
   exact: true,
 },
 {
+  path: '/docs/SQL Notes/sqljoin',
+  component: ComponentCreator('/docs/SQL Notes/sqljoin','1e8'),
+  exact: true,
+},
+{
   path: '/docs/SQL Notes/sqlnorm',
   component: ComponentCreator('/docs/SQL Notes/sqlnorm','438'),
+  exact: true,
+},
+{
+  path: '/docs/SQL Notes/sqlorder',
+  component: ComponentCreator('/docs/SQL Notes/sqlorder','f85'),
   exact: true,
 },
 ]

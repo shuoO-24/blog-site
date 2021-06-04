@@ -5,18 +5,19 @@ import styles from "./HomepageFeatures.module.css";
 const FeatureList = [
   {
     title: "日日是好日",
-    Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
-    description: <>hao</>,
+    Svg: require("../../static/img/illustrations/OneRankedIxia.svg").default,
+    description: <>十五日以前不问汝，十五日以后道将一句来</>,
   },
   {
-    title: "专注成长",
-    Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
-    description: <>优秀的年轻人发光发亮</>,
+    title: "思考和成长",
+    Svg: require("../../static/img/illustrations/Louis14th.svg").default,
+    description: <>
+    “很多人的失落，是违背了自己少年时的立志。自认为成熟、自认为练达、自认为精明，从前多幼稚，总算看透了、想穿了。于是，我们就此变成自己年少时最憎恶的那种人。”</>,
   },
   {
     title: "非现实的香气",
-    Svg: require("../../static/img/ok.svg").default,
-    description: <>拥有诗意的人生</>,
+    Svg: require("../../static/img/illustrations/pinkrose.svg").default,
+    description: <>梦想充满诗意地生活，毕生期待和采集，度过悠长的一生；到晚年可以写出十行好诗。</>,
   },
 ];
 

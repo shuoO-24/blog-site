@@ -15,7 +15,7 @@ export default {
       ]
     },
     "navbar": {
-      "title": "Box🌟",
+      "title": "Inbox🌟",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/my_comic-removebg.PNG"
@@ -48,25 +48,16 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Study Notes",
+              "label": "Start from there",
               "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "SQL Review Notes",
+              "to": "/docs/SQL Notes/sqlintro"
             },
             {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "Algo Novice",
+              "to": "/docs/Dynamic Programming/algointro"
             }
           ]
         },
@@ -74,17 +65,13 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
               "label": "GitHub",
               "href": "https://github.com/facebook/docusaurus"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2021. Built with Docusaurus."
     },
     "colorMode": {
       "defaultMode": "light",

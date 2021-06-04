@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Docusaurus_References/blogsetup",
+  "id": "Docusaurus_References/blogsetup",
+  "isDocsHomePage": false,
+  "title": "Use Blog",
+  "description": "Initial setup",
+  "source": "@site/docs/Docusaurus_References/Set up blog.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/blogsetup",
+  "permalink": "/docs/Docusaurus_References/blogsetup",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Set up blog.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "blogsetup",
+    "title": "Use Blog"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Footer",
+    "permalink": "/docs/Docusaurus_References/mdFooter"
+  }
+}

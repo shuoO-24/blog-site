@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/mdFooter",
+  "id": "Docusaurus_References/mdFooter",
+  "isDocsHomePage": false,
+  "title": "Footer",
+  "description": "Footer",
+  "source": "@site/docs/Docusaurus_References/Footer.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/mdFooter",
+  "permalink": "/docs/Docusaurus_References/mdFooter",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Footer.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "mdFooter",
+    "title": "Footer"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Alert",
+    "permalink": "/docs/Docusaurus_References/infima"
+  },
+  "next": {
+    "title": "Start Blogging",
+    "permalink": "/docs/Docusaurus_References/blogsetup"
+  }
+}

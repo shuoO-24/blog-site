@@ -1,0 +1,26 @@
+{
+  "unversionedId": "SQL Notes/sqlgroup",
+  "id": "SQL Notes/sqlgroup",
+  "isDocsHomePage": false,
+  "title": "SQL Grouping",
+  "description": "Grouping",
+  "source": "@site/docs/SQL Notes/Grouping.md",
+  "sourceDirName": "SQL Notes",
+  "slug": "/SQL Notes/sqlgroup",
+  "permalink": "/docs/SQL Notes/sqlgroup",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Grouping.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "sqlgroup",
+    "title": "SQL Grouping"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ordering",
+    "permalink": "/docs/SQL Notes/sqlorder"
+  },
+  "next": {
+    "title": "SQL Joining",
+    "permalink": "/docs/SQL Notes/sqljoin"
+  }
+}

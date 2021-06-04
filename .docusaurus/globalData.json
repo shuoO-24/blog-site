@@ -21,6 +21,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Docusaurus_References/blogsetup",
+              "path": "/docs/Docusaurus_References/blogsetup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Docusaurus_References/Code Block",
               "path": "/docs/Docusaurus_References/Code Block",
               "sidebar": "tutorialSidebar"
@@ -28,6 +33,11 @@
             {
               "id": "Docusaurus_References/Front-matter",
               "path": "/docs/Docusaurus_References/Front-matter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus_References/infima",
+              "path": "/docs/Docusaurus_References/infima",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -41,8 +51,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus_References/Nav-bar",
-              "path": "/docs/Docusaurus_References/Nav-bar",
+              "id": "Docusaurus_References/mdFooter",
+              "path": "/docs/Docusaurus_References/mdFooter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus_References/navbar",
+              "path": "/docs/Docusaurus_References/navbar",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -53,6 +68,11 @@
             {
               "id": "Docusaurus_References/translate-your-site",
               "path": "/docs/Docusaurus_References/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Dynamic Programming/algointro",
+              "path": "/docs/Dynamic Programming/algointro",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -71,13 +91,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "SQL Notes/sqlgroup",
+              "path": "/docs/SQL Notes/sqlgroup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "SQL Notes/sqlintro",
               "path": "/docs/SQL Notes/sqlintro",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "SQL Notes/sqljoin",
+              "path": "/docs/SQL Notes/sqljoin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "SQL Notes/sqlnorm",
               "path": "/docs/SQL Notes/sqlnorm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "SQL Notes/sqlorder",
+              "path": "/docs/SQL Notes/sqlorder",
               "sidebar": "tutorialSidebar"
             }
           ]

@@ -31,6 +31,18 @@
                   {
                     "type": "doc",
                     "id": "SQL Notes/sqlnorm"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "SQL Notes/sqlorder"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "SQL Notes/sqlgroup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "SQL Notes/sqljoin"
                   }
                 ],
                 "collapsed": true
@@ -39,6 +51,10 @@
                 "type": "category",
                 "label": "Dynamic Programming",
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/algointro"
+                  },
                   {
                     "type": "doc",
                     "id": "Dynamic Programming/LeetCode300"
@@ -88,7 +104,19 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Docusaurus_References/Nav-bar"
+                    "id": "Docusaurus_References/navbar"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/infima"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/mdFooter"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/blogsetup"
                   }
                 ],
                 "collapsed": true
@@ -98,18 +126,25 @@
           "permalinkToSidebar": {
             "/docs/Docusaurus_References/Add Table of Content": "tutorialSidebar",
             "/docs/Docusaurus_References/Admonitions": "tutorialSidebar",
+            "/docs/Docusaurus_References/blogsetup": "tutorialSidebar",
             "/docs/Docusaurus_References/Code Block": "tutorialSidebar",
             "/docs/Docusaurus_References/Front-matter": "tutorialSidebar",
+            "/docs/Docusaurus_References/infima": "tutorialSidebar",
             "/docs/Docusaurus_References/Markdown Basics": "tutorialSidebar",
             "/docs/Docusaurus_References/markdown-features": "tutorialSidebar",
-            "/docs/Docusaurus_References/Nav-bar": "tutorialSidebar",
+            "/docs/Docusaurus_References/mdFooter": "tutorialSidebar",
+            "/docs/Docusaurus_References/navbar": "tutorialSidebar",
             "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
             "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
+            "/docs/Dynamic Programming/algointro": "tutorialSidebar",
             "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
             "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
+            "/docs/SQL Notes/sqlgroup": "tutorialSidebar",
             "/docs/SQL Notes/sqlintro": "tutorialSidebar",
-            "/docs/SQL Notes/sqlnorm": "tutorialSidebar"
+            "/docs/SQL Notes/sqljoin": "tutorialSidebar",
+            "/docs/SQL Notes/sqlnorm": "tutorialSidebar",
+            "/docs/SQL Notes/sqlorder": "tutorialSidebar"
           },
           "docs": [
             {
@@ -165,6 +200,28 @@
               }
             },
             {
+              "unversionedId": "Docusaurus_References/blogsetup",
+              "id": "Docusaurus_References/blogsetup",
+              "isDocsHomePage": false,
+              "title": "Start Blogging",
+              "description": "Initial setup",
+              "source": "@site/docs/Docusaurus_References/Start blogging.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/blogsetup",
+              "permalink": "/docs/Docusaurus_References/blogsetup",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Start blogging.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "blogsetup",
+                "title": "Start Blogging"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Footer",
+                "permalink": "/docs/Docusaurus_References/mdFooter"
+              }
+            },
+            {
               "unversionedId": "Docusaurus_References/Code Block",
               "id": "Docusaurus_References/Code Block",
               "isDocsHomePage": false,
@@ -214,6 +271,34 @@
               "next": {
                 "title": "A Super Cool Feature -- Tabs",
                 "permalink": "/docs/Docusaurus_References/Tabs"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/infima",
+              "id": "Docusaurus_References/infima",
+              "isDocsHomePage": false,
+              "title": "Alert",
+              "description": "Colors",
+              "source": "@site/docs/Docusaurus_References/11. Infima.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/infima",
+              "permalink": "/docs/Docusaurus_References/infima",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/11. Infima.md",
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "id": "infima",
+                "title": "Infima components",
+                "sidebar_position": 11
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Nav bar usage",
+                "permalink": "/docs/Docusaurus_References/navbar"
+              },
+              "next": {
+                "title": "Footer",
+                "permalink": "/docs/Docusaurus_References/mdFooter"
               }
             },
             {
@@ -269,25 +354,57 @@
               }
             },
             {
-              "unversionedId": "Docusaurus_References/Nav-bar",
-              "id": "Docusaurus_References/Nav-bar",
+              "unversionedId": "Docusaurus_References/mdFooter",
+              "id": "Docusaurus_References/mdFooter",
               "isDocsHomePage": false,
-              "title": "Nav-bar",
-              "description": "Navbar doc link#",
+              "title": "Footer",
+              "description": "Footer",
+              "source": "@site/docs/Docusaurus_References/Footer.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/mdFooter",
+              "permalink": "/docs/Docusaurus_References/mdFooter",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Footer.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "mdFooter",
+                "title": "Footer"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Alert",
+                "permalink": "/docs/Docusaurus_References/infima"
+              },
+              "next": {
+                "title": "Start Blogging",
+                "permalink": "/docs/Docusaurus_References/blogsetup"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/navbar",
+              "id": "Docusaurus_References/navbar",
+              "isDocsHomePage": false,
+              "title": "Nav bar usage",
+              "description": "Navbar相关的 官方文档",
               "source": "@site/docs/Docusaurus_References/10. Nav-bar.md",
               "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/Nav-bar",
-              "permalink": "/docs/Docusaurus_References/Nav-bar",
+              "slug": "/Docusaurus_References/navbar",
+              "permalink": "/docs/Docusaurus_References/navbar",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/10. Nav-bar.md",
               "version": "current",
               "sidebarPosition": 10,
               "frontMatter": {
-                "sidebar_position": 10
+                "sidebar_position": 10,
+                "id": "navbar",
+                "title": "Nav bar usage"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Translate your site",
                 "permalink": "/docs/Docusaurus_References/translate-your-site"
+              },
+              "next": {
+                "title": "Alert",
+                "permalink": "/docs/Docusaurus_References/infima"
               }
             },
             {
@@ -338,8 +455,36 @@
                 "permalink": "/docs/Docusaurus_References/Add Table of Content"
               },
               "next": {
-                "title": "Nav-bar",
-                "permalink": "/docs/Docusaurus_References/Nav-bar"
+                "title": "Nav bar usage",
+                "permalink": "/docs/Docusaurus_References/navbar"
+              }
+            },
+            {
+              "unversionedId": "Dynamic Programming/algointro",
+              "id": "Dynamic Programming/algointro",
+              "isDocsHomePage": false,
+              "title": "Hello Algorithm",
+              "description": "关于作者",
+              "source": "@site/docs/Dynamic Programming/About this section.md",
+              "sourceDirName": "Dynamic Programming",
+              "slug": "/Dynamic Programming/algointro",
+              "permalink": "/docs/Dynamic Programming/algointro",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/About this section.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "algointro",
+                "title": "Hello Algorithm"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SQL Joining",
+                "permalink": "/docs/SQL Notes/sqljoin"
+              },
+              "next": {
+                "title": "最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/LeetCode300"
               }
             },
             {
@@ -362,8 +507,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Normalization",
-                "permalink": "/docs/SQL Notes/sqlnorm"
+                "title": "Hello Algorithm",
+                "permalink": "/docs/Dynamic Programming/algointro"
               },
               "next": {
                 "title": "64. Minimum Path Sum — Medium",
@@ -402,8 +547,8 @@
               "unversionedId": "intro",
               "id": "intro",
               "isDocsHomePage": false,
-              "title": "intro",
-              "description": "代码书写人生。",
+              "title": "你好呀",
+              "description": "我觉得无趣的人生不值得过下去，你呢？",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -413,12 +558,39 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1,
-                "id": "intro"
+                "id": "intro",
+                "title": "你好呀"
               },
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "SQL Overview",
                 "permalink": "/docs/SQL Notes/sqlintro"
+              }
+            },
+            {
+              "unversionedId": "SQL Notes/sqlgroup",
+              "id": "SQL Notes/sqlgroup",
+              "isDocsHomePage": false,
+              "title": "SQL Grouping",
+              "description": "Grouping",
+              "source": "@site/docs/SQL Notes/Grouping.md",
+              "sourceDirName": "SQL Notes",
+              "slug": "/SQL Notes/sqlgroup",
+              "permalink": "/docs/SQL Notes/sqlgroup",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Grouping.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "sqlgroup",
+                "title": "SQL Grouping"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ordering",
+                "permalink": "/docs/SQL Notes/sqlorder"
+              },
+              "next": {
+                "title": "SQL Joining",
+                "permalink": "/docs/SQL Notes/sqljoin"
               }
             },
             {
@@ -441,12 +613,38 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "intro",
+                "title": "你好呀",
                 "permalink": "/docs/intro"
               },
               "next": {
                 "title": "Normalization",
                 "permalink": "/docs/SQL Notes/sqlnorm"
+              }
+            },
+            {
+              "unversionedId": "SQL Notes/sqljoin",
+              "id": "SQL Notes/sqljoin",
+              "isDocsHomePage": false,
+              "title": "SQL Joining",
+              "description": "The attributes in the same domain in the joined tables do not need to have same names.",
+              "source": "@site/docs/SQL Notes/Joining.md",
+              "sourceDirName": "SQL Notes",
+              "slug": "/SQL Notes/sqljoin",
+              "permalink": "/docs/SQL Notes/sqljoin",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Joining.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "sqljoin",
+                "title": "SQL Joining"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SQL Grouping",
+                "permalink": "/docs/SQL Notes/sqlgroup"
+              },
+              "next": {
+                "title": "Hello Algorithm",
+                "permalink": "/docs/Dynamic Programming/algointro"
               }
             },
             {
@@ -473,8 +671,36 @@
                 "permalink": "/docs/SQL Notes/sqlintro"
               },
               "next": {
-                "title": "最长递增子序列",
-                "permalink": "/docs/Dynamic Programming/LeetCode300"
+                "title": "Ordering",
+                "permalink": "/docs/SQL Notes/sqlorder"
+              }
+            },
+            {
+              "unversionedId": "SQL Notes/sqlorder",
+              "id": "SQL Notes/sqlorder",
+              "isDocsHomePage": false,
+              "title": "Ordering",
+              "description": "ORDER BY",
+              "source": "@site/docs/SQL Notes/Ordering.md",
+              "sourceDirName": "SQL Notes",
+              "slug": "/SQL Notes/sqlorder",
+              "permalink": "/docs/SQL Notes/sqlorder",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Ordering.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "id": "sqlorder",
+                "title": "SQL Ordering"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Normalization",
+                "permalink": "/docs/SQL Notes/sqlnorm"
+              },
+              "next": {
+                "title": "SQL Grouping",
+                "permalink": "/docs/SQL Notes/sqlgroup"
               }
             }
           ]
@@ -512,33 +738,33 @@
             "readingTime": 0.175,
             "truncated": false,
             "nextItem": {
-              "title": "Hello",
-              "permalink": "/blog/hello-world"
+              "title": "每日一思",
+              "permalink": "/blog/摘抄"
             }
           }
         },
         {
-          "id": "hello-world",
+          "id": "摘抄",
           "metadata": {
-            "permalink": "/blog/hello-world",
+            "permalink": "/blog/摘抄",
             "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
             "source": "@site/blog/2019-05-29-hello-world.md",
-            "title": "Hello",
-            "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
+            "title": "每日一思",
+            "description": "你想成为什么样的人？",
             "date": "2019-05-29T00:00:00.000Z",
             "formattedDate": "May 28, 2019",
             "tags": [
               {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "label": "杂思",
+                "permalink": "/blog/tags/杂思"
               },
               {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "label": "生活",
+                "permalink": "/blog/tags/生活"
               }
             ],
-            "readingTime": 0.12,
-            "truncated": true,
+            "readingTime": 0.03,
+            "truncated": false,
             "prevItem": {
               "title": "Welcome",
               "permalink": "/blog/welcome"
@@ -568,8 +794,8 @@
             "readingTime": 0.1,
             "truncated": false,
             "prevItem": {
-              "title": "Hello",
-              "permalink": "/blog/hello-world"
+              "title": "每日一思",
+              "permalink": "/blog/摘抄"
             }
           }
         }
@@ -589,7 +815,7 @@
           },
           "items": [
             "welcome",
-            "hello-world",
+            "摘抄",
             "greetings"
           ]
         }
@@ -605,18 +831,30 @@
         "hello": {
           "name": "hello",
           "items": [
-            "welcome",
-            "hello-world"
+            "welcome"
           ],
           "permalink": "/blog/tags/hello"
         },
         "docusaurus": {
           "name": "docusaurus",
           "items": [
-            "welcome",
-            "hello-world"
+            "welcome"
           ],
           "permalink": "/blog/tags/docusaurus"
+        },
+        "杂思": {
+          "name": "杂思",
+          "items": [
+            "摘抄"
+          ],
+          "permalink": "/blog/tags/杂思"
+        },
+        "生活": {
+          "name": "生活",
+          "items": [
+            "摘抄"
+          ],
+          "permalink": "/blog/tags/生活"
         },
         "greetings": {
           "name": "greetings",

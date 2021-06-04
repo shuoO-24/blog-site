@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Normalization",
-    "permalink": "/docs/SQL Notes/sqlnorm"
+    "title": "Hello Algorithm",
+    "permalink": "/docs/Dynamic Programming/algointro"
   },
   "next": {
     "title": "64. Minimum Path Sum — Medium",

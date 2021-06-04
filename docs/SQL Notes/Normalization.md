@@ -50,7 +50,7 @@ Normalization is **a technique used to organize the data** in a database.
 Applying these rules **removes undesirable properties** from a DB, including the **removal of data anomalies**:
 `UPDATE ANOMALY`, `INSERTION ANOMALY`, `DELETION ANOMAL`
 
-## Anormalies | Example: Relation TA
+## <u>Anormalies</u> | Example: Relation TA
 
 ![TA Relation](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/96b8f42d-7d39-4836-9f6c-1c9a2f7c9901/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T222836Z&X-Amz-Expires=86400&X-Amz-Signature=7a6411e633bb3651bd7d344d5412e98b28a8590e9b7010a0713b52b0655be82c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
@@ -91,12 +91,12 @@ How do we resolve or avoid anomalies?
 
 ---
 
-## Normal Forms
+## <u>Normal Forms</u>
 
 _Normalization consists of a set of rules that all relations must follow for a database(DB) to be well structured.
 These rules are presented as sets of restrictions called NORMAL FORMS._
 
-### First Normal Form（1NF）
+### <u>First Normal Form（1NF)</u>
 
 _Each attribute **name** must consist of a **single** **item**._
 
@@ -152,7 +152,7 @@ We can decompose it:
 
 In 1NF
 
-### Second Normal Form (2NF)
+### <u>Second Normal Form (2NF)</u>
 
 A relation is in 2NF if both of the following conditions hold:
 
@@ -319,7 +319,7 @@ Applying the steps to the SCHOOL relation
 
       ![TA3](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9e56f63f-b919-4324-9c60-2524bbef6e7d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T231004Z&X-Amz-Expires=86400&X-Amz-Signature=fa0531dd8cec713b58fbec73908ded50fb5ecdee1b40208652a223c155327db3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-### UPDATE ANOMALY
+#### UPDATE ANOMALY
 
 Ann belongs to two departments. If Ann's **address changes**, we will need to update TWO tuples to avoid ambiguity.
 
@@ -329,7 +329,7 @@ Have we **resolved the update anomaly**?
 
 Yes. We only need update ONE tuple. —— **update the first tuple in TA2**
 
-### INSERT ANOMALY
+#### INSERT ANOMALY
 
 Suppose a new TA has been appointed but does not yet know which department they will work in.
 
@@ -337,7 +337,7 @@ Have we **resolve the INSERT anomaly**?
 
 Yes. We can record the new TA's details without having to specify their department.
 
-### DELETE ANOMALY
+#### DELETE ANOMALY
 
 Suppose the BIOLOGY department is closed down.
 

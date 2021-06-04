@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Dynamic Programming/algointro",
+  "id": "Dynamic Programming/algointro",
+  "isDocsHomePage": false,
+  "title": "Hello Algorithm",
+  "description": "关于作者",
+  "source": "@site/docs/Dynamic Programming/About this section.md",
+  "sourceDirName": "Dynamic Programming",
+  "slug": "/Dynamic Programming/algointro",
+  "permalink": "/docs/Dynamic Programming/algointro",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/About this section.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "algointro",
+    "title": "Hello Algorithm"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Joining",
+    "permalink": "/docs/SQL Notes/sqljoin"
+  },
+  "next": {
+    "title": "最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/LeetCode300"
+  }
+}

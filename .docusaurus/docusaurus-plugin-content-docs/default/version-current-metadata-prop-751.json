@@ -7,7 +7,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "intro",
+        "label": "你好呀",
         "href": "/docs/intro"
       },
       {
@@ -23,6 +23,21 @@
             "type": "link",
             "label": "Normalization",
             "href": "/docs/SQL Notes/sqlnorm"
+          },
+          {
+            "type": "link",
+            "label": "Ordering",
+            "href": "/docs/SQL Notes/sqlorder"
+          },
+          {
+            "type": "link",
+            "label": "SQL Grouping",
+            "href": "/docs/SQL Notes/sqlgroup"
+          },
+          {
+            "type": "link",
+            "label": "SQL Joining",
+            "href": "/docs/SQL Notes/sqljoin"
           }
         ],
         "collapsed": true
@@ -31,6 +46,11 @@
         "type": "category",
         "label": "Dynamic Programming",
         "items": [
+          {
+            "type": "link",
+            "label": "Hello Algorithm",
+            "href": "/docs/Dynamic Programming/algointro"
+          },
           {
             "type": "link",
             "label": "最长递增子序列",
@@ -90,8 +110,23 @@
           },
           {
             "type": "link",
-            "label": "Nav-bar",
-            "href": "/docs/Docusaurus_References/Nav-bar"
+            "label": "Nav bar usage",
+            "href": "/docs/Docusaurus_References/navbar"
+          },
+          {
+            "type": "link",
+            "label": "Alert",
+            "href": "/docs/Docusaurus_References/infima"
+          },
+          {
+            "type": "link",
+            "label": "Footer",
+            "href": "/docs/Docusaurus_References/mdFooter"
+          },
+          {
+            "type": "link",
+            "label": "Start Blogging",
+            "href": "/docs/Docusaurus_References/blogsetup"
           }
         ],
         "collapsed": true
@@ -101,17 +136,24 @@
   "permalinkToSidebar": {
     "/docs/Docusaurus_References/Add Table of Content": "tutorialSidebar",
     "/docs/Docusaurus_References/Admonitions": "tutorialSidebar",
+    "/docs/Docusaurus_References/blogsetup": "tutorialSidebar",
     "/docs/Docusaurus_References/Code Block": "tutorialSidebar",
     "/docs/Docusaurus_References/Front-matter": "tutorialSidebar",
+    "/docs/Docusaurus_References/infima": "tutorialSidebar",
     "/docs/Docusaurus_References/Markdown Basics": "tutorialSidebar",
     "/docs/Docusaurus_References/markdown-features": "tutorialSidebar",
-    "/docs/Docusaurus_References/Nav-bar": "tutorialSidebar",
+    "/docs/Docusaurus_References/mdFooter": "tutorialSidebar",
+    "/docs/Docusaurus_References/navbar": "tutorialSidebar",
     "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
     "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
+    "/docs/Dynamic Programming/algointro": "tutorialSidebar",
     "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
     "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
+    "/docs/SQL Notes/sqlgroup": "tutorialSidebar",
     "/docs/SQL Notes/sqlintro": "tutorialSidebar",
-    "/docs/SQL Notes/sqlnorm": "tutorialSidebar"
+    "/docs/SQL Notes/sqljoin": "tutorialSidebar",
+    "/docs/SQL Notes/sqlnorm": "tutorialSidebar",
+    "/docs/SQL Notes/sqlorder": "tutorialSidebar"
   }
 }

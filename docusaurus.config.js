@@ -24,7 +24,7 @@ module.exports = {
       additionalLanguages: ["matlab"],
     },
     navbar: {
-      title: "Box🌟",
+      title: "Inbox🌟",
       logo: {
         alt: "My Site Logo",
         src: "img/my_comic-removebg.PNG",
@@ -51,35 +51,43 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Study Notes",
+              label: "Start from there",
               to: "/docs/intro",
             },
+            {
+              label: "SQL Review Notes",
+              to: "/docs/SQL Notes/sqlintro",
+            },
+            // {
+            //   label: "我不懂 JavaScript",
+            //   to: "/docs/intro"
+            // },
+            {
+              label: "Algo Novice",
+              to: "/docs/Dynamic Programming/algointro",
+            }
           ],
         },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
+        // {
+        //   title: "Community",
+        //   items: [,
+        //     {
+        //       label: "Discord",
+        //       href: "https://discordapp.com/invite/docusaurus",
+        //     },
+        //     {
+        //       label: "Twitter",
+        //       href: "https://twitter.com/docusaurus",
+        //     },
+        //   ],
+        // },
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "/blog",
+            // },
             {
               label: "GitHub",
               href: "https://github.com/facebook/docusaurus",
@@ -87,7 +95,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
     },
   },
   presets: [

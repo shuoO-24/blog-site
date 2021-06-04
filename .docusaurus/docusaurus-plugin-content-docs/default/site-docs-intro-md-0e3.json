@@ -2,8 +2,8 @@
   "unversionedId": "intro",
   "id": "intro",
   "isDocsHomePage": false,
-  "title": "intro",
-  "description": "代码书写人生。",
+  "title": "你好呀",
+  "description": "我觉得无趣的人生不值得过下去，你呢？",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -13,7 +13,8 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
-    "id": "intro"
+    "id": "intro",
+    "title": "你好呀"
   },
   "sidebar": "tutorialSidebar",
   "next": {

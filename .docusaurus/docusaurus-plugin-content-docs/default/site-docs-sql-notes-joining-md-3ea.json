@@ -1,0 +1,26 @@
+{
+  "unversionedId": "SQL Notes/sqljoin",
+  "id": "SQL Notes/sqljoin",
+  "isDocsHomePage": false,
+  "title": "SQL Joining",
+  "description": "The attributes in the same domain in the joined tables do not need to have same names.",
+  "source": "@site/docs/SQL Notes/Joining.md",
+  "sourceDirName": "SQL Notes",
+  "slug": "/SQL Notes/sqljoin",
+  "permalink": "/docs/SQL Notes/sqljoin",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Joining.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "sqljoin",
+    "title": "SQL Joining"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Grouping",
+    "permalink": "/docs/SQL Notes/sqlgroup"
+  },
+  "next": {
+    "title": "Hello Algorithm",
+    "permalink": "/docs/Dynamic Programming/algointro"
+  }
+}

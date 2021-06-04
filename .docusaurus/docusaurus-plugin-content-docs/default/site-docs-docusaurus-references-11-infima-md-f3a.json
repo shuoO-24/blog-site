@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Docusaurus_References/infima",
+  "id": "Docusaurus_References/infima",
+  "isDocsHomePage": false,
+  "title": "Alert",
+  "description": "Colors",
+  "source": "@site/docs/Docusaurus_References/11. Infima.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/infima",
+  "permalink": "/docs/Docusaurus_References/infima",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/11. Infima.md",
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "id": "infima",
+    "title": "Infima components",
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nav bar usage",
+    "permalink": "/docs/Docusaurus_References/navbar"
+  },
+  "next": {
+    "title": "Footer",
+    "permalink": "/docs/Docusaurus_References/mdFooter"
+  }
+}

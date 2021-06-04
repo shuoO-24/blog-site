@@ -1,22 +1,28 @@
 {
-  "unversionedId": "Docusaurus_References/Nav-bar",
-  "id": "Docusaurus_References/Nav-bar",
+  "unversionedId": "Docusaurus_References/navbar",
+  "id": "Docusaurus_References/navbar",
   "isDocsHomePage": false,
-  "title": "Nav-bar",
-  "description": "Navbar doc link#",
+  "title": "Nav bar usage",
+  "description": "Navbar相关的 官方文档",
   "source": "@site/docs/Docusaurus_References/10. Nav-bar.md",
   "sourceDirName": "Docusaurus_References",
-  "slug": "/Docusaurus_References/Nav-bar",
-  "permalink": "/docs/Docusaurus_References/Nav-bar",
+  "slug": "/Docusaurus_References/navbar",
+  "permalink": "/docs/Docusaurus_References/navbar",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/10. Nav-bar.md",
   "version": "current",
   "sidebarPosition": 10,
   "frontMatter": {
-    "sidebar_position": 10
+    "sidebar_position": 10,
+    "id": "navbar",
+    "title": "Nav bar usage"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Translate your site",
     "permalink": "/docs/Docusaurus_References/translate-your-site"
+  },
+  "next": {
+    "title": "Alert",
+    "permalink": "/docs/Docusaurus_References/infima"
   }
 }

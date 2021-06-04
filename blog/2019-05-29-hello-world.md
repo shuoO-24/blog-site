@@ -1,17 +1,14 @@
 ---
-slug: hello-world
-title: Hello
-author: Endilie Yacop Sucipto
-author_title: Maintainer of Docusaurus
-author_url: https://github.com/endiliey
-author_image_url: https://avatars1.githubusercontent.com/u/17883920?s=460&v=4
-tags: [hello, docusaurus]
+slug: 摘抄
+title: 每日一思
+author: Thinkers
+author_title: Normal philosophier
+tags: [杂思, 生活]
 ---
 
-Welcome to this blog. This blog is created with [**Docusaurus 2 alpha**](https://docusaurus.io/).
+<span class="badge badge--info">你想成为什么样的人？</span>
+人的难题不在于他将采取何种行动，而在于他想成为何种人。
+—— 威廉·詹姆斯
 
-<!--truncate-->
 
-This is a test post.
 
-A whole bunch of other information.

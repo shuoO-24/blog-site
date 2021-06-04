@@ -1,17 +1,18 @@
 ---
 sidebar_position: 1
 id: intro
+title: 你好呀
 ---
 
-代码书写人生。
+我觉得无趣的人生不值得过下去，你呢？
 
 export const Highlight = ({children, color}) => (
 <span
 style={{
       backgroundColor: '#f0d8e7',
-      borderRadius: '20px',
+      borderRadius: '10px',
       color: '#fff',
-      padding: '10px',
+      padding: '20px',
       cursor: 'pointer',
     }}
 onClick={() => {
@@ -20,5 +21,9 @@ alert(`下周考试！`)
 {children}
 </span>
 );
+
+
+<br />
+
 
 <Highlight color="#f0d8e7">Go to review SQL for PSTAT 10 Final!!!</Highlight>
