@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Docusaurus_References/Infima Powered/navbar",
+  "id": "Docusaurus_References/Infima Powered/navbar",
+  "isDocsHomePage": false,
+  "title": "Nav bar usage",
+  "description": "Navbar相关的 官方文档",
+  "source": "@site/docs/Docusaurus_References/Infima Powered/10. Nav-bar.md",
+  "sourceDirName": "Docusaurus_References/Infima Powered",
+  "slug": "/Docusaurus_References/Infima Powered/navbar",
+  "permalink": "/docs/Docusaurus_References/Infima Powered/navbar",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Infima Powered/10. Nav-bar.md",
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "id": "navbar",
+    "title": "Nav bar usage"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Footer",
+    "permalink": "/docs/Docusaurus_References/mdFooter"
+  },
+  "next": {
+    "title": "Start Blogging",
+    "permalink": "/docs/Docusaurus_References/blogsetup"
+  }
+}

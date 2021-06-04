@@ -30,15 +30,19 @@
                   },
                   {
                     "type": "doc",
-                    "id": "SQL Notes/sqlnorm"
-                  },
-                  {
-                    "type": "doc",
                     "id": "SQL Notes/sqlorder"
                   },
                   {
                     "type": "doc",
+                    "id": "SQL Notes/sqlnorm"
+                  },
+                  {
+                    "type": "doc",
                     "id": "SQL Notes/sqlgroup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "SQL Notes/Important Concepts"
                   },
                   {
                     "type": "doc",
@@ -96,27 +100,38 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Docusaurus_References/Add Table of Content"
-                  },
-                  {
-                    "type": "doc",
                     "id": "Docusaurus_References/translate-your-site"
                   },
                   {
                     "type": "doc",
-                    "id": "Docusaurus_References/navbar"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Docusaurus_References/infima"
+                    "id": "Docusaurus_References/toc"
                   },
                   {
                     "type": "doc",
                     "id": "Docusaurus_References/mdFooter"
                   },
                   {
+                    "type": "category",
+                    "label": "Infima Powered",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Infima Powered/infima"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Infima Powered/navbar"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
                     "type": "doc",
                     "id": "Docusaurus_References/blogsetup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/sidebar"
                   }
                 ],
                 "collapsed": true
@@ -124,22 +139,24 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/Docusaurus_References/Add Table of Content": "tutorialSidebar",
             "/docs/Docusaurus_References/Admonitions": "tutorialSidebar",
             "/docs/Docusaurus_References/blogsetup": "tutorialSidebar",
             "/docs/Docusaurus_References/Code Block": "tutorialSidebar",
             "/docs/Docusaurus_References/Front-matter": "tutorialSidebar",
-            "/docs/Docusaurus_References/infima": "tutorialSidebar",
+            "/docs/Docusaurus_References/Infima Powered/infima": "tutorialSidebar",
+            "/docs/Docusaurus_References/Infima Powered/navbar": "tutorialSidebar",
             "/docs/Docusaurus_References/Markdown Basics": "tutorialSidebar",
             "/docs/Docusaurus_References/markdown-features": "tutorialSidebar",
             "/docs/Docusaurus_References/mdFooter": "tutorialSidebar",
-            "/docs/Docusaurus_References/navbar": "tutorialSidebar",
+            "/docs/Docusaurus_References/sidebar": "tutorialSidebar",
             "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
+            "/docs/Docusaurus_References/toc": "tutorialSidebar",
             "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
             "/docs/Dynamic Programming/algointro": "tutorialSidebar",
             "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
             "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
+            "/docs/SQL Notes/Important Concepts": "tutorialSidebar",
             "/docs/SQL Notes/sqlgroup": "tutorialSidebar",
             "/docs/SQL Notes/sqlintro": "tutorialSidebar",
             "/docs/SQL Notes/sqljoin": "tutorialSidebar",
@@ -147,32 +164,6 @@
             "/docs/SQL Notes/sqlorder": "tutorialSidebar"
           },
           "docs": [
-            {
-              "unversionedId": "Docusaurus_References/Add Table of Content",
-              "id": "Docusaurus_References/Add Table of Content",
-              "isDocsHomePage": false,
-              "title": "Inline TOC | Docusaurus",
-              "description": "Each markdown document displays a tab of content on the top-right corner.",
-              "source": "@site/docs/Docusaurus_References/7. Add Table of Content.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/Add Table of Content",
-              "permalink": "/docs/Docusaurus_References/Add Table of Content",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/7. Add Table of Content.md",
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "sidebar_position": 7
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Use Admonitions",
-                "permalink": "/docs/Docusaurus_References/Admonitions"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/Docusaurus_References/translate-your-site"
-              }
-            },
             {
               "unversionedId": "Docusaurus_References/Admonitions",
               "id": "Docusaurus_References/Admonitions",
@@ -195,8 +186,8 @@
                 "permalink": "/docs/Docusaurus_References/markdown-features"
               },
               "next": {
-                "title": "Inline TOC | Docusaurus",
-                "permalink": "/docs/Docusaurus_References/Add Table of Content"
+                "title": "Translate your site",
+                "permalink": "/docs/Docusaurus_References/translate-your-site"
               }
             },
             {
@@ -217,8 +208,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Footer",
-                "permalink": "/docs/Docusaurus_References/mdFooter"
+                "title": "Nav bar usage",
+                "permalink": "/docs/Docusaurus_References/Infima Powered/navbar"
+              },
+              "next": {
+                "title": "Sidebar",
+                "permalink": "/docs/Docusaurus_References/sidebar"
               }
             },
             {
@@ -274,31 +269,55 @@
               }
             },
             {
-              "unversionedId": "Docusaurus_References/infima",
-              "id": "Docusaurus_References/infima",
+              "unversionedId": "Docusaurus_References/Infima Powered/infima",
+              "id": "Docusaurus_References/Infima Powered/infima",
               "isDocsHomePage": false,
               "title": "Alert",
               "description": "Colors",
-              "source": "@site/docs/Docusaurus_References/11. Infima.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/infima",
-              "permalink": "/docs/Docusaurus_References/infima",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/11. Infima.md",
+              "source": "@site/docs/Docusaurus_References/Infima Powered/Infima.md",
+              "sourceDirName": "Docusaurus_References/Infima Powered",
+              "slug": "/Docusaurus_References/Infima Powered/infima",
+              "permalink": "/docs/Docusaurus_References/Infima Powered/infima",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Infima Powered/Infima.md",
               "version": "current",
-              "sidebarPosition": 11,
               "frontMatter": {
                 "id": "infima",
-                "title": "Infima components",
-                "sidebar_position": 11
+                "title": "Infima components"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Nav bar usage",
-                "permalink": "/docs/Docusaurus_References/navbar"
-              },
-              "next": {
                 "title": "Footer",
                 "permalink": "/docs/Docusaurus_References/mdFooter"
+              },
+              "next": {
+                "title": "Nav bar usage",
+                "permalink": "/docs/Docusaurus_References/Infima Powered/navbar"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Infima Powered/navbar",
+              "id": "Docusaurus_References/Infima Powered/navbar",
+              "isDocsHomePage": false,
+              "title": "Nav bar usage",
+              "description": "Navbar相关的 官方文档",
+              "source": "@site/docs/Docusaurus_References/Infima Powered/Nav-bar.md",
+              "sourceDirName": "Docusaurus_References/Infima Powered",
+              "slug": "/Docusaurus_References/Infima Powered/navbar",
+              "permalink": "/docs/Docusaurus_References/Infima Powered/navbar",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Infima Powered/Nav-bar.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "navbar",
+                "title": "Nav bar usage"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Alert",
+                "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
+              },
+              "next": {
+                "title": "Start Blogging",
+                "permalink": "/docs/Docusaurus_References/blogsetup"
               }
             },
             {
@@ -371,40 +390,33 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Alert",
-                "permalink": "/docs/Docusaurus_References/infima"
+                "title": "Inline TOC | Docusaurus",
+                "permalink": "/docs/Docusaurus_References/toc"
               },
               "next": {
-                "title": "Start Blogging",
-                "permalink": "/docs/Docusaurus_References/blogsetup"
+                "title": "Alert",
+                "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
               }
             },
             {
-              "unversionedId": "Docusaurus_References/navbar",
-              "id": "Docusaurus_References/navbar",
+              "unversionedId": "Docusaurus_References/sidebar",
+              "id": "Docusaurus_References/sidebar",
               "isDocsHomePage": false,
-              "title": "Nav bar usage",
-              "description": "Navbar相关的 官方文档",
-              "source": "@site/docs/Docusaurus_References/10. Nav-bar.md",
+              "title": "Sidebar",
+              "description": "Creating a sidebar is useful to:",
+              "source": "@site/docs/Docusaurus_References/side_bar.md",
               "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/navbar",
-              "permalink": "/docs/Docusaurus_References/navbar",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/10. Nav-bar.md",
+              "slug": "/Docusaurus_References/sidebar",
+              "permalink": "/docs/Docusaurus_References/sidebar",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/side_bar.md",
               "version": "current",
-              "sidebarPosition": 10,
               "frontMatter": {
-                "sidebar_position": 10,
-                "id": "navbar",
-                "title": "Nav bar usage"
+                "id": "sidebar"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Translate your site",
-                "permalink": "/docs/Docusaurus_References/translate-your-site"
-              },
-              "next": {
-                "title": "Alert",
-                "permalink": "/docs/Docusaurus_References/infima"
+                "title": "Start Blogging",
+                "permalink": "/docs/Docusaurus_References/blogsetup"
               }
             },
             {
@@ -434,6 +446,33 @@
               }
             },
             {
+              "unversionedId": "Docusaurus_References/toc",
+              "id": "Docusaurus_References/toc",
+              "isDocsHomePage": false,
+              "title": "Inline TOC | Docusaurus",
+              "description": "Each markdown document displays a tab of content on the top-right corner.",
+              "source": "@site/docs/Docusaurus_References/10. toc.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/toc",
+              "permalink": "/docs/Docusaurus_References/toc",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/10. toc.md",
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10,
+                "id": "toc"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Translate your site",
+                "permalink": "/docs/Docusaurus_References/translate-your-site"
+              },
+              "next": {
+                "title": "Footer",
+                "permalink": "/docs/Docusaurus_References/mdFooter"
+              }
+            },
+            {
               "unversionedId": "Docusaurus_References/translate-your-site",
               "id": "Docusaurus_References/translate-your-site",
               "isDocsHomePage": false,
@@ -451,12 +490,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Inline TOC | Docusaurus",
-                "permalink": "/docs/Docusaurus_References/Add Table of Content"
+                "title": "Use Admonitions",
+                "permalink": "/docs/Docusaurus_References/Admonitions"
               },
               "next": {
-                "title": "Nav bar usage",
-                "permalink": "/docs/Docusaurus_References/navbar"
+                "title": "Inline TOC | Docusaurus",
+                "permalink": "/docs/Docusaurus_References/toc"
               }
             },
             {
@@ -568,6 +607,29 @@
               }
             },
             {
+              "unversionedId": "SQL Notes/Important Concepts",
+              "id": "SQL Notes/Important Concepts",
+              "isDocsHomePage": false,
+              "title": "Important Concepts",
+              "description": "",
+              "source": "@site/docs/SQL Notes/Important Concepts.md",
+              "sourceDirName": "SQL Notes",
+              "slug": "/SQL Notes/Important Concepts",
+              "permalink": "/docs/SQL Notes/Important Concepts",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Important Concepts.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SQL Grouping",
+                "permalink": "/docs/SQL Notes/sqlgroup"
+              },
+              "next": {
+                "title": "SQL Joining",
+                "permalink": "/docs/SQL Notes/sqljoin"
+              }
+            },
+            {
               "unversionedId": "SQL Notes/sqlgroup",
               "id": "SQL Notes/sqlgroup",
               "isDocsHomePage": false,
@@ -585,12 +647,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Ordering",
-                "permalink": "/docs/SQL Notes/sqlorder"
+                "title": "Normalization",
+                "permalink": "/docs/SQL Notes/sqlnorm"
               },
               "next": {
-                "title": "SQL Joining",
-                "permalink": "/docs/SQL Notes/sqljoin"
+                "title": "Important Concepts",
+                "permalink": "/docs/SQL Notes/Important Concepts"
               }
             },
             {
@@ -617,8 +679,8 @@
                 "permalink": "/docs/intro"
               },
               "next": {
-                "title": "Normalization",
-                "permalink": "/docs/SQL Notes/sqlnorm"
+                "title": "Ordering",
+                "permalink": "/docs/SQL Notes/sqlorder"
               }
             },
             {
@@ -639,8 +701,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "SQL Grouping",
-                "permalink": "/docs/SQL Notes/sqlgroup"
+                "title": "Important Concepts",
+                "permalink": "/docs/SQL Notes/Important Concepts"
               },
               "next": {
                 "title": "Hello Algorithm",
@@ -659,20 +721,20 @@
               "permalink": "/docs/SQL Notes/sqlnorm",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Normalization.md",
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 7,
               "frontMatter": {
-                "sidebar_position": 2,
+                "sidebar_position": 7,
                 "id": "sqlnorm",
                 "title": "Normalization"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "SQL Overview",
-                "permalink": "/docs/SQL Notes/sqlintro"
-              },
-              "next": {
                 "title": "Ordering",
                 "permalink": "/docs/SQL Notes/sqlorder"
+              },
+              "next": {
+                "title": "SQL Grouping",
+                "permalink": "/docs/SQL Notes/sqlgroup"
               }
             },
             {
@@ -695,12 +757,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Normalization",
-                "permalink": "/docs/SQL Notes/sqlnorm"
+                "title": "SQL Overview",
+                "permalink": "/docs/SQL Notes/sqlintro"
               },
               "next": {
-                "title": "SQL Grouping",
-                "permalink": "/docs/SQL Notes/sqlgroup"
+                "title": "Normalization",
+                "permalink": "/docs/SQL Notes/sqlnorm"
               }
             }
           ]

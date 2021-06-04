@@ -11,11 +11,6 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "Docusaurus_References/Add Table of Content",
-              "path": "/docs/Docusaurus_References/Add Table of Content",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Docusaurus_References/Admonitions",
               "path": "/docs/Docusaurus_References/Admonitions",
               "sidebar": "tutorialSidebar"
@@ -36,8 +31,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus_References/infima",
-              "path": "/docs/Docusaurus_References/infima",
+              "id": "Docusaurus_References/Infima Powered/infima",
+              "path": "/docs/Docusaurus_References/Infima Powered/infima",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus_References/Infima Powered/navbar",
+              "path": "/docs/Docusaurus_References/Infima Powered/navbar",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -56,13 +56,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus_References/navbar",
-              "path": "/docs/Docusaurus_References/navbar",
+              "id": "Docusaurus_References/sidebar",
+              "path": "/docs/Docusaurus_References/sidebar",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Docusaurus_References/Tabs",
               "path": "/docs/Docusaurus_References/Tabs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus_References/toc",
+              "path": "/docs/Docusaurus_References/toc",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -88,6 +93,11 @@
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "SQL Notes/Important Concepts",
+              "path": "/docs/SQL Notes/Important Concepts",
               "sidebar": "tutorialSidebar"
             },
             {

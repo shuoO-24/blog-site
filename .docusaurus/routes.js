@@ -8,41 +8,6 @@ export default [
   exact: true,
 },
 {
-  path: '/__docusaurus/debug',
-  component: ComponentCreator('/__docusaurus/debug','3d6'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/config',
-  component: ComponentCreator('/__docusaurus/debug/config','914'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/content',
-  component: ComponentCreator('/__docusaurus/debug/content','c28'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/globalData',
-  component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/metadata',
-  component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/registry',
-  component: ComponentCreator('/__docusaurus/debug/registry','0da'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/routes',
-  component: ComponentCreator('/__docusaurus/debug/routes','244'),
-  exact: true,
-},
-{
   path: '/blog',
   component: ComponentCreator('/blog','364'),
   exact: true,
@@ -104,14 +69,9 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','100'),
+  component: ComponentCreator('/docs','b58'),
   
   routes: [
-{
-  path: '/docs/Docusaurus_References/Add Table of Content',
-  component: ComponentCreator('/docs/Docusaurus_References/Add Table of Content','4d6'),
-  exact: true,
-},
 {
   path: '/docs/Docusaurus_References/Admonitions',
   component: ComponentCreator('/docs/Docusaurus_References/Admonitions','e5e'),
@@ -133,8 +93,13 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/infima',
-  component: ComponentCreator('/docs/Docusaurus_References/infima','0a2'),
+  path: '/docs/Docusaurus_References/Infima Powered/infima',
+  component: ComponentCreator('/docs/Docusaurus_References/Infima Powered/infima','43c'),
+  exact: true,
+},
+{
+  path: '/docs/Docusaurus_References/Infima Powered/navbar',
+  component: ComponentCreator('/docs/Docusaurus_References/Infima Powered/navbar','9ab'),
   exact: true,
 },
 {
@@ -153,13 +118,18 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/navbar',
-  component: ComponentCreator('/docs/Docusaurus_References/navbar','17f'),
+  path: '/docs/Docusaurus_References/sidebar',
+  component: ComponentCreator('/docs/Docusaurus_References/sidebar','397'),
   exact: true,
 },
 {
   path: '/docs/Docusaurus_References/Tabs',
   component: ComponentCreator('/docs/Docusaurus_References/Tabs','b63'),
+  exact: true,
+},
+{
+  path: '/docs/Docusaurus_References/toc',
+  component: ComponentCreator('/docs/Docusaurus_References/toc','b4c'),
   exact: true,
 },
 {
@@ -185,6 +155,11 @@ export default [
 {
   path: '/docs/intro',
   component: ComponentCreator('/docs/intro','e84'),
+  exact: true,
+},
+{
+  path: '/docs/SQL Notes/Important Concepts',
+  component: ComponentCreator('/docs/SQL Notes/Important Concepts','51f'),
   exact: true,
 },
 {

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Docusaurus_References/sidebar",
+  "id": "Docusaurus_References/sidebar",
+  "isDocsHomePage": false,
+  "title": "Sidebar",
+  "description": "Creating a sidebar is useful to:",
+  "source": "@site/docs/Docusaurus_References/side_bar.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/sidebar",
+  "permalink": "/docs/Docusaurus_References/sidebar",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/side_bar.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "sidebar"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Start Blogging",
+    "permalink": "/docs/Docusaurus_References/blogsetup"
+  }
+}

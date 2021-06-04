@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Inline TOC | Docusaurus",
-    "permalink": "/docs/Docusaurus_References/Add Table of Content"
+    "title": "Use Admonitions",
+    "permalink": "/docs/Docusaurus_References/Admonitions"
   },
   "next": {
-    "title": "Nav bar usage",
-    "permalink": "/docs/Docusaurus_References/navbar"
+    "title": "Inline TOC | Docusaurus",
+    "permalink": "/docs/Docusaurus_References/toc"
   }
 }

@@ -10,19 +10,19 @@
   "permalink": "/docs/SQL Notes/sqlnorm",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Normalization.md",
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 7,
   "frontMatter": {
-    "sidebar_position": 2,
+    "sidebar_position": 7,
     "id": "sqlnorm",
     "title": "Normalization"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "SQL Overview",
-    "permalink": "/docs/SQL Notes/sqlintro"
-  },
-  "next": {
     "title": "Ordering",
     "permalink": "/docs/SQL Notes/sqlorder"
+  },
+  "next": {
+    "title": "SQL Grouping",
+    "permalink": "/docs/SQL Notes/sqlgroup"
   }
 }

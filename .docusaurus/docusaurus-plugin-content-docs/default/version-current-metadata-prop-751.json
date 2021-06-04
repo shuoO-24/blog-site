@@ -21,18 +21,23 @@
           },
           {
             "type": "link",
-            "label": "Normalization",
-            "href": "/docs/SQL Notes/sqlnorm"
-          },
-          {
-            "type": "link",
             "label": "Ordering",
             "href": "/docs/SQL Notes/sqlorder"
           },
           {
             "type": "link",
+            "label": "Normalization",
+            "href": "/docs/SQL Notes/sqlnorm"
+          },
+          {
+            "type": "link",
             "label": "SQL Grouping",
             "href": "/docs/SQL Notes/sqlgroup"
+          },
+          {
+            "type": "link",
+            "label": "Important Concepts",
+            "href": "/docs/SQL Notes/Important Concepts"
           },
           {
             "type": "link",
@@ -100,23 +105,13 @@
           },
           {
             "type": "link",
-            "label": "Inline TOC | Docusaurus",
-            "href": "/docs/Docusaurus_References/Add Table of Content"
-          },
-          {
-            "type": "link",
             "label": "Translate your site",
             "href": "/docs/Docusaurus_References/translate-your-site"
           },
           {
             "type": "link",
-            "label": "Nav bar usage",
-            "href": "/docs/Docusaurus_References/navbar"
-          },
-          {
-            "type": "link",
-            "label": "Alert",
-            "href": "/docs/Docusaurus_References/infima"
+            "label": "Inline TOC | Docusaurus",
+            "href": "/docs/Docusaurus_References/toc"
           },
           {
             "type": "link",
@@ -124,9 +119,31 @@
             "href": "/docs/Docusaurus_References/mdFooter"
           },
           {
+            "type": "category",
+            "label": "Infima Powered",
+            "items": [
+              {
+                "type": "link",
+                "label": "Alert",
+                "href": "/docs/Docusaurus_References/Infima Powered/infima"
+              },
+              {
+                "type": "link",
+                "label": "Nav bar usage",
+                "href": "/docs/Docusaurus_References/Infima Powered/navbar"
+              }
+            ],
+            "collapsed": true
+          },
+          {
             "type": "link",
             "label": "Start Blogging",
             "href": "/docs/Docusaurus_References/blogsetup"
+          },
+          {
+            "type": "link",
+            "label": "Sidebar",
+            "href": "/docs/Docusaurus_References/sidebar"
           }
         ],
         "collapsed": true
@@ -134,22 +151,24 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/Docusaurus_References/Add Table of Content": "tutorialSidebar",
     "/docs/Docusaurus_References/Admonitions": "tutorialSidebar",
     "/docs/Docusaurus_References/blogsetup": "tutorialSidebar",
     "/docs/Docusaurus_References/Code Block": "tutorialSidebar",
     "/docs/Docusaurus_References/Front-matter": "tutorialSidebar",
-    "/docs/Docusaurus_References/infima": "tutorialSidebar",
+    "/docs/Docusaurus_References/Infima Powered/infima": "tutorialSidebar",
+    "/docs/Docusaurus_References/Infima Powered/navbar": "tutorialSidebar",
     "/docs/Docusaurus_References/Markdown Basics": "tutorialSidebar",
     "/docs/Docusaurus_References/markdown-features": "tutorialSidebar",
     "/docs/Docusaurus_References/mdFooter": "tutorialSidebar",
-    "/docs/Docusaurus_References/navbar": "tutorialSidebar",
+    "/docs/Docusaurus_References/sidebar": "tutorialSidebar",
     "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
+    "/docs/Docusaurus_References/toc": "tutorialSidebar",
     "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
     "/docs/Dynamic Programming/algointro": "tutorialSidebar",
     "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
     "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
+    "/docs/SQL Notes/Important Concepts": "tutorialSidebar",
     "/docs/SQL Notes/sqlgroup": "tutorialSidebar",
     "/docs/SQL Notes/sqlintro": "tutorialSidebar",
     "/docs/SQL Notes/sqljoin": "tutorialSidebar",

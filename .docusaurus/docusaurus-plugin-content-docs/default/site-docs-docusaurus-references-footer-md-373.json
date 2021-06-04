@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Alert",
-    "permalink": "/docs/Docusaurus_References/infima"
+    "title": "Inline TOC | Docusaurus",
+    "permalink": "/docs/Docusaurus_References/toc"
   },
   "next": {
-    "title": "Start Blogging",
-    "permalink": "/docs/Docusaurus_References/blogsetup"
+    "title": "Alert",
+    "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
   }
 }

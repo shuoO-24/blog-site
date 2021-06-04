@@ -16,7 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Footer",
-    "permalink": "/docs/Docusaurus_References/mdFooter"
+    "title": "Nav bar usage",
+    "permalink": "/docs/Docusaurus_References/Infima Powered/navbar"
+  },
+  "next": {
+    "title": "Sidebar",
+    "permalink": "/docs/Docusaurus_References/sidebar"
   }
 }

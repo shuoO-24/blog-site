@@ -13,13 +13,12 @@
   "sidebarPosition": 11,
   "frontMatter": {
     "id": "infima",
-    "title": "Infima components",
-    "sidebar_position": 11
+    "title": "Infima components"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Nav bar usage",
-    "permalink": "/docs/Docusaurus_References/navbar"
+    "title": "Translate your site",
+    "permalink": "/docs/Docusaurus_References/translate-your-site"
   },
   "next": {
     "title": "Footer",

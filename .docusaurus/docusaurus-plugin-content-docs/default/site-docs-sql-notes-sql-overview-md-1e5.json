@@ -22,7 +22,7 @@
     "permalink": "/docs/intro"
   },
   "next": {
-    "title": "Normalization",
-    "permalink": "/docs/SQL Notes/sqlnorm"
+    "title": "Ordering",
+    "permalink": "/docs/SQL Notes/sqlorder"
   }
 }

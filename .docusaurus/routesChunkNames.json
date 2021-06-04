@@ -1,216 +1,202 @@
 {
   "/-deb": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99",
-    "config": "config---5-e-9-4f3"
-  },
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a"
   },
   "/blog-364": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "a6aa9e1f",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       },
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd"
   },
   "/blog/greetings-60c": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-4-d-843",
-    "content": "content---blog-greetingsbdd-c4e"
+    "component": "ccc49370",
+    "sidebar": "d4dbbb04",
+    "content": "bdd709f1"
   },
   "/blog/tags-f28": {
-    "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "sidebar": "sidebar---blogd-4-d-843",
-    "tags": "tags---blog-tagsa-70-da2"
+    "component": "01a85c17",
+    "sidebar": "d4dbbb04",
+    "tags": "a7023ddc"
   },
   "/blog/tags/docusaurus-ac0": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---blog-tags-docusaurusa-80-728"
+    "metadata": "a80da1cf"
   },
   "/blog/tags/facebook-77d": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---blog-tags-facebook-031-c52"
+    "metadata": "031793e1"
   },
   "/blog/tags/greetings-64a": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blog-tags-greetingsce-0-3c2"
+    "metadata": "ce05bb0c"
   },
   "/blog/tags/hello-ea1": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---blog-tags-hello-30-a-bed"
+    "metadata": "30a24c52"
   },
   "/blog/tags/杂思-67c": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       }
     ],
-    "metadata": "metadata---blog-tags-杂思-95-f-1dc"
+    "metadata": "95f76a26"
   },
   "/blog/tags/生活-cba": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       }
     ],
-    "metadata": "metadata---blog-tags-生活-3-c-9-193"
+    "metadata": "3c9e7367"
   },
   "/blog/welcome-156": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-4-d-843",
-    "content": "content---blog-welcome-286-e55"
+    "component": "ccc49370",
+    "sidebar": "d4dbbb04",
+    "content": "2868cdab"
   },
   "/blog/摘抄-191": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-4-d-843",
-    "content": "content---blog-摘抄d-61-a0a"
+    "component": "ccc49370",
+    "sidebar": "d4dbbb04",
+    "content": "d610846f"
   },
   "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---markdown-page-393-028"
+    "component": "1f391b9e",
+    "content": "393be207"
   },
-  "/docs-100": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-935-398"
-  },
-  "/docs/Docusaurus_References/Add Table of Content-4d6": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-add-table-of-content-7-a-4-878"
+  "/docs-b58": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
   "/docs/Docusaurus_References/Admonitions-e5e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-admonitionsed-3-327"
+    "component": "17896441",
+    "content": "ed3bb5b2"
   },
   "/docs/Docusaurus_References/blogsetup-fbc": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-blogsetupe-86-506"
+    "component": "17896441",
+    "content": "e8612d22"
   },
   "/docs/Docusaurus_References/Code Block-698": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-code-block-021-1da"
+    "component": "17896441",
+    "content": "0211c2bf"
   },
   "/docs/Docusaurus_References/Front-matter-0ef": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-front-matterb-10-a68"
+    "component": "17896441",
+    "content": "b106a1b9"
   },
-  "/docs/Docusaurus_References/infima-0a2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-infimaf-3-a-865"
+  "/docs/Docusaurus_References/Infima Powered/infima-43c": {
+    "component": "17896441",
+    "content": "bf9b8ca2"
+  },
+  "/docs/Docusaurus_References/Infima Powered/navbar-9ab": {
+    "component": "17896441",
+    "content": "f708c0f2"
   },
   "/docs/Docusaurus_References/Markdown Basics-a1b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-markdown-basics-3-ed-549"
+    "component": "17896441",
+    "content": "3ed2ef36"
   },
   "/docs/Docusaurus_References/markdown-features-bd3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-markdown-features-82-b-149"
+    "component": "17896441",
+    "content": "82b99330"
   },
   "/docs/Docusaurus_References/mdFooter-d70": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-md-footer-373-56c"
+    "component": "17896441",
+    "content": "373299e9"
   },
-  "/docs/Docusaurus_References/navbar-17f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-nav-bar-105-ad8"
+  "/docs/Docusaurus_References/sidebar-397": {
+    "component": "17896441",
+    "content": "22361e5b"
   },
   "/docs/Docusaurus_References/Tabs-b63": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-tabs-712-7c2"
+    "component": "17896441",
+    "content": "712f4158"
+  },
+  "/docs/Docusaurus_References/toc-b4c": {
+    "component": "17896441",
+    "content": "6777f29f"
   },
   "/docs/Docusaurus_References/translate-your-site-9a0": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-translate-your-site-6-c-0-978"
+    "component": "17896441",
+    "content": "6c0631f4"
   },
   "/docs/Dynamic Programming/algointro-57c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dynamic-programming-algointrod-42-d88"
+    "component": "17896441",
+    "content": "d4280efc"
   },
   "/docs/Dynamic Programming/LeetCode300-7fe": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dynamic-programming-leet-code-300886-f55"
+    "component": "17896441",
+    "content": "886a4d5f"
   },
   "/docs/Dynamic Programming/LeetCode64-2a5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dynamic-programming-leet-code-6497-c-e1b"
+    "component": "17896441",
+    "content": "97c8d4c5"
   },
   "/docs/intro-e84": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "component": "17896441",
+    "content": "0e384e19"
+  },
+  "/docs/SQL Notes/Important Concepts-51f": {
+    "component": "17896441",
+    "content": "91b04294"
   },
   "/docs/SQL Notes/sqlgroup-9c5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqlgroup-9-a-7-8d0"
+    "component": "17896441",
+    "content": "9a754f10"
   },
   "/docs/SQL Notes/sqlintro-a14": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqlintro-1-e-5-ae4"
+    "component": "17896441",
+    "content": "1e523afc"
   },
   "/docs/SQL Notes/sqljoin-1e8": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqljoin-3-ea-3a2"
+    "component": "17896441",
+    "content": "3ea58061"
   },
   "/docs/SQL Notes/sqlnorm-438": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqlnorm-628-e58"
+    "component": "17896441",
+    "content": "6286bbd8"
   },
   "/docs/SQL Notes/sqlorder-f85": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqlorder-092-76f"
+    "component": "17896441",
+    "content": "09209543"
   }
 }

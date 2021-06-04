@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 7
 id: sqlnorm
 title: Normalization
 ---
@@ -12,10 +12,10 @@ We have seen how to create a new relation from a given schema.
 
 We know that the following **rules** must apply to relations:
 
-1. Entity Integrity:
-   For each tuple in a relation attributes that belong to the **primary** key must be **non-null**
-2. Referential Integrity:
-   All **foreign** key attribute values in a relation must be either **null** or correspond to a **primary** key value
+1. <u>Entity Integrity</u>:
+	For each tuple in a relation attributes that belong to the **primary** key must be **non-null**
+2. <u>Referential Integrity</u>:
+	All **foreign** key attribute values in a relation must be either **null** or correspond to a **primary** key value
 3. **Duplication** of tuples in a relation is **not** allowed.
 4. Next, we look at: - **Normalization**
 
@@ -34,7 +34,7 @@ Its goal is to avoid (minimize) anomalies:
 
 ## Normalization
 
-Normalization is **a technique used to organize the data** in a database.
+Normalization（规范化表格）is **a technique used to organize the data** in a database.
 
 - Normalization consists of **a set of rules** that all relations must follow for a database(DB) to be well structured.
 - These **rules** are presented as sets of restrictions called **NORMAL FORMS**
@@ -52,7 +52,7 @@ Applying these rules **removes undesirable properties** from a DB, including the
 
 ## <u>Anormalies</u> | Example: Relation TA
 
-![TA Relation](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/96b8f42d-7d39-4836-9f6c-1c9a2f7c9901/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T222836Z&X-Amz-Expires=86400&X-Amz-Signature=7a6411e633bb3651bd7d344d5412e98b28a8590e9b7010a0713b52b0655be82c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![rgV1eZFiOyaSCTM](https://i.loli.net/2021/06/04/rgV1eZFiOyaSCTM.jpg)
 
 _The relation TA is not normalized. Why does this matter?_
 
@@ -104,9 +104,9 @@ _Each attribute **value** must represent a **single** **fact**._
 
 **Example:**
 
-![Course_Content](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/04723470-f753-4b63-b1ec-ad2ac4d82ab7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T230417Z&X-Amz-Expires=86400&X-Amz-Signature=eb58891e019b88bfd22cc5fe3c5f431dab529d1c5a1f3e90d3465c5f32a3620f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![dqsiF2MuIDPhEVS](https://i.loli.net/2021/06/04/dqsiF2MuIDPhEVS.jpg)
 
-A single fact:
+<u>A single fact</u>:
 
 Anne is a single fact regarding FirstName; PSTAT 10 is a single fact regarding Course#......
 
@@ -114,7 +114,9 @@ Anne is a single fact regarding FirstName; PSTAT 10 is a single fact regarding C
 
 A DB design team has been working on the relationships between each COURSE and its SYLLABUS in the Statistics Department. They suggest the following relation.
 
-![Lecture%2018%20Normalization%207b2eae7c64944ebd929ecebffb209517/Untitled%202.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/18ef94d7-53c7-49cd-b0b3-7b703db5cad3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T230510Z&X-Amz-Expires=86400&X-Amz-Signature=470a04f371263f5fab6ca21491075614644079d3708ef1c205674d3f14d044cd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+<div style={{ zoom: 0.4 }} class='text--center'>
+<img src='https://i.loli.net/2021/06/04/3p5OAfFXslikRCd.jpg' alt='course' />
+</div>
 
 COURSE #: PSTAT10, PSTAT126 —— OK
 
@@ -124,7 +126,9 @@ Thus COURSE_CONTENT Not in 1NE
 
 #### Example: Decomposing A Relation Into First Normal Form(1NF)
 
-![https://tva1.sinaimg.cn/large/008i3skNgy1gqwy8n6mhpj30ju0eomzh.jpg](https://tva1.sinaimg.cn/large/008i3skNgy1gqwy8n6mhpj30ju0eomzh.jpg)
+<div style={{ zoom: 0.4 }} class='text--center'>
+<img src='https://i.loli.net/2021/06/04/3p5OAfFXslikRCd.jpg' alt='1NF' />
+</div>
 
 R, SQL for PSTAT10 become **separate** **tuples**.
 
@@ -132,7 +136,9 @@ So COURSE_CONTENT2 is in 1NF
 
 A new example:
 
-![https://tva1.sinaimg.cn/large/008i3skNgy1gqwyb874nej30gu0ds0uu.jpg](https://tva1.sinaimg.cn/large/008i3skNgy1gqwyb874nej30gu0ds0uu.jpg)
+<div style={{ zoom: 0.4 }} class='text--center'>
+<img src='https://i.loli.net/2021/06/04/3p5OAfFXslikRCd.jpg' alt='course' />
+</div>
 
 It violates both rules for 1NF
 
@@ -140,13 +146,17 @@ It violates both rules for 1NF
 
 #### Example: COURSE_CONTENT_3
 
-![COURSE_CONTENT_3](https://tva1.sinaimg.cn/large/008i3skNgy1gqwyd8q7qrj30lc0aywgk.jpg)
+<div style={{ zoom: 0.5 }} class='text--center'><img src='https://tva1.sinaimg.cn/large/008i3skNgy1gqwyd8q7qrj30lc0aywgk.jpg' alt='course_content_3'/>
+</div>
 
 Not in 1NF
 
 Because there 2 tuple values in COURSE_CONTENT
 
 We can decompose it:
+
+<div style={{ zoom: 0.5 }} class='text--center'><img src='https://tva1.sinaimg.cn/large/008i3skNgy1gqwyd8q7qrj30lc0aywgk.jpg' alt='course_content_3'/>
+</div>
 
 ![COURSE_CONTENT_4](https://tva1.sinaimg.cn/large/008i3skNgy1gqwyep49exj30nc0ekgo4.jpg)
 
@@ -214,7 +224,9 @@ ID--->{NAME} can therefore also be read: **ID functionally determines NAME**
 
 #### Example: 2NF Relation SCHOOL
 
-![SCHOOL](https://tva1.sinaimg.cn/large/008i3skNly1gqwz1p38r2j30j60bmmz4.jpg)
+<div style={{ zoom: 0.6 }}>
+<img src='https://tva1.sinaimg.cn/large/008i3skNly1gqwz1p38r2j30j60bmmz4.jpg' alt='SCHOOL'/>
+</div>
 
 1. Is the relation SCHOOL in 1NF?
 
@@ -258,6 +270,8 @@ Try to think of some possible anomalies.
 
 ### Decompose into 2NF
 
+> 按照“主键的值可以确定其他列的值”原则来分表
+
 **Steps**:
 
 1. When there is an FD, X-->Y on part of the candidate key(X is part of candidate key), **form a new relation** with **X as primary key** and with **all the attributes determined by X.** 
@@ -267,7 +281,9 @@ Try to think of some possible anomalies.
 
 - The candidate key is:{FACULTY_ID, CLASS}
 
-![https://tva1.sinaimg.cn/large/008i3skNly1gqwz1p38r2j30j60bmmz4.jpg](https://tva1.sinaimg.cn/large/008i3skNly1gqwz1p38r2j30j60bmmz4.jpg)
+<div style={{ size: 0.6 }}>
+<img src='https://tva1.sinaimg.cn/large/008i3skNly1gqwz1p38r2j30j60bmmz4.jpg' alt='ta' />
+</div>
 
 Applying the steps to the SCHOOL relation
 
@@ -276,18 +292,27 @@ Applying the steps to the SCHOOL relation
      - FACULTY*ID ---> FACULTY_AGE *(READ: FACULTY*ID functionally determines FACULTY_AGE)*
      - Form a new relation with FACULTY_ID as primary key and FACULTY_AGE as attribute
 
-     ![SCHOOL_2](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/73f2fe72-5810-47bd-9afd-308aaecb36df/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T230712Z&X-Amz-Expires=86400&X-Amz-Signature=98ebacdf8fc66b4f7fd78e5a3e3f50953ad212bf8ce381d2f253e12932d6ba96&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+<div style={{ zoom: 0.6 }}>
+<img src='https://i.loli.net/2021/06/04/hxokQKG6RAUs7De.jpg' alt='SCHOOL2'/>
+</div>
+
 
   2. **STEP 2**
 
      - Form a new relation defined on the attributes of the key of the original relation. New relation has FACULTY_ID, CLASS as attributes./>
      - FACULTY_AGE is determined by only part of the key, so is not included.
 
-     ![SCHOOL_3](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e39d4264-9108-4a52-841d-2c51fbe55c26/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T230746Z&X-Amz-Expires=86400&X-Amz-Signature=11c855357f161933221632ba3fd464f00ace8d4569131baf816eb45dc8dae3c4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+<div style={{ zoom: 0.6 }}>
+<img src='https://i.loli.net/2021/06/04/ThKlvjm6ceZV13s.jpg' alt='SCHOOL3'/>
+</div>
 
-## Example: Relation TA Continued
 
-![TA Relation](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/96b8f42d-7d39-4836-9f6c-1c9a2f7c9901/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T222836Z&X-Amz-Expires=86400&X-Amz-Signature=7a6411e633bb3651bd7d344d5412e98b28a8590e9b7010a0713b52b0655be82c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+#### Example: Relation TA Continued
+
+<div style={{ zoom: 0.6 }}>
+<img src='https://i.loli.net/2021/06/04/rgV1eZFiOyaSCTM.jpg' alt='SCHOOL'/>
+</div>
+
 
 ### Normalize the TA relation to comply with 2NF
 
@@ -307,7 +332,9 @@ Applying the steps to the SCHOOL relation
       - Candidate keys: `{TA_ID, TA_DEPT}`
       - Form a new relation with TA_ID as primary key and TA_NAME and TA_ADDRESS as attributes
 
-      ![TA2](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/002a62db-f55f-45ea-a8c9-e1c5b97ee3c3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T230931Z&X-Amz-Expires=86400&X-Amz-Signature=d305d70a157d19ec9b3f9672e0899749975fabed33bc3a2da5319e6118503471&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+<div style={{ zoom: 0.6 }}>
+<img src='https://s3.us-west-2.amazonaws.com/secure.notion-static.com/002a62db-f55f-45ea-a8c9-e1c5b97ee3c3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T230931Z&X-Amz-Expires=86400&X-Amz-Signature=d305d70a157d19ec9b3f9672e0899749975fabed33bc3a2da5319e6118503471&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22' alt='TA2'/>
+</div>
 
       Duplicate tuples removed because of primary key in new relation
 

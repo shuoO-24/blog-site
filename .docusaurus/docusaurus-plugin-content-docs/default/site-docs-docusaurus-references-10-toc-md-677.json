@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Docusaurus_References/toc",
+  "id": "Docusaurus_References/toc",
+  "isDocsHomePage": false,
+  "title": "Inline TOC | Docusaurus",
+  "description": "Each markdown document displays a tab of content on the top-right corner.",
+  "source": "@site/docs/Docusaurus_References/10. toc.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/toc",
+  "permalink": "/docs/Docusaurus_References/toc",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/10. toc.md",
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "id": "toc"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/Docusaurus_References/translate-your-site"
+  },
+  "next": {
+    "title": "Footer",
+    "permalink": "/docs/Docusaurus_References/mdFooter"
+  }
+}

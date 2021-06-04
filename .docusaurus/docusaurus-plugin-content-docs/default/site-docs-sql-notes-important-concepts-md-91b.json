@@ -1,0 +1,23 @@
+{
+  "unversionedId": "SQL Notes/Important Concepts",
+  "id": "SQL Notes/Important Concepts",
+  "isDocsHomePage": false,
+  "title": "Important Concepts",
+  "description": "",
+  "source": "@site/docs/SQL Notes/Important Concepts.md",
+  "sourceDirName": "SQL Notes",
+  "slug": "/SQL Notes/Important Concepts",
+  "permalink": "/docs/SQL Notes/Important Concepts",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Important Concepts.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Grouping",
+    "permalink": "/docs/SQL Notes/sqlgroup"
+  },
+  "next": {
+    "title": "SQL Joining",
+    "permalink": "/docs/SQL Notes/sqljoin"
+  }
+}

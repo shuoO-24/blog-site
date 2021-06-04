@@ -15,11 +15,11 @@
         <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hello]]></title>
-        <id>hello-world</id>
-        <link href="https://blog-test-lavender.netlify.app/blog/hello-world"/>
+        <title type="html"><![CDATA[每日一思]]></title>
+        <id>摘抄</id>
+        <link href="https://blog-test-lavender.netlify.app/blog/摘抄"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
+        <summary type="html"><![CDATA[你想成为什么样的人？]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Greetings!]]></title>
