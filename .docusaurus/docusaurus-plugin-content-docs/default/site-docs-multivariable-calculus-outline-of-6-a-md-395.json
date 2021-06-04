@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Multivariable Calculus/6Aoutline",
+  "id": "Multivariable Calculus/6Aoutline",
+  "isDocsHomePage": false,
+  "title": "MATH 6A Outline",
+  "description": "",
+  "source": "@site/docs/Multivariable Calculus/Outline of 6A.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/6Aoutline",
+  "permalink": "/docs/Multivariable Calculus/6Aoutline",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Outline of 6A.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "6Aoutline",
+    "title": "MATH 6A Outline",
+    "parse_number_prefixes": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cheatsheets",
+    "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
+  },
+  "next": {
+    "title": "Surface Integral",
+    "permalink": "/docs/Multivariable Calculus/calcessential"
+  }
+}

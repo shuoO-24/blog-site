@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Multivariable Calculus/calcessential",
+  "id": "Multivariable Calculus/calcessential",
+  "isDocsHomePage": false,
+  "title": "Surface Integral",
+  "description": "Break coordinates into one dimensions and think it as a combination of different linear equations.",
+  "source": "@site/docs/Multivariable Calculus/Essential Points.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/calcessential",
+  "permalink": "/docs/Multivariable Calculus/calcessential",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Essential Points.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "calcessential",
+    "title": "Surface Integral"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cheatsheets",
+    "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
+  },
+  "next": {
+    "title": "MATH 6A Outline",
+    "permalink": "/docs/Multivariable Calculus/6Aoutline"
+  }
+}

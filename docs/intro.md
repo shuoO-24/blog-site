@@ -4,8 +4,6 @@ id: intro
 title: 你好呀
 ---
 
-我觉得无趣的人生不值得过下去，你呢？
-
 export const Highlight = ({children, color}) => (
 <span
 style={{

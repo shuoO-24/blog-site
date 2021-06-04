@@ -3,7 +3,7 @@
   "id": "intro",
   "isDocsHomePage": false,
   "title": "你好呀",
-  "description": "我觉得无趣的人生不值得过下去，你呢？",
+  "description": "<span",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/Markdown(mdx)/Markdown Basics",
+  "id": "Docusaurus_References/Markdown(mdx)/Markdown Basics",
+  "isDocsHomePage": false,
+  "title": "Basic Syntax",
+  "description": "Please read this reference",
+  "source": "@site/docs/Docusaurus_References/Markdown(mdx)/1. Markdown Basics.md",
+  "sourceDirName": "Docusaurus_References/Markdown(mdx)",
+  "slug": "/Docusaurus_References/Markdown(mdx)/Markdown Basics",
+  "permalink": "/docs/Docusaurus_References/Markdown(mdx)/Markdown Basics",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown(mdx)/1. Markdown Basics.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nav bar usage",
+    "permalink": "/docs/Docusaurus_References/Infima Powered/navbar"
+  },
+  "next": {
+    "title": "Add Code blocks",
+    "permalink": "/docs/Docusaurus_References/Markdown(mdx)/Code Block"
+  }
+}

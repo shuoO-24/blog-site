@@ -69,32 +69,12 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','b58'),
+  component: ComponentCreator('/docs','afc'),
   
   routes: [
 {
-  path: '/docs/Docusaurus_References/Admonitions',
-  component: ComponentCreator('/docs/Docusaurus_References/Admonitions','e5e'),
-  exact: true,
-},
-{
-  path: '/docs/Docusaurus_References/blogsetup',
-  component: ComponentCreator('/docs/Docusaurus_References/blogsetup','fbc'),
-  exact: true,
-},
-{
-  path: '/docs/Docusaurus_References/Code Block',
-  component: ComponentCreator('/docs/Docusaurus_References/Code Block','698'),
-  exact: true,
-},
-{
-  path: '/docs/Docusaurus_References/Front-matter',
-  component: ComponentCreator('/docs/Docusaurus_References/Front-matter','0ef'),
-  exact: true,
-},
-{
   path: '/docs/Docusaurus_References/Infima Powered/infima',
-  component: ComponentCreator('/docs/Docusaurus_References/Infima Powered/infima','43c'),
+  component: ComponentCreator('/docs/Docusaurus_References/Infima Powered/infima','fa9'),
   exact: true,
 },
 {
@@ -103,38 +83,53 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/Markdown Basics',
-  component: ComponentCreator('/docs/Docusaurus_References/Markdown Basics','a1b'),
+  path: '/docs/Docusaurus_References/JSX_Required/blogsetup',
+  component: ComponentCreator('/docs/Docusaurus_References/JSX_Required/blogsetup','e0f'),
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/markdown-features',
-  component: ComponentCreator('/docs/Docusaurus_References/markdown-features','bd3'),
+  path: '/docs/Docusaurus_References/JSX_Required/mdFooter',
+  component: ComponentCreator('/docs/Docusaurus_References/JSX_Required/mdFooter','46e'),
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/mdFooter',
-  component: ComponentCreator('/docs/Docusaurus_References/mdFooter','d70'),
+  path: '/docs/Docusaurus_References/JSX_Required/sidebar',
+  component: ComponentCreator('/docs/Docusaurus_References/JSX_Required/sidebar','6ca'),
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/sidebar',
-  component: ComponentCreator('/docs/Docusaurus_References/sidebar','397'),
+  path: '/docs/Docusaurus_References/JSX_Required/translate_i18n',
+  component: ComponentCreator('/docs/Docusaurus_References/JSX_Required/translate_i18n','0b7'),
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/Tabs',
-  component: ComponentCreator('/docs/Docusaurus_References/Tabs','b63'),
+  path: '/docs/Docusaurus_References/Markdown_MDX/addtabs',
+  component: ComponentCreator('/docs/Docusaurus_References/Markdown_MDX/addtabs','40c'),
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/toc',
-  component: ComponentCreator('/docs/Docusaurus_References/toc','b4c'),
+  path: '/docs/Docusaurus_References/Markdown_MDX/admonition',
+  component: ComponentCreator('/docs/Docusaurus_References/Markdown_MDX/admonition','07c'),
   exact: true,
 },
 {
-  path: '/docs/Docusaurus_References/translate-your-site',
-  component: ComponentCreator('/docs/Docusaurus_References/translate-your-site','9a0'),
+  path: '/docs/Docusaurus_References/Markdown_MDX/codeblock',
+  component: ComponentCreator('/docs/Docusaurus_References/Markdown_MDX/codeblock','7fc'),
+  exact: true,
+},
+{
+  path: '/docs/Docusaurus_References/Markdown_MDX/frontmatter',
+  component: ComponentCreator('/docs/Docusaurus_References/Markdown_MDX/frontmatter','9e6'),
+  exact: true,
+},
+{
+  path: '/docs/Docusaurus_References/Markdown_MDX/mdbasics',
+  component: ComponentCreator('/docs/Docusaurus_References/Markdown_MDX/mdbasics','959'),
+  exact: true,
+},
+{
+  path: '/docs/Docusaurus_References/Markdown_MDX/toc',
+  component: ComponentCreator('/docs/Docusaurus_References/Markdown_MDX/toc','f0b'),
   exact: true,
 },
 {
@@ -144,7 +139,7 @@ export default [
 },
 {
   path: '/docs/Dynamic Programming/LeetCode300',
-  component: ComponentCreator('/docs/Dynamic Programming/LeetCode300','7fe'),
+  component: ComponentCreator('/docs/Dynamic Programming/LeetCode300','2ef'),
   exact: true,
 },
 {
@@ -155,6 +150,21 @@ export default [
 {
   path: '/docs/intro',
   component: ComponentCreator('/docs/intro','e84'),
+  exact: true,
+},
+{
+  path: '/docs/Multivariable Calculus/6Aoutline',
+  component: ComponentCreator('/docs/Multivariable Calculus/6Aoutline','c62'),
+  exact: true,
+},
+{
+  path: '/docs/Multivariable Calculus/calcessential',
+  component: ComponentCreator('/docs/Multivariable Calculus/calcessential','20b'),
+  exact: true,
+},
+{
+  path: '/docs/Multivariable Calculus/multcalc_cheatsheet',
+  component: ComponentCreator('/docs/Multivariable Calculus/multcalc_cheatsheet','1dd'),
   exact: true,
 },
 {

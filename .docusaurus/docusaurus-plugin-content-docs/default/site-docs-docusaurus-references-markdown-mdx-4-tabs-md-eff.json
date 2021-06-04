@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Docusaurus_References/Markdown_MDX/addtabs",
+  "id": "Docusaurus_References/Markdown_MDX/addtabs",
+  "isDocsHomePage": false,
+  "title": "A Super Cool Feature -- Tabs",
+  "description": "---",
+  "source": "@site/docs/Docusaurus_References/Markdown_MDX/4. Tabs.md",
+  "sourceDirName": "Docusaurus_References/Markdown_MDX",
+  "slug": "/Docusaurus_References/Markdown_MDX/addtabs",
+  "permalink": "/docs/Docusaurus_References/Markdown_MDX/addtabs",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/4. Tabs.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "addtabs",
+    "title": "Add Tabs",
+    "parse_number_prefixes": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docs Front Matter",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/frontmatter"
+  },
+  "next": {
+    "title": "Use Admonitions",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/admonition"
+  }
+}

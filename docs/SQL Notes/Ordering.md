@@ -23,7 +23,7 @@ Ordering is **ascending**, unless the keyword `DESC` is specified.
 
 The `WHERE` statement is optional.
 
-```r
+```sql
 SELECT attribute1, attribute2, … 
 FROM relation1, relation2 
 WHERE conditions 

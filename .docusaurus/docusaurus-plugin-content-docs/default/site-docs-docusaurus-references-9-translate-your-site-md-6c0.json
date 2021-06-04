@@ -1,26 +1,27 @@
 {
-  "unversionedId": "Docusaurus_References/translate-your-site",
-  "id": "Docusaurus_References/translate-your-site",
+  "unversionedId": "Docusaurus_References/translate_i18n",
+  "id": "Docusaurus_References/translate_i18n",
   "isDocsHomePage": false,
   "title": "Translate your site",
   "description": "Let's translate docs/intro.md to French.",
   "source": "@site/docs/Docusaurus_References/9. translate-your-site.md",
   "sourceDirName": "Docusaurus_References",
-  "slug": "/Docusaurus_References/translate-your-site",
-  "permalink": "/docs/Docusaurus_References/translate-your-site",
+  "slug": "/Docusaurus_References/translate_i18n",
+  "permalink": "/docs/Docusaurus_References/translate_i18n",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/9. translate-your-site.md",
   "version": "current",
   "sidebarPosition": 9,
   "frontMatter": {
-    "sidebar_position": 9
+    "id": "translate_i18n",
+    "title": "Use i18n translate your site"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Use Admonitions",
-    "permalink": "/docs/Docusaurus_References/Admonitions"
+    "title": "添加目录 Inline TOC",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc"
   },
   "next": {
-    "title": "Inline TOC | Docusaurus",
-    "permalink": "/docs/Docusaurus_References/toc"
+    "title": "Footer",
+    "permalink": "/docs/Docusaurus_References/mdFooter"
   }
 }

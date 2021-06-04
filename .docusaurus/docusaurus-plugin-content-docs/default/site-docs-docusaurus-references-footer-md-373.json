@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Inline TOC | Docusaurus",
-    "permalink": "/docs/Docusaurus_References/toc"
+    "title": "Translate your site",
+    "permalink": "/docs/Docusaurus_References/translate_i18n"
   },
   "next": {
-    "title": "Alert",
-    "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
+    "title": "Start Blogging",
+    "permalink": "/docs/Docusaurus_References/blogsetup"
   }
 }

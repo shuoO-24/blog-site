@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "SQL Joining",
-    "permalink": "/docs/SQL Notes/sqljoin"
+    "title": "300. 最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/LeetCode300"
   },
   "next": {
-    "title": "最长递增子序列",
-    "permalink": "/docs/Dynamic Programming/LeetCode300"
+    "title": "64. Minimum Path Sum — Medium",
+    "permalink": "/docs/Dynamic Programming/LeetCode64"
   }
 }

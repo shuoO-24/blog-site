@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Nav bar usage",
-    "permalink": "/docs/Docusaurus_References/Infima Powered/navbar"
+    "title": "Translate your site",
+    "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n"
   },
   "next": {
     "title": "Sidebar",

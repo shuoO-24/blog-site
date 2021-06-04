@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Docusaurus_References/JSX_Required/mdFooter",
+  "id": "Docusaurus_References/JSX_Required/mdFooter",
+  "isDocsHomePage": false,
+  "title": "Add Footer",
+  "description": "Footer",
+  "source": "@site/docs/Docusaurus_References/JSX_Required/Footer.md",
+  "sourceDirName": "Docusaurus_References/JSX_Required",
+  "slug": "/Docusaurus_References/JSX_Required/mdFooter",
+  "permalink": "/docs/Docusaurus_References/JSX_Required/mdFooter",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/Footer.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "mdFooter",
+    "title": "Add Footer",
+    "parse_number_prefixes": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "添加目录 Inline TOC",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc"
+  },
+  "next": {
+    "title": "Start Blogging",
+    "permalink": "/docs/Docusaurus_References/JSX_Required/blogsetup"
+  }
+}

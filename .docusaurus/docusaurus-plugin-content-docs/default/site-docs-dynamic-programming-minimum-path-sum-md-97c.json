@@ -14,15 +14,12 @@
   "frontMatter": {
     "sidebar_position": 2,
     "id": "LeetCode64",
-    "title": "64. Minimum Path Sum — Medium"
+    "title": "64. Minimum Path Sum — Medium",
+    "parse_number_prefixes": true
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "最长递增子序列",
-    "permalink": "/docs/Dynamic Programming/LeetCode300"
-  },
-  "next": {
-    "title": "Basic Syntax",
-    "permalink": "/docs/Docusaurus_References/Markdown Basics"
+    "title": "Hello Algorithm",
+    "permalink": "/docs/Dynamic Programming/algointro"
   }
 }

@@ -53,19 +53,19 @@
               },
               {
                 "type": "category",
-                "label": "Dynamic Programming",
+                "label": "Multivarable Calculus",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/algointro"
+                    "id": "Multivariable Calculus/multcalc_cheatsheet"
                   },
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/LeetCode300"
+                    "id": "Multivariable Calculus/6Aoutline"
                   },
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/LeetCode64"
+                    "id": "Multivariable Calculus/calcessential"
                   }
                 ],
                 "collapsed": true
@@ -74,42 +74,6 @@
                 "type": "category",
                 "label": "Docusaurus References",
                 "items": [
-                  {
-                    "type": "doc",
-                    "id": "Docusaurus_References/Markdown Basics"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Docusaurus_References/Code Block"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Docusaurus_References/Front-matter"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Docusaurus_References/Tabs"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Docusaurus_References/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Docusaurus_References/Admonitions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Docusaurus_References/translate-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Docusaurus_References/toc"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Docusaurus_References/mdFooter"
-                  },
                   {
                     "type": "category",
                     "label": "Infima Powered",
@@ -126,12 +90,77 @@
                     "collapsed": true
                   },
                   {
+                    "type": "category",
+                    "label": "Markdown/MDX",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Markdown_MDX/mdbasics"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Markdown_MDX/codeblock"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Markdown_MDX/frontmatter"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Markdown_MDX/addtabs"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Markdown_MDX/admonition"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Markdown_MDX/toc"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "JSX Required Features",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/JSX_Required/mdFooter"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/JSX_Required/blogsetup"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/JSX_Required/translate_i18n"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/JSX_Required/sidebar"
+                      }
+                    ],
+                    "collapsed": true
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Dynamic Programming",
+                "items": [
+                  {
                     "type": "doc",
-                    "id": "Docusaurus_References/blogsetup"
+                    "id": "Dynamic Programming/LeetCode300"
                   },
                   {
                     "type": "doc",
-                    "id": "Docusaurus_References/sidebar"
+                    "id": "Dynamic Programming/algointro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/LeetCode64"
                   }
                 ],
                 "collapsed": true
@@ -139,23 +168,25 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/Docusaurus_References/Admonitions": "tutorialSidebar",
-            "/docs/Docusaurus_References/blogsetup": "tutorialSidebar",
-            "/docs/Docusaurus_References/Code Block": "tutorialSidebar",
-            "/docs/Docusaurus_References/Front-matter": "tutorialSidebar",
             "/docs/Docusaurus_References/Infima Powered/infima": "tutorialSidebar",
             "/docs/Docusaurus_References/Infima Powered/navbar": "tutorialSidebar",
-            "/docs/Docusaurus_References/Markdown Basics": "tutorialSidebar",
-            "/docs/Docusaurus_References/markdown-features": "tutorialSidebar",
-            "/docs/Docusaurus_References/mdFooter": "tutorialSidebar",
-            "/docs/Docusaurus_References/sidebar": "tutorialSidebar",
-            "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
-            "/docs/Docusaurus_References/toc": "tutorialSidebar",
-            "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
+            "/docs/Docusaurus_References/JSX_Required/blogsetup": "tutorialSidebar",
+            "/docs/Docusaurus_References/JSX_Required/mdFooter": "tutorialSidebar",
+            "/docs/Docusaurus_References/JSX_Required/sidebar": "tutorialSidebar",
+            "/docs/Docusaurus_References/JSX_Required/translate_i18n": "tutorialSidebar",
+            "/docs/Docusaurus_References/Markdown_MDX/addtabs": "tutorialSidebar",
+            "/docs/Docusaurus_References/Markdown_MDX/admonition": "tutorialSidebar",
+            "/docs/Docusaurus_References/Markdown_MDX/codeblock": "tutorialSidebar",
+            "/docs/Docusaurus_References/Markdown_MDX/frontmatter": "tutorialSidebar",
+            "/docs/Docusaurus_References/Markdown_MDX/mdbasics": "tutorialSidebar",
+            "/docs/Docusaurus_References/Markdown_MDX/toc": "tutorialSidebar",
             "/docs/Dynamic Programming/algointro": "tutorialSidebar",
             "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
             "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
+            "/docs/Multivariable Calculus/6Aoutline": "tutorialSidebar",
+            "/docs/Multivariable Calculus/calcessential": "tutorialSidebar",
+            "/docs/Multivariable Calculus/multcalc_cheatsheet": "tutorialSidebar",
             "/docs/SQL Notes/Important Concepts": "tutorialSidebar",
             "/docs/SQL Notes/sqlgroup": "tutorialSidebar",
             "/docs/SQL Notes/sqlintro": "tutorialSidebar",
@@ -165,129 +196,25 @@
           },
           "docs": [
             {
-              "unversionedId": "Docusaurus_References/Admonitions",
-              "id": "Docusaurus_References/Admonitions",
-              "isDocsHomePage": false,
-              "title": "Use Admonitions",
-              "description": "In addition to the basic Markdown syntax, we use remark-admonitions alongside MDX to add support for admonitions. Admonitions are wrapped by a set of 3 colons.",
-              "source": "@site/docs/Docusaurus_References/6. Admonitions.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/Admonitions",
-              "permalink": "/docs/Docusaurus_References/Admonitions",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/6. Admonitions.md",
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "markdown-features",
-                "permalink": "/docs/Docusaurus_References/markdown-features"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/Docusaurus_References/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "Docusaurus_References/blogsetup",
-              "id": "Docusaurus_References/blogsetup",
-              "isDocsHomePage": false,
-              "title": "Start Blogging",
-              "description": "Initial setup",
-              "source": "@site/docs/Docusaurus_References/Start blogging.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/blogsetup",
-              "permalink": "/docs/Docusaurus_References/blogsetup",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Start blogging.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "blogsetup",
-                "title": "Start Blogging"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Nav bar usage",
-                "permalink": "/docs/Docusaurus_References/Infima Powered/navbar"
-              },
-              "next": {
-                "title": "Sidebar",
-                "permalink": "/docs/Docusaurus_References/sidebar"
-              }
-            },
-            {
-              "unversionedId": "Docusaurus_References/Code Block",
-              "id": "Docusaurus_References/Code Block",
-              "isDocsHomePage": false,
-              "title": "Add Code blocks",
-              "description": "---",
-              "source": "@site/docs/Docusaurus_References/2. Code Block.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/Code Block",
-              "permalink": "/docs/Docusaurus_References/Code Block",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/2. Code Block.md",
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Basic Syntax",
-                "permalink": "/docs/Docusaurus_References/Markdown Basics"
-              },
-              "next": {
-                "title": "Front-matter",
-                "permalink": "/docs/Docusaurus_References/Front-matter"
-              }
-            },
-            {
-              "unversionedId": "Docusaurus_References/Front-matter",
-              "id": "Docusaurus_References/Front-matter",
-              "isDocsHomePage": false,
-              "title": "Front-matter",
-              "description": "Markdown documents can use the following markdown frontmatter metadata fields, enclosed by a line --- on either side:",
-              "source": "@site/docs/Docusaurus_References/3. Front-matter.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/Front-matter",
-              "permalink": "/docs/Docusaurus_References/Front-matter",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/3. Front-matter.md",
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Add Code blocks",
-                "permalink": "/docs/Docusaurus_References/Code Block"
-              },
-              "next": {
-                "title": "A Super Cool Feature -- Tabs",
-                "permalink": "/docs/Docusaurus_References/Tabs"
-              }
-            },
-            {
               "unversionedId": "Docusaurus_References/Infima Powered/infima",
               "id": "Docusaurus_References/Infima Powered/infima",
               "isDocsHomePage": false,
               "title": "Alert",
               "description": "Colors",
-              "source": "@site/docs/Docusaurus_References/Infima Powered/Infima.md",
+              "source": "@site/docs/Docusaurus_References/Infima Powered/Alert.md",
               "sourceDirName": "Docusaurus_References/Infima Powered",
               "slug": "/Docusaurus_References/Infima Powered/infima",
               "permalink": "/docs/Docusaurus_References/Infima Powered/infima",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Infima Powered/Infima.md",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Infima Powered/Alert.md",
               "version": "current",
               "frontMatter": {
                 "id": "infima",
-                "title": "Infima components"
+                "title": "alert"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Footer",
-                "permalink": "/docs/Docusaurus_References/mdFooter"
+                "title": "Surface Integral",
+                "permalink": "/docs/Multivariable Calculus/calcessential"
               },
               "next": {
                 "title": "Nav bar usage",
@@ -316,186 +243,289 @@
                 "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
               },
               "next": {
-                "title": "Start Blogging",
-                "permalink": "/docs/Docusaurus_References/blogsetup"
+                "title": "Basic Syntax",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics"
               }
             },
             {
-              "unversionedId": "Docusaurus_References/Markdown Basics",
-              "id": "Docusaurus_References/Markdown Basics",
+              "unversionedId": "Docusaurus_References/JSX_Required/blogsetup",
+              "id": "Docusaurus_References/JSX_Required/blogsetup",
               "isDocsHomePage": false,
-              "title": "Basic Syntax",
-              "description": "Please read this reference",
-              "source": "@site/docs/Docusaurus_References/1. Markdown Basics.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/Markdown Basics",
-              "permalink": "/docs/Docusaurus_References/Markdown Basics",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/1. Markdown Basics.md",
+              "title": "Start Blogging",
+              "description": "Initial setup",
+              "source": "@site/docs/Docusaurus_References/JSX_Required/Start blogging.md",
+              "sourceDirName": "Docusaurus_References/JSX_Required",
+              "slug": "/Docusaurus_References/JSX_Required/blogsetup",
+              "permalink": "/docs/Docusaurus_References/JSX_Required/blogsetup",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/Start blogging.md",
               "version": "current",
-              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1
+                "id": "blogsetup",
+                "title": "Start Blogging"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "64. Minimum Path Sum — Medium",
-                "permalink": "/docs/Dynamic Programming/LeetCode64"
+                "title": "Add Footer",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/mdFooter"
               },
               "next": {
-                "title": "Add Code blocks",
-                "permalink": "/docs/Docusaurus_References/Code Block"
+                "title": "Translate your site",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n"
               }
             },
             {
-              "unversionedId": "Docusaurus_References/markdown-features",
-              "id": "Docusaurus_References/markdown-features",
+              "unversionedId": "Docusaurus_References/JSX_Required/mdFooter",
+              "id": "Docusaurus_References/JSX_Required/mdFooter",
               "isDocsHomePage": false,
-              "title": "markdown-features",
-              "description": "",
-              "source": "@site/docs/Docusaurus_References/markdown-features.mdx",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/markdown-features",
-              "permalink": "/docs/Docusaurus_References/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/markdown-features.mdx",
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "A Super Cool Feature -- Tabs",
-                "permalink": "/docs/Docusaurus_References/Tabs"
-              },
-              "next": {
-                "title": "Use Admonitions",
-                "permalink": "/docs/Docusaurus_References/Admonitions"
-              }
-            },
-            {
-              "unversionedId": "Docusaurus_References/mdFooter",
-              "id": "Docusaurus_References/mdFooter",
-              "isDocsHomePage": false,
-              "title": "Footer",
+              "title": "Add Footer",
               "description": "Footer",
-              "source": "@site/docs/Docusaurus_References/Footer.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/mdFooter",
-              "permalink": "/docs/Docusaurus_References/mdFooter",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Footer.md",
+              "source": "@site/docs/Docusaurus_References/JSX_Required/Footer.md",
+              "sourceDirName": "Docusaurus_References/JSX_Required",
+              "slug": "/Docusaurus_References/JSX_Required/mdFooter",
+              "permalink": "/docs/Docusaurus_References/JSX_Required/mdFooter",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/Footer.md",
               "version": "current",
               "frontMatter": {
                 "id": "mdFooter",
-                "title": "Footer"
+                "title": "Add Footer",
+                "parse_number_prefixes": true
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Inline TOC | Docusaurus",
-                "permalink": "/docs/Docusaurus_References/toc"
+                "title": "添加目录 Inline TOC",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc"
               },
               "next": {
-                "title": "Alert",
-                "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
+                "title": "Start Blogging",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/blogsetup"
               }
             },
             {
-              "unversionedId": "Docusaurus_References/sidebar",
-              "id": "Docusaurus_References/sidebar",
+              "unversionedId": "Docusaurus_References/JSX_Required/sidebar",
+              "id": "Docusaurus_References/JSX_Required/sidebar",
               "isDocsHomePage": false,
               "title": "Sidebar",
               "description": "Creating a sidebar is useful to:",
-              "source": "@site/docs/Docusaurus_References/side_bar.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/sidebar",
-              "permalink": "/docs/Docusaurus_References/sidebar",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/side_bar.md",
+              "source": "@site/docs/Docusaurus_References/JSX_Required/side_bar.md",
+              "sourceDirName": "Docusaurus_References/JSX_Required",
+              "slug": "/Docusaurus_References/JSX_Required/sidebar",
+              "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/side_bar.md",
               "version": "current",
               "frontMatter": {
-                "id": "sidebar"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Start Blogging",
-                "permalink": "/docs/Docusaurus_References/blogsetup"
-              }
-            },
-            {
-              "unversionedId": "Docusaurus_References/Tabs",
-              "id": "Docusaurus_References/Tabs",
-              "isDocsHomePage": false,
-              "title": "A Super Cool Feature -- Tabs",
-              "description": "---",
-              "source": "@site/docs/Docusaurus_References/4. Tabs.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/Tabs",
-              "permalink": "/docs/Docusaurus_References/Tabs",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/4. Tabs.md",
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Front-matter",
-                "permalink": "/docs/Docusaurus_References/Front-matter"
-              },
-              "next": {
-                "title": "markdown-features",
-                "permalink": "/docs/Docusaurus_References/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "Docusaurus_References/toc",
-              "id": "Docusaurus_References/toc",
-              "isDocsHomePage": false,
-              "title": "Inline TOC | Docusaurus",
-              "description": "Each markdown document displays a tab of content on the top-right corner.",
-              "source": "@site/docs/Docusaurus_References/10. toc.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/toc",
-              "permalink": "/docs/Docusaurus_References/toc",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/10. toc.md",
-              "version": "current",
-              "sidebarPosition": 10,
-              "frontMatter": {
-                "sidebar_position": 10,
-                "id": "toc"
+                "id": "sidebar",
+                "parse_number_prefixes": true,
+                "title": "Config Sidebar"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Translate your site",
-                "permalink": "/docs/Docusaurus_References/translate-your-site"
+                "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n"
               },
               "next": {
-                "title": "Footer",
-                "permalink": "/docs/Docusaurus_References/mdFooter"
+                "title": "300. 最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/LeetCode300"
               }
             },
             {
-              "unversionedId": "Docusaurus_References/translate-your-site",
-              "id": "Docusaurus_References/translate-your-site",
+              "unversionedId": "Docusaurus_References/JSX_Required/translate_i18n",
+              "id": "Docusaurus_References/JSX_Required/translate_i18n",
               "isDocsHomePage": false,
               "title": "Translate your site",
               "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/Docusaurus_References/9. translate-your-site.md",
-              "sourceDirName": "Docusaurus_References",
-              "slug": "/Docusaurus_References/translate-your-site",
-              "permalink": "/docs/Docusaurus_References/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/9. translate-your-site.md",
+              "source": "@site/docs/Docusaurus_References/JSX_Required/Translate-your-site.md",
+              "sourceDirName": "Docusaurus_References/JSX_Required",
+              "slug": "/Docusaurus_References/JSX_Required/translate_i18n",
+              "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/Translate-your-site.md",
               "version": "current",
-              "sidebarPosition": 9,
               "frontMatter": {
-                "sidebar_position": 9
+                "id": "translate_i18n",
+                "title": "Use i18n translate your site",
+                "parse_number_prefixes": true
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Start Blogging",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/blogsetup"
+              },
+              "next": {
+                "title": "Sidebar",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Markdown_MDX/addtabs",
+              "id": "Docusaurus_References/Markdown_MDX/addtabs",
+              "isDocsHomePage": false,
+              "title": "A Super Cool Feature -- Tabs",
+              "description": "---",
+              "source": "@site/docs/Docusaurus_References/Markdown_MDX/4. Tabs.md",
+              "sourceDirName": "Docusaurus_References/Markdown_MDX",
+              "slug": "/Docusaurus_References/Markdown_MDX/addtabs",
+              "permalink": "/docs/Docusaurus_References/Markdown_MDX/addtabs",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/4. Tabs.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "id": "addtabs",
+                "title": "Add Tabs",
+                "parse_number_prefixes": true
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Docs Front Matter",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/frontmatter"
+              },
+              "next": {
+                "title": "Use Admonitions",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/admonition"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Markdown_MDX/admonition",
+              "id": "Docusaurus_References/Markdown_MDX/admonition",
+              "isDocsHomePage": false,
+              "title": "Use Admonitions",
+              "description": "In addition to the basic Markdown syntax, we use remark-admonitions alongside MDX to add support for admonitions. Admonitions are wrapped by a set of 3 colons.",
+              "source": "@site/docs/Docusaurus_References/Markdown_MDX/6. Admonitions.md",
+              "sourceDirName": "Docusaurus_References/Markdown_MDX",
+              "slug": "/Docusaurus_References/Markdown_MDX/admonition",
+              "permalink": "/docs/Docusaurus_References/Markdown_MDX/admonition",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/6. Admonitions.md",
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6,
+                "id": "admonition",
+                "title": "Add Admonitions",
+                "parse_number_prefixes": true
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "A Super Cool Feature -- Tabs",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/addtabs"
+              },
+              "next": {
+                "title": "添加目录 Inline TOC",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Markdown_MDX/codeblock",
+              "id": "Docusaurus_References/Markdown_MDX/codeblock",
+              "isDocsHomePage": false,
+              "title": "Add Code blocks",
+              "description": "---",
+              "source": "@site/docs/Docusaurus_References/Markdown_MDX/2. Code Block.md",
+              "sourceDirName": "Docusaurus_References/Markdown_MDX",
+              "slug": "/Docusaurus_References/Markdown_MDX/codeblock",
+              "permalink": "/docs/Docusaurus_References/Markdown_MDX/codeblock",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/2. Code Block.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "parse_number_prefixes": true,
+                "id": "codeblock",
+                "title": "Add Code Blocks"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Basic Syntax",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics"
+              },
+              "next": {
+                "title": "Docs Front Matter",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/frontmatter"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Markdown_MDX/frontmatter",
+              "id": "Docusaurus_References/Markdown_MDX/frontmatter",
+              "isDocsHomePage": false,
+              "title": "Docs Front Matter",
+              "description": "Markdown documents can use the following markdown frontmatter metadata fields, enclosed by a line --- on either side:",
+              "source": "@site/docs/Docusaurus_References/Markdown_MDX/3. Front-matter.md",
+              "sourceDirName": "Docusaurus_References/Markdown_MDX",
+              "slug": "/Docusaurus_References/Markdown_MDX/frontmatter",
+              "permalink": "/docs/Docusaurus_References/Markdown_MDX/frontmatter",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/3. Front-matter.md",
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "parse_number_prefixes": true,
+                "id": "frontmatter",
+                "title": "Docs Front Matter"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Add Code blocks",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/codeblock"
+              },
+              "next": {
+                "title": "A Super Cool Feature -- Tabs",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/addtabs"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Markdown_MDX/mdbasics",
+              "id": "Docusaurus_References/Markdown_MDX/mdbasics",
+              "isDocsHomePage": false,
+              "title": "Basic Syntax",
+              "description": "Please read this reference",
+              "source": "@site/docs/Docusaurus_References/Markdown_MDX/1. Markdown Basics.md",
+              "sourceDirName": "Docusaurus_References/Markdown_MDX",
+              "slug": "/Docusaurus_References/Markdown_MDX/mdbasics",
+              "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/1. Markdown Basics.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "parse_number_prefixes": true,
+                "id": "mdbasics",
+                "title": "Basic Syntax"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Nav bar usage",
+                "permalink": "/docs/Docusaurus_References/Infima Powered/navbar"
+              },
+              "next": {
+                "title": "Add Code blocks",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/codeblock"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/Markdown_MDX/toc",
+              "id": "Docusaurus_References/Markdown_MDX/toc",
+              "isDocsHomePage": false,
+              "title": "添加目录 Inline TOC",
+              "description": "Each markdown document displays a tab of content on the top-right corner.",
+              "source": "@site/docs/Docusaurus_References/Markdown_MDX/5. Add toc.md",
+              "sourceDirName": "Docusaurus_References/Markdown_MDX",
+              "slug": "/Docusaurus_References/Markdown_MDX/toc",
+              "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/5. Add toc.md",
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10,
+                "id": "toc",
+                "title": "添加目录 Add TOC",
+                "parse_number_prefixes": true
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Use Admonitions",
-                "permalink": "/docs/Docusaurus_References/Admonitions"
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/admonition"
               },
               "next": {
-                "title": "Inline TOC | Docusaurus",
-                "permalink": "/docs/Docusaurus_References/toc"
+                "title": "Add Footer",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/mdFooter"
               }
             },
             {
@@ -518,40 +548,41 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "SQL Joining",
-                "permalink": "/docs/SQL Notes/sqljoin"
+                "title": "300. 最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/LeetCode300"
               },
               "next": {
-                "title": "最长递增子序列",
-                "permalink": "/docs/Dynamic Programming/LeetCode300"
+                "title": "64. Minimum Path Sum — Medium",
+                "permalink": "/docs/Dynamic Programming/LeetCode64"
               }
             },
             {
               "unversionedId": "Dynamic Programming/LeetCode300",
               "id": "Dynamic Programming/LeetCode300",
               "isDocsHomePage": false,
-              "title": "最长递增子序列",
+              "title": "300. 最长递增子序列",
               "description": "LeetCode 300. 最长递增子序列",
-              "source": "@site/docs/Dynamic Programming/最长递增子序列.md",
+              "source": "@site/docs/Dynamic Programming/300. 最长递增子序列.md",
               "sourceDirName": "Dynamic Programming",
               "slug": "/Dynamic Programming/LeetCode300",
               "permalink": "/docs/Dynamic Programming/LeetCode300",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/最长递增子序列.md",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/300. 最长递增子序列.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1,
                 "id": "LeetCode300",
-                "title": "LeetCode 300. 最长递增子序列"
+                "title": "LeetCode 300. 最长递增子序列",
+                "parse_number_prefixes": true
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Hello Algorithm",
-                "permalink": "/docs/Dynamic Programming/algointro"
+                "title": "Sidebar",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar"
               },
               "next": {
-                "title": "64. Minimum Path Sum — Medium",
-                "permalink": "/docs/Dynamic Programming/LeetCode64"
+                "title": "Hello Algorithm",
+                "permalink": "/docs/Dynamic Programming/algointro"
               }
             },
             {
@@ -570,16 +601,13 @@
               "frontMatter": {
                 "sidebar_position": 2,
                 "id": "LeetCode64",
-                "title": "64. Minimum Path Sum — Medium"
+                "title": "64. Minimum Path Sum — Medium",
+                "parse_number_prefixes": true
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "最长递增子序列",
-                "permalink": "/docs/Dynamic Programming/LeetCode300"
-              },
-              "next": {
-                "title": "Basic Syntax",
-                "permalink": "/docs/Docusaurus_References/Markdown Basics"
+                "title": "Hello Algorithm",
+                "permalink": "/docs/Dynamic Programming/algointro"
               }
             },
             {
@@ -604,6 +632,86 @@
               "next": {
                 "title": "SQL Overview",
                 "permalink": "/docs/SQL Notes/sqlintro"
+              }
+            },
+            {
+              "unversionedId": "Multivariable Calculus/6Aoutline",
+              "id": "Multivariable Calculus/6Aoutline",
+              "isDocsHomePage": false,
+              "title": "MATH 6A Outline",
+              "description": "",
+              "source": "@site/docs/Multivariable Calculus/Outline of 6A.md",
+              "sourceDirName": "Multivariable Calculus",
+              "slug": "/Multivariable Calculus/6Aoutline",
+              "permalink": "/docs/Multivariable Calculus/6Aoutline",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Outline of 6A.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "6Aoutline",
+                "title": "MATH 6A Outline",
+                "parse_number_prefixes": true
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Cheatsheets",
+                "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
+              },
+              "next": {
+                "title": "Surface Integral",
+                "permalink": "/docs/Multivariable Calculus/calcessential"
+              }
+            },
+            {
+              "unversionedId": "Multivariable Calculus/calcessential",
+              "id": "Multivariable Calculus/calcessential",
+              "isDocsHomePage": false,
+              "title": "Surface Integral",
+              "description": "Break coordinates into one dimensions and think it as a combination of different linear equations.",
+              "source": "@site/docs/Multivariable Calculus/Surface Integral.md",
+              "sourceDirName": "Multivariable Calculus",
+              "slug": "/Multivariable Calculus/calcessential",
+              "permalink": "/docs/Multivariable Calculus/calcessential",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Surface Integral.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "calcessential",
+                "title": "Surface Integral"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MATH 6A Outline",
+                "permalink": "/docs/Multivariable Calculus/6Aoutline"
+              },
+              "next": {
+                "title": "Alert",
+                "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
+              }
+            },
+            {
+              "unversionedId": "Multivariable Calculus/multcalc_cheatsheet",
+              "id": "Multivariable Calculus/multcalc_cheatsheet",
+              "isDocsHomePage": false,
+              "title": "Cheatsheets",
+              "description": "MATH 53",
+              "source": "@site/docs/Multivariable Calculus/Cheatsheets.md",
+              "sourceDirName": "Multivariable Calculus",
+              "slug": "/Multivariable Calculus/multcalc_cheatsheet",
+              "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Cheatsheets.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "multcalc_cheatsheet",
+                "title": "Cheatsheets",
+                "parse_number_prefixes": true
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SQL Joining",
+                "permalink": "/docs/SQL Notes/sqljoin"
+              },
+              "next": {
+                "title": "MATH 6A Outline",
+                "permalink": "/docs/Multivariable Calculus/6Aoutline"
               }
             },
             {
@@ -705,8 +813,8 @@
                 "permalink": "/docs/SQL Notes/Important Concepts"
               },
               "next": {
-                "title": "Hello Algorithm",
-                "permalink": "/docs/Dynamic Programming/algointro"
+                "title": "Cheatsheets",
+                "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
               }
             },
             {

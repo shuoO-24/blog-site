@@ -2,6 +2,7 @@
 sidebar_position: 2
 id: LeetCode64
 title: 64. Minimum Path Sum — Medium
+parse_number_prefixes: true
 ---
 # 64. Minimum Path Sum — Medium
 

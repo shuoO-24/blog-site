@@ -2,7 +2,7 @@
   "unversionedId": "Docusaurus_References/toc",
   "id": "Docusaurus_References/toc",
   "isDocsHomePage": false,
-  "title": "Inline TOC | Docusaurus",
+  "title": "添加目录 Inline TOC",
   "description": "Each markdown document displays a tab of content on the top-right corner.",
   "source": "@site/docs/Docusaurus_References/10. toc.md",
   "sourceDirName": "Docusaurus_References",
@@ -18,7 +18,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Translate your site",
-    "permalink": "/docs/Docusaurus_References/translate-your-site"
+    "permalink": "/docs/Docusaurus_References/translate_i18n"
   },
   "next": {
     "title": "Footer",

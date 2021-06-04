@@ -30,7 +30,10 @@ Following the `GROUP BY` clause is a column or a list of comma-separated columns
 <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gqzi4z4sz7j30be0580t1.jpg" alt="grouped"/>
 </div>
 
-**Example**:
+<br />
+
+---
+### **Example**:
 
 <div style={{ zoom: 0.67 }} class='text--center'><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gqzc0w47pxj30n008i3zj.jpg" alt="INVOICES"/>
 </div>
@@ -52,6 +55,8 @@ dbGetQuery(mydb, 'SELECT ORDER_NO, SUM(QUANTITY) FROM INVOICES GROUP BY ORDER_NO
 # 2        2         11000
 ```
 
+---
+
 ### 常与ordering一起使用
 
 ```sql
@@ -62,7 +67,7 @@ GROUP BY column_name(s)
 ORDER BY column_name(s);
 ```
 
-**Example**
+#### **Example**:
 
 ```sql
 SELECT Shippers.ShipperName, COUNT(Orders.OrderID) AS NumberOfOrders FROM Orders

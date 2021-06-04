@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/Markdown/MDX/Code Block",
+  "id": "Docusaurus_References/Markdown/MDX/Code Block",
+  "isDocsHomePage": false,
+  "title": "Add Code blocks",
+  "description": "---",
+  "source": "@site/docs/Docusaurus_References/Markdown/MDX/2. Code Block.md",
+  "sourceDirName": "Docusaurus_References/Markdown/MDX",
+  "slug": "/Docusaurus_References/Markdown/MDX/Code Block",
+  "permalink": "/docs/Docusaurus_References/Markdown/MDX/Code Block",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown/MDX/2. Code Block.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic Syntax",
+    "permalink": "/docs/Docusaurus_References/Markdown/MDX/Markdown Basics"
+  },
+  "next": {
+    "title": "Front-matter",
+    "permalink": "/docs/Docusaurus_References/Markdown/MDX/Front-matter"
+  }
+}

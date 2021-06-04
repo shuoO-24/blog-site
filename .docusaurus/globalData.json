@@ -11,26 +11,6 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "Docusaurus_References/Admonitions",
-              "path": "/docs/Docusaurus_References/Admonitions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Docusaurus_References/blogsetup",
-              "path": "/docs/Docusaurus_References/blogsetup",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Docusaurus_References/Code Block",
-              "path": "/docs/Docusaurus_References/Code Block",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Docusaurus_References/Front-matter",
-              "path": "/docs/Docusaurus_References/Front-matter",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Docusaurus_References/Infima Powered/infima",
               "path": "/docs/Docusaurus_References/Infima Powered/infima",
               "sidebar": "tutorialSidebar"
@@ -41,38 +21,53 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus_References/Markdown Basics",
-              "path": "/docs/Docusaurus_References/Markdown Basics",
+              "id": "Docusaurus_References/JSX_Required/blogsetup",
+              "path": "/docs/Docusaurus_References/JSX_Required/blogsetup",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus_References/markdown-features",
-              "path": "/docs/Docusaurus_References/markdown-features",
+              "id": "Docusaurus_References/JSX_Required/mdFooter",
+              "path": "/docs/Docusaurus_References/JSX_Required/mdFooter",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus_References/mdFooter",
-              "path": "/docs/Docusaurus_References/mdFooter",
+              "id": "Docusaurus_References/JSX_Required/sidebar",
+              "path": "/docs/Docusaurus_References/JSX_Required/sidebar",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus_References/sidebar",
-              "path": "/docs/Docusaurus_References/sidebar",
+              "id": "Docusaurus_References/JSX_Required/translate_i18n",
+              "path": "/docs/Docusaurus_References/JSX_Required/translate_i18n",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus_References/Tabs",
-              "path": "/docs/Docusaurus_References/Tabs",
+              "id": "Docusaurus_References/Markdown_MDX/addtabs",
+              "path": "/docs/Docusaurus_References/Markdown_MDX/addtabs",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus_References/toc",
-              "path": "/docs/Docusaurus_References/toc",
+              "id": "Docusaurus_References/Markdown_MDX/admonition",
+              "path": "/docs/Docusaurus_References/Markdown_MDX/admonition",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Docusaurus_References/translate-your-site",
-              "path": "/docs/Docusaurus_References/translate-your-site",
+              "id": "Docusaurus_References/Markdown_MDX/codeblock",
+              "path": "/docs/Docusaurus_References/Markdown_MDX/codeblock",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus_References/Markdown_MDX/frontmatter",
+              "path": "/docs/Docusaurus_References/Markdown_MDX/frontmatter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus_References/Markdown_MDX/mdbasics",
+              "path": "/docs/Docusaurus_References/Markdown_MDX/mdbasics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docusaurus_References/Markdown_MDX/toc",
+              "path": "/docs/Docusaurus_References/Markdown_MDX/toc",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -93,6 +88,21 @@
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Multivariable Calculus/6Aoutline",
+              "path": "/docs/Multivariable Calculus/6Aoutline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Multivariable Calculus/calcessential",
+              "path": "/docs/Multivariable Calculus/calcessential",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Multivariable Calculus/multcalc_cheatsheet",
+              "path": "/docs/Multivariable Calculus/multcalc_cheatsheet",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Docusaurus_References/Markdown_MDX/toc",
+  "id": "Docusaurus_References/Markdown_MDX/toc",
+  "isDocsHomePage": false,
+  "title": "添加目录 Inline TOC",
+  "description": "Each markdown document displays a tab of content on the top-right corner.",
+  "source": "@site/docs/Docusaurus_References/Markdown_MDX/10. toc.md",
+  "sourceDirName": "Docusaurus_References/Markdown_MDX",
+  "slug": "/Docusaurus_References/Markdown_MDX/toc",
+  "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/10. toc.md",
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "id": "toc",
+    "title": "添加目录 Add TOC"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Admonitions",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/Admonitions"
+  },
+  "next": {
+    "title": "Footer",
+    "permalink": "/docs/Docusaurus_References/JSX_Required/mdFooter"
+  }
+}

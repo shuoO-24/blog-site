@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Docusaurus_References/Markdown_MDX/translate_i18n",
+  "id": "Docusaurus_References/Markdown_MDX/translate_i18n",
+  "isDocsHomePage": false,
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/Docusaurus_References/Markdown_MDX/9. translate-your-site.md",
+  "sourceDirName": "Docusaurus_References/Markdown_MDX",
+  "slug": "/Docusaurus_References/Markdown_MDX/translate_i18n",
+  "permalink": "/docs/Docusaurus_References/Markdown_MDX/translate_i18n",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/9. translate-your-site.md",
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "id": "translate_i18n",
+    "title": "Use i18n translate your site"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Admonitions",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/Admonitions"
+  },
+  "next": {
+    "title": "添加目录 Inline TOC",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc"
+  }
+}

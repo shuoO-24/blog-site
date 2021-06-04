@@ -103,69 +103,65 @@
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/docs-b58": {
+  "/docs-afc": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/docs/Docusaurus_References/Admonitions-e5e": {
+  "/docs/Docusaurus_References/Infima Powered/infima-fa9": {
     "component": "17896441",
-    "content": "ed3bb5b2"
-  },
-  "/docs/Docusaurus_References/blogsetup-fbc": {
-    "component": "17896441",
-    "content": "e8612d22"
-  },
-  "/docs/Docusaurus_References/Code Block-698": {
-    "component": "17896441",
-    "content": "0211c2bf"
-  },
-  "/docs/Docusaurus_References/Front-matter-0ef": {
-    "component": "17896441",
-    "content": "b106a1b9"
-  },
-  "/docs/Docusaurus_References/Infima Powered/infima-43c": {
-    "component": "17896441",
-    "content": "bf9b8ca2"
+    "content": "c3e68820"
   },
   "/docs/Docusaurus_References/Infima Powered/navbar-9ab": {
     "component": "17896441",
     "content": "f708c0f2"
   },
-  "/docs/Docusaurus_References/Markdown Basics-a1b": {
+  "/docs/Docusaurus_References/JSX_Required/blogsetup-e0f": {
     "component": "17896441",
-    "content": "3ed2ef36"
+    "content": "26c79416"
   },
-  "/docs/Docusaurus_References/markdown-features-bd3": {
+  "/docs/Docusaurus_References/JSX_Required/mdFooter-46e": {
     "component": "17896441",
-    "content": "82b99330"
+    "content": "6d11314e"
   },
-  "/docs/Docusaurus_References/mdFooter-d70": {
+  "/docs/Docusaurus_References/JSX_Required/sidebar-6ca": {
     "component": "17896441",
-    "content": "373299e9"
+    "content": "429898ff"
   },
-  "/docs/Docusaurus_References/sidebar-397": {
+  "/docs/Docusaurus_References/JSX_Required/translate_i18n-0b7": {
     "component": "17896441",
-    "content": "22361e5b"
+    "content": "ccca7761"
   },
-  "/docs/Docusaurus_References/Tabs-b63": {
+  "/docs/Docusaurus_References/Markdown_MDX/addtabs-40c": {
     "component": "17896441",
-    "content": "712f4158"
+    "content": "efff384a"
   },
-  "/docs/Docusaurus_References/toc-b4c": {
+  "/docs/Docusaurus_References/Markdown_MDX/admonition-07c": {
     "component": "17896441",
-    "content": "6777f29f"
+    "content": "39940ae6"
   },
-  "/docs/Docusaurus_References/translate-your-site-9a0": {
+  "/docs/Docusaurus_References/Markdown_MDX/codeblock-7fc": {
     "component": "17896441",
-    "content": "6c0631f4"
+    "content": "055704bc"
+  },
+  "/docs/Docusaurus_References/Markdown_MDX/frontmatter-9e6": {
+    "component": "17896441",
+    "content": "662d649b"
+  },
+  "/docs/Docusaurus_References/Markdown_MDX/mdbasics-959": {
+    "component": "17896441",
+    "content": "8acc8711"
+  },
+  "/docs/Docusaurus_References/Markdown_MDX/toc-f0b": {
+    "component": "17896441",
+    "content": "fafe6f52"
   },
   "/docs/Dynamic Programming/algointro-57c": {
     "component": "17896441",
     "content": "d4280efc"
   },
-  "/docs/Dynamic Programming/LeetCode300-7fe": {
+  "/docs/Dynamic Programming/LeetCode300-2ef": {
     "component": "17896441",
-    "content": "886a4d5f"
+    "content": "0b2bb285"
   },
   "/docs/Dynamic Programming/LeetCode64-2a5": {
     "component": "17896441",
@@ -174,6 +170,18 @@
   "/docs/intro-e84": {
     "component": "17896441",
     "content": "0e384e19"
+  },
+  "/docs/Multivariable Calculus/6Aoutline-c62": {
+    "component": "17896441",
+    "content": "3957501a"
+  },
+  "/docs/Multivariable Calculus/calcessential-20b": {
+    "component": "17896441",
+    "content": "14837e3f"
+  },
+  "/docs/Multivariable Calculus/multcalc_cheatsheet-1dd": {
+    "component": "17896441",
+    "content": "33b93178"
   },
   "/docs/SQL Notes/Important Concepts-51f": {
     "component": "17896441",

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/JSX_Required/blogsetup",
+  "id": "Docusaurus_References/JSX_Required/blogsetup",
+  "isDocsHomePage": false,
+  "title": "Start Blogging",
+  "description": "Initial setup",
+  "source": "@site/docs/Docusaurus_References/JSX_Required/Start blogging.md",
+  "sourceDirName": "Docusaurus_References/JSX_Required",
+  "slug": "/Docusaurus_References/JSX_Required/blogsetup",
+  "permalink": "/docs/Docusaurus_References/JSX_Required/blogsetup",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/Start blogging.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "blogsetup",
+    "title": "Start Blogging"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add Footer",
+    "permalink": "/docs/Docusaurus_References/JSX_Required/mdFooter"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n"
+  }
+}

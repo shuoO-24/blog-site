@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/Markdown(mdx)/Front-matter",
+  "id": "Docusaurus_References/Markdown(mdx)/Front-matter",
+  "isDocsHomePage": false,
+  "title": "Front-matter",
+  "description": "Markdown documents can use the following markdown frontmatter metadata fields, enclosed by a line --- on either side:",
+  "source": "@site/docs/Docusaurus_References/Markdown(mdx)/3. Front-matter.md",
+  "sourceDirName": "Docusaurus_References/Markdown(mdx)",
+  "slug": "/Docusaurus_References/Markdown(mdx)/Front-matter",
+  "permalink": "/docs/Docusaurus_References/Markdown(mdx)/Front-matter",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown(mdx)/3. Front-matter.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add Code blocks",
+    "permalink": "/docs/Docusaurus_References/Markdown(mdx)/Code Block"
+  },
+  "next": {
+    "title": "A Super Cool Feature -- Tabs",
+    "permalink": "/docs/Docusaurus_References/Markdown(mdx)/addtabs"
+  }
+}

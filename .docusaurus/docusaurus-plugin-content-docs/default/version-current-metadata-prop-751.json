@@ -49,22 +49,22 @@
       },
       {
         "type": "category",
-        "label": "Dynamic Programming",
+        "label": "Multivarable Calculus",
         "items": [
           {
             "type": "link",
-            "label": "Hello Algorithm",
-            "href": "/docs/Dynamic Programming/algointro"
+            "label": "Cheatsheets",
+            "href": "/docs/Multivariable Calculus/multcalc_cheatsheet"
           },
           {
             "type": "link",
-            "label": "最长递增子序列",
-            "href": "/docs/Dynamic Programming/LeetCode300"
+            "label": "MATH 6A Outline",
+            "href": "/docs/Multivariable Calculus/6Aoutline"
           },
           {
             "type": "link",
-            "label": "64. Minimum Path Sum — Medium",
-            "href": "/docs/Dynamic Programming/LeetCode64"
+            "label": "Surface Integral",
+            "href": "/docs/Multivariable Calculus/calcessential"
           }
         ],
         "collapsed": true
@@ -73,51 +73,6 @@
         "type": "category",
         "label": "Docusaurus References",
         "items": [
-          {
-            "type": "link",
-            "label": "Basic Syntax",
-            "href": "/docs/Docusaurus_References/Markdown Basics"
-          },
-          {
-            "type": "link",
-            "label": "Add Code blocks",
-            "href": "/docs/Docusaurus_References/Code Block"
-          },
-          {
-            "type": "link",
-            "label": "Front-matter",
-            "href": "/docs/Docusaurus_References/Front-matter"
-          },
-          {
-            "type": "link",
-            "label": "A Super Cool Feature -- Tabs",
-            "href": "/docs/Docusaurus_References/Tabs"
-          },
-          {
-            "type": "link",
-            "label": "markdown-features",
-            "href": "/docs/Docusaurus_References/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Use Admonitions",
-            "href": "/docs/Docusaurus_References/Admonitions"
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/Docusaurus_References/translate-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Inline TOC | Docusaurus",
-            "href": "/docs/Docusaurus_References/toc"
-          },
-          {
-            "type": "link",
-            "label": "Footer",
-            "href": "/docs/Docusaurus_References/mdFooter"
-          },
           {
             "type": "category",
             "label": "Infima Powered",
@@ -136,14 +91,90 @@
             "collapsed": true
           },
           {
+            "type": "category",
+            "label": "Markdown/MDX",
+            "items": [
+              {
+                "type": "link",
+                "label": "Basic Syntax",
+                "href": "/docs/Docusaurus_References/Markdown_MDX/mdbasics"
+              },
+              {
+                "type": "link",
+                "label": "Add Code blocks",
+                "href": "/docs/Docusaurus_References/Markdown_MDX/codeblock"
+              },
+              {
+                "type": "link",
+                "label": "Docs Front Matter",
+                "href": "/docs/Docusaurus_References/Markdown_MDX/frontmatter"
+              },
+              {
+                "type": "link",
+                "label": "A Super Cool Feature -- Tabs",
+                "href": "/docs/Docusaurus_References/Markdown_MDX/addtabs"
+              },
+              {
+                "type": "link",
+                "label": "Use Admonitions",
+                "href": "/docs/Docusaurus_References/Markdown_MDX/admonition"
+              },
+              {
+                "type": "link",
+                "label": "添加目录 Inline TOC",
+                "href": "/docs/Docusaurus_References/Markdown_MDX/toc"
+              }
+            ],
+            "collapsed": true
+          },
+          {
+            "type": "category",
+            "label": "JSX Required Features",
+            "items": [
+              {
+                "type": "link",
+                "label": "Add Footer",
+                "href": "/docs/Docusaurus_References/JSX_Required/mdFooter"
+              },
+              {
+                "type": "link",
+                "label": "Start Blogging",
+                "href": "/docs/Docusaurus_References/JSX_Required/blogsetup"
+              },
+              {
+                "type": "link",
+                "label": "Translate your site",
+                "href": "/docs/Docusaurus_References/JSX_Required/translate_i18n"
+              },
+              {
+                "type": "link",
+                "label": "Sidebar",
+                "href": "/docs/Docusaurus_References/JSX_Required/sidebar"
+              }
+            ],
+            "collapsed": true
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Dynamic Programming",
+        "items": [
+          {
             "type": "link",
-            "label": "Start Blogging",
-            "href": "/docs/Docusaurus_References/blogsetup"
+            "label": "300. 最长递增子序列",
+            "href": "/docs/Dynamic Programming/LeetCode300"
           },
           {
             "type": "link",
-            "label": "Sidebar",
-            "href": "/docs/Docusaurus_References/sidebar"
+            "label": "Hello Algorithm",
+            "href": "/docs/Dynamic Programming/algointro"
+          },
+          {
+            "type": "link",
+            "label": "64. Minimum Path Sum — Medium",
+            "href": "/docs/Dynamic Programming/LeetCode64"
           }
         ],
         "collapsed": true
@@ -151,23 +182,25 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/Docusaurus_References/Admonitions": "tutorialSidebar",
-    "/docs/Docusaurus_References/blogsetup": "tutorialSidebar",
-    "/docs/Docusaurus_References/Code Block": "tutorialSidebar",
-    "/docs/Docusaurus_References/Front-matter": "tutorialSidebar",
     "/docs/Docusaurus_References/Infima Powered/infima": "tutorialSidebar",
     "/docs/Docusaurus_References/Infima Powered/navbar": "tutorialSidebar",
-    "/docs/Docusaurus_References/Markdown Basics": "tutorialSidebar",
-    "/docs/Docusaurus_References/markdown-features": "tutorialSidebar",
-    "/docs/Docusaurus_References/mdFooter": "tutorialSidebar",
-    "/docs/Docusaurus_References/sidebar": "tutorialSidebar",
-    "/docs/Docusaurus_References/Tabs": "tutorialSidebar",
-    "/docs/Docusaurus_References/toc": "tutorialSidebar",
-    "/docs/Docusaurus_References/translate-your-site": "tutorialSidebar",
+    "/docs/Docusaurus_References/JSX_Required/blogsetup": "tutorialSidebar",
+    "/docs/Docusaurus_References/JSX_Required/mdFooter": "tutorialSidebar",
+    "/docs/Docusaurus_References/JSX_Required/sidebar": "tutorialSidebar",
+    "/docs/Docusaurus_References/JSX_Required/translate_i18n": "tutorialSidebar",
+    "/docs/Docusaurus_References/Markdown_MDX/addtabs": "tutorialSidebar",
+    "/docs/Docusaurus_References/Markdown_MDX/admonition": "tutorialSidebar",
+    "/docs/Docusaurus_References/Markdown_MDX/codeblock": "tutorialSidebar",
+    "/docs/Docusaurus_References/Markdown_MDX/frontmatter": "tutorialSidebar",
+    "/docs/Docusaurus_References/Markdown_MDX/mdbasics": "tutorialSidebar",
+    "/docs/Docusaurus_References/Markdown_MDX/toc": "tutorialSidebar",
     "/docs/Dynamic Programming/algointro": "tutorialSidebar",
     "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
     "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
+    "/docs/Multivariable Calculus/6Aoutline": "tutorialSidebar",
+    "/docs/Multivariable Calculus/calcessential": "tutorialSidebar",
+    "/docs/Multivariable Calculus/multcalc_cheatsheet": "tutorialSidebar",
     "/docs/SQL Notes/Important Concepts": "tutorialSidebar",
     "/docs/SQL Notes/sqlgroup": "tutorialSidebar",
     "/docs/SQL Notes/sqlintro": "tutorialSidebar",

@@ -10,17 +10,14 @@
   "permalink": "/docs/Docusaurus_References/markdown-features",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/markdown-features.mdx",
   "version": "current",
-  "sidebarPosition": 4,
-  "frontMatter": {
-    "sidebar_position": 4
-  },
+  "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "A Super Cool Feature -- Tabs",
-    "permalink": "/docs/Docusaurus_References/Tabs"
+    "title": "Start Blogging",
+    "permalink": "/docs/Docusaurus_References/blogsetup"
   },
   "next": {
-    "title": "Use Admonitions",
-    "permalink": "/docs/Docusaurus_References/Admonitions"
+    "title": "Sidebar",
+    "permalink": "/docs/Docusaurus_References/sidebar"
   }
 }

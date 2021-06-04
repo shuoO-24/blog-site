@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Dynamic Programming/LeetCode300",
+  "id": "Dynamic Programming/LeetCode300",
+  "isDocsHomePage": false,
+  "title": "300. 最长递增子序列",
+  "description": "LeetCode 300. 最长递增子序列",
+  "source": "@site/docs/Dynamic Programming/300. 最长递增子序列.md",
+  "sourceDirName": "Dynamic Programming",
+  "slug": "/Dynamic Programming/LeetCode300",
+  "permalink": "/docs/Dynamic Programming/LeetCode300",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/300. 最长递增子序列.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "LeetCode300",
+    "title": "LeetCode 300. 最长递增子序列",
+    "parse_number_prefixes": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sidebar",
+    "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar"
+  },
+  "next": {
+    "title": "Hello Algorithm",
+    "permalink": "/docs/Dynamic Programming/algointro"
+  }
+}

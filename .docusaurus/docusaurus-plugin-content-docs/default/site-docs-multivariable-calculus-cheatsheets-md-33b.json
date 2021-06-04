@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Multivariable Calculus/multcalc_cheatsheet",
+  "id": "Multivariable Calculus/multcalc_cheatsheet",
+  "isDocsHomePage": false,
+  "title": "Cheatsheets",
+  "description": "MATH 53",
+  "source": "@site/docs/Multivariable Calculus/Cheatsheets.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/multcalc_cheatsheet",
+  "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Cheatsheets.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "multcalc_cheatsheet",
+    "title": "Cheatsheets",
+    "parse_number_prefixes": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Joining",
+    "permalink": "/docs/SQL Notes/sqljoin"
+  },
+  "next": {
+    "title": "MATH 6A Outline",
+    "permalink": "/docs/Multivariable Calculus/6Aoutline"
+  }
+}

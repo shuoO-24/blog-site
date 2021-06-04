@@ -1,6 +1,7 @@
 ---
 slug: 摘抄
 title: 每日一思
+
 author: Thinkers
 author_title: Normal philosophier
 tags: [杂思, 生活]

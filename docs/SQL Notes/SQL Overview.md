@@ -32,11 +32,17 @@ SQL 可以：
 ## Execution of a SQL
 
 Execution of a SQL query is based on relational algebra
-![Example banner](https://tva1.sinaimg.cn/large/008i3skNgy1gqwai3tb8sj308y078jrt.jpg)
+<div class='text--center'>
+<img src='https://tva1.sinaimg.cn/large/008i3skNgy1gqwai3tb8sj308y078jrt.jpg' alt='Example banner' />
+</div>
 
 ## Using SQL
 
 Stand-alone (CLI or GUI): SQL Plus (see tutorial)  Embedded in a host language (C, C++, Java, etc.)
+<div class='text--center'>
+<img src='https://tva1.sinaimg.cn/large/008i3skNgy1gqwai3tb8sj308y078jrt.jpg' alt='sql workstation' />
+</div>
+
 
 ## Concepts: Database
 

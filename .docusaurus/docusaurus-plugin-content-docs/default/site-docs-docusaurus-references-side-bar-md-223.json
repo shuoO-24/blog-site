@@ -11,11 +11,17 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/side_bar.md",
   "version": "current",
   "frontMatter": {
-    "id": "sidebar"
+    "id": "sidebar",
+    "parse_number_prefixes": true,
+    "title": "Config Sidebar"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Start Blogging",
     "permalink": "/docs/Docusaurus_References/blogsetup"
+  },
+  "next": {
+    "title": "300. 最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/LeetCode300"
   }
 }

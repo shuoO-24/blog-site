@@ -12,9 +12,9 @@ We have seen how to create a new relation from a given schema.
 
 We know that the following **rules** must apply to relations:
 
-1. <u>Entity Integrity</u>:
-	For each tuple in a relation attributes that belong to the **primary** key must be **non-null**
-2. <u>Referential Integrity</u>:
+1. _Entity Integrity_:
+   For each tuple in a relation attributes that belong to the **primary** key must be **non-null**
+2. *Referential Integrity*:
 	All **foreign** key attribute values in a relation must be either **null** or correspond to a **primary** key value
 3. **Duplication** of tuples in a relation is **not** allowed.
 4. Next, we look at: - **Normalization**
@@ -23,10 +23,9 @@ Basically, a well-structured relation is
 **a relation that contains minimal data redundancy and allows users to insert, delete, and update rows without causing data inconsistencies.**
 Its goal is to avoid (minimize) anomalies:
 
-- Insertion Anomaly: adding new rows forces user to create duplicate data
-- Deletion Anomaly: deleting a row may cause loss of other data representing completely different facts
-- Modification Anomaly: changing data in a row forces
-  changes to other rows because of duplication
+- _Insertion Anomaly_: adding new rows forces user to create duplicate data
+- _Deletion Anomaly_: deleting a row may cause loss of other data representing completely different facts
+- _Modification Anomaly_: changing data in a row forces changes to other rows because of duplication
 
 > General rule of thumb: a table should not pertain to more than one entity type
 
@@ -52,7 +51,8 @@ Applying these rules **removes undesirable properties** from a DB, including the
 
 ## <u>Anormalies</u> | Example: Relation TA
 
-![rgV1eZFiOyaSCTM](https://i.loli.net/2021/06/04/rgV1eZFiOyaSCTM.jpg)
+<div class="text--center" style={{ zoom: 0.7 }}><img src='https://i.loli.net/2021/06/04/rgV1eZFiOyaSCTM.jpg' alt='dsd' />
+</div>
 
 _The relation TA is not normalized. Why does this matter?_
 
@@ -62,6 +62,8 @@ _The relation TA is not normalized. Why does this matter?_
 
 2. What is the PRIMARY KEY of TA?
    - {TA_ID, TA_DEPT}
+  <p>
+  </p>
 3. <div style={{ color: 'tomato' }}>
      <h4>UPDATE ANOMALY</h4>
    </div>
@@ -84,9 +86,9 @@ _The relation TA is not normalized. Why does this matter?_
 - Suppose the BIOLOGY **department is closed down**
 - **Deleting tuples with attribute value BIOLOGY in TA_DEPT would delete the information about Bob** — we **do not want to remove Bob**'s TA_ID, TA_ADDRESS, and other information — thus a DELETION ANOMALY
 
-How do we resolve or avoid anomalies?
+_How do we resolve or avoid anomalies?_
 
-- To resolve or avoid anomalies, we need to _normalize_ relations
+- To resolve or avoid anomalies, we need to **normalize** relations
 - We will continue the above example later in the lecture, after we have discussed 1NF and 2NF.
 
 ---
@@ -149,7 +151,9 @@ It violates both rules for 1NF
 <div style={{ zoom: 0.5 }} class='text--center'><img src='https://tva1.sinaimg.cn/large/008i3skNgy1gqwyd8q7qrj30lc0aywgk.jpg' alt='course_content_3'/>
 </div>
 
-Not in 1NF
+<div class="alert alert--primary" role="alert" style={{ size: 1 }}>
+    Not in 1NF
+</div>
 
 Because there 2 tuple values in COURSE_CONTENT
 
@@ -158,9 +162,12 @@ We can decompose it:
 <div style={{ zoom: 0.5 }} class='text--center'><img src='https://tva1.sinaimg.cn/large/008i3skNgy1gqwyd8q7qrj30lc0aywgk.jpg' alt='course_content_3'/>
 </div>
 
-![COURSE_CONTENT_4](https://tva1.sinaimg.cn/large/008i3skNgy1gqwyep49exj30nc0ekgo4.jpg)
+<div style={{ zoom: 0.5 }} class='text--center'><img src='https://tva1.sinaimg.cn/large/008i3skNgy1gqwyep49exj30nc0ekgo4.jpg' alt='course_content_4' />
+</div>
 
-In 1NF
+<div class="alert alert--primary" role="alert" style={{ size: 1 }}>
+    In 1NF
+</div>
 
 ### <u>Second Normal Form (2NF)</u>
 
@@ -198,9 +205,9 @@ Schema: **STUDENT (ID, NAME, ADDRESS)**
 
 NAME and ADDRESS are both FUNCTIONALLY DEPENDENT on ID. Written:
 
-- {ID}--->{NAME}
-- {ID}--->{ADDRESS}
-- {ID}--->{NAME, ADDRESS}
+- `{ID}--->{NAME}`
+- `{ID}--->{ADDRESS}`
+- `{ID}--->{NAME, ADDRESS}`
 
 _(Not required to use {}, just be absolutely clear about what you're meaning)_
 
@@ -208,11 +215,11 @@ _Theory of relational database replies on advanced set theory. It's mathematical
 
 **Continued**:
 
-- ID--->{NAME} (read: **NAME is functionally dependent on ID**)
-- ID--->{ADDRESS}
-- ID--->{NAME, ADDRESS}
+- `ID--->{NAME}` (read: **NAME is functionally dependent on ID**)
+- `ID--->{ADDRESS}`
+- `ID--->{NAME, ADDRESS}`
 
-ID--->{NAME} can therefore also be read: **ID functionally determines NAME**
+`ID--->{NAME}` can therefore also be read: **ID functionally determines NAME**
 
 - You should be familiar with both of these terms with both functionally dependent and functionally determines.
 - MEANING:
@@ -224,13 +231,15 @@ ID--->{NAME} can therefore also be read: **ID functionally determines NAME**
 
 #### Example: 2NF Relation SCHOOL
 
-<div style={{ zoom: 0.6 }}>
+<div style={{ zoom: 0.6 }} class='text--center'>
 <img src='https://tva1.sinaimg.cn/large/008i3skNly1gqwz1p38r2j30j60bmmz4.jpg' alt='SCHOOL'/>
 </div>
 
 1. Is the relation SCHOOL in 1NF?
 
-   YES
+  <div class="alert alert--primary" role="alert" style={{ size: 1 }}>
+    In 1NF
+</div>  
 
 2. Are there any **non-prime attributes that are functionally dependent on a proper subset of any candidate key**?
 
@@ -279,9 +288,8 @@ Try to think of some possible anomalies.
 
 **Example(continued):**
 
-- The candidate key is:{FACULTY_ID, CLASS}
-
-<div style={{ size: 0.6 }}>
+- The candidate key is: {FACULTY_ID, CLASS}
+<div style={{ size: 0.3 }} class='text--center'>
 <img src='https://tva1.sinaimg.cn/large/008i3skNly1gqwz1p38r2j30j60bmmz4.jpg' alt='ta' />
 </div>
 
@@ -291,25 +299,23 @@ Applying the steps to the SCHOOL relation
 
      - FACULTY*ID ---> FACULTY_AGE *(READ: FACULTY*ID functionally determines FACULTY_AGE)*
      - Form a new relation with FACULTY_ID as primary key and FACULTY_AGE as attribute
-
-<div style={{ zoom: 0.6 }}>
-<img src='https://i.loli.net/2021/06/04/hxokQKG6RAUs7De.jpg' alt='SCHOOL2'/>
-</div>
+  <div style={{ zoom: 0.5 }} class='text--center'>
+  <img src='https://i.loli.net/2021/06/04/hxokQKG6RAUs7De.jpg' alt='SCHOOL2'/>
+  </div>
 
 
   2. **STEP 2**
 
      - Form a new relation defined on the attributes of the key of the original relation. New relation has FACULTY_ID, CLASS as attributes./>
      - FACULTY_AGE is determined by only part of the key, so is not included.
-
-<div style={{ zoom: 0.6 }}>
-<img src='https://i.loli.net/2021/06/04/ThKlvjm6ceZV13s.jpg' alt='SCHOOL3'/>
-</div>
+  <div style={{ zoom: 0.5 }} class='text--center'>
+  <img src='https://i.loli.net/2021/06/04/ThKlvjm6ceZV13s.jpg' alt='SCHOOL3'/>
+  </div>
 
 
 #### Example: Relation TA Continued
 
-<div style={{ zoom: 0.6 }}>
+<div style={{ zoom: 0.5 }} class='text--center'>
 <img src='https://i.loli.net/2021/06/04/rgV1eZFiOyaSCTM.jpg' alt='SCHOOL'/>
 </div>
 
@@ -332,19 +338,20 @@ Applying the steps to the SCHOOL relation
       - Candidate keys: `{TA_ID, TA_DEPT}`
       - Form a new relation with TA_ID as primary key and TA_NAME and TA_ADDRESS as attributes
 
-<div style={{ zoom: 0.6 }}>
-<img src='https://s3.us-west-2.amazonaws.com/secure.notion-static.com/002a62db-f55f-45ea-a8c9-e1c5b97ee3c3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T230931Z&X-Amz-Expires=86400&X-Amz-Signature=d305d70a157d19ec9b3f9672e0899749975fabed33bc3a2da5319e6118503471&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22' alt='TA2'/>
-</div>
+		<div style={{ zoom: 0.5 }} class='text--center'>
+		<img src='https://i.loli.net/2021/06/05/yVSKQY4pWMzutis.jpg' alt='TA2'/>
+		</div>
 
+   
       Duplicate tuples removed because of primary key in new relation
-
+   
    2. Step 2: _Form a new relation defined on the attributes of the **candidate keys** of the original relation and include **all attributes that are not functionally determined by only part of the key**._
-
+   
       - Candidate keys: {TA_ID, TA_DEPT}
       - {TA_NAME} and {TA_ADDRESS} are functionally determined by TA_ID, which is part of the key —— so are not included in the new relation attributes
       - New relation attributes: {TA_ID}, {TA_DEPT}
-
-      ![TA3](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9e56f63f-b919-4324-9c60-2524bbef6e7d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210602T231004Z&X-Amz-Expires=86400&X-Amz-Signature=fa0531dd8cec713b58fbec73908ded50fb5ecdee1b40208652a223c155327db3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+   
+      <div class='text--center' style={{ zoom: 0.5 }}><img src='https://i.loli.net/2021/06/05/z3oCFaOybRnLWw6.jpg' alt='ta3' /></div>
 
 #### UPDATE ANOMALY
 
@@ -379,6 +386,8 @@ Yes. We can delete biology department without deleting Bob's information.
 [3NF Lecture Notes](https://www.notion.so/lavendershuo/Lecture-19-3NF-and-R-Review-882ec061fa174f63a7b50cf241ea3b29)
 
 _3NF quickly beyonds the scope of PSTAT10. All we need to know is the content mentioned in the powerpoint slides._
+
+
 
 ### <u>Third Normal 3NF</u>
 
@@ -418,7 +427,12 @@ Assumptions: Each student has a unique STUDENT_ID and only one address, denoted 
 
 - Non-prime attributes: {STUDENT_NAME, ZIP, STATE, CITY}
 
-→ ⚠️ 2NF holds. 
+<div class="alert alert--primary" role="alert">
+    ⚠️ 2NF holds
+</div> 
+ 
+<p>
+</p>
 
 > *2NF will hold Relation is in 1NF and no non-prime attribute is functionally dependent on a proper subset of any candidate key*.
 
@@ -461,7 +475,7 @@ New relation schema: SA2 (<u>STUDENT_ID</u>, STUDENT_NAME, ZIP) (not include STA
 
 This leaves us with attributes `STATE` and `CITY`.
 
-→ Form a new relation defined on these attributes with `ZIP` as primary key, since ZIP —> {STATE, CITY}
+→ Form a new relation defined on these attributes with `ZIP` as primary key, since `ZIP —> {STATE, CITY}`
 
 New relation schema: SA3 (<u>ZIP</u>, STATE, CITY)
 

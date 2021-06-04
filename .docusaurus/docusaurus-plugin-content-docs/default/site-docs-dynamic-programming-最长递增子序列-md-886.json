@@ -14,7 +14,8 @@
   "frontMatter": {
     "sidebar_position": 1,
     "id": "LeetCode300",
-    "title": "LeetCode 300. 最长递增子序列"
+    "title": "LeetCode 300. 最长递增子序列",
+    "parse_number_prefixes": true
   },
   "sidebar": "tutorialSidebar",
   "previous": {

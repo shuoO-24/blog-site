@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/Markdown_MDX/mdFooter",
+  "id": "Docusaurus_References/Markdown_MDX/mdFooter",
+  "isDocsHomePage": false,
+  "title": "Footer",
+  "description": "Footer",
+  "source": "@site/docs/Docusaurus_References/Markdown_MDX/Footer.md",
+  "sourceDirName": "Docusaurus_References/Markdown_MDX",
+  "slug": "/Docusaurus_References/Markdown_MDX/mdFooter",
+  "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdFooter",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/Footer.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "mdFooter",
+    "title": "Footer"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "添加目录 Inline TOC",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc"
+  },
+  "next": {
+    "title": "Start Blogging",
+    "permalink": "/docs/Docusaurus_References/blogsetup"
+  }
+}
