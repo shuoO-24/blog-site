@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Theorems",
-    "permalink": "/docs/Multivariable Calculus/calctheorems"
+    "title": "Vector Field",
+    "permalink": "/docs/Multivariable Calculus/vectorfield"
   },
   "next": {
     "title": "Add Code blocks",

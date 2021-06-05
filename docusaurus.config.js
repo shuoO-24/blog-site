@@ -11,6 +11,12 @@ module.exports = {
   organizationName: "shuoO-24", // Usually your GitHub org/user name.
   projectName: "docusaurus-site", // Usually your repo name.
   themeConfig: {
+    gtag: {
+        // You can also use your "G-" Measurement ID here.
+        trackingID: 'UA-141789564-1',
+        // Optional fields.
+        anonymizeIP: true, // Should IPs be anonymized?
+      },
     prism: {
       additionalLanguages: ["cpp"],
       additionalLanguages: ["java"],
@@ -120,4 +126,5 @@ module.exports = {
       },
     ],
   ],
+  // plugins: ['@docusaurus/plugin-google-gtag'],
 };

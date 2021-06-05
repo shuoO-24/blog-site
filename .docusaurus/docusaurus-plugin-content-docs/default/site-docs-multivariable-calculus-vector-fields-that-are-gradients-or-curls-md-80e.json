@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Multivariable Calculus/vectorfield",
+  "id": "Multivariable Calculus/vectorfield",
+  "isDocsHomePage": false,
+  "title": "Vector Field",
+  "description": "Vector fields that are gradients or curls",
+  "source": "@site/docs/Multivariable Calculus/vector fields that are gradients or curls.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/vectorfield",
+  "permalink": "/docs/Multivariable Calculus/vectorfield",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/vector fields that are gradients or curls.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "vectorfield",
+    "title": "Vector Field"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Theorems",
+    "permalink": "/docs/Multivariable Calculus/calctheorems"
+  },
+  "next": {
+    "title": "Basic Syntax",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics"
+  }
+}

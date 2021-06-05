@@ -131,6 +131,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Multivariable Calculus/vectorfield",
+              "path": "/docs/Multivariable Calculus/vectorfield",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "SQL Notes/Important Concepts",
               "path": "/docs/SQL Notes/Important Concepts",
               "sidebar": "tutorialSidebar"

@@ -69,7 +69,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','a87'),
+  component: ComponentCreator('/docs','aa0'),
   
   routes: [
 {
@@ -190,6 +190,11 @@ export default [
 {
   path: '/docs/Multivariable Calculus/multcalc_cheatsheet',
   component: ComponentCreator('/docs/Multivariable Calculus/multcalc_cheatsheet','1dd'),
+  exact: true,
+},
+{
+  path: '/docs/Multivariable Calculus/vectorfield',
+  component: ComponentCreator('/docs/Multivariable Calculus/vectorfield','2e7'),
   exact: true,
 },
 {

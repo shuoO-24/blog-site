@@ -80,6 +80,11 @@
             "type": "link",
             "label": "Theorems",
             "href": "/docs/Multivariable Calculus/calctheorems"
+          },
+          {
+            "type": "link",
+            "label": "Vector Field",
+            "href": "/docs/Multivariable Calculus/vectorfield"
           }
         ],
         "collapsed": true
@@ -231,6 +236,7 @@
     "/docs/Multivariable Calculus/calculators": "tutorialSidebar",
     "/docs/Multivariable Calculus/Change of variables": "tutorialSidebar",
     "/docs/Multivariable Calculus/multcalc_cheatsheet": "tutorialSidebar",
+    "/docs/Multivariable Calculus/vectorfield": "tutorialSidebar",
     "/docs/SQL Notes/Important Concepts": "tutorialSidebar",
     "/docs/SQL Notes/sqlgroup": "tutorialSidebar",
     "/docs/SQL Notes/sqlintro": "tutorialSidebar",

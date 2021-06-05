@@ -9,6 +9,10 @@ export default {
   "organizationName": "shuoO-24",
   "projectName": "docusaurus-site",
   "themeConfig": {
+    "gtag": {
+      "trackingID": "UA-141789564-1",
+      "anonymizeIP": true
+    },
     "prism": {
       "additionalLanguages": [
         "matlab"

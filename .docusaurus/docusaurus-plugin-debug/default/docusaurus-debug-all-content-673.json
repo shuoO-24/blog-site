@@ -57,6 +57,10 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "Multivariable Calculus/Change of variables"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Multivariable Calculus/multcalc_cheatsheet"
                   },
                   {
@@ -65,7 +69,19 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Multivariable Calculus/calculators"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Multivariable Calculus/calcessential"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Multivariable Calculus/calctheorems"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Multivariable Calculus/vectorfield"
                   }
                 ],
                 "collapsed": true
@@ -74,21 +90,6 @@
                 "type": "category",
                 "label": "Docusaurus References",
                 "items": [
-                  {
-                    "type": "category",
-                    "label": "Infima Powered",
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "Docusaurus_References/Infima Powered/infima"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "Docusaurus_References/Infima Powered/navbar"
-                      }
-                    ],
-                    "collapsed": true
-                  },
                   {
                     "type": "category",
                     "label": "Markdown/MDX",
@@ -122,6 +123,21 @@
                   },
                   {
                     "type": "category",
+                    "label": "Infima Powered",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Infima Powered/infima"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Infima Powered/navbar"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
                     "label": "JSX Required Features",
                     "items": [
                       {
@@ -142,6 +158,14 @@
                       }
                     ],
                     "collapsed": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/embed"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docusaurus_References/tips"
                   }
                 ],
                 "collapsed": true
@@ -168,6 +192,7 @@
             ]
           },
           "permalinkToSidebar": {
+            "/docs/Docusaurus_References/embed": "tutorialSidebar",
             "/docs/Docusaurus_References/Infima Powered/infima": "tutorialSidebar",
             "/docs/Docusaurus_References/Infima Powered/navbar": "tutorialSidebar",
             "/docs/Docusaurus_References/JSX_Required/blogsetup": "tutorialSidebar",
@@ -180,13 +205,18 @@
             "/docs/Docusaurus_References/Markdown_MDX/frontmatter": "tutorialSidebar",
             "/docs/Docusaurus_References/Markdown_MDX/mdbasics": "tutorialSidebar",
             "/docs/Docusaurus_References/Markdown_MDX/toc": "tutorialSidebar",
+            "/docs/Docusaurus_References/tips": "tutorialSidebar",
             "/docs/Dynamic Programming/algointro": "tutorialSidebar",
             "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
             "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
             "/docs/Multivariable Calculus/6Aoutline": "tutorialSidebar",
             "/docs/Multivariable Calculus/calcessential": "tutorialSidebar",
+            "/docs/Multivariable Calculus/calctheorems": "tutorialSidebar",
+            "/docs/Multivariable Calculus/calculators": "tutorialSidebar",
+            "/docs/Multivariable Calculus/Change of variables": "tutorialSidebar",
             "/docs/Multivariable Calculus/multcalc_cheatsheet": "tutorialSidebar",
+            "/docs/Multivariable Calculus/vectorfield": "tutorialSidebar",
             "/docs/SQL Notes/Important Concepts": "tutorialSidebar",
             "/docs/SQL Notes/sqlgroup": "tutorialSidebar",
             "/docs/SQL Notes/sqlintro": "tutorialSidebar",
@@ -195,6 +225,33 @@
             "/docs/SQL Notes/sqlorder": "tutorialSidebar"
           },
           "docs": [
+            {
+              "unversionedId": "Docusaurus_References/embed",
+              "id": "Docusaurus_References/embed",
+              "isDocsHomePage": false,
+              "title": "Embed images and files",
+              "description": "Files",
+              "source": "@site/docs/Docusaurus_References/Embed Assets.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/embed",
+              "permalink": "/docs/Docusaurus_References/embed",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Embed Assets.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "embed",
+                "title": "Embed images and files",
+                "parse_number_prefixes": true
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sidebar",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar"
+              },
+              "next": {
+                "title": "Syntax",
+                "permalink": "/docs/Docusaurus_References/tips"
+              }
+            },
             {
               "unversionedId": "Docusaurus_References/Infima Powered/infima",
               "id": "Docusaurus_References/Infima Powered/infima",
@@ -213,8 +270,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Surface Integral",
-                "permalink": "/docs/Multivariable Calculus/calcessential"
+                "title": "添加目录 Inline TOC",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc"
               },
               "next": {
                 "title": "Nav bar usage",
@@ -243,8 +300,8 @@
                 "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
               },
               "next": {
-                "title": "Basic Syntax",
-                "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics"
+                "title": "Add Footer",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/mdFooter"
               }
             },
             {
@@ -292,8 +349,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "添加目录 Inline TOC",
-                "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc"
+                "title": "Nav bar usage",
+                "permalink": "/docs/Docusaurus_References/Infima Powered/navbar"
               },
               "next": {
                 "title": "Start Blogging",
@@ -323,8 +380,8 @@
                 "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n"
               },
               "next": {
-                "title": "300. 最长递增子序列",
-                "permalink": "/docs/Dynamic Programming/LeetCode300"
+                "title": "Embed images and files",
+                "permalink": "/docs/Docusaurus_References/embed"
               }
             },
             {
@@ -491,8 +548,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Nav bar usage",
-                "permalink": "/docs/Docusaurus_References/Infima Powered/navbar"
+                "title": "Vector Field",
+                "permalink": "/docs/Multivariable Calculus/vectorfield"
               },
               "next": {
                 "title": "Add Code blocks",
@@ -524,8 +581,34 @@
                 "permalink": "/docs/Docusaurus_References/Markdown_MDX/admonition"
               },
               "next": {
-                "title": "Add Footer",
-                "permalink": "/docs/Docusaurus_References/JSX_Required/mdFooter"
+                "title": "Alert",
+                "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/tips",
+              "id": "Docusaurus_References/tips",
+              "isDocsHomePage": false,
+              "title": "Syntax",
+              "description": "For styling:",
+              "source": "@site/docs/Docusaurus_References/Tips.md",
+              "sourceDirName": "Docusaurus_References",
+              "slug": "/Docusaurus_References/tips",
+              "permalink": "/docs/Docusaurus_References/tips",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Tips.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "tips",
+                "title": "Docusaurus Usage Tips"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Embed images and files",
+                "permalink": "/docs/Docusaurus_References/embed"
+              },
+              "next": {
+                "title": "300. 最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/LeetCode300"
               }
             },
             {
@@ -577,8 +660,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Sidebar",
-                "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar"
+                "title": "Syntax",
+                "permalink": "/docs/Docusaurus_References/tips"
               },
               "next": {
                 "title": "Hello Algorithm",
@@ -615,7 +698,7 @@
               "id": "intro",
               "isDocsHomePage": false,
               "title": "你好呀",
-              "description": "我觉得无趣的人生不值得过下去，你呢？",
+              "description": "<span",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -657,8 +740,8 @@
                 "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
               },
               "next": {
-                "title": "Surface Integral",
-                "permalink": "/docs/Multivariable Calculus/calcessential"
+                "title": "Multivariable Calculus Calculators",
+                "permalink": "/docs/Multivariable Calculus/calculators"
               }
             },
             {
@@ -666,7 +749,7 @@
               "id": "Multivariable Calculus/calcessential",
               "isDocsHomePage": false,
               "title": "Surface Integral",
-              "description": "Break coordinates into one dimensions and think it as a combination of different linear equations.",
+              "description": "Flux = surface integral of a vector field",
               "source": "@site/docs/Multivariable Calculus/Surface Integral.md",
               "sourceDirName": "Multivariable Calculus",
               "slug": "/Multivariable Calculus/calcessential",
@@ -675,7 +758,62 @@
               "version": "current",
               "frontMatter": {
                 "id": "calcessential",
-                "title": "Surface Integral"
+                "title": "Surface Integral",
+                "position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Multivariable Calculus Calculators",
+                "permalink": "/docs/Multivariable Calculus/calculators"
+              },
+              "next": {
+                "title": "Theorems",
+                "permalink": "/docs/Multivariable Calculus/calctheorems"
+              }
+            },
+            {
+              "unversionedId": "Multivariable Calculus/calctheorems",
+              "id": "Multivariable Calculus/calctheorems",
+              "isDocsHomePage": false,
+              "title": "Theorems",
+              "description": "Stroke's Theorem",
+              "source": "@site/docs/Multivariable Calculus/Theorems.md",
+              "sourceDirName": "Multivariable Calculus",
+              "slug": "/Multivariable Calculus/calctheorems",
+              "permalink": "/docs/Multivariable Calculus/calctheorems",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Theorems.md",
+              "version": "current",
+              "frontMatter": {
+                "position": 4,
+                "id": "calctheorems",
+                "title": "Theorems"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Surface Integral",
+                "permalink": "/docs/Multivariable Calculus/calcessential"
+              },
+              "next": {
+                "title": "Vector Field",
+                "permalink": "/docs/Multivariable Calculus/vectorfield"
+              }
+            },
+            {
+              "unversionedId": "Multivariable Calculus/calculators",
+              "id": "Multivariable Calculus/calculators",
+              "isDocsHomePage": false,
+              "title": "Multivariable Calculus Calculators",
+              "description": "Vector",
+              "source": "@site/docs/Multivariable Calculus/Powered by Wolfram Alpha.md",
+              "sourceDirName": "Multivariable Calculus",
+              "slug": "/Multivariable Calculus/calculators",
+              "permalink": "/docs/Multivariable Calculus/calculators",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Powered by Wolfram Alpha.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "calculators",
+                "title": "Multivariable Calculus Calculators",
+                "position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -683,8 +821,36 @@
                 "permalink": "/docs/Multivariable Calculus/6Aoutline"
               },
               "next": {
-                "title": "Alert",
-                "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
+                "title": "Surface Integral",
+                "permalink": "/docs/Multivariable Calculus/calcessential"
+              }
+            },
+            {
+              "unversionedId": "Multivariable Calculus/Change of variables",
+              "id": "Multivariable Calculus/Change of variables",
+              "isDocsHomePage": false,
+              "title": "Changing variables in double integrals",
+              "description": "source",
+              "source": "@site/docs/Multivariable Calculus/Change of variables.md",
+              "sourceDirName": "Multivariable Calculus",
+              "slug": "/Multivariable Calculus/Change of variables",
+              "permalink": "/docs/Multivariable Calculus/Change of variables",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Change of variables.md",
+              "version": "current",
+              "frontMatter": {
+                "Keyword": [
+                  "math",
+                  "multivariable calculus"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SQL Joining",
+                "permalink": "/docs/SQL Notes/sqljoin"
+              },
+              "next": {
+                "title": "Cheatsheets",
+                "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
               }
             },
             {
@@ -706,12 +872,38 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "SQL Joining",
-                "permalink": "/docs/SQL Notes/sqljoin"
+                "title": "Changing variables in double integrals",
+                "permalink": "/docs/Multivariable Calculus/Change of variables"
               },
               "next": {
                 "title": "MATH 6A Outline",
                 "permalink": "/docs/Multivariable Calculus/6Aoutline"
+              }
+            },
+            {
+              "unversionedId": "Multivariable Calculus/vectorfield",
+              "id": "Multivariable Calculus/vectorfield",
+              "isDocsHomePage": false,
+              "title": "Vector Field",
+              "description": "Vector fields that are gradients or curls",
+              "source": "@site/docs/Multivariable Calculus/vector fields that are gradients or curls.md",
+              "sourceDirName": "Multivariable Calculus",
+              "slug": "/Multivariable Calculus/vectorfield",
+              "permalink": "/docs/Multivariable Calculus/vectorfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/vector fields that are gradients or curls.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "vectorfield",
+                "title": "Vector Field"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Theorems",
+                "permalink": "/docs/Multivariable Calculus/calctheorems"
+              },
+              "next": {
+                "title": "Basic Syntax",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics"
               }
             },
             {
@@ -813,8 +1005,8 @@
                 "permalink": "/docs/SQL Notes/Important Concepts"
               },
               "next": {
-                "title": "Cheatsheets",
-                "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
+                "title": "Changing variables in double integrals",
+                "permalink": "/docs/Multivariable Calculus/Change of variables"
               }
             },
             {
@@ -1055,6 +1247,9 @@
     "default": null
   },
   "docusaurus-theme-classic": {
+    "default": null
+  },
+  "docusaurus-plugin-google-gtag": {
     "default": null
   }
 }
