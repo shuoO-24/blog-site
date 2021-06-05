@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Surface Integral",
-    "permalink": "/docs/Multivariable Calculus/calcessential"
+    "title": "添加目录 Inline TOC",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc"
   },
   "next": {
     "title": "Nav bar usage",

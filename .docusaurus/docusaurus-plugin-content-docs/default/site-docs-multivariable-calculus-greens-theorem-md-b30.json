@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Multivariable Calculus/Green’s Theorem",
+  "id": "Multivariable Calculus/Green’s Theorem",
+  "isDocsHomePage": false,
+  "title": "Green’s Theorem",
+  "description": "",
+  "source": "@site/docs/Multivariable Calculus/Green’s Theorem.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/Green’s Theorem",
+  "permalink": "/docs/Multivariable Calculus/Green’s Theorem",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Green’s Theorem.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cheatsheets",
+    "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
+  },
+  "next": {
+    "title": "MATH 6A Outline",
+    "permalink": "/docs/Multivariable Calculus/6Aoutline"
+  }
+}

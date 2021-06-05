@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Sidebar",
-    "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar"
+    "title": "Syntax",
+    "permalink": "/docs/Docusaurus_References/tips"
   },
   "next": {
     "title": "Hello Algorithm",

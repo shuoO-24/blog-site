@@ -3,7 +3,7 @@
   "id": "Multivariable Calculus/calcessential",
   "isDocsHomePage": false,
   "title": "Surface Integral",
-  "description": "Break coordinates into one dimensions and think it as a combination of different linear equations.",
+  "description": "Flux = surface integral of a vector field",
   "source": "@site/docs/Multivariable Calculus/Surface Integral.md",
   "sourceDirName": "Multivariable Calculus",
   "slug": "/Multivariable Calculus/calcessential",
@@ -12,15 +12,16 @@
   "version": "current",
   "frontMatter": {
     "id": "calcessential",
-    "title": "Surface Integral"
+    "title": "Surface Integral",
+    "position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "MATH 6A Outline",
-    "permalink": "/docs/Multivariable Calculus/6Aoutline"
+    "title": "Multivariable Calculus Calculators",
+    "permalink": "/docs/Multivariable Calculus/calculators"
   },
   "next": {
-    "title": "Alert",
-    "permalink": "/docs/Docusaurus_References/Infima Powered/infima"
+    "title": "Theorems",
+    "permalink": "/docs/Multivariable Calculus/calctheorems"
   }
 }

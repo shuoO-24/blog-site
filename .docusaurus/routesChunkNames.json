@@ -103,9 +103,13 @@
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/docs-afc": {
+  "/docs-a87": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
+  },
+  "/docs/Docusaurus_References/embed-15f": {
+    "component": "17896441",
+    "content": "c3423b45"
   },
   "/docs/Docusaurus_References/Infima Powered/infima-fa9": {
     "component": "17896441",
@@ -155,6 +159,10 @@
     "component": "17896441",
     "content": "fafe6f52"
   },
+  "/docs/Docusaurus_References/tips-7b4": {
+    "component": "17896441",
+    "content": "7761bbcf"
+  },
   "/docs/Dynamic Programming/algointro-57c": {
     "component": "17896441",
     "content": "d4280efc"
@@ -178,6 +186,18 @@
   "/docs/Multivariable Calculus/calcessential-20b": {
     "component": "17896441",
     "content": "14837e3f"
+  },
+  "/docs/Multivariable Calculus/calctheorems-200": {
+    "component": "17896441",
+    "content": "6cd74277"
+  },
+  "/docs/Multivariable Calculus/calculators-faf": {
+    "component": "17896441",
+    "content": "cc7c711c"
+  },
+  "/docs/Multivariable Calculus/Change of variables-a2c": {
+    "component": "17896441",
+    "content": "203efecb"
   },
   "/docs/Multivariable Calculus/multcalc_cheatsheet-1dd": {
     "component": "17896441",

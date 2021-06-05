@@ -25,14 +25,20 @@ parse_number_prefixes: true
 ---
 
 ## Coordinates
-<embed src="/static/pdf/3d Coordinate Systems.pdf"  type='application/pdf' width="100%" height="600px" />
+<iframe src="https://drive.google.com/file/d/16Oht1VWNWzL8rNuYt-m8nIgrCaSE-H07/preview" width="80%" height="600"></iframe>
 
 ---
 
 ## Trigonometry
-<embed src="/static/pdf/Trigonometry.pdf"  type='application/pdf' width="100%" height="600px" />
+<embed src="https://drive.google.com/file/d/1NtgIiZPr5fCN_6QdgMS4ap8xiJLlBfu_/preview"  type='application/pdf' width="80%" height="600px" />
 
 ---
 
 ## Lagrange Multiplier
-<embed src="/static/pdf/Lagrange_Multipliers.pdf"  type='application/pdf' width="100%" height="600px" />
+
+<object data="https://math.jhu.edu/~lindblad/211/l19.pdf" type="application/pdf" width="80%" height="600px">
+    <embed src="https://math.jhu.edu/~lindblad/211/l19.pdf">
+    </embed>
+</object>
+
+

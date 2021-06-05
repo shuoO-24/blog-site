@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Multivariable Calculus/Change of variables",
+  "id": "Multivariable Calculus/Change of variables",
+  "isDocsHomePage": false,
+  "title": "Changing variables in double integrals",
+  "description": "---",
+  "source": "@site/docs/Multivariable Calculus/Change of variables.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/Change of variables",
+  "permalink": "/docs/Multivariable Calculus/Change of variables",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Change of variables.md",
+  "version": "current",
+  "frontMatter": {
+    "Keyword": [
+      "math",
+      "multivariable calculus"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Joining",
+    "permalink": "/docs/SQL Notes/sqljoin"
+  },
+  "next": {
+    "title": "Cheatsheets",
+    "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
+  }
+}

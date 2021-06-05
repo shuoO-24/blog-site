@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "添加目录 Inline TOC",
-    "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc"
+    "title": "Nav bar usage",
+    "permalink": "/docs/Docusaurus_References/Infima Powered/navbar"
   },
   "next": {
     "title": "Start Blogging",

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Multivariable Calculus/calctheorems",
+  "id": "Multivariable Calculus/calctheorems",
+  "isDocsHomePage": false,
+  "title": "Theorems",
+  "description": "Stroke's Theorem",
+  "source": "@site/docs/Multivariable Calculus/Theorems.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/calctheorems",
+  "permalink": "/docs/Multivariable Calculus/calctheorems",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Theorems.md",
+  "version": "current",
+  "frontMatter": {
+    "position": 4,
+    "id": "calctheorems",
+    "title": "Theorems"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Surface Integral",
+    "permalink": "/docs/Multivariable Calculus/calcessential"
+  },
+  "next": {
+    "title": "Basic Syntax",
+    "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics"
+  }
+}

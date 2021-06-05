@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Docusaurus_References/embed",
+  "id": "Docusaurus_References/embed",
+  "isDocsHomePage": false,
+  "title": "Embed images and files",
+  "description": "Files",
+  "source": "@site/docs/Docusaurus_References/Embed Assets.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/embed",
+  "permalink": "/docs/Docusaurus_References/embed",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Embed Assets.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "embed",
+    "title": "Embed images and files",
+    "parse_number_prefixes": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sidebar",
+    "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar"
+  },
+  "next": {
+    "title": "Syntax",
+    "permalink": "/docs/Docusaurus_References/tips"
+  }
+}

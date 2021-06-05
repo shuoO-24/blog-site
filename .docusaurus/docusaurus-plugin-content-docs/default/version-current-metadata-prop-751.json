@@ -53,6 +53,11 @@
         "items": [
           {
             "type": "link",
+            "label": "Changing variables in double integrals",
+            "href": "/docs/Multivariable Calculus/Change of variables"
+          },
+          {
+            "type": "link",
             "label": "Cheatsheets",
             "href": "/docs/Multivariable Calculus/multcalc_cheatsheet"
           },
@@ -63,8 +68,18 @@
           },
           {
             "type": "link",
+            "label": "Multivariable Calculus Calculators",
+            "href": "/docs/Multivariable Calculus/calculators"
+          },
+          {
+            "type": "link",
             "label": "Surface Integral",
             "href": "/docs/Multivariable Calculus/calcessential"
+          },
+          {
+            "type": "link",
+            "label": "Theorems",
+            "href": "/docs/Multivariable Calculus/calctheorems"
           }
         ],
         "collapsed": true
@@ -73,23 +88,6 @@
         "type": "category",
         "label": "Docusaurus References",
         "items": [
-          {
-            "type": "category",
-            "label": "Infima Powered",
-            "items": [
-              {
-                "type": "link",
-                "label": "Alert",
-                "href": "/docs/Docusaurus_References/Infima Powered/infima"
-              },
-              {
-                "type": "link",
-                "label": "Nav bar usage",
-                "href": "/docs/Docusaurus_References/Infima Powered/navbar"
-              }
-            ],
-            "collapsed": true
-          },
           {
             "type": "category",
             "label": "Markdown/MDX",
@@ -129,6 +127,23 @@
           },
           {
             "type": "category",
+            "label": "Infima Powered",
+            "items": [
+              {
+                "type": "link",
+                "label": "Alert",
+                "href": "/docs/Docusaurus_References/Infima Powered/infima"
+              },
+              {
+                "type": "link",
+                "label": "Nav bar usage",
+                "href": "/docs/Docusaurus_References/Infima Powered/navbar"
+              }
+            ],
+            "collapsed": true
+          },
+          {
+            "type": "category",
             "label": "JSX Required Features",
             "items": [
               {
@@ -153,6 +168,16 @@
               }
             ],
             "collapsed": true
+          },
+          {
+            "type": "link",
+            "label": "Embed images and files",
+            "href": "/docs/Docusaurus_References/embed"
+          },
+          {
+            "type": "link",
+            "label": "Syntax",
+            "href": "/docs/Docusaurus_References/tips"
           }
         ],
         "collapsed": true
@@ -182,6 +207,7 @@
     ]
   },
   "permalinkToSidebar": {
+    "/docs/Docusaurus_References/embed": "tutorialSidebar",
     "/docs/Docusaurus_References/Infima Powered/infima": "tutorialSidebar",
     "/docs/Docusaurus_References/Infima Powered/navbar": "tutorialSidebar",
     "/docs/Docusaurus_References/JSX_Required/blogsetup": "tutorialSidebar",
@@ -194,12 +220,16 @@
     "/docs/Docusaurus_References/Markdown_MDX/frontmatter": "tutorialSidebar",
     "/docs/Docusaurus_References/Markdown_MDX/mdbasics": "tutorialSidebar",
     "/docs/Docusaurus_References/Markdown_MDX/toc": "tutorialSidebar",
+    "/docs/Docusaurus_References/tips": "tutorialSidebar",
     "/docs/Dynamic Programming/algointro": "tutorialSidebar",
     "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
     "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
     "/docs/Multivariable Calculus/6Aoutline": "tutorialSidebar",
     "/docs/Multivariable Calculus/calcessential": "tutorialSidebar",
+    "/docs/Multivariable Calculus/calctheorems": "tutorialSidebar",
+    "/docs/Multivariable Calculus/calculators": "tutorialSidebar",
+    "/docs/Multivariable Calculus/Change of variables": "tutorialSidebar",
     "/docs/Multivariable Calculus/multcalc_cheatsheet": "tutorialSidebar",
     "/docs/SQL Notes/Important Concepts": "tutorialSidebar",
     "/docs/SQL Notes/sqlgroup": "tutorialSidebar",

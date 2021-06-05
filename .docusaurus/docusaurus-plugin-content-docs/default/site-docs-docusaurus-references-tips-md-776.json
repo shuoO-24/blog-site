@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/tips",
+  "id": "Docusaurus_References/tips",
+  "isDocsHomePage": false,
+  "title": "Syntax",
+  "description": "For styling:",
+  "source": "@site/docs/Docusaurus_References/Tips.md",
+  "sourceDirName": "Docusaurus_References",
+  "slug": "/Docusaurus_References/tips",
+  "permalink": "/docs/Docusaurus_References/tips",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Tips.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "tips",
+    "title": "Docusaurus Usage Tips"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Embed images and files",
+    "permalink": "/docs/Docusaurus_References/embed"
+  },
+  "next": {
+    "title": "300. 最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/LeetCode300"
+  }
+}

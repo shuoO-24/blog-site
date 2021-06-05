@@ -69,9 +69,14 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','afc'),
+  component: ComponentCreator('/docs','a87'),
   
   routes: [
+{
+  path: '/docs/Docusaurus_References/embed',
+  component: ComponentCreator('/docs/Docusaurus_References/embed','15f'),
+  exact: true,
+},
 {
   path: '/docs/Docusaurus_References/Infima Powered/infima',
   component: ComponentCreator('/docs/Docusaurus_References/Infima Powered/infima','fa9'),
@@ -133,6 +138,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/Docusaurus_References/tips',
+  component: ComponentCreator('/docs/Docusaurus_References/tips','7b4'),
+  exact: true,
+},
+{
   path: '/docs/Dynamic Programming/algointro',
   component: ComponentCreator('/docs/Dynamic Programming/algointro','57c'),
   exact: true,
@@ -160,6 +170,21 @@ export default [
 {
   path: '/docs/Multivariable Calculus/calcessential',
   component: ComponentCreator('/docs/Multivariable Calculus/calcessential','20b'),
+  exact: true,
+},
+{
+  path: '/docs/Multivariable Calculus/calctheorems',
+  component: ComponentCreator('/docs/Multivariable Calculus/calctheorems','200'),
+  exact: true,
+},
+{
+  path: '/docs/Multivariable Calculus/calculators',
+  component: ComponentCreator('/docs/Multivariable Calculus/calculators','faf'),
+  exact: true,
+},
+{
+  path: '/docs/Multivariable Calculus/Change of variables',
+  component: ComponentCreator('/docs/Multivariable Calculus/Change of variables','a2c'),
   exact: true,
 },
 {
