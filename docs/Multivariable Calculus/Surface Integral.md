@@ -7,9 +7,6 @@ position: 5
 
 
 
-
-
-
 :::note Flux
 
 Flux = surface integral of a vector field
@@ -24,7 +21,7 @@ Relation to density, volumn and area:
 
 Break coordinates into one dimensions and think it as a combination of different linear equations. 
 
-<div class='text--center' style={{ zoom: 0.6 }}>
+<div class='text--center' style={{ zoom: 0.5 }}>
 <img src='https://i.loli.net/2021/06/05/mFP8aJo7Bn1H9b3.png' alt='a' />
 </div>
 
