@@ -16,7 +16,12 @@ module.exports = {
         trackingID: 'UA-141789564-1',
         // Optional fields.
         anonymizeIP: true, // Should IPs be anonymized?
-      },
+    },
+    googleAnalytics: {
+        trackingID: 'UA-141789564-1',
+        // Optional fields.
+        anonymizeIP: true, // Should IPs be anonymized?
+    },
     prism: {
       additionalLanguages: ["cpp"],
       additionalLanguages: ["java"],
