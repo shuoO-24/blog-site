@@ -4,6 +4,10 @@ title: Multivariable Calculus Calculators
 position: 3
 ---
 
+## Vector
+### Cross Product
+[By Symbolab](https://zs.symbolab.com/solver/vector-cross-product-calculator)
+
 ## Multiple Integral
 
 ### Double Integral
