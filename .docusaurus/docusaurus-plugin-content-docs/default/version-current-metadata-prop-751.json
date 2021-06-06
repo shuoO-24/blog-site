@@ -31,7 +31,7 @@
           },
           {
             "type": "link",
-            "label": "SQL Grouping",
+            "label": "Grouping",
             "href": "/docs/SQL Notes/sqlgroup"
           },
           {

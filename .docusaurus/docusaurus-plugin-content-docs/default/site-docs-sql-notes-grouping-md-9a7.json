@@ -2,7 +2,7 @@
   "unversionedId": "SQL Notes/sqlgroup",
   "id": "SQL Notes/sqlgroup",
   "isDocsHomePage": false,
-  "title": "SQL Grouping",
+  "title": "Grouping",
   "description": "Grouping",
   "source": "@site/docs/SQL Notes/Grouping.md",
   "sourceDirName": "SQL Notes",
@@ -12,7 +12,7 @@
   "version": "current",
   "frontMatter": {
     "id": "sqlgroup",
-    "title": "SQL Grouping"
+    "title": "Grouping"
   },
   "sidebar": "tutorialSidebar",
   "previous": {

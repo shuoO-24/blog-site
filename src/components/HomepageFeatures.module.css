@@ -6,6 +6,9 @@
   padding: 2rem 0;
   width: 100%;
 }
+html[data-theme='dark'] .features{
+  background-color: #a58faa;
+}
 
 .featureSvg {
   height: 200px;

@@ -4,22 +4,29 @@
         <title>Lavender Spacecraft🪐✨ Blog</title>
         <link>https://blog-test-lavender.netlify.app/blog</link>
         <description>Lavender Spacecraft🪐✨ Blog</description>
-        <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 06 Jun 2021 07:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[你想成为什么样的人？]]></title>
+            <link>https://blog-test-lavender.netlify.app/blog/2021/06/06/每日一思</link>
+            <guid>你想成为什么样的人？</guid>
+            <pubDate>Sun, 06 Jun 2021 07:00:00 GMT</pubDate>
+            <description><![CDATA[你想成为什么样的人？]]></description>
+        </item>
+        <item>
+            <title><![CDATA[hi]]></title>
+            <link>https://blog-test-lavender.netlify.app/blog/2021/06/05/每日一思</link>
+            <guid>hi</guid>
+            <pubDate>Sat, 05 Jun 2021 07:00:00 GMT</pubDate>
+            <description><![CDATA[你想成为什么样的人？]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://blog-test-lavender.netlify.app/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Thu, 30 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></description>
-        </item>
-        <item>
-            <title><![CDATA[每日一思]]></title>
-            <link>https://blog-test-lavender.netlify.app/blog/摘抄</link>
-            <guid>摘抄</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[你想成为什么样的人？]]></description>
         </item>
         <item>
             <title><![CDATA[Greetings!]]></title>

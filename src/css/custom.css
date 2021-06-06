@@ -18,8 +18,14 @@
 }
 
 .docusaurus-highlight-code-line {
-  background-color: #2b1216;
+  background-color: #ccccd6;
   display: inline-block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #ce97b0;
+  --ifm-color-primary-dark: #5d3f51;
+  /* any other colors you wish to overwrite */
 }

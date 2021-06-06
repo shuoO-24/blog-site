@@ -35,23 +35,31 @@ module.exports = {
       additionalLanguages: ["matlab"],
     },
     navbar: {
-      title: "Inbox🌟",
+      title: "Home🌟",
       logo: {
         alt: "My Site Logo",
         src: "img/my_comic-removebg.PNG",
       },
+      hideOnScroll: true,
       items: [
-        {
-          type: "doc",
-          docId: "intro",
-          position: "left",
-          label: "Algo",
-        },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/shuoO-24",
           label: "GitHub",
           position: "right",
+        },
+        {
+          to: '/docs/Dynamic Programming/algointro',
+
+          //// Optional
+          position: 'left',
+          label: 'Algo',
+          docsPluginId: 'default',
+          activeSidebarClassName: 'navbar__link--active',
+        },
+        {
+          label: "SQL Review Notes",
+          to: "/docs/SQL Notes/sqlintro",
         },
       ],
     },
@@ -106,7 +114,40 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}.`,
+    },
+    colorMode: {
+          // "light" | "dark"
+          defaultMode: 'light',
+
+          // Hides the switch in the navbar
+          // Useful if you want to support a single color mode
+          disableSwitch: false,
+    
+          // Should we use the prefers-color-scheme media-query,
+          // using user system preferences, instead of the hardcoded defaultMode
+          respectPrefersColorScheme: false,
+    
+          // Dark/light switch icon options
+          switchConfig: {
+            // Icon for the switch while in dark mode
+            darkIcon: '🌙',
+    
+            // CSS to apply to dark icon,
+            // React inline style object
+            // see https://reactjs.org/docs/dom-elements.html#style
+            darkIconStyle: {
+              marginLeft: '2px',
+            },
+    
+            // Unicode icons such as '\u2600' will work
+            // Unicode with 5 chars require brackets: '\u{1F602}'
+            lightIcon: '\u{1F31E}',
+    
+            lightIconStyle: {
+              marginLeft: '1px',
+            },
+        },
     },
   },
   presets: [

@@ -6,8 +6,8 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/docs",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs",
+          "versionEditUrlLocalized": "https://github.com/shuoO-24/blog-site/tree/main/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/shuoO/docusaurus-tutorial/sidebars.js",
@@ -65,11 +65,11 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Multivariable Calculus/6Aoutline"
+                    "id": "Multivariable Calculus/calculators"
                   },
                   {
                     "type": "doc",
-                    "id": "Multivariable Calculus/calculators"
+                    "id": "Multivariable Calculus/6Aoutline"
                   },
                   {
                     "type": "doc",
@@ -154,6 +154,10 @@
                       },
                       {
                         "type": "doc",
+                        "id": "Docusaurus_References/JSX_Required/Untitled"
+                      },
+                      {
+                        "type": "doc",
                         "id": "Docusaurus_References/JSX_Required/sidebar"
                       }
                     ],
@@ -162,6 +166,17 @@
                   {
                     "type": "doc",
                     "id": "Docusaurus_References/embed"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Plugins",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Docusaurus_References/Plugins/idealimage"
+                      }
+                    ],
+                    "collapsed": true
                   },
                   {
                     "type": "doc",
@@ -176,15 +191,23 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/LeetCode300"
-                  },
-                  {
-                    "type": "doc",
                     "id": "Dynamic Programming/algointro"
                   },
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/LeetCode64"
+                    "id": "Dynamic Programming/leetcode64"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/leetcode91"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/leetcode96"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/leetcode300"
                   }
                 ],
                 "collapsed": true
@@ -199,16 +222,20 @@
             "/docs/Docusaurus_References/JSX_Required/mdFooter": "tutorialSidebar",
             "/docs/Docusaurus_References/JSX_Required/sidebar": "tutorialSidebar",
             "/docs/Docusaurus_References/JSX_Required/translate_i18n": "tutorialSidebar",
+            "/docs/Docusaurus_References/JSX_Required/Untitled": "tutorialSidebar",
             "/docs/Docusaurus_References/Markdown_MDX/addtabs": "tutorialSidebar",
             "/docs/Docusaurus_References/Markdown_MDX/admonition": "tutorialSidebar",
             "/docs/Docusaurus_References/Markdown_MDX/codeblock": "tutorialSidebar",
             "/docs/Docusaurus_References/Markdown_MDX/frontmatter": "tutorialSidebar",
             "/docs/Docusaurus_References/Markdown_MDX/mdbasics": "tutorialSidebar",
             "/docs/Docusaurus_References/Markdown_MDX/toc": "tutorialSidebar",
+            "/docs/Docusaurus_References/Plugins/idealimage": "tutorialSidebar",
             "/docs/Docusaurus_References/tips": "tutorialSidebar",
             "/docs/Dynamic Programming/algointro": "tutorialSidebar",
-            "/docs/Dynamic Programming/LeetCode300": "tutorialSidebar",
-            "/docs/Dynamic Programming/LeetCode64": "tutorialSidebar",
+            "/docs/Dynamic Programming/leetcode300": "tutorialSidebar",
+            "/docs/Dynamic Programming/leetcode64": "tutorialSidebar",
+            "/docs/Dynamic Programming/leetcode91": "tutorialSidebar",
+            "/docs/Dynamic Programming/leetcode96": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
             "/docs/Multivariable Calculus/6Aoutline": "tutorialSidebar",
             "/docs/Multivariable Calculus/calcessential": "tutorialSidebar",
@@ -235,7 +262,7 @@
               "sourceDirName": "Docusaurus_References",
               "slug": "/Docusaurus_References/embed",
               "permalink": "/docs/Docusaurus_References/embed",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Embed Assets.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Embed Assets.md",
               "version": "current",
               "frontMatter": {
                 "id": "embed",
@@ -248,8 +275,8 @@
                 "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar"
               },
               "next": {
-                "title": "Syntax",
-                "permalink": "/docs/Docusaurus_References/tips"
+                "title": "📦 plugin-ideal-image",
+                "permalink": "/docs/Docusaurus_References/Plugins/idealimage"
               }
             },
             {
@@ -262,7 +289,7 @@
               "sourceDirName": "Docusaurus_References/Infima Powered",
               "slug": "/Docusaurus_References/Infima Powered/infima",
               "permalink": "/docs/Docusaurus_References/Infima Powered/infima",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Infima Powered/Alert.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Infima Powered/Alert.md",
               "version": "current",
               "frontMatter": {
                 "id": "infima",
@@ -288,7 +315,7 @@
               "sourceDirName": "Docusaurus_References/Infima Powered",
               "slug": "/Docusaurus_References/Infima Powered/navbar",
               "permalink": "/docs/Docusaurus_References/Infima Powered/navbar",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Infima Powered/Nav-bar.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Infima Powered/Nav-bar.md",
               "version": "current",
               "frontMatter": {
                 "id": "navbar",
@@ -314,7 +341,7 @@
               "sourceDirName": "Docusaurus_References/JSX_Required",
               "slug": "/Docusaurus_References/JSX_Required/blogsetup",
               "permalink": "/docs/Docusaurus_References/JSX_Required/blogsetup",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/Start blogging.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/JSX_Required/Start blogging.md",
               "version": "current",
               "frontMatter": {
                 "id": "blogsetup",
@@ -340,7 +367,7 @@
               "sourceDirName": "Docusaurus_References/JSX_Required",
               "slug": "/Docusaurus_References/JSX_Required/mdFooter",
               "permalink": "/docs/Docusaurus_References/JSX_Required/mdFooter",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/Footer.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/JSX_Required/Footer.md",
               "version": "current",
               "frontMatter": {
                 "id": "mdFooter",
@@ -367,7 +394,7 @@
               "sourceDirName": "Docusaurus_References/JSX_Required",
               "slug": "/Docusaurus_References/JSX_Required/sidebar",
               "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/side_bar.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/JSX_Required/side_bar.md",
               "version": "current",
               "frontMatter": {
                 "id": "sidebar",
@@ -376,8 +403,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Translate your site",
-                "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n"
+                "title": "Untitled",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/Untitled"
               },
               "next": {
                 "title": "Embed images and files",
@@ -394,7 +421,7 @@
               "sourceDirName": "Docusaurus_References/JSX_Required",
               "slug": "/Docusaurus_References/JSX_Required/translate_i18n",
               "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/Translate-your-site.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/JSX_Required/Translate-your-site.md",
               "version": "current",
               "frontMatter": {
                 "id": "translate_i18n",
@@ -405,6 +432,29 @@
               "previous": {
                 "title": "Start Blogging",
                 "permalink": "/docs/Docusaurus_References/JSX_Required/blogsetup"
+              },
+              "next": {
+                "title": "Untitled",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/Untitled"
+              }
+            },
+            {
+              "unversionedId": "Docusaurus_References/JSX_Required/Untitled",
+              "id": "Docusaurus_References/JSX_Required/Untitled",
+              "isDocsHomePage": false,
+              "title": "Untitled",
+              "description": "",
+              "source": "@site/docs/Docusaurus_References/JSX_Required/Untitled.md",
+              "sourceDirName": "Docusaurus_References/JSX_Required",
+              "slug": "/Docusaurus_References/JSX_Required/Untitled",
+              "permalink": "/docs/Docusaurus_References/JSX_Required/Untitled",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/JSX_Required/Untitled.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Translate your site",
+                "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n"
               },
               "next": {
                 "title": "Sidebar",
@@ -421,7 +471,7 @@
               "sourceDirName": "Docusaurus_References/Markdown_MDX",
               "slug": "/Docusaurus_References/Markdown_MDX/addtabs",
               "permalink": "/docs/Docusaurus_References/Markdown_MDX/addtabs",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/4. Tabs.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Markdown_MDX/4. Tabs.md",
               "version": "current",
               "sidebarPosition": 4,
               "frontMatter": {
@@ -450,7 +500,7 @@
               "sourceDirName": "Docusaurus_References/Markdown_MDX",
               "slug": "/Docusaurus_References/Markdown_MDX/admonition",
               "permalink": "/docs/Docusaurus_References/Markdown_MDX/admonition",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/6. Admonitions.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Markdown_MDX/6. Admonitions.md",
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
@@ -479,7 +529,7 @@
               "sourceDirName": "Docusaurus_References/Markdown_MDX",
               "slug": "/Docusaurus_References/Markdown_MDX/codeblock",
               "permalink": "/docs/Docusaurus_References/Markdown_MDX/codeblock",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/2. Code Block.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Markdown_MDX/2. Code Block.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -508,7 +558,7 @@
               "sourceDirName": "Docusaurus_References/Markdown_MDX",
               "slug": "/Docusaurus_References/Markdown_MDX/frontmatter",
               "permalink": "/docs/Docusaurus_References/Markdown_MDX/frontmatter",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/3. Front-matter.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Markdown_MDX/3. Front-matter.md",
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
@@ -537,7 +587,7 @@
               "sourceDirName": "Docusaurus_References/Markdown_MDX",
               "slug": "/Docusaurus_References/Markdown_MDX/mdbasics",
               "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/1. Markdown Basics.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Markdown_MDX/1. Markdown Basics.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -566,7 +616,7 @@
               "sourceDirName": "Docusaurus_References/Markdown_MDX",
               "slug": "/Docusaurus_References/Markdown_MDX/toc",
               "permalink": "/docs/Docusaurus_References/Markdown_MDX/toc",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Markdown_MDX/5. Add toc.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Markdown_MDX/5. Add toc.md",
               "version": "current",
               "sidebarPosition": 10,
               "frontMatter": {
@@ -586,6 +636,32 @@
               }
             },
             {
+              "unversionedId": "Docusaurus_References/Plugins/idealimage",
+              "id": "Docusaurus_References/Plugins/idealimage",
+              "isDocsHomePage": false,
+              "title": "📦 plugin-ideal-image",
+              "description": "Docusaurus Plugin to generate an almost ideal image (responsive, lazy-loading, and low quality placeholder) in the production builds.",
+              "source": "@site/docs/Docusaurus_References/Plugins/Ideal_image.md",
+              "sourceDirName": "Docusaurus_References/Plugins",
+              "slug": "/Docusaurus_References/Plugins/idealimage",
+              "permalink": "/docs/Docusaurus_References/Plugins/idealimage",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Plugins/Ideal_image.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "idealimage",
+                "title": "Use ideal-image"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Embed images and files",
+                "permalink": "/docs/Docusaurus_References/embed"
+              },
+              "next": {
+                "title": "Syntax",
+                "permalink": "/docs/Docusaurus_References/tips"
+              }
+            },
+            {
               "unversionedId": "Docusaurus_References/tips",
               "id": "Docusaurus_References/tips",
               "isDocsHomePage": false,
@@ -595,7 +671,7 @@
               "sourceDirName": "Docusaurus_References",
               "slug": "/Docusaurus_References/tips",
               "permalink": "/docs/Docusaurus_References/tips",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/Tips.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Tips.md",
               "version": "current",
               "frontMatter": {
                 "id": "tips",
@@ -603,12 +679,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Embed images and files",
-                "permalink": "/docs/Docusaurus_References/embed"
+                "title": "📦 plugin-ideal-image",
+                "permalink": "/docs/Docusaurus_References/Plugins/idealimage"
               },
               "next": {
-                "title": "300. 最长递增子序列",
-                "permalink": "/docs/Dynamic Programming/LeetCode300"
+                "title": "Hello Algorithm",
+                "permalink": "/docs/Dynamic Programming/algointro"
               }
             },
             {
@@ -621,7 +697,7 @@
               "sourceDirName": "Dynamic Programming",
               "slug": "/Dynamic Programming/algointro",
               "permalink": "/docs/Dynamic Programming/algointro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/About this section.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Dynamic Programming/About this section.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -631,59 +707,53 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "300. 最长递增子序列",
-                "permalink": "/docs/Dynamic Programming/LeetCode300"
+                "title": "Syntax",
+                "permalink": "/docs/Docusaurus_References/tips"
               },
               "next": {
                 "title": "64. Minimum Path Sum — Medium",
-                "permalink": "/docs/Dynamic Programming/LeetCode64"
+                "permalink": "/docs/Dynamic Programming/leetcode64"
               }
             },
             {
-              "unversionedId": "Dynamic Programming/LeetCode300",
-              "id": "Dynamic Programming/LeetCode300",
+              "unversionedId": "Dynamic Programming/leetcode300",
+              "id": "Dynamic Programming/leetcode300",
               "isDocsHomePage": false,
               "title": "300. 最长递增子序列",
               "description": "LeetCode 300. 最长递增子序列",
               "source": "@site/docs/Dynamic Programming/300. 最长递增子序列.md",
               "sourceDirName": "Dynamic Programming",
-              "slug": "/Dynamic Programming/LeetCode300",
-              "permalink": "/docs/Dynamic Programming/LeetCode300",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/300. 最长递增子序列.md",
+              "slug": "/Dynamic Programming/leetcode300",
+              "permalink": "/docs/Dynamic Programming/leetcode300",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Dynamic Programming/300. 最长递增子序列.md",
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 300,
               "frontMatter": {
-                "sidebar_position": 1,
-                "id": "LeetCode300",
-                "title": "LeetCode 300. 最长递增子序列",
+                "id": "leetcode300",
+                "title": "300. 最长递增子序列",
                 "parse_number_prefixes": true
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Syntax",
-                "permalink": "/docs/Docusaurus_References/tips"
-              },
-              "next": {
-                "title": "Hello Algorithm",
-                "permalink": "/docs/Dynamic Programming/algointro"
+                "title": "96. Unique Binary Search Trees — Medium",
+                "permalink": "/docs/Dynamic Programming/leetcode96"
               }
             },
             {
-              "unversionedId": "Dynamic Programming/LeetCode64",
-              "id": "Dynamic Programming/LeetCode64",
+              "unversionedId": "Dynamic Programming/leetcode64",
+              "id": "Dynamic Programming/leetcode64",
               "isDocsHomePage": false,
               "title": "64. Minimum Path Sum — Medium",
               "description": "Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.",
-              "source": "@site/docs/Dynamic Programming/Minimum Path Sum.md",
+              "source": "@site/docs/Dynamic Programming/64. Minimum Path Sum.md",
               "sourceDirName": "Dynamic Programming",
-              "slug": "/Dynamic Programming/LeetCode64",
-              "permalink": "/docs/Dynamic Programming/LeetCode64",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/Minimum Path Sum.md",
+              "slug": "/Dynamic Programming/leetcode64",
+              "permalink": "/docs/Dynamic Programming/leetcode64",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Dynamic Programming/64. Minimum Path Sum.md",
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 64,
               "frontMatter": {
-                "sidebar_position": 2,
-                "id": "LeetCode64",
+                "id": "leetcode64",
                 "title": "64. Minimum Path Sum — Medium",
                 "parse_number_prefixes": true
               },
@@ -691,6 +761,71 @@
               "previous": {
                 "title": "Hello Algorithm",
                 "permalink": "/docs/Dynamic Programming/algointro"
+              },
+              "next": {
+                "title": "91. Decode Ways — Medium",
+                "permalink": "/docs/Dynamic Programming/leetcode91"
+              }
+            },
+            {
+              "unversionedId": "Dynamic Programming/leetcode91",
+              "id": "Dynamic Programming/leetcode91",
+              "isDocsHomePage": false,
+              "title": "91. Decode Ways — Medium",
+              "description": "A message containing letters from A-Z can be encoded into numbers using the following mapping:",
+              "source": "@site/docs/Dynamic Programming/91. Decode Ways.md",
+              "sourceDirName": "Dynamic Programming",
+              "slug": "/Dynamic Programming/leetcode91",
+              "permalink": "/docs/Dynamic Programming/leetcode91",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Dynamic Programming/91. Decode Ways.md",
+              "version": "current",
+              "sidebarPosition": 91,
+              "frontMatter": {
+                "id": "leetcode91",
+                "title": "91. Decode Ways — Medium",
+                "parse_number_prefixes": true
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "64. Minimum Path Sum — Medium",
+                "permalink": "/docs/Dynamic Programming/leetcode64"
+              },
+              "next": {
+                "title": "96. Unique Binary Search Trees — Medium",
+                "permalink": "/docs/Dynamic Programming/leetcode96"
+              }
+            },
+            {
+              "unversionedId": "Dynamic Programming/leetcode96",
+              "id": "Dynamic Programming/leetcode96",
+              "isDocsHomePage": false,
+              "title": "96. Unique Binary Search Trees — Medium",
+              "description": "Given an integer n, return the number of structurally unique *BST'* s (binary search trees) which has exactly n nodes of unique values from 1 to n.",
+              "source": "@site/docs/Dynamic Programming/96. Unique Binary Search Trees.md",
+              "sourceDirName": "Dynamic Programming",
+              "slug": "/Dynamic Programming/leetcode96",
+              "permalink": "/docs/Dynamic Programming/leetcode96",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Dynamic Programming/96. Unique Binary Search Trees.md",
+              "version": "current",
+              "sidebarPosition": 96,
+              "frontMatter": {
+                "id": "leetcode96",
+                "title": "96. Unique Binary Search Trees",
+                "Keyword": [
+                  "Binary Search Tree",
+                  "LeetCode",
+                  "Dynamic Programming"
+                ],
+                "parse_number_prefixes": true
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "91. Decode Ways — Medium",
+                "permalink": "/docs/Dynamic Programming/leetcode91"
+              },
+              "next": {
+                "title": "300. 最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/leetcode300"
               }
             },
             {
@@ -703,7 +838,7 @@
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/intro.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -727,7 +862,7 @@
               "sourceDirName": "Multivariable Calculus",
               "slug": "/Multivariable Calculus/6Aoutline",
               "permalink": "/docs/Multivariable Calculus/6Aoutline",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Outline of 6A.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Outline of 6A.md",
               "version": "current",
               "frontMatter": {
                 "id": "6Aoutline",
@@ -736,12 +871,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Cheatsheets",
-                "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
-              },
-              "next": {
                 "title": "Multivariable Calculus Calculators",
                 "permalink": "/docs/Multivariable Calculus/calculators"
+              },
+              "next": {
+                "title": "Surface Integral",
+                "permalink": "/docs/Multivariable Calculus/calcessential"
               }
             },
             {
@@ -754,7 +889,7 @@
               "sourceDirName": "Multivariable Calculus",
               "slug": "/Multivariable Calculus/calcessential",
               "permalink": "/docs/Multivariable Calculus/calcessential",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Surface Integral.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Surface Integral.md",
               "version": "current",
               "frontMatter": {
                 "id": "calcessential",
@@ -763,8 +898,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Multivariable Calculus Calculators",
-                "permalink": "/docs/Multivariable Calculus/calculators"
+                "title": "MATH 6A Outline",
+                "permalink": "/docs/Multivariable Calculus/6Aoutline"
               },
               "next": {
                 "title": "Theorems",
@@ -781,7 +916,7 @@
               "sourceDirName": "Multivariable Calculus",
               "slug": "/Multivariable Calculus/calctheorems",
               "permalink": "/docs/Multivariable Calculus/calctheorems",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Theorems.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Theorems.md",
               "version": "current",
               "frontMatter": {
                 "position": 4,
@@ -803,12 +938,12 @@
               "id": "Multivariable Calculus/calculators",
               "isDocsHomePage": false,
               "title": "Multivariable Calculus Calculators",
-              "description": "Vector",
-              "source": "@site/docs/Multivariable Calculus/Powered by Wolfram Alpha.md",
+              "description": "Basic Scientific Calculator",
+              "source": "@site/docs/Multivariable Calculus/Math Tools.md",
               "sourceDirName": "Multivariable Calculus",
               "slug": "/Multivariable Calculus/calculators",
               "permalink": "/docs/Multivariable Calculus/calculators",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Powered by Wolfram Alpha.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Math Tools.md",
               "version": "current",
               "frontMatter": {
                 "id": "calculators",
@@ -817,12 +952,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "MATH 6A Outline",
-                "permalink": "/docs/Multivariable Calculus/6Aoutline"
+                "title": "Cheatsheets",
+                "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
               },
               "next": {
-                "title": "Surface Integral",
-                "permalink": "/docs/Multivariable Calculus/calcessential"
+                "title": "MATH 6A Outline",
+                "permalink": "/docs/Multivariable Calculus/6Aoutline"
               }
             },
             {
@@ -835,7 +970,7 @@
               "sourceDirName": "Multivariable Calculus",
               "slug": "/Multivariable Calculus/Change of variables",
               "permalink": "/docs/Multivariable Calculus/Change of variables",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Change of variables.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Change of variables.md",
               "version": "current",
               "frontMatter": {
                 "Keyword": [
@@ -863,7 +998,7 @@
               "sourceDirName": "Multivariable Calculus",
               "slug": "/Multivariable Calculus/multcalc_cheatsheet",
               "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Cheatsheets.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Cheatsheets.md",
               "version": "current",
               "frontMatter": {
                 "id": "multcalc_cheatsheet",
@@ -876,8 +1011,8 @@
                 "permalink": "/docs/Multivariable Calculus/Change of variables"
               },
               "next": {
-                "title": "MATH 6A Outline",
-                "permalink": "/docs/Multivariable Calculus/6Aoutline"
+                "title": "Multivariable Calculus Calculators",
+                "permalink": "/docs/Multivariable Calculus/calculators"
               }
             },
             {
@@ -890,7 +1025,7 @@
               "sourceDirName": "Multivariable Calculus",
               "slug": "/Multivariable Calculus/vectorfield",
               "permalink": "/docs/Multivariable Calculus/vectorfield",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/vector fields that are gradients or curls.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/vector fields that are gradients or curls.md",
               "version": "current",
               "frontMatter": {
                 "id": "vectorfield",
@@ -916,12 +1051,12 @@
               "sourceDirName": "SQL Notes",
               "slug": "/SQL Notes/Important Concepts",
               "permalink": "/docs/SQL Notes/Important Concepts",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Important Concepts.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/SQL Notes/Important Concepts.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "SQL Grouping",
+                "title": "Grouping",
                 "permalink": "/docs/SQL Notes/sqlgroup"
               },
               "next": {
@@ -933,17 +1068,17 @@
               "unversionedId": "SQL Notes/sqlgroup",
               "id": "SQL Notes/sqlgroup",
               "isDocsHomePage": false,
-              "title": "SQL Grouping",
+              "title": "Grouping",
               "description": "Grouping",
               "source": "@site/docs/SQL Notes/Grouping.md",
               "sourceDirName": "SQL Notes",
               "slug": "/SQL Notes/sqlgroup",
               "permalink": "/docs/SQL Notes/sqlgroup",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Grouping.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/SQL Notes/Grouping.md",
               "version": "current",
               "frontMatter": {
                 "id": "sqlgroup",
-                "title": "SQL Grouping"
+                "title": "Grouping"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -961,11 +1096,11 @@
               "isDocsHomePage": false,
               "title": "SQL Overview",
               "description": "SQL，指结构化查询语言，全称是 Structured Query Language。",
-              "source": "@site/docs/SQL Notes/SQL Overview.md",
+              "source": "@site/docs/SQL Notes/SQL Overview.mdx",
               "sourceDirName": "SQL Notes",
               "slug": "/SQL Notes/sqlintro",
               "permalink": "/docs/SQL Notes/sqlintro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/SQL Overview.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/SQL Notes/SQL Overview.mdx",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -993,7 +1128,7 @@
               "sourceDirName": "SQL Notes",
               "slug": "/SQL Notes/sqljoin",
               "permalink": "/docs/SQL Notes/sqljoin",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Joining.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/SQL Notes/Joining.md",
               "version": "current",
               "frontMatter": {
                 "id": "sqljoin",
@@ -1019,7 +1154,7 @@
               "sourceDirName": "SQL Notes",
               "slug": "/SQL Notes/sqlnorm",
               "permalink": "/docs/SQL Notes/sqlnorm",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Normalization.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/SQL Notes/Normalization.md",
               "version": "current",
               "sidebarPosition": 7,
               "frontMatter": {
@@ -1033,7 +1168,7 @@
                 "permalink": "/docs/SQL Notes/sqlorder"
               },
               "next": {
-                "title": "SQL Grouping",
+                "title": "Grouping",
                 "permalink": "/docs/SQL Notes/sqlgroup"
               }
             },
@@ -1047,7 +1182,7 @@
               "sourceDirName": "SQL Notes",
               "slug": "/SQL Notes/sqlorder",
               "permalink": "/docs/SQL Notes/sqlorder",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/SQL Notes/Ordering.md",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/SQL Notes/Ordering.md",
               "version": "current",
               "sidebarPosition": 4,
               "frontMatter": {
@@ -1074,10 +1209,74 @@
     "default": {
       "blogPosts": [
         {
+          "id": "你想成为什么样的人？",
+          "metadata": {
+            "permalink": "/blog/2021/06/06/每日一思",
+            "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/blog/blog/2021-6-6-每日一思.md",
+            "source": "@site/blog/2021-6-6-每日一思.md",
+            "title": "你想成为什么样的人？",
+            "description": "你想成为什么样的人？",
+            "date": "2021-06-06T07:00:00.000Z",
+            "formattedDate": "June 6, 2021",
+            "tags": [
+              {
+                "label": "杂思",
+                "permalink": "/blog/tags/杂思"
+              },
+              {
+                "label": "生活",
+                "permalink": "/blog/tags/生活"
+              },
+              {
+                "label": "每日一思",
+                "permalink": "/blog/tags/每日一思"
+              }
+            ],
+            "readingTime": 0.03,
+            "truncated": false,
+            "nextItem": {
+              "title": "hi",
+              "permalink": "/blog/2021/06/05/每日一思"
+            }
+          }
+        },
+        {
+          "id": "hi",
+          "metadata": {
+            "permalink": "/blog/2021/06/05/每日一思",
+            "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/blog/blog/2021-6-5-每日一思.md",
+            "source": "@site/blog/2021-6-5-每日一思.md",
+            "title": "hi",
+            "description": "你想成为什么样的人？",
+            "date": "2021-06-05T07:00:00.000Z",
+            "formattedDate": "June 5, 2021",
+            "tags": [
+              {
+                "label": "杂思",
+                "permalink": "/blog/tags/杂思"
+              },
+              {
+                "label": "生活， 每日一思",
+                "permalink": "/blog/tags/生活，-每日一思"
+              }
+            ],
+            "readingTime": 0.03,
+            "truncated": false,
+            "prevItem": {
+              "title": "你想成为什么样的人？",
+              "permalink": "/blog/2021/06/06/每日一思"
+            },
+            "nextItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          }
+        },
+        {
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
+            "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/blog/blog/2019-05-30-welcome.md",
             "source": "@site/blog/2019-05-30-welcome.md",
             "title": "Welcome",
             "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
@@ -1099,37 +1298,9 @@
             ],
             "readingTime": 0.175,
             "truncated": false,
-            "nextItem": {
-              "title": "每日一思",
-              "permalink": "/blog/摘抄"
-            }
-          }
-        },
-        {
-          "id": "摘抄",
-          "metadata": {
-            "permalink": "/blog/摘抄",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
-            "source": "@site/blog/2019-05-29-hello-world.md",
-            "title": "每日一思",
-            "description": "你想成为什么样的人？",
-            "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
-            "tags": [
-              {
-                "label": "杂思",
-                "permalink": "/blog/tags/杂思"
-              },
-              {
-                "label": "生活",
-                "permalink": "/blog/tags/生活"
-              }
-            ],
-            "readingTime": 0.03,
-            "truncated": false,
             "prevItem": {
-              "title": "Welcome",
-              "permalink": "/blog/welcome"
+              "title": "hi",
+              "permalink": "/blog/2021/06/05/每日一思"
             },
             "nextItem": {
               "title": "Greetings!",
@@ -1141,7 +1312,7 @@
           "id": "greetings",
           "metadata": {
             "permalink": "/blog/greetings",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
+            "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/blog/blog/2019-05-28-hola.md",
             "source": "@site/blog/2019-05-28-hola.md",
             "title": "Greetings!",
             "description": "Congratulations, you have made your first post!",
@@ -1156,8 +1327,8 @@
             "readingTime": 0.1,
             "truncated": false,
             "prevItem": {
-              "title": "每日一思",
-              "permalink": "/blog/摘抄"
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
             }
           }
         }
@@ -1169,20 +1340,50 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 3,
+            "totalCount": 4,
             "previousPage": null,
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
+            "你想成为什么样的人？",
+            "hi",
             "welcome",
-            "摘抄",
             "greetings"
           ]
         }
       ],
       "blogTags": {
+        "杂思": {
+          "name": "杂思",
+          "items": [
+            "你想成为什么样的人？",
+            "hi"
+          ],
+          "permalink": "/blog/tags/杂思"
+        },
+        "生活": {
+          "name": "生活",
+          "items": [
+            "你想成为什么样的人？"
+          ],
+          "permalink": "/blog/tags/生活"
+        },
+        "每日一思": {
+          "name": "每日一思",
+          "items": [
+            "你想成为什么样的人？"
+          ],
+          "permalink": "/blog/tags/每日一思"
+        },
+        "生活，-每日一思": {
+          "name": "生活， 每日一思",
+          "items": [
+            "hi"
+          ],
+          "permalink": "/blog/tags/生活，-每日一思"
+        },
         "facebook": {
           "name": "facebook",
           "items": [
@@ -1203,20 +1404,6 @@
             "welcome"
           ],
           "permalink": "/blog/tags/docusaurus"
-        },
-        "杂思": {
-          "name": "杂思",
-          "items": [
-            "摘抄"
-          ],
-          "permalink": "/blog/tags/杂思"
-        },
-        "生活": {
-          "name": "生活",
-          "items": [
-            "摘抄"
-          ],
-          "permalink": "/blog/tags/生活"
         },
         "greetings": {
           "name": "greetings",
@@ -1249,7 +1436,7 @@
   "docusaurus-theme-classic": {
     "default": null
   },
-  "docusaurus-plugin-google-gtag": {
+  "docusaurus-plugin-ideal-image": {
     "default": null
   }
 }

@@ -1,0 +1,29 @@
+{
+  "permalink": "/blog/2021/06/06/每日一思",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/blog/blog/2021-6-6-每日一思.md",
+  "source": "@site/blog/2021-6-6-每日一思.md",
+  "title": "你想成为什么样的人？",
+  "description": "你想成为什么样的人？",
+  "date": "2021-06-06T07:00:00.000Z",
+  "formattedDate": "June 6, 2021",
+  "tags": [
+    {
+      "label": "杂思",
+      "permalink": "/blog/tags/杂思"
+    },
+    {
+      "label": "生活",
+      "permalink": "/blog/tags/生活"
+    },
+    {
+      "label": "每日一思",
+      "permalink": "/blog/tags/每日一思"
+    }
+  ],
+  "readingTime": 0.03,
+  "truncated": false,
+  "nextItem": {
+    "title": "hi",
+    "permalink": "/blog/2021/06/05/每日一思"
+  }
+}

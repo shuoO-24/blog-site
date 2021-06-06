@@ -9,7 +9,17 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','364'),
+  component: ComponentCreator('/blog','4e1'),
+  exact: true,
+},
+{
+  path: '/blog/2021/06/05/每日一思',
+  component: ComponentCreator('/blog/2021/06/05/每日一思','b5e'),
+  exact: true,
+},
+{
+  path: '/blog/2021/06/06/每日一思',
+  component: ComponentCreator('/blog/2021/06/06/每日一思','4c7'),
   exact: true,
 },
 {
@@ -44,22 +54,27 @@ export default [
 },
 {
   path: '/blog/tags/杂思',
-  component: ComponentCreator('/blog/tags/杂思','67c'),
+  component: ComponentCreator('/blog/tags/杂思','f92'),
+  exact: true,
+},
+{
+  path: '/blog/tags/每日一思',
+  component: ComponentCreator('/blog/tags/每日一思','625'),
   exact: true,
 },
 {
   path: '/blog/tags/生活',
-  component: ComponentCreator('/blog/tags/生活','cba'),
+  component: ComponentCreator('/blog/tags/生活','61d'),
+  exact: true,
+},
+{
+  path: '/blog/tags/生活，-每日一思',
+  component: ComponentCreator('/blog/tags/生活，-每日一思','c43'),
   exact: true,
 },
 {
   path: '/blog/welcome',
   component: ComponentCreator('/blog/welcome','156'),
-  exact: true,
-},
-{
-  path: '/blog/摘抄',
-  component: ComponentCreator('/blog/摘抄','191'),
   exact: true,
 },
 {

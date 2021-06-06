@@ -2,12 +2,16 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/blog/welcome"
+      "title": "你想成为什么样的人？",
+      "permalink": "/blog/2021/06/06/每日一思"
     },
     {
-      "title": "每日一思",
-      "permalink": "/blog/摘抄"
+      "title": "hi",
+      "permalink": "/blog/2021/06/05/每日一思"
+    },
+    {
+      "title": "Welcome",
+      "permalink": "/blog/welcome"
     },
     {
       "title": "Greetings!",

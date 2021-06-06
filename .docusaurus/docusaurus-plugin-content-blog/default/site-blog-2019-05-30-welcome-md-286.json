@@ -22,8 +22,12 @@
   ],
   "readingTime": 0.175,
   "truncated": false,
+  "prevItem": {
+    "title": "hi",
+    "permalink": "/blog/2021/06/05/每日一思"
+  },
   "nextItem": {
-    "title": "每日一思",
-    "permalink": "/blog/摘抄"
+    "title": "Greetings!",
+    "permalink": "/blog/greetings"
   }
 }

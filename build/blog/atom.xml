@@ -2,24 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog-test-lavender.netlify.app/blog</id>
     <title>Lavender Spacecraft🪐✨ Blog</title>
-    <updated>2019-05-30T00:00:00.000Z</updated>
+    <updated>2021-06-06T07:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog-test-lavender.netlify.app/blog"/>
     <subtitle>Lavender Spacecraft🪐✨ Blog</subtitle>
     <icon>https://blog-test-lavender.netlify.app/img/logos/brain_2.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[你想成为什么样的人？]]></title>
+        <id>你想成为什么样的人？</id>
+        <link href="https://blog-test-lavender.netlify.app/blog/2021/06/06/每日一思"/>
+        <updated>2021-06-06T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[你想成为什么样的人？]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hi]]></title>
+        <id>hi</id>
+        <link href="https://blog-test-lavender.netlify.app/blog/2021/06/05/每日一思"/>
+        <updated>2021-06-05T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[你想成为什么样的人？]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
         <link href="https://blog-test-lavender.netlify.app/blog/welcome"/>
         <updated>2019-05-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[每日一思]]></title>
-        <id>摘抄</id>
-        <link href="https://blog-test-lavender.netlify.app/blog/摘抄"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[你想成为什么样的人？]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Greetings!]]></title>

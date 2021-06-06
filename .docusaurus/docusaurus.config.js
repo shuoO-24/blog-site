@@ -23,19 +23,13 @@ export default {
       ]
     },
     "navbar": {
-      "title": "Inbox🌟",
+      "title": "Home🌟",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/my_comic-removebg.PNG"
       },
+      "hideOnScroll": true,
       "items": [
-        {
-          "type": "doc",
-          "docId": "intro",
-          "position": "left",
-          "label": "Algo",
-          "activeSidebarClassName": "navbar__link--active"
-        },
         {
           "to": "/blog",
           "label": "Blog",
@@ -45,9 +39,20 @@ export default {
           "href": "https://github.com/shuoO-24",
           "label": "GitHub",
           "position": "right"
+        },
+        {
+          "to": "/docs/Dynamic Programming/algointro",
+          "position": "left",
+          "label": "Algo",
+          "docsPluginId": "default",
+          "activeSidebarClassName": "navbar__link--active"
+        },
+        {
+          "label": "SQL Review Notes",
+          "to": "/docs/SQL Notes/sqlintro",
+          "position": "left"
         }
-      ],
-      "hideOnScroll": false
+      ]
     },
     "footer": {
       "style": "dark",
@@ -79,17 +84,21 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021. Built with Docusaurus."
+      "copyright": "Copyright © 2021."
     },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
       "respectPrefersColorScheme": false,
       "switchConfig": {
-        "darkIcon": "🌜",
-        "darkIconStyle": {},
+        "darkIcon": "🌙",
+        "darkIconStyle": {
+          "marginLeft": "2px"
+        },
         "lightIcon": "🌞",
-        "lightIconStyle": {}
+        "lightIconStyle": {
+          "marginLeft": "1px"
+        }
       }
     },
     "docs": {

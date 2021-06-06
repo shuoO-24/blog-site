@@ -5,21 +5,28 @@ title: Hello Algorithm
 ---
 ## 关于作者
 
-UMich 密西根安娜堡大二在读
-
-课余时间花三个月自学算法刷USACO，从Bronze晋级到Gold
-随即搁置算法学习，四个月后回到初级水平
-
-痛定思痛，决定坚持刷题打好算法基础TT
+<div class="dropdown dropdown--hoverable">
+UMich 密西根安娜堡 rising &nbsp;
+  <button class="button button--secondary">sophomore</button><ul class="dropdown__menu"><li><a class="dropdown__link">开学大二～</a></li></ul></div>
 
 ### 一起来刷力扣吧！
 
-
-<div class="alert alert--primary" role="alert">
-<p>交个朋友嘛~ </p>
+<br />
+<div class="dropdown dropdown--hoverable">
+  <button class="button button--primary">交个朋友嘛😄</button>
+  <ul class="dropdown__menu">
+    <li>
+      <a class="dropdown__link" href="#url">
+        QQ: 2855660467
+      </a>
+    </li>
+    <li>
+      <a class="dropdown__link" href="#url">
+        Email: lishuo2332@gmail.com
+      </a>
+    </li>
+  </ul>
 </div>
 
-<br />
 
-*QQ*: 2855660467 <br />
-*Email*: lishuo2332@gmail.com
+

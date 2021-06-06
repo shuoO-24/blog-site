@@ -1,6 +1,6 @@
 ---
 id: sqlgroup
-title: SQL Grouping
+title: Grouping
 ---
 ## Grouping
 

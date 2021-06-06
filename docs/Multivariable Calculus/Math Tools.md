@@ -4,6 +4,9 @@ title: Multivariable Calculus Calculators
 position: 3
 ---
 
+## Basic Scientific Calculator
+[Desmos](https://www.desmos.com/scientific?lang=zh-CN)
+
 ## Visualization
 ### 3D Graphics
 [Online Geogebra 3D Calculator](https://www.geogebra.org/3d?lang=en)
