@@ -17,6 +17,11 @@
       "name": "@docusaurus/plugin-content-pages",
       "version": "2.0.0-beta.0"
     },
+    "docusaurus-plugin-google-analytics": {
+      "type": "package",
+      "name": "@docusaurus/plugin-google-analytics",
+      "version": "2.0.0-beta.0"
+    },
     "docusaurus-plugin-google-gtag": {
       "type": "package",
       "name": "@docusaurus/plugin-google-gtag",
@@ -30,6 +35,11 @@
     "docusaurus-theme-classic": {
       "type": "package",
       "name": "@docusaurus/theme-classic",
+      "version": "2.0.0-beta.0"
+    },
+    "docusaurus-plugin-ideal-image": {
+      "type": "package",
+      "name": "@docusaurus/plugin-ideal-image",
       "version": "2.0.0-beta.0"
     }
   }

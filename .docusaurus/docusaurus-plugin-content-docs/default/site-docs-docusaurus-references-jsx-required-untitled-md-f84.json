@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Docusaurus_References/JSX_Required/Untitled",
+  "id": "Docusaurus_References/JSX_Required/Untitled",
+  "isDocsHomePage": false,
+  "title": "Untitled",
+  "description": "",
+  "source": "@site/docs/Docusaurus_References/JSX_Required/Untitled.md",
+  "sourceDirName": "Docusaurus_References/JSX_Required",
+  "slug": "/Docusaurus_References/JSX_Required/Untitled",
+  "permalink": "/docs/Docusaurus_References/JSX_Required/Untitled",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/JSX_Required/Untitled.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n"
+  },
+  "next": {
+    "title": "Sidebar",
+    "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar"
+  }
+}

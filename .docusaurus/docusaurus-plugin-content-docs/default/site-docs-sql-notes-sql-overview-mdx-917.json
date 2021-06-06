@@ -1,0 +1,28 @@
+{
+  "unversionedId": "SQL Notes/sqlintro",
+  "id": "SQL Notes/sqlintro",
+  "isDocsHomePage": false,
+  "title": "SQL Overview",
+  "description": "SQL，指结构化查询语言，全称是 Structured Query Language。",
+  "source": "@site/docs/SQL Notes/SQL Overview.mdx",
+  "sourceDirName": "SQL Notes",
+  "slug": "/SQL Notes/sqlintro",
+  "permalink": "/docs/SQL Notes/sqlintro",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/SQL Notes/SQL Overview.mdx",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "sqlintro",
+    "title": "SQL Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "你好呀",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Ordering",
+    "permalink": "/docs/SQL Notes/sqlorder"
+  }
+}

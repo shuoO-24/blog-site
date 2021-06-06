@@ -1,29 +1,24 @@
 {
-  "unversionedId": "Dynamic Programming/LeetCode300",
-  "id": "Dynamic Programming/LeetCode300",
+  "unversionedId": "Dynamic Programming/leetcode300",
+  "id": "Dynamic Programming/leetcode300",
   "isDocsHomePage": false,
   "title": "300. 最长递增子序列",
   "description": "LeetCode 300. 最长递增子序列",
   "source": "@site/docs/Dynamic Programming/300. 最长递增子序列.md",
   "sourceDirName": "Dynamic Programming",
-  "slug": "/Dynamic Programming/LeetCode300",
-  "permalink": "/docs/Dynamic Programming/LeetCode300",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/300. 最长递增子序列.md",
+  "slug": "/Dynamic Programming/leetcode300",
+  "permalink": "/docs/Dynamic Programming/leetcode300",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Dynamic Programming/300. 最长递增子序列.md",
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 300,
   "frontMatter": {
-    "sidebar_position": 1,
-    "id": "LeetCode300",
-    "title": "LeetCode 300. 最长递增子序列",
+    "id": "leetcode300",
+    "title": "300. 最长递增子序列",
     "parse_number_prefixes": true
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Syntax",
-    "permalink": "/docs/Docusaurus_References/tips"
-  },
-  "next": {
-    "title": "Hello Algorithm",
-    "permalink": "/docs/Dynamic Programming/algointro"
+    "title": "96. Unique Binary Search Trees — Medium",
+    "permalink": "/docs/Dynamic Programming/leetcode96"
   }
 }

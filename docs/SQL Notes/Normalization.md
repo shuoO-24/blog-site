@@ -180,18 +180,25 @@ A relation is in 2NF if both of the following conditions hold:
 
 An attribute that is **not part of any candidate key** is a NON-PRIME ATTRIBUTE.
 
-#### ✨ Functionally dependent
+#### ✨ **Functionally dependent**
 
 If a set of attributes A of a relation **uniquely identifies** a set of attributes B of the same relation, then **B is FUNCTIONALLY DEPENDENT on A**.
 Written: `A-->B` (just one long arrow)
-• Functional Dependency: The value of one attribute (the determinant) determines the value of another attribute. 
+<br />
+
+In other words, **the value of one attribute (the determinant) determines the value of another attribute.**
+
 – A-->B reads “Attribute B is functionally dependent on A” 
 – A-->B means **if two rows have same value of A they necessarily have same value of B**
-– FDs are determined by semantics: You can’t say that a FD exists just by looking at data. But can say whether it does not exist by looking at data.
+– FDs are determined by semantics: _You can’t say that a FD exists just by looking at data. But can say whether it does not exist by looking at data._
+
+<br />
 
 #### Proper subset
 
 A proper subset of a set A is a subset of A that is not equal to A.
+
+<br />
 
 #### Example: Functional Dependencies (FD's)
 
@@ -237,9 +244,9 @@ _Theory of relational database replies on advanced set theory. It's mathematical
 
 1. Is the relation SCHOOL in 1NF?
 
-  <div class="alert alert--primary" role="alert" style={{ size: 1 }}>
+  <div class="alert alert--primary text--center" role="alert" style={{ width: 5 }}>
     In 1NF
-</div>  
+  </div>  
 
 2. Are there any **non-prime attributes that are functionally dependent on a proper subset of any candidate key**?
 
@@ -257,12 +264,13 @@ _Theory of relational database replies on advanced set theory. It's mathematical
 
 Therefore, the relation SCHOOL is **not** in 2NF.
 
+---
 
 #### Why does whether the relation is 2NF or not **matters**?
 
-Because there are possibility of **Update anomalies, Insertion anomalies and Deletion anomalies**.
+- Because there are possibility of **Update anomalies, Insertion anomalies and Deletion anomalies**.
 
-Try to think of some possible anomalies.
+- Try to think of some possible anomalies.
 
 #### Summary of examples so far
 

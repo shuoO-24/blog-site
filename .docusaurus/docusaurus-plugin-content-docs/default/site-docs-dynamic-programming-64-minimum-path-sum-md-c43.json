@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Dynamic Programming/leetcode64",
+  "id": "Dynamic Programming/leetcode64",
+  "isDocsHomePage": false,
+  "title": "64. Minimum Path Sum — Medium",
+  "description": "Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.",
+  "source": "@site/docs/Dynamic Programming/64. Minimum Path Sum.md",
+  "sourceDirName": "Dynamic Programming",
+  "slug": "/Dynamic Programming/leetcode64",
+  "permalink": "/docs/Dynamic Programming/leetcode64",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Dynamic Programming/64. Minimum Path Sum.md",
+  "version": "current",
+  "sidebarPosition": 64,
+  "frontMatter": {
+    "id": "leetcode64",
+    "title": "64. Minimum Path Sum — Medium",
+    "parse_number_prefixes": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hello Algorithm",
+    "permalink": "/docs/Dynamic Programming/algointro"
+  },
+  "next": {
+    "title": "91. Decode Ways — Medium",
+    "permalink": "/docs/Dynamic Programming/leetcode91"
+  }
+}

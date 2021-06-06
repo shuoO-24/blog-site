@@ -1,0 +1,33 @@
+{
+  "unversionedId": "Dynamic Programming/leetcode96",
+  "id": "Dynamic Programming/leetcode96",
+  "isDocsHomePage": false,
+  "title": "96. Unique Binary Search Trees — Medium",
+  "description": "Given an integer n, return the number of structurally unique *BST'* s (binary search trees) which has exactly n nodes of unique values from 1 to n.",
+  "source": "@site/docs/Dynamic Programming/96. Unique Binary Search Trees.md",
+  "sourceDirName": "Dynamic Programming",
+  "slug": "/Dynamic Programming/leetcode96",
+  "permalink": "/docs/Dynamic Programming/leetcode96",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Dynamic Programming/96. Unique Binary Search Trees.md",
+  "version": "current",
+  "sidebarPosition": 96,
+  "frontMatter": {
+    "id": "leetcode96",
+    "title": "96. Unique Binary Search Trees",
+    "Keyword": [
+      "Binary Search Tree",
+      "LeetCode",
+      "Dynamic Programming"
+    ],
+    "parse_number_prefixes": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "91. Decode Ways — Medium",
+    "permalink": "/docs/Dynamic Programming/leetcode91"
+  },
+  "next": {
+    "title": "300. 最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/leetcode300"
+  }
+}

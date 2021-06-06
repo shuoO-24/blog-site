@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Docusaurus_References/Plugins/idealimage",
+  "id": "Docusaurus_References/Plugins/idealimage",
+  "isDocsHomePage": false,
+  "title": "📦 plugin-ideal-image",
+  "description": "Docusaurus Plugin to generate an almost ideal image (responsive, lazy-loading, and low quality placeholder) in the production builds.",
+  "source": "@site/docs/Docusaurus_References/Plugins/Ideal_image.md",
+  "sourceDirName": "Docusaurus_References/Plugins",
+  "slug": "/Docusaurus_References/Plugins/idealimage",
+  "permalink": "/docs/Docusaurus_References/Plugins/idealimage",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/Plugins/Ideal_image.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "idealimage",
+    "title": "Use ideal-image"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Embed images and files",
+    "permalink": "/docs/Docusaurus_References/embed"
+  },
+  "next": {
+    "title": "Syntax",
+    "permalink": "/docs/Docusaurus_References/tips"
+  }
+}

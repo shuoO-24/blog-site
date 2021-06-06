@@ -13,8 +13,8 @@ Creating a sidebar is useful to:
 
 To use sidebars on your Docusaurus site:
 
-Define a file that exports a sidebar object.
-Pass this object into the `@docusaurus/plugin-docs` plugin directly or via `@docusaurus/preset-classic`.
+1. **Define** a **file** called `sidebar.js` that exports a sidebar object.
+2. Pass this object into the `@docusaurus/plugin-docs` plugin directly or via `@docusaurus/preset-classic`.
 
 ```jsx title='docusaurus.config.js'
 module.exports = {
@@ -45,7 +45,7 @@ module.exports = {
 You can also define your sidebars explicitly.
 
 ## Sidebar objects
-Sidebar object#
+
 A sidebar is a tree of sidebar items.
 
 ```jsx
@@ -93,6 +93,7 @@ Notice the following:
 
 :::tip TIP
 Use the shorthand syntax to express this sidebar more concisely:
+
 ```jsx title='sidebars.js'
 module.exports = {
   mySidebar: {
@@ -102,14 +103,19 @@ module.exports = {
 };
 ```
 
+:::
+
 ## Using multiple sidebars
-You can create a sidebar for each set of markdown files that you want to group together.
+
+You can create a sidebar for **each set of markdown files** that you want to group together.
 
 :::tip TIP
 The Docusaurus site is a good example of using multiple sidebars:
 
 - Docs
 - API
+
+:::
 
 Example:
 

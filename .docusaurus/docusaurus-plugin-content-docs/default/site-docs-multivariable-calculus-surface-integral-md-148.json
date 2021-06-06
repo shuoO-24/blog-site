@@ -8,7 +8,7 @@
   "sourceDirName": "Multivariable Calculus",
   "slug": "/Multivariable Calculus/calcessential",
   "permalink": "/docs/Multivariable Calculus/calcessential",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Surface Integral.md",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Surface Integral.md",
   "version": "current",
   "frontMatter": {
     "id": "calcessential",
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Multivariable Calculus Calculators",
-    "permalink": "/docs/Multivariable Calculus/calculators"
+    "title": "MATH 6A Outline",
+    "permalink": "/docs/Multivariable Calculus/6Aoutline"
   },
   "next": {
     "title": "Theorems",

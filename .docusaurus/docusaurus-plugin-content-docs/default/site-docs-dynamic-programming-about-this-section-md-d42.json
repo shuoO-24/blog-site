@@ -8,7 +8,7 @@
   "sourceDirName": "Dynamic Programming",
   "slug": "/Dynamic Programming/algointro",
   "permalink": "/docs/Dynamic Programming/algointro",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Dynamic Programming/About this section.md",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Dynamic Programming/About this section.md",
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "300. 最长递增子序列",
-    "permalink": "/docs/Dynamic Programming/LeetCode300"
+    "title": "Syntax",
+    "permalink": "/docs/Docusaurus_References/tips"
   },
   "next": {
     "title": "64. Minimum Path Sum — Medium",
-    "permalink": "/docs/Dynamic Programming/LeetCode64"
+    "permalink": "/docs/Dynamic Programming/leetcode64"
   }
 }

@@ -117,13 +117,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+            "https://github.com/shuoO-24/blog-site/tree/main/docs",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/shuoO-24/blog-site/tree/main/blog",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -131,5 +131,5 @@ module.exports = {
       },
     ],
   ],
-  // plugins: ['@docusaurus/plugin-google-gtag'],
+  plugins: ['@docusaurus/plugin-ideal-image'],
 };

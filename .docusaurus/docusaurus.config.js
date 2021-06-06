@@ -13,6 +13,10 @@ export default {
       "trackingID": "UA-141789564-1",
       "anonymizeIP": true
     },
+    "googleAnalytics": {
+      "trackingID": "UA-141789564-1",
+      "anonymizeIP": true
+    },
     "prism": {
       "additionalLanguages": [
         "matlab"
@@ -100,17 +104,20 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/shuoO/docusaurus-tutorial/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+          "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/blog"
         },
         "theme": {
           "customCss": "/Users/shuoO/docusaurus-tutorial/src/css/custom.css"
         }
       }
     ]
+  ],
+  "plugins": [
+    "@docusaurus/plugin-ideal-image"
   ],
   "baseUrlIssueBanner": true,
   "i18n": {
@@ -122,7 +129,6 @@ export default {
   },
   "onDuplicateRoutes": "warn",
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
   "noIndex": false

@@ -46,6 +46,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Docusaurus_References/JSX_Required/Untitled",
+              "path": "/docs/Docusaurus_References/JSX_Required/Untitled",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Docusaurus_References/Markdown_MDX/addtabs",
               "path": "/docs/Docusaurus_References/Markdown_MDX/addtabs",
               "sidebar": "tutorialSidebar"
@@ -76,6 +81,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Docusaurus_References/Plugins/idealimage",
+              "path": "/docs/Docusaurus_References/Plugins/idealimage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Docusaurus_References/tips",
               "path": "/docs/Docusaurus_References/tips",
               "sidebar": "tutorialSidebar"
@@ -86,13 +96,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Dynamic Programming/LeetCode300",
-              "path": "/docs/Dynamic Programming/LeetCode300",
+              "id": "Dynamic Programming/leetcode300",
+              "path": "/docs/Dynamic Programming/leetcode300",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Dynamic Programming/LeetCode64",
-              "path": "/docs/Dynamic Programming/LeetCode64",
+              "id": "Dynamic Programming/leetcode64",
+              "path": "/docs/Dynamic Programming/leetcode64",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Dynamic Programming/leetcode91",
+              "path": "/docs/Dynamic Programming/leetcode91",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Dynamic Programming/leetcode96",
+              "path": "/docs/Dynamic Programming/leetcode96",
               "sidebar": "tutorialSidebar"
             },
             {

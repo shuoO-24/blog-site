@@ -12,4 +12,14 @@ UMich 密西根安娜堡大二在读
 
 痛定思痛，决定坚持刷题打好算法基础TT
 
-### 废话不多说了，一起来刷力扣吧！
+### 一起来刷力扣吧！
+
+
+<div class="alert alert--primary" role="alert">
+<p>交个朋友嘛~ </p>
+</div>
+
+<br />
+
+*QQ*: 2855660467 <br />
+*Email*: lishuo2332@gmail.com

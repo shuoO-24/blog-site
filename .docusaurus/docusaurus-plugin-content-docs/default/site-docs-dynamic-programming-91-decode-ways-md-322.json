@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Dynamic Programming/leetcode91",
+  "id": "Dynamic Programming/leetcode91",
+  "isDocsHomePage": false,
+  "title": "91. Decode Ways — Medium",
+  "description": "A message containing letters from A-Z can be encoded into numbers using the following mapping:",
+  "source": "@site/docs/Dynamic Programming/91. Decode Ways.md",
+  "sourceDirName": "Dynamic Programming",
+  "slug": "/Dynamic Programming/leetcode91",
+  "permalink": "/docs/Dynamic Programming/leetcode91",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Dynamic Programming/91. Decode Ways.md",
+  "version": "current",
+  "sidebarPosition": 91,
+  "frontMatter": {
+    "id": "leetcode91",
+    "title": "91. Decode Ways — Medium",
+    "parse_number_prefixes": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "64. Minimum Path Sum — Medium",
+    "permalink": "/docs/Dynamic Programming/leetcode64"
+  },
+  "next": {
+    "title": "96. Unique Binary Search Trees — Medium",
+    "permalink": "/docs/Dynamic Programming/leetcode96"
+  }
+}

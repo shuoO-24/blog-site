@@ -8,7 +8,7 @@
   "sourceDirName": "Docusaurus_References/JSX_Required",
   "slug": "/Docusaurus_References/JSX_Required/sidebar",
   "permalink": "/docs/Docusaurus_References/JSX_Required/sidebar",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Docusaurus_References/JSX_Required/side_bar.md",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Docusaurus_References/JSX_Required/side_bar.md",
   "version": "current",
   "frontMatter": {
     "id": "sidebar",
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Translate your site",
-    "permalink": "/docs/Docusaurus_References/JSX_Required/translate_i18n"
+    "title": "Untitled",
+    "permalink": "/docs/Docusaurus_References/JSX_Required/Untitled"
   },
   "next": {
     "title": "Embed images and files",

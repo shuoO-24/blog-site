@@ -8,7 +8,7 @@
   "sourceDirName": "Multivariable Calculus",
   "slug": "/Multivariable Calculus/multcalc_cheatsheet",
   "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Multivariable Calculus/Cheatsheets.md",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Cheatsheets.md",
   "version": "current",
   "frontMatter": {
     "id": "multcalc_cheatsheet",
@@ -21,7 +21,7 @@
     "permalink": "/docs/Multivariable Calculus/Change of variables"
   },
   "next": {
-    "title": "MATH 6A Outline",
-    "permalink": "/docs/Multivariable Calculus/6Aoutline"
+    "title": "Multivariable Calculus Calculators",
+    "permalink": "/docs/Multivariable Calculus/calculators"
   }
 }

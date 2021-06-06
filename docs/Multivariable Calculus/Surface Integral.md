@@ -14,7 +14,7 @@ Flux = surface integral of a vector field
 :::
 
 Relation to density, volumn and area: 
-![7ChHRzd6ZLO5JVk](https://i.loli.net/2021/06/05/7ChHRzd6ZLO5JVk.png)
+<div class='text--center' style={{ zoom: 0.9 }}  ><img src='https://i.loli.net/2021/06/05/7ChHRzd6ZLO5JVk.png' alt='sds' /></div>
 
 
 ## Understand transformation/surface integral

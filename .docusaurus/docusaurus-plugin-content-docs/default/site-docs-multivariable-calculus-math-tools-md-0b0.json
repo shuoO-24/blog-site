@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Multivariable Calculus/calculators",
+  "id": "Multivariable Calculus/calculators",
+  "isDocsHomePage": false,
+  "title": "Multivariable Calculus Calculators",
+  "description": "Visualization",
+  "source": "@site/docs/Multivariable Calculus/Math Tools.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/calculators",
+  "permalink": "/docs/Multivariable Calculus/calculators",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Math Tools.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "calculators",
+    "title": "Multivariable Calculus Calculators",
+    "position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cheatsheets",
+    "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
+  },
+  "next": {
+    "title": "MATH 6A Outline",
+    "permalink": "/docs/Multivariable Calculus/6Aoutline"
+  }
+}

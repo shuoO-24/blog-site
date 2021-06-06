@@ -69,7 +69,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','aa0'),
+  component: ComponentCreator('/docs','a14'),
   
   routes: [
 {
@@ -108,6 +108,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/Docusaurus_References/JSX_Required/Untitled',
+  component: ComponentCreator('/docs/Docusaurus_References/JSX_Required/Untitled','54a'),
+  exact: true,
+},
+{
   path: '/docs/Docusaurus_References/Markdown_MDX/addtabs',
   component: ComponentCreator('/docs/Docusaurus_References/Markdown_MDX/addtabs','40c'),
   exact: true,
@@ -138,6 +143,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/Docusaurus_References/Plugins/idealimage',
+  component: ComponentCreator('/docs/Docusaurus_References/Plugins/idealimage','524'),
+  exact: true,
+},
+{
   path: '/docs/Docusaurus_References/tips',
   component: ComponentCreator('/docs/Docusaurus_References/tips','7b4'),
   exact: true,
@@ -148,13 +158,23 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Dynamic Programming/LeetCode300',
-  component: ComponentCreator('/docs/Dynamic Programming/LeetCode300','2ef'),
+  path: '/docs/Dynamic Programming/leetcode300',
+  component: ComponentCreator('/docs/Dynamic Programming/leetcode300','a3a'),
   exact: true,
 },
 {
-  path: '/docs/Dynamic Programming/LeetCode64',
-  component: ComponentCreator('/docs/Dynamic Programming/LeetCode64','2a5'),
+  path: '/docs/Dynamic Programming/leetcode64',
+  component: ComponentCreator('/docs/Dynamic Programming/leetcode64','ad5'),
+  exact: true,
+},
+{
+  path: '/docs/Dynamic Programming/leetcode91',
+  component: ComponentCreator('/docs/Dynamic Programming/leetcode91','613'),
+  exact: true,
+},
+{
+  path: '/docs/Dynamic Programming/leetcode96',
+  component: ComponentCreator('/docs/Dynamic Programming/leetcode96','ffb'),
   exact: true,
 },
 {
@@ -179,7 +199,7 @@ export default [
 },
 {
   path: '/docs/Multivariable Calculus/calculators',
-  component: ComponentCreator('/docs/Multivariable Calculus/calculators','faf'),
+  component: ComponentCreator('/docs/Multivariable Calculus/calculators','f3f'),
   exact: true,
 },
 {
@@ -209,7 +229,7 @@ export default [
 },
 {
   path: '/docs/SQL Notes/sqlintro',
-  component: ComponentCreator('/docs/SQL Notes/sqlintro','a14'),
+  component: ComponentCreator('/docs/SQL Notes/sqlintro','e4a'),
   exact: true,
 },
 {

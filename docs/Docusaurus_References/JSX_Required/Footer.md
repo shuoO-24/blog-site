@@ -21,7 +21,7 @@ You can add logo and a copyright to the footer via `themeConfig.footer`. Logo ca
   }
 ```
 
-## Footer Links[](https://docusaurus.io/docs/api/themes/configuration#footer-links)
+## [Footer Links](https://docusaurus.io/docs/api/themes/configuration#footer-links)
 
 You can add links to the footer via `themeConfig.footer.links`:
 
