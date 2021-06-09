@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Multivariable Calculus/calctangent-plane",
+  "id": "Multivariable Calculus/calctangent-plane",
+  "isDocsHomePage": false,
+  "title": "Tangent Plane To Level Surface",
+  "description": "",
+  "source": "@site/docs/Multivariable Calculus/Tangent-plane-to-level-surface.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/calctangent-plane",
+  "permalink": "/docs/Multivariable Calculus/calctangent-plane",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Tangent-plane-to-level-surface.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "calctangent-plane",
+    "title": "Tangent Plane To Level Surface",
+    "position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "More about Surface Integral",
+    "permalink": "/docs/Multivariable Calculus/calflux"
+  },
+  "next": {
+    "title": "Theorems",
+    "permalink": "/docs/Multivariable Calculus/calctheorems"
+  }
+}

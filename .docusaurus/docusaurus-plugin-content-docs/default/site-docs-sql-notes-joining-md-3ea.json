@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Important Concepts",
-    "permalink": "/docs/SQL Notes/Important Concepts"
+    "title": "Central Concepts",
+    "permalink": "/docs/SQL Notes/sqlconcepts"
   },
   "next": {
     "title": "Changing variables in double integrals",

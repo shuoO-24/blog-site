@@ -1,19 +1,19 @@
 {
-  "unversionedId": "Multivariable Calculus/calcessential",
-  "id": "Multivariable Calculus/calcessential",
+  "unversionedId": "Multivariable Calculus/calflux",
+  "id": "Multivariable Calculus/calflux",
   "isDocsHomePage": false,
-  "title": "Surface Integral",
+  "title": "More about Surface Integral",
   "description": "Flux = surface integral of a vector field",
   "source": "@site/docs/Multivariable Calculus/Surface Integral.md",
   "sourceDirName": "Multivariable Calculus",
-  "slug": "/Multivariable Calculus/calcessential",
-  "permalink": "/docs/Multivariable Calculus/calcessential",
+  "slug": "/Multivariable Calculus/calflux",
+  "permalink": "/docs/Multivariable Calculus/calflux",
   "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Surface Integral.md",
   "version": "current",
   "frontMatter": {
-    "id": "calcessential",
-    "title": "Surface Integral",
-    "position": 5
+    "id": "calflux",
+    "title": "More about Surface Integral",
+    "position": 6
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/docs/Multivariable Calculus/6Aoutline"
   },
   "next": {
-    "title": "Theorems",
-    "permalink": "/docs/Multivariable Calculus/calctheorems"
+    "title": "Tangent Plane To Level Surface",
+    "permalink": "/docs/Multivariable Calculus/calctangent-plane"
   }
 }

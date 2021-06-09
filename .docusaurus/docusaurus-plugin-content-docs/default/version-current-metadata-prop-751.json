@@ -36,8 +36,8 @@
           },
           {
             "type": "link",
-            "label": "Important Concepts",
-            "href": "/docs/SQL Notes/Important Concepts"
+            "label": "Central Concepts",
+            "href": "/docs/SQL Notes/sqlconcepts"
           },
           {
             "type": "link",
@@ -73,13 +73,23 @@
           },
           {
             "type": "link",
-            "label": "Surface Integral",
-            "href": "/docs/Multivariable Calculus/calcessential"
+            "label": "More about Surface Integral",
+            "href": "/docs/Multivariable Calculus/calflux"
+          },
+          {
+            "type": "link",
+            "label": "Tangent Plane To Level Surface",
+            "href": "/docs/Multivariable Calculus/calctangent-plane"
           },
           {
             "type": "link",
             "label": "Theorems",
             "href": "/docs/Multivariable Calculus/calctheorems"
+          },
+          {
+            "type": "link",
+            "label": "Triple Integral Examples",
+            "href": "/docs/Multivariable Calculus/calctriple-integral"
           },
           {
             "type": "link",
@@ -262,13 +272,15 @@
     "/docs/Dynamic Programming/leetcode96": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
     "/docs/Multivariable Calculus/6Aoutline": "tutorialSidebar",
-    "/docs/Multivariable Calculus/calcessential": "tutorialSidebar",
+    "/docs/Multivariable Calculus/calctangent-plane": "tutorialSidebar",
     "/docs/Multivariable Calculus/calctheorems": "tutorialSidebar",
+    "/docs/Multivariable Calculus/calctriple-integral": "tutorialSidebar",
     "/docs/Multivariable Calculus/calculators": "tutorialSidebar",
+    "/docs/Multivariable Calculus/calflux": "tutorialSidebar",
     "/docs/Multivariable Calculus/Change of variables": "tutorialSidebar",
     "/docs/Multivariable Calculus/multcalc_cheatsheet": "tutorialSidebar",
     "/docs/Multivariable Calculus/vectorfield": "tutorialSidebar",
-    "/docs/SQL Notes/Important Concepts": "tutorialSidebar",
+    "/docs/SQL Notes/sqlconcepts": "tutorialSidebar",
     "/docs/SQL Notes/sqlgroup": "tutorialSidebar",
     "/docs/SQL Notes/sqlintro": "tutorialSidebar",
     "/docs/SQL Notes/sqljoin": "tutorialSidebar",

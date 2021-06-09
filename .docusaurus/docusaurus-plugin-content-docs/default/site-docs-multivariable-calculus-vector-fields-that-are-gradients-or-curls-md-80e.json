@@ -12,12 +12,13 @@
   "version": "current",
   "frontMatter": {
     "id": "vectorfield",
-    "title": "Vector Field"
+    "title": "Vector Field",
+    "position": 9
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Theorems",
-    "permalink": "/docs/Multivariable Calculus/calctheorems"
+    "title": "Triple Integral Examples",
+    "permalink": "/docs/Multivariable Calculus/calctriple-integral"
   },
   "next": {
     "title": "Basic Syntax",

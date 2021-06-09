@@ -2,6 +2,7 @@
 id: multcalc_cheatsheet
 title: Cheatsheets
 parse_number_prefixes: true
+position: 2
 ---
 ## MATH 53
 

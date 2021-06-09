@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Multivariable Calculus/calctriple-integral",
+  "id": "Multivariable Calculus/calctriple-integral",
+  "isDocsHomePage": false,
+  "title": "Triple Integral Examples",
+  "description": "",
+  "source": "@site/docs/Multivariable Calculus/Triple-integral.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/calctriple-integral",
+  "permalink": "/docs/Multivariable Calculus/calctriple-integral",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Triple-integral.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "calctriple-integral",
+    "title": "Triple Integral Examples",
+    "position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Theorems",
+    "permalink": "/docs/Multivariable Calculus/calctheorems"
+  },
+  "next": {
+    "title": "Vector Field",
+    "permalink": "/docs/Multivariable Calculus/vectorfield"
+  }
+}

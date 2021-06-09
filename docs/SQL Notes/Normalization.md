@@ -162,7 +162,7 @@ We can decompose it:
 <div style={{ zoom: 0.5 }} class='text--center'><img src='https://tva1.sinaimg.cn/large/008i3skNgy1gqwyd8q7qrj30lc0aywgk.jpg' alt='course_content_3'/>
 </div>
 
-<div style={{ zoom: 0.5 }} class='text--center'><img src='https://tva1.sinaimg.cn/large/008i3skNgy1gqwyep49exj30nc0ekgo4.jpg' alt='course_content_4' />
+<div style={{ zoom: 0.4 }} class='text--center'><img src='https://tva1.sinaimg.cn/large/008i3skNgy1gqwyep49exj30nc0ekgo4.jpg' alt='course_content_4' />
 </div>
 
 <div class="alert alert--primary" role="alert" style={{ size: 1 }}>
@@ -244,7 +244,7 @@ _Theory of relational database replies on advanced set theory. It's mathematical
 
 1. Is the relation SCHOOL in 1NF?
 
-  <div class="alert alert--primary text--center" role="alert" style={{ width: 5 }}>
+  <div class="alert alert--primary text--center" role="alert">
     In 1NF
   </div>  
 

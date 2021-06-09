@@ -126,8 +126,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Multivariable Calculus/calcessential",
-              "path": "/docs/Multivariable Calculus/calcessential",
+              "id": "Multivariable Calculus/calctangent-plane",
+              "path": "/docs/Multivariable Calculus/calctangent-plane",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -136,8 +136,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Multivariable Calculus/calctriple-integral",
+              "path": "/docs/Multivariable Calculus/calctriple-integral",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Multivariable Calculus/calculators",
               "path": "/docs/Multivariable Calculus/calculators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Multivariable Calculus/calflux",
+              "path": "/docs/Multivariable Calculus/calflux",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -156,8 +166,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "SQL Notes/Important Concepts",
-              "path": "/docs/SQL Notes/Important Concepts",
+              "id": "SQL Notes/sqlconcepts",
+              "path": "/docs/SQL Notes/sqlconcepts",
               "sidebar": "tutorialSidebar"
             },
             {

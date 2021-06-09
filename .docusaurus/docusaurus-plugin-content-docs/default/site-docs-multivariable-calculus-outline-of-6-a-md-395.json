@@ -13,7 +13,8 @@
   "frontMatter": {
     "id": "6Aoutline",
     "title": "MATH 6A Outline",
-    "parse_number_prefixes": true
+    "parse_number_prefixes": true,
+    "position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -21,7 +22,7 @@
     "permalink": "/docs/Multivariable Calculus/calculators"
   },
   "next": {
-    "title": "Surface Integral",
-    "permalink": "/docs/Multivariable Calculus/calcessential"
+    "title": "More about Surface Integral",
+    "permalink": "/docs/Multivariable Calculus/calflux"
   }
 }

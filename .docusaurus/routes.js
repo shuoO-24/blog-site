@@ -84,7 +84,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','a14'),
+  component: ComponentCreator('/docs','dc7'),
   
   routes: [
 {
@@ -203,8 +203,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Multivariable Calculus/calcessential',
-  component: ComponentCreator('/docs/Multivariable Calculus/calcessential','20b'),
+  path: '/docs/Multivariable Calculus/calctangent-plane',
+  component: ComponentCreator('/docs/Multivariable Calculus/calctangent-plane','5a3'),
   exact: true,
 },
 {
@@ -213,8 +213,18 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/Multivariable Calculus/calctriple-integral',
+  component: ComponentCreator('/docs/Multivariable Calculus/calctriple-integral','4b3'),
+  exact: true,
+},
+{
   path: '/docs/Multivariable Calculus/calculators',
   component: ComponentCreator('/docs/Multivariable Calculus/calculators','f3f'),
+  exact: true,
+},
+{
+  path: '/docs/Multivariable Calculus/calflux',
+  component: ComponentCreator('/docs/Multivariable Calculus/calflux','25b'),
   exact: true,
 },
 {
@@ -233,8 +243,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/SQL Notes/Important Concepts',
-  component: ComponentCreator('/docs/SQL Notes/Important Concepts','51f'),
+  path: '/docs/SQL Notes/sqlconcepts',
+  component: ComponentCreator('/docs/SQL Notes/sqlconcepts','0cc'),
   exact: true,
 },
 {

@@ -11,17 +11,17 @@
   "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Theorems.md",
   "version": "current",
   "frontMatter": {
-    "position": 4,
+    "position": null,
     "id": "calctheorems",
     "title": "Theorems"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Surface Integral",
-    "permalink": "/docs/Multivariable Calculus/calcessential"
+    "title": "Tangent Plane To Level Surface",
+    "permalink": "/docs/Multivariable Calculus/calctangent-plane"
   },
   "next": {
-    "title": "Vector Field",
-    "permalink": "/docs/Multivariable Calculus/vectorfield"
+    "title": "Triple Integral Examples",
+    "permalink": "/docs/Multivariable Calculus/calctriple-integral"
   }
 }

@@ -13,7 +13,8 @@
   "frontMatter": {
     "id": "multcalc_cheatsheet",
     "title": "Cheatsheets",
-    "parse_number_prefixes": true
+    "parse_number_prefixes": true,
+    "position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {

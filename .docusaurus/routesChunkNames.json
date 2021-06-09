@@ -134,7 +134,7 @@
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/docs-a14": {
+  "/docs-dc7": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -230,17 +230,25 @@
     "component": "17896441",
     "content": "3957501a"
   },
-  "/docs/Multivariable Calculus/calcessential-20b": {
+  "/docs/Multivariable Calculus/calctangent-plane-5a3": {
     "component": "17896441",
-    "content": "14837e3f"
+    "content": "70e51d4b"
   },
   "/docs/Multivariable Calculus/calctheorems-200": {
     "component": "17896441",
     "content": "6cd74277"
   },
+  "/docs/Multivariable Calculus/calctriple-integral-4b3": {
+    "component": "17896441",
+    "content": "bb51a85a"
+  },
   "/docs/Multivariable Calculus/calculators-f3f": {
     "component": "17896441",
     "content": "0b05cdf9"
+  },
+  "/docs/Multivariable Calculus/calflux-25b": {
+    "component": "17896441",
+    "content": "14837e3f"
   },
   "/docs/Multivariable Calculus/Change of variables-a2c": {
     "component": "17896441",
@@ -254,7 +262,7 @@
     "component": "17896441",
     "content": "80e81a85"
   },
-  "/docs/SQL Notes/Important Concepts-51f": {
+  "/docs/SQL Notes/sqlconcepts-0cc": {
     "component": "17896441",
     "content": "91b04294"
   },
