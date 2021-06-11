@@ -126,6 +126,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Multivariable Calculus/calcnotes",
+              "path": "/docs/Multivariable Calculus/calcnotes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Multivariable Calculus/calctangent-plane",
               "path": "/docs/Multivariable Calculus/calctangent-plane",
               "sidebar": "tutorialSidebar"
@@ -193,6 +198,11 @@
             {
               "id": "SQL Notes/sqlorder",
               "path": "/docs/SQL Notes/sqlorder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "SQL Notes/sqlstructure-example",
+              "path": "/docs/SQL Notes/sqlstructure-example",
               "sidebar": "tutorialSidebar"
             }
           ]

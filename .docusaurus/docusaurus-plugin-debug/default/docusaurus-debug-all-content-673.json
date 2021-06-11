@@ -42,11 +42,15 @@
                   },
                   {
                     "type": "doc",
-                    "id": "SQL Notes/Important Concepts"
+                    "id": "SQL Notes/sqlconcepts"
                   },
                   {
                     "type": "doc",
                     "id": "SQL Notes/sqljoin"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "SQL Notes/sqlstructure-example"
                   }
                 ],
                 "collapsed": true
@@ -55,6 +59,10 @@
                 "type": "category",
                 "label": "Multivarable Calculus",
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "Multivariable Calculus/calcnotes"
+                  },
                   {
                     "type": "doc",
                     "id": "Multivariable Calculus/Change of variables"
@@ -73,11 +81,19 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Multivariable Calculus/calcessential"
+                    "id": "Multivariable Calculus/calflux"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Multivariable Calculus/calctangent-plane"
                   },
                   {
                     "type": "doc",
                     "id": "Multivariable Calculus/calctheorems"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Multivariable Calculus/calctriple-integral"
                   },
                   {
                     "type": "doc",
@@ -238,18 +254,22 @@
             "/docs/Dynamic Programming/leetcode96": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
             "/docs/Multivariable Calculus/6Aoutline": "tutorialSidebar",
-            "/docs/Multivariable Calculus/calcessential": "tutorialSidebar",
+            "/docs/Multivariable Calculus/calcnotes": "tutorialSidebar",
+            "/docs/Multivariable Calculus/calctangent-plane": "tutorialSidebar",
             "/docs/Multivariable Calculus/calctheorems": "tutorialSidebar",
+            "/docs/Multivariable Calculus/calctriple-integral": "tutorialSidebar",
             "/docs/Multivariable Calculus/calculators": "tutorialSidebar",
+            "/docs/Multivariable Calculus/calflux": "tutorialSidebar",
             "/docs/Multivariable Calculus/Change of variables": "tutorialSidebar",
             "/docs/Multivariable Calculus/multcalc_cheatsheet": "tutorialSidebar",
             "/docs/Multivariable Calculus/vectorfield": "tutorialSidebar",
-            "/docs/SQL Notes/Important Concepts": "tutorialSidebar",
+            "/docs/SQL Notes/sqlconcepts": "tutorialSidebar",
             "/docs/SQL Notes/sqlgroup": "tutorialSidebar",
             "/docs/SQL Notes/sqlintro": "tutorialSidebar",
             "/docs/SQL Notes/sqljoin": "tutorialSidebar",
             "/docs/SQL Notes/sqlnorm": "tutorialSidebar",
-            "/docs/SQL Notes/sqlorder": "tutorialSidebar"
+            "/docs/SQL Notes/sqlorder": "tutorialSidebar",
+            "/docs/SQL Notes/sqlstructure-example": "tutorialSidebar"
           },
           "docs": [
             {
@@ -867,7 +887,8 @@
               "frontMatter": {
                 "id": "6Aoutline",
                 "title": "MATH 6A Outline",
-                "parse_number_prefixes": true
+                "parse_number_prefixes": true,
+                "position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -875,31 +896,58 @@
                 "permalink": "/docs/Multivariable Calculus/calculators"
               },
               "next": {
-                "title": "Surface Integral",
-                "permalink": "/docs/Multivariable Calculus/calcessential"
+                "title": "More about Surface Integral",
+                "permalink": "/docs/Multivariable Calculus/calflux"
               }
             },
             {
-              "unversionedId": "Multivariable Calculus/calcessential",
-              "id": "Multivariable Calculus/calcessential",
+              "unversionedId": "Multivariable Calculus/calcnotes",
+              "id": "Multivariable Calculus/calcnotes",
               "isDocsHomePage": false,
-              "title": "Surface Integral",
-              "description": "Flux = surface integral of a vector field",
-              "source": "@site/docs/Multivariable Calculus/Surface Integral.md",
+              "title": "Multivariable Calculus Study Notes",
+              "description": "",
+              "source": "@site/docs/Multivariable Calculus/All Notes.md",
               "sourceDirName": "Multivariable Calculus",
-              "slug": "/Multivariable Calculus/calcessential",
-              "permalink": "/docs/Multivariable Calculus/calcessential",
-              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Surface Integral.md",
+              "slug": "/Multivariable Calculus/calcnotes",
+              "permalink": "/docs/Multivariable Calculus/calcnotes",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/All Notes.md",
               "version": "current",
               "frontMatter": {
-                "id": "calcessential",
-                "title": "Surface Integral",
-                "position": 5
+                "id": "calcnotes",
+                "title": "Multivariable Calculus Study Notes",
+                "position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "MATH 6A Outline",
-                "permalink": "/docs/Multivariable Calculus/6Aoutline"
+                "title": "Structural",
+                "permalink": "/docs/SQL Notes/sqlstructure-example"
+              },
+              "next": {
+                "title": "Changing variables in double integrals",
+                "permalink": "/docs/Multivariable Calculus/Change of variables"
+              }
+            },
+            {
+              "unversionedId": "Multivariable Calculus/calctangent-plane",
+              "id": "Multivariable Calculus/calctangent-plane",
+              "isDocsHomePage": false,
+              "title": "Tangent Plane To Level Surface",
+              "description": "",
+              "source": "@site/docs/Multivariable Calculus/Tangent-plane-to-level-surface.md",
+              "sourceDirName": "Multivariable Calculus",
+              "slug": "/Multivariable Calculus/calctangent-plane",
+              "permalink": "/docs/Multivariable Calculus/calctangent-plane",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Tangent-plane-to-level-surface.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "calctangent-plane",
+                "title": "Tangent Plane To Level Surface",
+                "position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "More about Surface Integral",
+                "permalink": "/docs/Multivariable Calculus/calflux"
               },
               "next": {
                 "title": "Theorems",
@@ -919,14 +967,41 @@
               "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Theorems.md",
               "version": "current",
               "frontMatter": {
-                "position": 4,
+                "position": null,
                 "id": "calctheorems",
                 "title": "Theorems"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Surface Integral",
-                "permalink": "/docs/Multivariable Calculus/calcessential"
+                "title": "Tangent Plane To Level Surface",
+                "permalink": "/docs/Multivariable Calculus/calctangent-plane"
+              },
+              "next": {
+                "title": "Triple Integral Examples",
+                "permalink": "/docs/Multivariable Calculus/calctriple-integral"
+              }
+            },
+            {
+              "unversionedId": "Multivariable Calculus/calctriple-integral",
+              "id": "Multivariable Calculus/calctriple-integral",
+              "isDocsHomePage": false,
+              "title": "Triple Integral Examples",
+              "description": "",
+              "source": "@site/docs/Multivariable Calculus/Triple-integral.md",
+              "sourceDirName": "Multivariable Calculus",
+              "slug": "/Multivariable Calculus/calctriple-integral",
+              "permalink": "/docs/Multivariable Calculus/calctriple-integral",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Triple-integral.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "calctriple-integral",
+                "title": "Triple Integral Examples",
+                "position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Theorems",
+                "permalink": "/docs/Multivariable Calculus/calctheorems"
               },
               "next": {
                 "title": "Vector Field",
@@ -961,11 +1036,38 @@
               }
             },
             {
+              "unversionedId": "Multivariable Calculus/calflux",
+              "id": "Multivariable Calculus/calflux",
+              "isDocsHomePage": false,
+              "title": "More about Surface Integral",
+              "description": "Flux = surface integral of a vector field",
+              "source": "@site/docs/Multivariable Calculus/Surface Integral.md",
+              "sourceDirName": "Multivariable Calculus",
+              "slug": "/Multivariable Calculus/calflux",
+              "permalink": "/docs/Multivariable Calculus/calflux",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Surface Integral.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "calflux",
+                "title": "More about Surface Integral",
+                "position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MATH 6A Outline",
+                "permalink": "/docs/Multivariable Calculus/6Aoutline"
+              },
+              "next": {
+                "title": "Tangent Plane To Level Surface",
+                "permalink": "/docs/Multivariable Calculus/calctangent-plane"
+              }
+            },
+            {
               "unversionedId": "Multivariable Calculus/Change of variables",
               "id": "Multivariable Calculus/Change of variables",
               "isDocsHomePage": false,
               "title": "Changing variables in double integrals",
-              "description": "source",
+              "description": "Section notes:",
               "source": "@site/docs/Multivariable Calculus/Change of variables.md",
               "sourceDirName": "Multivariable Calculus",
               "slug": "/Multivariable Calculus/Change of variables",
@@ -976,12 +1078,13 @@
                 "Keyword": [
                   "math",
                   "multivariable calculus"
-                ]
+                ],
+                "position": 5
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "SQL Joining",
-                "permalink": "/docs/SQL Notes/sqljoin"
+                "title": "Multivariable Calculus Study Notes",
+                "permalink": "/docs/Multivariable Calculus/calcnotes"
               },
               "next": {
                 "title": "Cheatsheets",
@@ -1003,7 +1106,8 @@
               "frontMatter": {
                 "id": "multcalc_cheatsheet",
                 "title": "Cheatsheets",
-                "parse_number_prefixes": true
+                "parse_number_prefixes": true,
+                "position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -1029,12 +1133,13 @@
               "version": "current",
               "frontMatter": {
                 "id": "vectorfield",
-                "title": "Vector Field"
+                "title": "Vector Field",
+                "position": 9
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Theorems",
-                "permalink": "/docs/Multivariable Calculus/calctheorems"
+                "title": "Triple Integral Examples",
+                "permalink": "/docs/Multivariable Calculus/calctriple-integral"
               },
               "next": {
                 "title": "Basic Syntax",
@@ -1042,18 +1147,22 @@
               }
             },
             {
-              "unversionedId": "SQL Notes/Important Concepts",
-              "id": "SQL Notes/Important Concepts",
+              "unversionedId": "SQL Notes/sqlconcepts",
+              "id": "SQL Notes/sqlconcepts",
               "isDocsHomePage": false,
-              "title": "Important Concepts",
-              "description": "",
+              "title": "Central Concepts",
+              "description": "Relational Databases:",
               "source": "@site/docs/SQL Notes/Important Concepts.md",
               "sourceDirName": "SQL Notes",
-              "slug": "/SQL Notes/Important Concepts",
-              "permalink": "/docs/SQL Notes/Important Concepts",
+              "slug": "/SQL Notes/sqlconcepts",
+              "permalink": "/docs/SQL Notes/sqlconcepts",
               "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/SQL Notes/Important Concepts.md",
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "id": "sqlconcepts",
+                "title": "Central Concepts",
+                "position": 1
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Grouping",
@@ -1086,8 +1195,8 @@
                 "permalink": "/docs/SQL Notes/sqlnorm"
               },
               "next": {
-                "title": "Important Concepts",
-                "permalink": "/docs/SQL Notes/Important Concepts"
+                "title": "Central Concepts",
+                "permalink": "/docs/SQL Notes/sqlconcepts"
               }
             },
             {
@@ -1136,12 +1245,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Important Concepts",
-                "permalink": "/docs/SQL Notes/Important Concepts"
+                "title": "Central Concepts",
+                "permalink": "/docs/SQL Notes/sqlconcepts"
               },
               "next": {
-                "title": "Changing variables in double integrals",
-                "permalink": "/docs/Multivariable Calculus/Change of variables"
+                "title": "Structural",
+                "permalink": "/docs/SQL Notes/sqlstructure-example"
               }
             },
             {
@@ -1198,6 +1307,32 @@
               "next": {
                 "title": "Normalization",
                 "permalink": "/docs/SQL Notes/sqlnorm"
+              }
+            },
+            {
+              "unversionedId": "SQL Notes/sqlstructure-example",
+              "id": "SQL Notes/sqlstructure-example",
+              "isDocsHomePage": false,
+              "title": "Structural",
+              "description": "Example:",
+              "source": "@site/docs/SQL Notes/Structural.md",
+              "sourceDirName": "SQL Notes",
+              "slug": "/SQL Notes/sqlstructure-example",
+              "permalink": "/docs/SQL Notes/sqlstructure-example",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/SQL Notes/Structural.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "sqlstructure-example",
+                "title": "Structural"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SQL Joining",
+                "permalink": "/docs/SQL Notes/sqljoin"
+              },
+              "next": {
+                "title": "Multivariable Calculus Study Notes",
+                "permalink": "/docs/Multivariable Calculus/calcnotes"
               }
             }
           ]

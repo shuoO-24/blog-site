@@ -1,13 +1,13 @@
 ---
 id: calflux
 title: More about Surface Integral
-position: 6
+position: 7
 ---
 
 
 
 
-:::note Flux
+:::note Fluxs
 
 Flux = surface integral of a vector field
 

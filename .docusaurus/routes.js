@@ -84,7 +84,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','dc7'),
+  component: ComponentCreator('/docs','30c'),
   
   routes: [
 {
@@ -203,6 +203,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/Multivariable Calculus/calcnotes',
+  component: ComponentCreator('/docs/Multivariable Calculus/calcnotes','634'),
+  exact: true,
+},
+{
   path: '/docs/Multivariable Calculus/calctangent-plane',
   component: ComponentCreator('/docs/Multivariable Calculus/calctangent-plane','5a3'),
   exact: true,
@@ -270,6 +275,11 @@ export default [
 {
   path: '/docs/SQL Notes/sqlorder',
   component: ComponentCreator('/docs/SQL Notes/sqlorder','f85'),
+  exact: true,
+},
+{
+  path: '/docs/SQL Notes/sqlstructure-example',
+  component: ComponentCreator('/docs/SQL Notes/sqlstructure-example','5b3'),
   exact: true,
 },
 ]

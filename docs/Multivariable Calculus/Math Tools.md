@@ -36,9 +36,16 @@ If the embeded widget does not load properly, please open [wolfram alpha triple 
 <br />
 <script type="text/javascript" id="WolframAlphaScript8895f98065e4aecbb7fa0359d8f85e57" src="//www.wolframalpha.com/widget/widget.jsp?id=8895f98065e4aecbb7fa0359d8f85e57" width='400px' class='text--center'></script>
 
-#### Spherical 
+#### Spherical
+
 If the embeded widget does not load properly, please open [wolfram alpha triple spherical integral widget](https://www.wolframalpha.com/widgets/gallery/view.jsp?id=5e0ea2cfbc998f553b93c8fe554cf852)
 
 <br />
 <script type="text/javascript" id="WolframAlphaScript5e0ea2cfbc998f553b93c8fe554cf852" src="//www.wolframalpha.com/widget/widget.jsp?id=5e0ea2cfbc998f553b93c8fe554cf852" width='400px' class='text--center'></script>
 
+---
+
+## Lagrange Multiplier
+
+If the embeded widget does not load properly, please open [wolfram alpha lagrange multipliers widget](https://www.wolframalpha.com/widgets/gallery/view.jsp?id=1451afdfe5a25b2a316377c1cd488883)
+<script type="text/javascript" id="WolframAlphaScript1451afdfe5a25b2a316377c1cd488883" src="//www.wolframalpha.com/widget/widget.jsp?id=1451afdfe5a25b2a316377c1cd488883"></script>

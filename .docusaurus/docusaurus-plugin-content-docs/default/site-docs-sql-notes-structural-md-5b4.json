@@ -1,0 +1,26 @@
+{
+  "unversionedId": "SQL Notes/sqlstructure-example",
+  "id": "SQL Notes/sqlstructure-example",
+  "isDocsHomePage": false,
+  "title": "Structural",
+  "description": "Example:",
+  "source": "@site/docs/SQL Notes/Structural.md",
+  "sourceDirName": "SQL Notes",
+  "slug": "/SQL Notes/sqlstructure-example",
+  "permalink": "/docs/SQL Notes/sqlstructure-example",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/SQL Notes/Structural.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "sqlstructure-example",
+    "title": "Structural"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SQL Joining",
+    "permalink": "/docs/SQL Notes/sqljoin"
+  },
+  "next": {
+    "title": "Multivariable Calculus Study Notes",
+    "permalink": "/docs/Multivariable Calculus/calcnotes"
+  }
+}

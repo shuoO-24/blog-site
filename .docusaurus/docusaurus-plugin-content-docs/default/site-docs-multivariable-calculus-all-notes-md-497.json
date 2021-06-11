@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Multivariable Calculus/calcnotes",
+  "id": "Multivariable Calculus/calcnotes",
+  "isDocsHomePage": false,
+  "title": "Multivariable Calculus Study Notes",
+  "description": "",
+  "source": "@site/docs/Multivariable Calculus/All Notes.md",
+  "sourceDirName": "Multivariable Calculus",
+  "slug": "/Multivariable Calculus/calcnotes",
+  "permalink": "/docs/Multivariable Calculus/calcnotes",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/All Notes.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "calcnotes",
+    "title": "Multivariable Calculus Study Notes",
+    "position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Structural",
+    "permalink": "/docs/SQL Notes/sqlstructure-example"
+  },
+  "next": {
+    "title": "Changing variables in double integrals",
+    "permalink": "/docs/Multivariable Calculus/Change of variables"
+  }
+}

@@ -43,6 +43,11 @@
             "type": "link",
             "label": "SQL Joining",
             "href": "/docs/SQL Notes/sqljoin"
+          },
+          {
+            "type": "link",
+            "label": "Structural",
+            "href": "/docs/SQL Notes/sqlstructure-example"
           }
         ],
         "collapsed": true
@@ -51,6 +56,11 @@
         "type": "category",
         "label": "Multivarable Calculus",
         "items": [
+          {
+            "type": "link",
+            "label": "Multivariable Calculus Study Notes",
+            "href": "/docs/Multivariable Calculus/calcnotes"
+          },
           {
             "type": "link",
             "label": "Changing variables in double integrals",
@@ -272,6 +282,7 @@
     "/docs/Dynamic Programming/leetcode96": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
     "/docs/Multivariable Calculus/6Aoutline": "tutorialSidebar",
+    "/docs/Multivariable Calculus/calcnotes": "tutorialSidebar",
     "/docs/Multivariable Calculus/calctangent-plane": "tutorialSidebar",
     "/docs/Multivariable Calculus/calctheorems": "tutorialSidebar",
     "/docs/Multivariable Calculus/calctriple-integral": "tutorialSidebar",
@@ -285,6 +296,7 @@
     "/docs/SQL Notes/sqlintro": "tutorialSidebar",
     "/docs/SQL Notes/sqljoin": "tutorialSidebar",
     "/docs/SQL Notes/sqlnorm": "tutorialSidebar",
-    "/docs/SQL Notes/sqlorder": "tutorialSidebar"
+    "/docs/SQL Notes/sqlorder": "tutorialSidebar",
+    "/docs/SQL Notes/sqlstructure-example": "tutorialSidebar"
   }
 }

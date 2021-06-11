@@ -134,7 +134,7 @@
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/docs-dc7": {
+  "/docs-30c": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -230,6 +230,10 @@
     "component": "17896441",
     "content": "3957501a"
   },
+  "/docs/Multivariable Calculus/calcnotes-634": {
+    "component": "17896441",
+    "content": "49707c95"
+  },
   "/docs/Multivariable Calculus/calctangent-plane-5a3": {
     "component": "17896441",
     "content": "70e51d4b"
@@ -285,5 +289,9 @@
   "/docs/SQL Notes/sqlorder-f85": {
     "component": "17896441",
     "content": "09209543"
+  },
+  "/docs/SQL Notes/sqlstructure-example-5b3": {
+    "component": "17896441",
+    "content": "5b4eb88f"
   }
 }
