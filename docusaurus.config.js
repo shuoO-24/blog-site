@@ -10,7 +10,7 @@ module.exports = {
   favicon: "img/logos/brain_2.svg",
   organizationName: "shuoO-24", // Usually your GitHub org/user name.
   projectName: "docusaurus-site", // Usually your repo name.
-  plugins: ['@docusaurus/plugin-ideal-image', '@docusaurus/plugin-google-analytics'],
+  plugins: ['@docusaurus/plugin-ideal-image'],
   themeConfig: {
     googleAnalytics: {
         trackingID: 'UA-141789564-1',
