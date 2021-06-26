@@ -12,12 +12,6 @@ module.exports = {
   projectName: "docusaurus-site", // Usually your repo name.
   plugins: ['@docusaurus/plugin-ideal-image', '@docusaurus/plugin-google-analytics', '@docusaurus/plugin-google-gtag'],
   themeConfig: {
-    gtag: {
-        // You can also use your "G-" Measurement ID here.
-        trackingID: 'UA-141789563-1',
-        // Optional fields.
-        anonymizeIP: true, // Should IPs be anonymized?
-    },
     googleAnalytics: {
         trackingID: 'UA-141789564-1',
         // Optional fields.
