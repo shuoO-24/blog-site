@@ -15,12 +15,12 @@
       "math",
       "multivariable calculus"
     ],
-    "position": 5
+    "position": 7
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Multivariable Calculus Study Notes",
-    "permalink": "/docs/Multivariable Calculus/calcnotes"
+    "title": "Syntax",
+    "permalink": "/docs/Docusaurus_References/tips"
   },
   "next": {
     "title": "Cheatsheets",

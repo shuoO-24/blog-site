@@ -22,6 +22,44 @@
               },
               {
                 "type": "category",
+                "label": "UCB 61C: Great Ideas in Computer Architecture",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Computer Architecture/61c_intro"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Dynamic Programming",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/algointro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/leetcode64"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/leetcode91"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/leetcode96"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Dynamic Programming/leetcode300"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
                 "label": "SQL Notes",
                 "items": [
                   {
@@ -51,53 +89,6 @@
                   {
                     "type": "doc",
                     "id": "SQL Notes/sqlstructure-example"
-                  }
-                ],
-                "collapsed": true
-              },
-              {
-                "type": "category",
-                "label": "Multivarable Calculus",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Multivariable Calculus/calcnotes"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Multivariable Calculus/Change of variables"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Multivariable Calculus/multcalc_cheatsheet"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Multivariable Calculus/calculators"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Multivariable Calculus/6Aoutline"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Multivariable Calculus/calflux"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Multivariable Calculus/calctangent-plane"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Multivariable Calculus/calctheorems"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Multivariable Calculus/calctriple-integral"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Multivariable Calculus/vectorfield"
                   }
                 ],
                 "collapsed": true
@@ -203,27 +194,35 @@
               },
               {
                 "type": "category",
-                "label": "Dynamic Programming",
+                "label": "Multivarable Calculus",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/algointro"
+                    "id": "Multivariable Calculus/Change of variables"
                   },
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/leetcode64"
+                    "id": "Multivariable Calculus/multcalc_cheatsheet"
                   },
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/leetcode91"
+                    "id": "Multivariable Calculus/calculators"
                   },
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/leetcode96"
+                    "id": "Multivariable Calculus/calflux"
                   },
                   {
                     "type": "doc",
-                    "id": "Dynamic Programming/leetcode300"
+                    "id": "Multivariable Calculus/calctangent-plane"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Multivariable Calculus/calctriple-integral"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Multivariable Calculus/vectorfield"
                   }
                 ],
                 "collapsed": true
@@ -231,6 +230,7 @@
             ]
           },
           "permalinkToSidebar": {
+            "/docs/Computer Architecture/61c_intro": "tutorialSidebar",
             "/docs/Docusaurus_References/embed": "tutorialSidebar",
             "/docs/Docusaurus_References/Infima Powered/infima": "tutorialSidebar",
             "/docs/Docusaurus_References/Infima Powered/navbar": "tutorialSidebar",
@@ -253,10 +253,7 @@
             "/docs/Dynamic Programming/leetcode91": "tutorialSidebar",
             "/docs/Dynamic Programming/leetcode96": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
-            "/docs/Multivariable Calculus/6Aoutline": "tutorialSidebar",
-            "/docs/Multivariable Calculus/calcnotes": "tutorialSidebar",
             "/docs/Multivariable Calculus/calctangent-plane": "tutorialSidebar",
-            "/docs/Multivariable Calculus/calctheorems": "tutorialSidebar",
             "/docs/Multivariable Calculus/calctriple-integral": "tutorialSidebar",
             "/docs/Multivariable Calculus/calculators": "tutorialSidebar",
             "/docs/Multivariable Calculus/calflux": "tutorialSidebar",
@@ -272,6 +269,33 @@
             "/docs/SQL Notes/sqlstructure-example": "tutorialSidebar"
           },
           "docs": [
+            {
+              "unversionedId": "Computer Architecture/61c_intro",
+              "id": "Computer Architecture/61c_intro",
+              "isDocsHomePage": false,
+              "title": "课程大纲",
+              "description": "Course Structure",
+              "source": "@site/docs/Computer Architecture/Course Content.md",
+              "sourceDirName": "Computer Architecture",
+              "slug": "/Computer Architecture/61c_intro",
+              "permalink": "/docs/Computer Architecture/61c_intro",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Computer Architecture/Course Content.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "61c_intro",
+                "title": "课程大纲",
+                "position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "你好呀",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Hello Algorithm",
+                "permalink": "/docs/Dynamic Programming/algointro"
+              }
+            },
             {
               "unversionedId": "Docusaurus_References/embed",
               "id": "Docusaurus_References/embed",
@@ -618,8 +642,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Vector Field",
-                "permalink": "/docs/Multivariable Calculus/vectorfield"
+                "title": "Structural",
+                "permalink": "/docs/SQL Notes/sqlstructure-example"
               },
               "next": {
                 "title": "Add Code blocks",
@@ -703,8 +727,8 @@
                 "permalink": "/docs/Docusaurus_References/Plugins/idealimage"
               },
               "next": {
-                "title": "Hello Algorithm",
-                "permalink": "/docs/Dynamic Programming/algointro"
+                "title": "Changing variables in double integrals",
+                "permalink": "/docs/Multivariable Calculus/Change of variables"
               }
             },
             {
@@ -727,8 +751,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Syntax",
-                "permalink": "/docs/Docusaurus_References/tips"
+                "title": "课程大纲",
+                "permalink": "/docs/Computer Architecture/61c_intro"
               },
               "next": {
                 "title": "64. Minimum Path Sum — Medium",
@@ -757,6 +781,10 @@
               "previous": {
                 "title": "96. Unique Binary Search Trees — Medium",
                 "permalink": "/docs/Dynamic Programming/leetcode96"
+              },
+              "next": {
+                "title": "SQL Overview",
+                "permalink": "/docs/SQL Notes/sqlintro"
               }
             },
             {
@@ -868,63 +896,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "SQL Overview",
-                "permalink": "/docs/SQL Notes/sqlintro"
-              }
-            },
-            {
-              "unversionedId": "Multivariable Calculus/6Aoutline",
-              "id": "Multivariable Calculus/6Aoutline",
-              "isDocsHomePage": false,
-              "title": "MATH 6A Outline",
-              "description": "",
-              "source": "@site/docs/Multivariable Calculus/Outline of 6A.md",
-              "sourceDirName": "Multivariable Calculus",
-              "slug": "/Multivariable Calculus/6Aoutline",
-              "permalink": "/docs/Multivariable Calculus/6Aoutline",
-              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Outline of 6A.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "6Aoutline",
-                "title": "MATH 6A Outline",
-                "parse_number_prefixes": true,
-                "position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Multivariable Calculus Calculators",
-                "permalink": "/docs/Multivariable Calculus/calculators"
-              },
-              "next": {
-                "title": "More about Surface Integral",
-                "permalink": "/docs/Multivariable Calculus/calflux"
-              }
-            },
-            {
-              "unversionedId": "Multivariable Calculus/calcnotes",
-              "id": "Multivariable Calculus/calcnotes",
-              "isDocsHomePage": false,
-              "title": "Multivariable Calculus Study Notes",
-              "description": "",
-              "source": "@site/docs/Multivariable Calculus/All Notes.md",
-              "sourceDirName": "Multivariable Calculus",
-              "slug": "/Multivariable Calculus/calcnotes",
-              "permalink": "/docs/Multivariable Calculus/calcnotes",
-              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/All Notes.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "calcnotes",
-                "title": "Multivariable Calculus Study Notes",
-                "position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Structural",
-                "permalink": "/docs/SQL Notes/sqlstructure-example"
-              },
-              "next": {
-                "title": "Changing variables in double integrals",
-                "permalink": "/docs/Multivariable Calculus/Change of variables"
+                "title": "课程大纲",
+                "permalink": "/docs/Computer Architecture/61c_intro"
               }
             },
             {
@@ -942,39 +915,12 @@
               "frontMatter": {
                 "id": "calctangent-plane",
                 "title": "Tangent Plane To Level Surface",
-                "position": 8
+                "position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "More about Surface Integral",
                 "permalink": "/docs/Multivariable Calculus/calflux"
-              },
-              "next": {
-                "title": "Theorems",
-                "permalink": "/docs/Multivariable Calculus/calctheorems"
-              }
-            },
-            {
-              "unversionedId": "Multivariable Calculus/calctheorems",
-              "id": "Multivariable Calculus/calctheorems",
-              "isDocsHomePage": false,
-              "title": "Theorems",
-              "description": "Stroke's Theorem",
-              "source": "@site/docs/Multivariable Calculus/Theorems.md",
-              "sourceDirName": "Multivariable Calculus",
-              "slug": "/Multivariable Calculus/calctheorems",
-              "permalink": "/docs/Multivariable Calculus/calctheorems",
-              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Multivariable Calculus/Theorems.md",
-              "version": "current",
-              "frontMatter": {
-                "position": null,
-                "id": "calctheorems",
-                "title": "Theorems"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tangent Plane To Level Surface",
-                "permalink": "/docs/Multivariable Calculus/calctangent-plane"
               },
               "next": {
                 "title": "Triple Integral Examples",
@@ -996,12 +942,12 @@
               "frontMatter": {
                 "id": "calctriple-integral",
                 "title": "Triple Integral Examples",
-                "position": 6
+                "position": 5
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Theorems",
-                "permalink": "/docs/Multivariable Calculus/calctheorems"
+                "title": "Tangent Plane To Level Surface",
+                "permalink": "/docs/Multivariable Calculus/calctangent-plane"
               },
               "next": {
                 "title": "Vector Field",
@@ -1023,7 +969,7 @@
               "frontMatter": {
                 "id": "calculators",
                 "title": "Multivariable Calculus Calculators",
-                "position": 3
+                "position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -1031,8 +977,8 @@
                 "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
               },
               "next": {
-                "title": "MATH 6A Outline",
-                "permalink": "/docs/Multivariable Calculus/6Aoutline"
+                "title": "More about Surface Integral",
+                "permalink": "/docs/Multivariable Calculus/calflux"
               }
             },
             {
@@ -1050,12 +996,12 @@
               "frontMatter": {
                 "id": "calflux",
                 "title": "More about Surface Integral",
-                "position": 7
+                "position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "MATH 6A Outline",
-                "permalink": "/docs/Multivariable Calculus/6Aoutline"
+                "title": "Multivariable Calculus Calculators",
+                "permalink": "/docs/Multivariable Calculus/calculators"
               },
               "next": {
                 "title": "Tangent Plane To Level Surface",
@@ -1079,12 +1025,12 @@
                   "math",
                   "multivariable calculus"
                 ],
-                "position": 5
+                "position": 7
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Multivariable Calculus Study Notes",
-                "permalink": "/docs/Multivariable Calculus/calcnotes"
+                "title": "Syntax",
+                "permalink": "/docs/Docusaurus_References/tips"
               },
               "next": {
                 "title": "Cheatsheets",
@@ -1107,7 +1053,7 @@
                 "id": "multcalc_cheatsheet",
                 "title": "Cheatsheets",
                 "parse_number_prefixes": true,
-                "position": 2
+                "position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -1134,16 +1080,12 @@
               "frontMatter": {
                 "id": "vectorfield",
                 "title": "Vector Field",
-                "position": 9
+                "position": 6
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Triple Integral Examples",
                 "permalink": "/docs/Multivariable Calculus/calctriple-integral"
-              },
-              "next": {
-                "title": "Basic Syntax",
-                "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics"
               }
             },
             {
@@ -1219,8 +1161,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "你好呀",
-                "permalink": "/docs/intro"
+                "title": "300. 最长递增子序列",
+                "permalink": "/docs/Dynamic Programming/leetcode300"
               },
               "next": {
                 "title": "Ordering",
@@ -1331,8 +1273,8 @@
                 "permalink": "/docs/SQL Notes/sqljoin"
               },
               "next": {
-                "title": "Multivariable Calculus Study Notes",
-                "permalink": "/docs/Multivariable Calculus/calcnotes"
+                "title": "Basic Syntax",
+                "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics"
               }
             }
           ]
@@ -1572,6 +1514,12 @@
     "default": null
   },
   "docusaurus-plugin-ideal-image": {
+    "default": null
+  },
+  "docusaurus-plugin-google-analytics": {
+    "default": null
+  },
+  "docusaurus-plugin-google-gtag": {
     "default": null
   }
 }

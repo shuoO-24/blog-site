@@ -13,15 +13,11 @@
   "frontMatter": {
     "id": "vectorfield",
     "title": "Vector Field",
-    "position": 9
+    "position": 6
   },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Triple Integral Examples",
     "permalink": "/docs/Multivariable Calculus/calctriple-integral"
-  },
-  "next": {
-    "title": "Basic Syntax",
-    "permalink": "/docs/Docusaurus_References/Markdown_MDX/mdbasics"
   }
 }

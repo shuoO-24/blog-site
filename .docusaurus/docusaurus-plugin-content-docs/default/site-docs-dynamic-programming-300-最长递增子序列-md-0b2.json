@@ -20,5 +20,9 @@
   "previous": {
     "title": "96. Unique Binary Search Trees — Medium",
     "permalink": "/docs/Dynamic Programming/leetcode96"
+  },
+  "next": {
+    "title": "SQL Overview",
+    "permalink": "/docs/SQL Notes/sqlintro"
   }
 }

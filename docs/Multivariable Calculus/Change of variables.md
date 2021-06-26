@@ -2,7 +2,7 @@
 Keyword:
   - math
   - multivariable calculus
-position: 5
+position: 7
 ---
 
 # Changing variables in double integrals 

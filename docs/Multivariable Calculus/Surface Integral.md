@@ -1,10 +1,8 @@
 ---
 id: calflux
 title: More about Surface Integral
-position: 7
+position: 3
 ---
-
-
 
 
 :::note Fluxs
@@ -49,4 +47,4 @@ Finally, combine them, or integrating everything together.
 ### Summary
 
 Generalizing everything we did in the previous example, the surface area of our parametric surface S is expressed using the integral:
-![9nlW7ozudQI5s86](https://i.loli.net/2021/06/05/9nlW7ozudQI5s86.png)
+![summary](https://i.loli.net/2021/06/05/9nlW7ozudQI5s86.png)

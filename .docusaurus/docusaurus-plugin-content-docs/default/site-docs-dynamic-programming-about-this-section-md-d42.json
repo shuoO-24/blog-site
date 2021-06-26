@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Syntax",
-    "permalink": "/docs/Docusaurus_References/tips"
+    "title": "课程大纲",
+    "permalink": "/docs/Computer Architecture/61c_intro"
   },
   "next": {
     "title": "64. Minimum Path Sum — Medium",

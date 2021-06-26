@@ -13,7 +13,7 @@
   "frontMatter": {
     "id": "calculators",
     "title": "Multivariable Calculus Calculators",
-    "position": 3
+    "position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/docs/Multivariable Calculus/multcalc_cheatsheet"
   },
   "next": {
-    "title": "MATH 6A Outline",
-    "permalink": "/docs/Multivariable Calculus/6Aoutline"
+    "title": "More about Surface Integral",
+    "permalink": "/docs/Multivariable Calculus/calflux"
   }
 }

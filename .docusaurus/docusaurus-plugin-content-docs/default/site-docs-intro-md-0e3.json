@@ -18,7 +18,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "SQL Overview",
-    "permalink": "/docs/SQL Notes/sqlintro"
+    "title": "课程大纲",
+    "permalink": "/docs/Computer Architecture/61c_intro"
   }
 }

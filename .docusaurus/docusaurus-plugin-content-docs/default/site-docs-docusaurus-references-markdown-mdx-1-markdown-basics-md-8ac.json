@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Vector Field",
-    "permalink": "/docs/Multivariable Calculus/vectorfield"
+    "title": "Structural",
+    "permalink": "/docs/SQL Notes/sqlstructure-example"
   },
   "next": {
     "title": "Add Code blocks",

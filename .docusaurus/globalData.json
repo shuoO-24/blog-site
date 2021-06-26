@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "Computer Architecture/61c_intro",
+              "path": "/docs/Computer Architecture/61c_intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Docusaurus_References/embed",
               "path": "/docs/Docusaurus_References/embed",
               "sidebar": "tutorialSidebar"
@@ -121,23 +126,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Multivariable Calculus/6Aoutline",
-              "path": "/docs/Multivariable Calculus/6Aoutline",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Multivariable Calculus/calcnotes",
-              "path": "/docs/Multivariable Calculus/calcnotes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Multivariable Calculus/calctangent-plane",
               "path": "/docs/Multivariable Calculus/calctangent-plane",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Multivariable Calculus/calctheorems",
-              "path": "/docs/Multivariable Calculus/calctheorems",
               "sidebar": "tutorialSidebar"
             },
             {

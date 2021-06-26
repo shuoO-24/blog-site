@@ -13,12 +13,12 @@
   "frontMatter": {
     "id": "calflux",
     "title": "More about Surface Integral",
-    "position": 7
+    "position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "MATH 6A Outline",
-    "permalink": "/docs/Multivariable Calculus/6Aoutline"
+    "title": "Multivariable Calculus Calculators",
+    "permalink": "/docs/Multivariable Calculus/calculators"
   },
   "next": {
     "title": "Tangent Plane To Level Surface",

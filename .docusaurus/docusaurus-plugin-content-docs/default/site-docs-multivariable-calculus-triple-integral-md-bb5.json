@@ -13,12 +13,12 @@
   "frontMatter": {
     "id": "calctriple-integral",
     "title": "Triple Integral Examples",
-    "position": 6
+    "position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Theorems",
-    "permalink": "/docs/Multivariable Calculus/calctheorems"
+    "title": "Tangent Plane To Level Surface",
+    "permalink": "/docs/Multivariable Calculus/calctangent-plane"
   },
   "next": {
     "title": "Vector Field",

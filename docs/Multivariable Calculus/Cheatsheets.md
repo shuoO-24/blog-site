@@ -2,7 +2,7 @@
 id: multcalc_cheatsheet
 title: Cheatsheets
 parse_number_prefixes: true
-position: 2
+position: 1
 ---
 ## MATH 53
 
@@ -21,11 +21,20 @@ position: 2
 ![4](https://i.loli.net/2021/06/05/muEs5R1vPwBeA2C.jpg)
 
 ### Level Curves and Surfaces, Second 𝛿, Clairaut's Theorem, Tangent Plane, Max and Min, Gradient, Directional Derivative
-![5](https://i.loli.net/2021/06/05/zGAcC8j4vtE3VeL.jpg)
+![5](./assets/multicalc_5.jpg)
 
 ---
 
-## Coordinates
+## Other Sources
+
+### Landscape
+
+<img src='./assets/cheatsheets/veccal_cheatsheet.png' alt='cheatsheet1' />
+
+<img src='./assets/cheatsheets/veccalc_cheatsheet.jpg' alt='cheatsheet2' />
+
+### Coordinates
+
 <iframe src="https://drive.google.com/file/d/16Oht1VWNWzL8rNuYt-m8nIgrCaSE-H07/preview" width="80%" height="600"></iframe>
 
 ---

@@ -10,6 +10,7 @@ module.exports = {
   favicon: "img/logos/brain_2.svg",
   organizationName: "shuoO-24", // Usually your GitHub org/user name.
   projectName: "docusaurus-site", // Usually your repo name.
+  plugins: ['@docusaurus/plugin-ideal-image', '@docusaurus/plugin-google-analytics', '@docusaurus/plugin-google-gtag'],
   themeConfig: {
     gtag: {
         // You can also use your "G-" Measurement ID here.
@@ -60,6 +61,10 @@ module.exports = {
         {
           label: "SQL Review Notes",
           to: "/docs/SQL Notes/sqlintro",
+        },
+        {
+          label: "Multivariable Calculus Cheatsheets & Calculators",
+          to: "/docs/Multivariable Calculus/multcalc_cheatsheet",
         },
       ],
     },
@@ -172,5 +177,4 @@ module.exports = {
       },
     ],
   ],
-  plugins: ['@docusaurus/plugin-ideal-image'],
 };

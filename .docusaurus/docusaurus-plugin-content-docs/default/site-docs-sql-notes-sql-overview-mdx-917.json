@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "你好呀",
-    "permalink": "/docs/intro"
+    "title": "300. 最长递增子序列",
+    "permalink": "/docs/Dynamic Programming/leetcode300"
   },
   "next": {
     "title": "Ordering",

@@ -8,6 +8,41 @@ export default [
   exact: true,
 },
 {
+  path: '/__docusaurus/debug',
+  component: ComponentCreator('/__docusaurus/debug','3d6'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/config',
+  component: ComponentCreator('/__docusaurus/debug/config','914'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/content',
+  component: ComponentCreator('/__docusaurus/debug/content','c28'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/globalData',
+  component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/metadata',
+  component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/registry',
+  component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/routes',
+  component: ComponentCreator('/__docusaurus/debug/routes','244'),
+  exact: true,
+},
+{
   path: '/blog',
   component: ComponentCreator('/blog','4e1'),
   exact: true,
@@ -84,9 +119,14 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','30c'),
+  component: ComponentCreator('/docs','cfa'),
   
   routes: [
+{
+  path: '/docs/Computer Architecture/61c_intro',
+  component: ComponentCreator('/docs/Computer Architecture/61c_intro','b49'),
+  exact: true,
+},
 {
   path: '/docs/Docusaurus_References/embed',
   component: ComponentCreator('/docs/Docusaurus_References/embed','15f'),
@@ -198,23 +238,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Multivariable Calculus/6Aoutline',
-  component: ComponentCreator('/docs/Multivariable Calculus/6Aoutline','c62'),
-  exact: true,
-},
-{
-  path: '/docs/Multivariable Calculus/calcnotes',
-  component: ComponentCreator('/docs/Multivariable Calculus/calcnotes','634'),
-  exact: true,
-},
-{
   path: '/docs/Multivariable Calculus/calctangent-plane',
   component: ComponentCreator('/docs/Multivariable Calculus/calctangent-plane','5a3'),
-  exact: true,
-},
-{
-  path: '/docs/Multivariable Calculus/calctheorems',
-  component: ComponentCreator('/docs/Multivariable Calculus/calctheorems','200'),
   exact: true,
 },
 {

@@ -8,6 +8,11 @@ export default {
   "favicon": "img/logos/brain_2.svg",
   "organizationName": "shuoO-24",
   "projectName": "docusaurus-site",
+  "plugins": [
+    "@docusaurus/plugin-ideal-image",
+    "@docusaurus/plugin-google-analytics",
+    "@docusaurus/plugin-google-gtag"
+  ],
   "themeConfig": {
     "gtag": {
       "trackingID": "UA-141789564-1",
@@ -50,6 +55,11 @@ export default {
         {
           "label": "SQL Review Notes",
           "to": "/docs/SQL Notes/sqlintro",
+          "position": "left"
+        },
+        {
+          "label": "Multivariable Calculus Cheatsheets & Calculators",
+          "to": "/docs/Multivariable Calculus/multcalc_cheatsheet",
           "position": "left"
         }
       ]
@@ -124,9 +134,6 @@ export default {
         }
       }
     ]
-  ],
-  "plugins": [
-    "@docusaurus/plugin-ideal-image"
   ],
   "baseUrlIssueBanner": true,
   "i18n": {

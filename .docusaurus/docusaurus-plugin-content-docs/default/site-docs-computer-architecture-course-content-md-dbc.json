@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Computer Architecture/61c_intro",
+  "id": "Computer Architecture/61c_intro",
+  "isDocsHomePage": false,
+  "title": "课程大纲",
+  "description": "Course Structure",
+  "source": "@site/docs/Computer Architecture/Course Content.md",
+  "sourceDirName": "Computer Architecture",
+  "slug": "/Computer Architecture/61c_intro",
+  "permalink": "/docs/Computer Architecture/61c_intro",
+  "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Computer Architecture/Course Content.md",
+  "version": "current",
+  "frontMatter": {
+    "id": "61c_intro",
+    "title": "课程大纲",
+    "position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "你好呀",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Hello Algorithm",
+    "permalink": "/docs/Dynamic Programming/algointro"
+  }
+}

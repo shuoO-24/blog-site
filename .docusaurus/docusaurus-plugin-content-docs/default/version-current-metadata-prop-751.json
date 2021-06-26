@@ -12,6 +12,50 @@
       },
       {
         "type": "category",
+        "label": "UCB 61C: Great Ideas in Computer Architecture",
+        "items": [
+          {
+            "type": "link",
+            "label": "课程大纲",
+            "href": "/docs/Computer Architecture/61c_intro"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Dynamic Programming",
+        "items": [
+          {
+            "type": "link",
+            "label": "Hello Algorithm",
+            "href": "/docs/Dynamic Programming/algointro"
+          },
+          {
+            "type": "link",
+            "label": "64. Minimum Path Sum — Medium",
+            "href": "/docs/Dynamic Programming/leetcode64"
+          },
+          {
+            "type": "link",
+            "label": "91. Decode Ways — Medium",
+            "href": "/docs/Dynamic Programming/leetcode91"
+          },
+          {
+            "type": "link",
+            "label": "96. Unique Binary Search Trees — Medium",
+            "href": "/docs/Dynamic Programming/leetcode96"
+          },
+          {
+            "type": "link",
+            "label": "300. 最长递增子序列",
+            "href": "/docs/Dynamic Programming/leetcode300"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
         "label": "SQL Notes",
         "items": [
           {
@@ -48,63 +92,6 @@
             "type": "link",
             "label": "Structural",
             "href": "/docs/SQL Notes/sqlstructure-example"
-          }
-        ],
-        "collapsed": true
-      },
-      {
-        "type": "category",
-        "label": "Multivarable Calculus",
-        "items": [
-          {
-            "type": "link",
-            "label": "Multivariable Calculus Study Notes",
-            "href": "/docs/Multivariable Calculus/calcnotes"
-          },
-          {
-            "type": "link",
-            "label": "Changing variables in double integrals",
-            "href": "/docs/Multivariable Calculus/Change of variables"
-          },
-          {
-            "type": "link",
-            "label": "Cheatsheets",
-            "href": "/docs/Multivariable Calculus/multcalc_cheatsheet"
-          },
-          {
-            "type": "link",
-            "label": "Multivariable Calculus Calculators",
-            "href": "/docs/Multivariable Calculus/calculators"
-          },
-          {
-            "type": "link",
-            "label": "MATH 6A Outline",
-            "href": "/docs/Multivariable Calculus/6Aoutline"
-          },
-          {
-            "type": "link",
-            "label": "More about Surface Integral",
-            "href": "/docs/Multivariable Calculus/calflux"
-          },
-          {
-            "type": "link",
-            "label": "Tangent Plane To Level Surface",
-            "href": "/docs/Multivariable Calculus/calctangent-plane"
-          },
-          {
-            "type": "link",
-            "label": "Theorems",
-            "href": "/docs/Multivariable Calculus/calctheorems"
-          },
-          {
-            "type": "link",
-            "label": "Triple Integral Examples",
-            "href": "/docs/Multivariable Calculus/calctriple-integral"
-          },
-          {
-            "type": "link",
-            "label": "Vector Field",
-            "href": "/docs/Multivariable Calculus/vectorfield"
           }
         ],
         "collapsed": true
@@ -226,32 +213,42 @@
       },
       {
         "type": "category",
-        "label": "Dynamic Programming",
+        "label": "Multivarable Calculus",
         "items": [
           {
             "type": "link",
-            "label": "Hello Algorithm",
-            "href": "/docs/Dynamic Programming/algointro"
+            "label": "Changing variables in double integrals",
+            "href": "/docs/Multivariable Calculus/Change of variables"
           },
           {
             "type": "link",
-            "label": "64. Minimum Path Sum — Medium",
-            "href": "/docs/Dynamic Programming/leetcode64"
+            "label": "Cheatsheets",
+            "href": "/docs/Multivariable Calculus/multcalc_cheatsheet"
           },
           {
             "type": "link",
-            "label": "91. Decode Ways — Medium",
-            "href": "/docs/Dynamic Programming/leetcode91"
+            "label": "Multivariable Calculus Calculators",
+            "href": "/docs/Multivariable Calculus/calculators"
           },
           {
             "type": "link",
-            "label": "96. Unique Binary Search Trees — Medium",
-            "href": "/docs/Dynamic Programming/leetcode96"
+            "label": "More about Surface Integral",
+            "href": "/docs/Multivariable Calculus/calflux"
           },
           {
             "type": "link",
-            "label": "300. 最长递增子序列",
-            "href": "/docs/Dynamic Programming/leetcode300"
+            "label": "Tangent Plane To Level Surface",
+            "href": "/docs/Multivariable Calculus/calctangent-plane"
+          },
+          {
+            "type": "link",
+            "label": "Triple Integral Examples",
+            "href": "/docs/Multivariable Calculus/calctriple-integral"
+          },
+          {
+            "type": "link",
+            "label": "Vector Field",
+            "href": "/docs/Multivariable Calculus/vectorfield"
           }
         ],
         "collapsed": true
@@ -259,6 +256,7 @@
     ]
   },
   "permalinkToSidebar": {
+    "/docs/Computer Architecture/61c_intro": "tutorialSidebar",
     "/docs/Docusaurus_References/embed": "tutorialSidebar",
     "/docs/Docusaurus_References/Infima Powered/infima": "tutorialSidebar",
     "/docs/Docusaurus_References/Infima Powered/navbar": "tutorialSidebar",
@@ -281,10 +279,7 @@
     "/docs/Dynamic Programming/leetcode91": "tutorialSidebar",
     "/docs/Dynamic Programming/leetcode96": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
-    "/docs/Multivariable Calculus/6Aoutline": "tutorialSidebar",
-    "/docs/Multivariable Calculus/calcnotes": "tutorialSidebar",
     "/docs/Multivariable Calculus/calctangent-plane": "tutorialSidebar",
-    "/docs/Multivariable Calculus/calctheorems": "tutorialSidebar",
     "/docs/Multivariable Calculus/calctriple-integral": "tutorialSidebar",
     "/docs/Multivariable Calculus/calculators": "tutorialSidebar",
     "/docs/Multivariable Calculus/calflux": "tutorialSidebar",

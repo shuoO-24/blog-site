@@ -13,7 +13,7 @@
   "frontMatter": {
     "id": "calctangent-plane",
     "title": "Tangent Plane To Level Surface",
-    "position": 8
+    "position": 4
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/docs/Multivariable Calculus/calflux"
   },
   "next": {
-    "title": "Theorems",
-    "permalink": "/docs/Multivariable Calculus/calctheorems"
+    "title": "Triple Integral Examples",
+    "permalink": "/docs/Multivariable Calculus/calctriple-integral"
   }
 }

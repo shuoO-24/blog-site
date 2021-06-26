@@ -1,7 +1,7 @@
 ---
 id: vectorfield
 title: Vector Field
-position: 9
+position: 6
 ---
 ## Vector fields that are gradients or curls
 
