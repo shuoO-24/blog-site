@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "你好呀",
-    "permalink": "/docs/intro"
+    "title": "Number Representation",
+    "permalink": "/docs/Computer Architecture/Number Representation"
   },
   "next": {
     "title": "Hello Algorithm",

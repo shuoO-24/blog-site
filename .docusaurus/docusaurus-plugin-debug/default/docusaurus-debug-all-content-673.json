@@ -26,6 +26,10 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "Computer Architecture/Number Representation"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Computer Architecture/61c_intro"
                   }
                 ],
@@ -231,6 +235,7 @@
           },
           "permalinkToSidebar": {
             "/docs/Computer Architecture/61c_intro": "tutorialSidebar",
+            "/docs/Computer Architecture/Number Representation": "tutorialSidebar",
             "/docs/Docusaurus_References/embed": "tutorialSidebar",
             "/docs/Docusaurus_References/Infima Powered/infima": "tutorialSidebar",
             "/docs/Docusaurus_References/Infima Powered/navbar": "tutorialSidebar",
@@ -288,12 +293,36 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "你好呀",
-                "permalink": "/docs/intro"
+                "title": "Number Representation",
+                "permalink": "/docs/Computer Architecture/Number Representation"
               },
               "next": {
                 "title": "Hello Algorithm",
                 "permalink": "/docs/Dynamic Programming/algointro"
+              }
+            },
+            {
+              "unversionedId": "Computer Architecture/Number Representation",
+              "id": "Computer Architecture/Number Representation",
+              "isDocsHomePage": false,
+              "title": "Number Representation",
+              "description": "",
+              "source": "@site/docs/Computer Architecture/1. Number Representation.md",
+              "sourceDirName": "Computer Architecture",
+              "slug": "/Computer Architecture/Number Representation",
+              "permalink": "/docs/Computer Architecture/Number Representation",
+              "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Computer Architecture/1. Number Representation.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "你好呀",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "课程大纲",
+                "permalink": "/docs/Computer Architecture/61c_intro"
               }
             },
             {
@@ -896,8 +925,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "课程大纲",
-                "permalink": "/docs/Computer Architecture/61c_intro"
+                "title": "Number Representation",
+                "permalink": "/docs/Computer Architecture/Number Representation"
               }
             },
             {

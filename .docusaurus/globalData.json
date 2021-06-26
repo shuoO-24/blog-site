@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Computer Architecture/Number Representation",
+              "path": "/docs/Computer Architecture/Number Representation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Docusaurus_References/embed",
               "path": "/docs/Docusaurus_References/embed",
               "sidebar": "tutorialSidebar"

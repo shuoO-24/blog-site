@@ -119,12 +119,17 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','cfa'),
+  component: ComponentCreator('/docs','6e8'),
   
   routes: [
 {
   path: '/docs/Computer Architecture/61c_intro',
   component: ComponentCreator('/docs/Computer Architecture/61c_intro','b49'),
+  exact: true,
+},
+{
+  path: '/docs/Computer Architecture/Number Representation',
+  component: ComponentCreator('/docs/Computer Architecture/Number Representation','1f3'),
   exact: true,
 },
 {

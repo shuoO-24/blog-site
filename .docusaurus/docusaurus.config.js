@@ -15,7 +15,7 @@ export default {
   ],
   "themeConfig": {
     "gtag": {
-      "trackingID": "UA-141789564-1",
+      "trackingID": "UA-141789563-1",
       "anonymizeIP": true
     },
     "googleAnalytics": {

@@ -156,13 +156,17 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-cfa": {
+  "/docs-6e8": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
   "/docs/Computer Architecture/61c_intro-b49": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-computer-architecture-61-c-introdbc-a68"
+  },
+  "/docs/Computer Architecture/Number Representation-1f3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-computer-architecture-number-representation-1-b-4-1aa"
   },
   "/docs/Docusaurus_References/embed-15f": {
     "component": "component---theme-doc-item-178-a40",
