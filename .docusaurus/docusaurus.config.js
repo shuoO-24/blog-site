@@ -9,15 +9,9 @@ export default {
   "organizationName": "shuoO-24",
   "projectName": "docusaurus-site",
   "plugins": [
-    "@docusaurus/plugin-ideal-image",
-    "@docusaurus/plugin-google-analytics",
-    "@docusaurus/plugin-google-gtag"
+    "@docusaurus/plugin-ideal-image"
   ],
   "themeConfig": {
-    "gtag": {
-      "trackingID": "UA-141789563-1",
-      "anonymizeIP": true
-    },
     "googleAnalytics": {
       "trackingID": "UA-141789564-1",
       "anonymizeIP": true
@@ -46,21 +40,11 @@ export default {
           "position": "right"
         },
         {
-          "to": "/docs/Dynamic Programming/algointro",
+          "to": "/docs/intro",
           "position": "left",
-          "label": "Algo",
+          "label": "Notes",
           "docsPluginId": "default",
           "activeSidebarClassName": "navbar__link--active"
-        },
-        {
-          "label": "SQL Review Notes",
-          "to": "/docs/SQL Notes/sqlintro",
-          "position": "left"
-        },
-        {
-          "label": "Multivariable Calculus Cheatsheets & Calculators",
-          "to": "/docs/Multivariable Calculus/multcalc_cheatsheet",
-          "position": "left"
         }
       ]
     },
@@ -81,6 +65,18 @@ export default {
             {
               "label": "Algo Novice",
               "to": "/docs/Dynamic Programming/algointro"
+            },
+            {
+              "label": "UCB 61C Notes",
+              "to": "/docs/Computer Architecture/61c_intro"
+            },
+            {
+              "label": "SQL Review Notes",
+              "to": "/docs/SQL Notes/sqlintro"
+            },
+            {
+              "label": "Multivariable Calculus",
+              "to": "/docs/Multivariable Calculus/multcalc_cheatsheet"
             }
           ]
         },
@@ -131,7 +127,8 @@ export default {
         },
         "theme": {
           "customCss": "/Users/shuoO/docusaurus-tutorial/src/css/custom.css"
-        }
+        },
+        "sitemap": {}
       }
     ]
   ],

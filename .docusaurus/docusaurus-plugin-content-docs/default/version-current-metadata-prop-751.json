@@ -17,7 +17,7 @@
           {
             "type": "link",
             "label": "Number Representation",
-            "href": "/docs/Computer Architecture/Number Representation"
+            "href": "/docs/Computer Architecture/61cNumber"
           },
           {
             "type": "link",
@@ -262,7 +262,7 @@
   },
   "permalinkToSidebar": {
     "/docs/Computer Architecture/61c_intro": "tutorialSidebar",
-    "/docs/Computer Architecture/Number Representation": "tutorialSidebar",
+    "/docs/Computer Architecture/61cNumber": "tutorialSidebar",
     "/docs/Docusaurus_References/embed": "tutorialSidebar",
     "/docs/Docusaurus_References/Infima Powered/infima": "tutorialSidebar",
     "/docs/Docusaurus_References/Infima Powered/navbar": "tutorialSidebar",

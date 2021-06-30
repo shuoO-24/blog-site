@@ -1,315 +1,293 @@
 {
   "/-deb": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99",
-    "config": "config---5-e-9-4f3"
-  },
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a"
   },
   "/blog-4e1": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "a6aa9e1f",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blog-1-b-6-3f0"
+        "content": "1b6acade"
       },
       {
-        "content": "content---blog-1-a-5-99c"
+        "content": "1a5db5bc"
       },
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd"
   },
   "/blog/2021/06/05/每日一思-b5e": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-4-d-843",
-    "content": "content---blog-2021-06-05-每日一思ffe-eac"
+    "component": "ccc49370",
+    "sidebar": "d4dbbb04",
+    "content": "ffef0e56"
   },
   "/blog/2021/06/06/每日一思-4c7": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-4-d-843",
-    "content": "content---blog-2021-06-06-每日一思-059-c59"
+    "component": "ccc49370",
+    "sidebar": "d4dbbb04",
+    "content": "059c592e"
   },
   "/blog/greetings-60c": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-4-d-843",
-    "content": "content---blog-greetingsbdd-c4e"
+    "component": "ccc49370",
+    "sidebar": "d4dbbb04",
+    "content": "bdd709f1"
   },
   "/blog/tags-f28": {
-    "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "sidebar": "sidebar---blogd-4-d-843",
-    "tags": "tags---blog-tagsa-70-da2"
+    "component": "01a85c17",
+    "sidebar": "d4dbbb04",
+    "tags": "a7023ddc"
   },
   "/blog/tags/docusaurus-ac0": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---blog-tags-docusaurusa-80-728"
+    "metadata": "a80da1cf"
   },
   "/blog/tags/facebook-77d": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---blog-tags-facebook-031-c52"
+    "metadata": "031793e1"
   },
   "/blog/tags/greetings-64a": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blog-tags-greetingsce-0-3c2"
+    "metadata": "ce05bb0c"
   },
   "/blog/tags/hello-ea1": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---blog-tags-hello-30-a-bed"
+    "metadata": "30a24c52"
   },
   "/blog/tags/杂思-f92": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blog-1-b-6-3f0"
+        "content": "1b6acade"
       },
       {
-        "content": "content---blog-1-a-5-99c"
+        "content": "1a5db5bc"
       }
     ],
-    "metadata": "metadata---blog-tags-杂思-95-f-1dc"
+    "metadata": "95f76a26"
   },
   "/blog/tags/每日一思-625": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blog-1-b-6-3f0"
+        "content": "1b6acade"
       }
     ],
-    "metadata": "metadata---blog-tags-每日一思-294-ea0"
+    "metadata": "2949d599"
   },
   "/blog/tags/生活-61d": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blog-1-b-6-3f0"
+        "content": "1b6acade"
       }
     ],
-    "metadata": "metadata---blog-tags-生活-3-c-9-193"
+    "metadata": "3c9e7367"
   },
   "/blog/tags/生活，-每日一思-c43": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-4-d-843",
+    "component": "6875c492",
+    "sidebar": "d4dbbb04",
     "items": [
       {
-        "content": "content---blog-1-a-5-99c"
+        "content": "1a5db5bc"
       }
     ],
-    "metadata": "metadata---blog-tags-生活，-每日一思-083-061"
+    "metadata": "083f339d"
   },
   "/blog/welcome-156": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-4-d-843",
-    "content": "content---blog-welcome-286-e55"
+    "component": "ccc49370",
+    "sidebar": "d4dbbb04",
+    "content": "2868cdab"
   },
   "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---markdown-page-393-028"
+    "component": "1f391b9e",
+    "content": "393be207"
   },
-  "/docs-6e8": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-935-398"
+  "/docs-e0d": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
   "/docs/Computer Architecture/61c_intro-b49": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-computer-architecture-61-c-introdbc-a68"
+    "component": "17896441",
+    "content": "dbc84150"
   },
-  "/docs/Computer Architecture/Number Representation-1f3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-computer-architecture-number-representation-1-b-4-1aa"
+  "/docs/Computer Architecture/61cNumber-dcd": {
+    "component": "17896441",
+    "content": "1b408bb9"
   },
   "/docs/Docusaurus_References/embed-15f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-embedc-34-64d"
+    "component": "17896441",
+    "content": "c3423b45"
   },
   "/docs/Docusaurus_References/Infima Powered/infima-fa9": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-infima-powered-infimac-3-e-d06"
+    "component": "17896441",
+    "content": "c3e68820"
   },
   "/docs/Docusaurus_References/Infima Powered/navbar-9ab": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-infima-powered-navbarf-70-68d"
+    "component": "17896441",
+    "content": "f708c0f2"
   },
   "/docs/Docusaurus_References/JSX_Required/blogsetup-e0f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-jsx-required-blogsetup-26-c-185"
+    "component": "17896441",
+    "content": "26c79416"
   },
   "/docs/Docusaurus_References/JSX_Required/mdFooter-46e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-jsx-required-md-footer-6-d-1-a54"
+    "component": "17896441",
+    "content": "6d11314e"
   },
   "/docs/Docusaurus_References/JSX_Required/sidebar-6ca": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-jsx-required-sidebar-429-b4a"
+    "component": "17896441",
+    "content": "429898ff"
   },
   "/docs/Docusaurus_References/JSX_Required/translate_i18n-0b7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-jsx-required-translate-i-18-nccc-fc5"
+    "component": "17896441",
+    "content": "ccca7761"
   },
   "/docs/Docusaurus_References/JSX_Required/Untitled-54a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-jsx-required-untitledf-84-3c8"
+    "component": "17896441",
+    "content": "f846612d"
   },
   "/docs/Docusaurus_References/Markdown_MDX/addtabs-40c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-markdown-mdx-addtabseff-df5"
+    "component": "17896441",
+    "content": "efff384a"
   },
   "/docs/Docusaurus_References/Markdown_MDX/admonition-07c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-markdown-mdx-admonition-399-29a"
+    "component": "17896441",
+    "content": "39940ae6"
   },
   "/docs/Docusaurus_References/Markdown_MDX/codeblock-7fc": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-markdown-mdx-codeblock-055-859"
+    "component": "17896441",
+    "content": "055704bc"
   },
   "/docs/Docusaurus_References/Markdown_MDX/frontmatter-9e6": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-markdown-mdx-frontmatter-662-d64"
+    "component": "17896441",
+    "content": "662d649b"
   },
   "/docs/Docusaurus_References/Markdown_MDX/mdbasics-959": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-markdown-mdx-mdbasics-8-ac-4d6"
+    "component": "17896441",
+    "content": "8acc8711"
   },
   "/docs/Docusaurus_References/Markdown_MDX/toc-f0b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-markdown-mdx-tocfaf-63f"
+    "component": "17896441",
+    "content": "fafe6f52"
   },
   "/docs/Docusaurus_References/Plugins/idealimage-524": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-plugins-idealimage-5-a-5-928"
+    "component": "17896441",
+    "content": "5a54e4d9"
   },
   "/docs/Docusaurus_References/tips-7b4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docusaurus-references-tips-776-e28"
+    "component": "17896441",
+    "content": "7761bbcf"
   },
   "/docs/Dynamic Programming/algointro-57c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dynamic-programming-algointrod-42-d88"
+    "component": "17896441",
+    "content": "d4280efc"
   },
   "/docs/Dynamic Programming/leetcode300-a3a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dynamic-programming-leetcode-3000-b-2-e5d"
+    "component": "17896441",
+    "content": "0b2bb285"
   },
   "/docs/Dynamic Programming/leetcode64-ad5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dynamic-programming-leetcode-64-c-43-b77"
+    "component": "17896441",
+    "content": "c43ea751"
   },
   "/docs/Dynamic Programming/leetcode91-613": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dynamic-programming-leetcode-91322-699"
+    "component": "17896441",
+    "content": "322634d7"
   },
   "/docs/Dynamic Programming/leetcode96-ffb": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dynamic-programming-leetcode-96-e-39-c54"
+    "component": "17896441",
+    "content": "e39bf5ab"
   },
   "/docs/intro-e84": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "component": "17896441",
+    "content": "0e384e19"
   },
   "/docs/Multivariable Calculus/calctangent-plane-5a3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-multivariable-calculus-calctangent-plane-70-e-ed9"
+    "component": "17896441",
+    "content": "70e51d4b"
   },
   "/docs/Multivariable Calculus/calctriple-integral-4b3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-multivariable-calculus-calctriple-integralbb-5-e91"
+    "component": "17896441",
+    "content": "bb51a85a"
   },
   "/docs/Multivariable Calculus/calculators-f3f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-multivariable-calculus-calculators-0-b-0-fdc"
+    "component": "17896441",
+    "content": "0b05cdf9"
   },
   "/docs/Multivariable Calculus/calflux-25b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-multivariable-calculus-calflux-148-82c"
+    "component": "17896441",
+    "content": "14837e3f"
   },
   "/docs/Multivariable Calculus/Change of variables-a2c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-multivariable-calculus-change-of-variables-203-c2d"
+    "component": "17896441",
+    "content": "203efecb"
   },
   "/docs/Multivariable Calculus/multcalc_cheatsheet-1dd": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-multivariable-calculus-multcalc-cheatsheet-33-b-2a9"
+    "component": "17896441",
+    "content": "33b93178"
   },
   "/docs/Multivariable Calculus/vectorfield-2e7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-multivariable-calculus-vectorfield-80-e-55f"
+    "component": "17896441",
+    "content": "80e81a85"
   },
   "/docs/SQL Notes/sqlconcepts-0cc": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqlconcepts-91-b-9ee"
+    "component": "17896441",
+    "content": "91b04294"
   },
   "/docs/SQL Notes/sqlgroup-9c5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqlgroup-9-a-7-8d0"
+    "component": "17896441",
+    "content": "9a754f10"
   },
   "/docs/SQL Notes/sqlintro-e4a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqlintro-917-354"
+    "component": "17896441",
+    "content": "917e37ab"
   },
   "/docs/SQL Notes/sqljoin-1e8": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqljoin-3-ea-3a2"
+    "component": "17896441",
+    "content": "3ea58061"
   },
   "/docs/SQL Notes/sqlnorm-438": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqlnorm-628-e58"
+    "component": "17896441",
+    "content": "6286bbd8"
   },
   "/docs/SQL Notes/sqlorder-f85": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqlorder-092-76f"
+    "component": "17896441",
+    "content": "09209543"
   },
   "/docs/SQL Notes/sqlstructure-example-5b3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sql-notes-sqlstructure-example-5-b-4-69e"
+    "component": "17896441",
+    "content": "5b4eb88f"
   }
 }

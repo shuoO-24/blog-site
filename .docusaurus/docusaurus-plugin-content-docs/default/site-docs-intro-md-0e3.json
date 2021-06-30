@@ -3,7 +3,7 @@
   "id": "intro",
   "isDocsHomePage": false,
   "title": "你好呀",
-  "description": "<span",
+  "description": "",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -19,6 +19,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Number Representation",
-    "permalink": "/docs/Computer Architecture/Number Representation"
+    "permalink": "/docs/Computer Architecture/61cNumber"
   }
 }

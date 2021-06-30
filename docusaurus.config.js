@@ -44,21 +44,13 @@ module.exports = {
           position: "right",
         },
         {
-          to: '/docs/Dynamic Programming/algointro',
+          to: '/docs/intro',
 
           //// Optional
           position: 'left',
-          label: 'Algo',
+          label: 'Notes',
           docsPluginId: 'default',
           activeSidebarClassName: 'navbar__link--active',
-        },
-        {
-          label: "SQL Review Notes",
-          to: "/docs/SQL Notes/sqlintro",
-        },
-        {
-          label: "Multivariable Calculus Cheatsheets & Calculators",
-          to: "/docs/Multivariable Calculus/multcalc_cheatsheet",
         },
       ],
     },
@@ -83,7 +75,19 @@ module.exports = {
             {
               label: "Algo Novice",
               to: "/docs/Dynamic Programming/algointro",
-            }
+            },
+            {
+              label: "UCB 61C Notes",
+              to: "/docs/Computer Architecture/61c_intro"
+            },
+            {
+              label: "SQL Review Notes",
+              to: "/docs/SQL Notes/sqlintro",
+            },
+            {
+              label: "Multivariable Calculus",
+              to: "/docs/Multivariable Calculus/multcalc_cheatsheet",
+            },
           ],
         },
         // {
@@ -102,10 +106,6 @@ module.exports = {
         {
           title: "More",
           items: [
-            // {
-            //   label: "Blog",
-            //   to: "/blog",
-            // },
             {
               label: "GitHub",
               href: "https://github.com/facebook/docusaurus",
@@ -168,6 +168,7 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        sitemap: {},
       },
     ],
   ],

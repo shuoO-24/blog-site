@@ -1,17 +1,20 @@
 {
-  "unversionedId": "Computer Architecture/Number Representation",
-  "id": "Computer Architecture/Number Representation",
+  "unversionedId": "Computer Architecture/61cNumber",
+  "id": "Computer Architecture/61cNumber",
   "isDocsHomePage": false,
   "title": "Number Representation",
-  "description": "",
+  "description": "Topics: Computer Arithmetic",
   "source": "@site/docs/Computer Architecture/1. Number Representation.md",
   "sourceDirName": "Computer Architecture",
-  "slug": "/Computer Architecture/Number Representation",
-  "permalink": "/docs/Computer Architecture/Number Representation",
+  "slug": "/Computer Architecture/61cNumber",
+  "permalink": "/docs/Computer Architecture/61cNumber",
   "editUrl": "https://github.com/shuoO-24/blog-site/tree/main/docs/docs/Computer Architecture/1. Number Representation.md",
   "version": "current",
   "sidebarPosition": 1,
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "61cNumber",
+    "title": "Number Representation"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "你好呀",
